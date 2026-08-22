@@ -82,5 +82,26 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmrw",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tmtm",
+    "source": "usgs",
+    "time": "2026-08-22T18:46:27.765000+00:00",
+    "updated": "2026-08-22T19:20:00.040000+00:00",
+    "lat": -22.1927,
+    "lon": -68.793,
+    "depth_km": 105.494,
+    "magnitude": 4.6,
+    "mag_type": "mwr",
+    "place": "32 km NNE of Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmtm",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
