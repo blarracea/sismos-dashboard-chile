@@ -31,12 +31,6 @@ body {
   font-size: 1.4rem;
 }
 
-.subtitle {
-  margin: 0.25rem 0 0;
-  color: var(--color-accent);
-  font-size: 0.9rem;
-}
-
 .app-main {
   display: grid;
   grid-template-columns: 1fr 320px;
