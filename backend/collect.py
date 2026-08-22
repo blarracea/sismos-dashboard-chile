@@ -77,6 +77,7 @@ def build_event_record(feature, dyfi_points):
         "tsunami_flag": bool(props.get("tsunami")),
         "dyfi_points": dyfi_points,
         "intensity_source": "usgs_dyfi" if dyfi_points else None,
+        "csn_url": None,
         "url": props.get("url"),
         "relevant": is_relevant,
         "keywords_matched": keywords.matched_keywords(place),
@@ -142,6 +143,7 @@ def enrich_with_csn(events):
             print(f"Aviso: no se pudo leer el informe CSN {item['csn_url']} ({exc}).")
             continue
         if detail:
+            detail["csn_url"] = item["csn_url"]
             felt_details.append(detail)
 
     if not felt_details:
@@ -176,6 +178,7 @@ def enrich_with_csn(events):
         if points:
             event["dyfi_points"] = points
             event["intensity_source"] = "csn"
+            event["csn_url"] = match["csn_url"]
 
 
 def main():

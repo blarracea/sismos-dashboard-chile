@@ -42,6 +42,9 @@
       timeZone: "America/Santiago",
     });
     const intensitySourceLabel = INTENSITY_SOURCE_LABELS[event.intensity_source] || "Sin reportes ciudadanos";
+    const fuenteLinks = event.csn_url
+      ? `<a href="${event.url}" target="_blank" rel="noopener">USGS</a> · <a href="${event.csn_url}" target="_blank" rel="noopener">CSN</a>`
+      : `<a href="${event.url}" target="_blank" rel="noopener">USGS</a>`;
     detailBody.innerHTML = `
       <dt>Lugar</dt><dd>${event.place || "-"}</dd>
       <dt>Magnitud</dt><dd>${event.magnitude ?? "-"} ${event.mag_type || ""}</dd>
@@ -49,7 +52,7 @@
       <dt>Hora (Chile)</dt><dd>${localTime}</dd>
       <dt>Intensidad (MMI)</dt><dd>${event.mmi ?? "-"}</dd>
       <dt>Fuente de intensidad</dt><dd>${intensitySourceLabel}</dd>
-      <dt>Fuente</dt><dd><a href="${event.url}" target="_blank" rel="noopener">USGS</a></dd>
+      <dt>Fuente</dt><dd>${fuenteLinks}</dd>
     `;
     detailSection.classList.remove("hidden");
   };
