@@ -18,5 +18,25 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmpu",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tmri",
+    "source": "usgs",
+    "time": "2026-08-22T07:21:25.611000+00:00",
+    "updated": "2026-08-22T07:40:44.040000+00:00",
+    "lat": 12.5208,
+    "lon": -44.6327,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "northern Mid-Atlantic Ridge",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmri",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
