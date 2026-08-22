@@ -41,16 +41,18 @@ SismosApp.buildHeatLayer = function (events) {
 };
 
 SismosApp.addEventMarkers = function (map, events, onSelect) {
+  // Marcadores chicos: son solo el punto de click para ver el detalle del
+  // epicentro, no deben competir visualmente con el heatmap de intensidad.
   const layer = L.layerGroup();
   events.forEach((event) => {
     if (event.lat == null || event.lon == null) return;
-    const radius = 3 + Math.max(event.magnitude || 0, 0) * 1.8;
+    const radius = 2.5 + Math.max(event.magnitude || 0, 0) * 0.9;
     const marker = L.circleMarker([event.lat, event.lon], {
       radius,
-      color: event.relevant ? "#e74c3c" : "#123a5e",
-      fillColor: event.relevant ? "#e74c3c" : "#f2a71b",
-      fillOpacity: 0.75,
-      weight: 1.5,
+      color: "#ffffff",
+      fillColor: event.relevant ? "#e74c3c" : "#123a5e",
+      fillOpacity: 0.9,
+      weight: 1,
       className: event.relevant ? "quake-marker--relevant" : "",
     });
     marker.on("click", () => onSelect(event));
