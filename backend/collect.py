@@ -17,11 +17,12 @@ import keywords
 import storage
 from sources import usgs
 
-# Bounding box aproximado de Chile + Sudamerica.
+# Bounding box aproximado de Chile + Sudamerica + Territorio Chileno Antartico
+# (entre los meridianos 53O y 90O, desde los 60S hasta el Polo Sur).
 BBOX = {
-    "minlatitude": -56,
+    "minlatitude": -90,
     "maxlatitude": 13,
-    "minlongitude": -82,
+    "minlongitude": -95,
     "maxlongitude": -34,
 }
 MIN_MAGNITUDE = 2.5
