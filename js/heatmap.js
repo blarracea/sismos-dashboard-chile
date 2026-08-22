@@ -46,13 +46,13 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
   const layer = L.layerGroup();
   events.forEach((event) => {
     if (event.lat == null || event.lon == null) return;
-    const radius = 2.5 + Math.max(event.magnitude || 0, 0) * 0.9;
+    const radius = 1.5 + Math.max(event.magnitude || 0, 0) * 0.55;
     const marker = L.circleMarker([event.lat, event.lon], {
       radius,
       color: "#ffffff",
       fillColor: event.relevant ? "#e74c3c" : "#123a5e",
       fillOpacity: 0.9,
-      weight: 1,
+      weight: 0.75,
       className: event.relevant ? "quake-marker--relevant" : "",
     });
     marker.on("click", () => onSelect(event));
