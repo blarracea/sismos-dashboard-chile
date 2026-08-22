@@ -53,7 +53,6 @@ SismosApp.buildHeatLayer = function (events) {
       L.heatLayer(pointsBySource[source], {
         ...HEAT_STYLE_BY_SOURCE[source],
         max: 1.0,
-        minOpacity: 0.35,
         gradient: INTENSITY_GRADIENT,
       })
     );
