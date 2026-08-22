@@ -82,14 +82,31 @@ body {
 }
 
 .legend-scale {
-  display: flex;
   height: 10px;
   border-radius: 4px;
-  overflow: hidden;
   margin-top: 0.75rem;
+  /* Mismo degradado que INTENSITY_GRADIENT en js/heatmap.js */
+  background: linear-gradient(
+    to right,
+    #1a3fa0 0%,
+    #1f8fe0 20%,
+    #22c7c7 40%,
+    #3ecb4a 55%,
+    #d8e023 70%,
+    #f7b500 82%,
+    #e8382a 92%,
+    #ff2fb0 100%
+  );
 }
 
-.legend-scale span { flex: 1; }
+.legend-ticks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
 
 .legend-labels {
   display: flex;
