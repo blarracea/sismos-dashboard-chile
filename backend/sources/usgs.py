@@ -68,19 +68,52 @@ def fetch_dyfi_points(detail_url):
     points = []
     for feature in geo_response.json().get("features", []):
         props = feature.get("properties", {})
-        coords = (feature.get("geometry") or {}).get("coordinates")
         intensity = props.get("cdi") or props.get("intensity")
-        if not coords or len(coords) < 2 or intensity is None:
+        if intensity is None:
             continue
+        latlon = _feature_centroid(feature.get("geometry") or {})
+        if latlon is None:
+            continue
+        lat, lon = latlon
         points.append(
             {
-                "lat": coords[1],
-                "lon": coords[0],
+                "lat": lat,
+                "lon": lon,
                 "intensity": intensity,
                 "responses": props.get("nresp") or props.get("nresponses"),
             }
         )
     return points
+
+
+def _feature_centroid(geometry):
+    """
+    Calcula el centro de una celda de la grilla DYFI. USGS publica estas
+    grillas como poligonos (el cuadrado de cada celda), no como puntos, asi
+    que se promedian las esquinas del primer anillo para obtener un
+    lat/lon representativo de la celda.
+    """
+    geom_type = geometry.get("type")
+    coords = geometry.get("coordinates")
+    if not coords:
+        return None
+
+    if geom_type == "Point":
+        lon, lat = coords[0], coords[1]
+        return lat, lon
+
+    if geom_type == "Polygon":
+        ring = coords[0]
+    elif geom_type == "MultiPolygon":
+        ring = coords[0][0]
+    else:
+        return None
+
+    if not ring:
+        return None
+    lons = [c[0] for c in ring]
+    lats = [c[1] for c in ring]
+    return sum(lats) / len(lats), sum(lons) / len(lons)
 
 
 def _pick_geo_file(contents):

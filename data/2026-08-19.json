@@ -54,7 +54,80 @@
     "mmi": null,
     "felt_reports": 16,
     "tsunami_flag": false,
-    "dyfi_points": [],
+    "dyfi_points": [
+      {
+        "lat": -12.1096075,
+        "lon": -77.0351675,
+        "intensity": 3.9,
+        "responses": 1
+      },
+      {
+        "lat": -12.009924999999999,
+        "lon": -77.071145,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": -12.082495,
+        "lon": -77.034965,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -12.118715,
+        "lon": -77.02605249999999,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -12.0735925,
+        "lon": -77.0165275,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -12.118645,
+        "lon": -77.035235,
+        "intensity": 2.8,
+        "responses": 4
+      },
+      {
+        "lat": -12.1005725,
+        "lon": -77.0351,
+        "intensity": 2.8,
+        "responses": 2
+      },
+      {
+        "lat": -12.027865,
+        "lon": -77.08964499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -12.1277525,
+        "lon": -77.02611999999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -12.101165,
+        "lon": -76.95244249999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -12.137055,
+        "lon": -76.9894475,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -12.0733925,
+        "lon": -77.0440775,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tluz",
     "relevant": false,
     "keywords_matched": []
