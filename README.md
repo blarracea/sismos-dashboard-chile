@@ -35,6 +35,10 @@ pip install -r requirements.txt
 python collect.py
 ```
 
+> **Windows**: si `python` o `pip` no se reconocen (pasa seguido en Git Bash
+> por los alias de Microsoft Store), usa el lanzador `py` en su lugar:
+> `py -m pip install -r requirements.txt` y `py collect.py`.
+
 Esto crea/actualiza los archivos en `data/`. Luego, para ver el frontend:
 
 ```bash

@@ -6,12 +6,17 @@
  */
 window.SismosApp = window.SismosApp || {};
 
+// Gradiente estilo "jet" (azul -> cian -> verde -> amarillo -> rojo -> magenta),
+// el mismo look clasico de los mapas de calor de sensores ambientales.
 const INTENSITY_GRADIENT = {
-  0.0: "#2ecc71",
-  0.3: "#f1c40f",
-  0.55: "#e67e22",
-  0.75: "#e74c3c",
-  1.0: "#8e2de2",
+  0.0: "#1a3fa0",
+  0.2: "#1f8fe0",
+  0.4: "#22c7c7",
+  0.55: "#3ecb4a",
+  0.7: "#d8e023",
+  0.82: "#f7b500",
+  0.92: "#e8382a",
+  1.0: "#ff2fb0",
 };
 
 SismosApp.buildHeatLayer = function (events) {
@@ -27,9 +32,10 @@ SismosApp.buildHeatLayer = function (events) {
   // crear la capa cuando no hay nada que pintar todavia.
   if (points.length === 0) return null;
   return L.heatLayer(points, {
-    radius: 22,
-    blur: 18,
+    radius: 32,
+    blur: 24,
     max: 1.0,
+    minOpacity: 0.35,
     gradient: INTENSITY_GRADIENT,
   });
 };
