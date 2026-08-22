@@ -37,15 +37,6 @@ body {
   font-size: 0.9rem;
 }
 
-.alert-banner {
-  background: var(--color-alert);
-  color: #fff;
-  padding: 0.6rem 1.5rem;
-  font-weight: 600;
-}
-
-.alert-banner.hidden { display: none; }
-
 .app-main {
   display: grid;
   grid-template-columns: 1fr 320px;

@@ -1,7 +1,6 @@
 /* Orquesta la carga de datos y el armado del mapa. */
 (async function () {
   const statusEl = document.getElementById("status");
-  const alertBanner = document.getElementById("alert-banner");
   const detailSection = document.getElementById("event-detail");
   const detailBody = document.getElementById("event-detail-body");
   const heatToggle = document.getElementById("toggle-heatmap");
@@ -50,17 +49,10 @@
       <dt>Hora (Chile)</dt><dd>${localTime}</dd>
       <dt>Intensidad (MMI)</dt><dd>${event.mmi ?? "-"}</dd>
       <dt>Fuente de intensidad</dt><dd>${intensitySourceLabel}</dd>
-      <dt>Catálogo</dt><dd><a href="${event.url}" target="_blank" rel="noopener">USGS</a></dd>
+      <dt>Fuente</dt><dd><a href="${event.url}" target="_blank" rel="noopener">USGS</a></dd>
     `;
     detailSection.classList.remove("hidden");
   };
 
   SismosApp.addEventMarkers(map, events, showEventDetail);
-
-  const relevantEvents = events.filter((e) => e.relevant);
-  if (relevantEvents.length > 0) {
-    const latest = relevantEvents[relevantEvents.length - 1];
-    alertBanner.textContent = `Evento relevante: M${latest.magnitude} — ${latest.place}`;
-    alertBanner.classList.remove("hidden");
-  }
 })();
