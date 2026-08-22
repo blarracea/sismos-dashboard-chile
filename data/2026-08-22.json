@@ -1,0 +1,22 @@
+[
+  {
+    "id": "us6000tmpu",
+    "source": "usgs",
+    "time": "2026-08-22T00:03:40.653000+00:00",
+    "updated": "2026-08-22T00:37:34.040000+00:00",
+    "lat": -22.5642,
+    "lon": -66.3169,
+    "depth_km": 251.591,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "66 km WNW of Abra Pampa, Argentina",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmpu",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]

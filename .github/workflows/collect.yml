@@ -1,0 +1,39 @@
+name: Recolectar datos de sismos
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install -r backend/requirements.txt
+
+      - name: Recolectar sismos
+        run: python backend/collect.py
+
+      - name: Commit y push si hay cambios
+        run: |
+          git config user.name "sismos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios nuevos."
+          else
+            git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

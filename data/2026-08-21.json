@@ -1,0 +1,22 @@
+[
+  {
+    "id": "us6000tmnz",
+    "source": "usgs",
+    "time": "2026-08-21T22:26:03.081000+00:00",
+    "updated": "2026-08-21T22:56:24.040000+00:00",
+    "lat": -25.5675,
+    "lon": -68.8817,
+    "depth_km": 102.426,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "147 km NE of Diego de Almagro, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmnz",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]

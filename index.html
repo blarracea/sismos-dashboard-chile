@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Monitor de Sismos — Chile y Sudamérica</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Monitor de Sismos — Chile y Sudamérica</h1>
+    <p class="subtitle">Datos de USGS · Intensidad percibida (Mercalli / DYFI)</p>
+  </header>
+
+  <div id="alert-banner" class="alert-banner hidden"></div>
+
+  <main class="app-main">
+    <div id="map"></div>
+
+    <aside id="sidebar" class="sidebar">
+      <section class="legend">
+        <h2>Capas</h2>
+        <label class="layer-toggle">
+          <input type="checkbox" id="toggle-heatmap" checked />
+          Intensidad percibida — DYFI (oficial)
+        </label>
+        <label class="layer-toggle layer-toggle--disabled" title="Próximamente — Fase 2">
+          <input type="checkbox" id="toggle-social" disabled />
+          Menciones en redes (no verificado) — Próximamente
+        </label>
+        <div class="legend-scale">
+          <span style="background:#2ecc71"></span>
+          <span style="background:#f1c40f"></span>
+          <span style="background:#e67e22"></span>
+          <span style="background:#e74c3c"></span>
+          <span style="background:#8e2de2"></span>
+        </div>
+        <div class="legend-labels">
+          <span>Leve</span><span>Fuerte</span>
+        </div>
+      </section>
+
+      <section id="event-detail" class="event-detail hidden">
+        <h2>Detalle del evento</h2>
+        <dl id="event-detail-body"></dl>
+      </section>
+
+      <section id="status" class="status">Cargando datos...</section>
+    </aside>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+  <script src="js/data-loader.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/heatmap.js"></script>
+  <script src="js/social-layer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
