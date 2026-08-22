@@ -7,15 +7,21 @@
 window.SismosApp = window.SismosApp || {};
 
 // Gradiente estilo "jet" (azul -> cian -> verde -> amarillo -> rojo -> magenta),
-// el mismo look clasico de los mapas de calor de sensores ambientales.
+// con una franja pareja por cada numero romano de la escala Mercalli (I a X,
+// paradas en intensidad/10 = 0.1, 0.2 ... 1.0). Antes las paradas no estaban
+// parejas y saltaban III y V, asi que un reporte real de V (ej. La Serena en
+// el sismo M4.7 del CSN, consistente con la tabla magnitud/intensidad de
+// USGS para M4.0-4.9 -> IV-V) se veia corrido visualmente hacia el VI.
 const INTENSITY_GRADIENT = {
-  0.0: "#1a3fa0",
-  0.2: "#1f8fe0",
-  0.4: "#22c7c7",
-  0.55: "#3ecb4a",
-  0.7: "#d8e023",
-  0.82: "#f7b500",
-  0.92: "#e8382a",
+  0.1: "#14328c",
+  0.2: "#1f6fe0",
+  0.3: "#1fb5e0",
+  0.4: "#22c7a0",
+  0.5: "#6fcf3e",
+  0.6: "#c6d823",
+  0.7: "#f7b500",
+  0.8: "#f2701f",
+  0.9: "#e8382a",
   1.0: "#ff2fb0",
 };
 
