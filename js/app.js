@@ -33,18 +33,24 @@
     heatToggle.closest("label").title = "Todavia no hay reportes DYFI en los eventos cargados.";
   }
 
+  const INTENSITY_SOURCE_LABELS = {
+    csn: "Centro Sismológico Nacional (Chile)",
+    usgs_dyfi: "USGS “Did You Feel It?”",
+  };
+
   const showEventDetail = (event) => {
     const localTime = new Date(event.time).toLocaleString("es-CL", {
       timeZone: "America/Santiago",
     });
+    const intensitySourceLabel = INTENSITY_SOURCE_LABELS[event.intensity_source] || "Sin reportes ciudadanos";
     detailBody.innerHTML = `
       <dt>Lugar</dt><dd>${event.place || "-"}</dd>
       <dt>Magnitud</dt><dd>${event.magnitude ?? "-"} ${event.mag_type || ""}</dd>
       <dt>Profundidad</dt><dd>${event.depth_km != null ? event.depth_km.toFixed(1) + " km" : "-"}</dd>
       <dt>Hora (Chile)</dt><dd>${localTime}</dd>
       <dt>Intensidad (MMI)</dt><dd>${event.mmi ?? "-"}</dd>
-      <dt>Reportes DYFI</dt><dd>${event.felt_reports ?? 0}</dd>
-      <dt>Fuente</dt><dd><a href="${event.url}" target="_blank" rel="noopener">USGS</a></dd>
+      <dt>Fuente de intensidad</dt><dd>${intensitySourceLabel}</dd>
+      <dt>Catálogo</dt><dd><a href="${event.url}" target="_blank" rel="noopener">USGS</a></dd>
     `;
     detailSection.classList.remove("hidden");
   };

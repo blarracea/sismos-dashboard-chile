@@ -6,10 +6,14 @@ fuerte lo sintió la gente en cada zona, no la magnitud Richter del epicentro.
 
 ## Cómo funciona
 
-- **Backend (`backend/`)**: un script Python (`collect.py`) que consulta la
-  API pública de USGS (incluido el producto "Did You Feel It?" / DYFI, que
-  trae la intensidad Mercalli reportada por la ciudadanía) y guarda los
-  eventos en `data/YYYY-MM-DD.json`, un archivo por día.
+- **Backend (`backend/`)**: un script Python (`collect.py`) que trae el
+  catálogo base de sismos de USGS para toda la región, y la intensidad
+  Mercalli percibida de dos fuentes según corresponda: **CSN Chile
+  (sismologia.cl)** como fuente principal para sismos chilenos (tiene mucha
+  más participación ciudadana real que USGS en Chile), y **USGS "Did You
+  Feel It?" / DYFI** como respaldo — para el resto de Sudamérica, o cuando un
+  sismo chileno no tiene reporte en el CSN. Todo se guarda en
+  `data/YYYY-MM-DD.json`, un archivo por día.
 - **GitHub Actions (`.github/workflows/collect.yml`)**: corre `collect.py`
   cada 30 minutos, sin depender de que nadie tenga el navegador abierto, y
   hace commit + push automático de los archivos que cambiaron en `data/`.
@@ -23,21 +27,41 @@ fuerte lo sintió la gente en cada zona, no la magnitud Richter del epicentro.
 
 | Fuente | Estado |
 |---|---|
-| USGS (sismos + intensidad DYFI) | ✅ Implementada, es la fuente principal |
-| CSN Chile | ⛔ No implementada — no se encontró una API pública/RSS documentada, solo el sitio sismologia.cl. Ver `backend/sources/csn.py` |
+| USGS (catálogo de sismos, toda la región) | ✅ Implementada, es la base de todos los eventos |
+| CSN Chile (sismologia.cl + SENAPRED) | ✅ Implementada — fuente **principal** de intensidad Mercalli para sismos en Chile. No tiene API pública: se lee su HTML público (sin necesidad de navegador) y, cuando el sismo fue percibido, se renderiza con Playwright el reporte de intensidad por comuna que arma SENAPRED (una app en React sin API documentada). Ver `backend/sources/csn.py` |
+| USGS "Did You Feel It?" / DYFI | ✅ Implementada — fuente **de respaldo**: se usa para el resto de Sudamérica, y para sismos chilenos sin match/reporte en el CSN |
 | Redes sociales (Bluesky) / RSS de medios | ⛔ Fase 2, no implementada — estructura lista en `backend/sources/social.py` y `js/social-layer.js` |
+
+### Cómo se combinan CSN y DYFI
+
+Para cada sismo del catálogo de USGS cuyo `place` menciona "Chile", el script
+busca en la lista de "Últimos sismos" del CSN un evento con hora, ubicación y
+magnitud parecidas (mismo sismo, catálogos distintos → sin id en común). Si
+lo encuentra y el CSN lo marcó como percibido, se usa el reporte de
+intensidad por comuna de SENAPRED (geocodificado con un set base de comunas
++ Nominatim como respaldo, cacheado en `data/comuna_coords_cache.json`). Si
+no hay match o el sismo no fue percibido en Chile, se usa DYFI de USGS como
+siempre. Cada evento guarda `intensity_source` (`"csn"`, `"usgs_dyfi"` o
+`null`) para saber de dónde salió el dato — el panel de detalle del sitio lo
+muestra.
 
 ## Correrlo en tu computador
 
 ```bash
 cd backend
 pip install -r requirements.txt
+python -m playwright install --with-deps chromium
 python collect.py
 ```
 
 > **Windows**: si `python` o `pip` no se reconocen (pasa seguido en Git Bash
 > por los alias de Microsoft Store), usa el lanzador `py` en su lugar:
-> `py -m pip install -r requirements.txt` y `py collect.py`.
+> `py -m pip install -r requirements.txt`, `py -m playwright install chromium`
+> y `py collect.py`.
+
+El paso de Playwright descarga Chromium (~150 MB) — solo hace falta una vez;
+se usa para leer el reporte de intensidad de SENAPRED cuando un sismo
+chileno fue percibido (ver más abajo).
 
 Esto crea/actualiza los archivos en `data/`. Luego, para ver el frontend:
 

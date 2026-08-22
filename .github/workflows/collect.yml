@@ -23,6 +23,9 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r backend/requirements.txt
 
+      - name: Instalar Chromium (Playwright, para leer el reporte de SENAPRED)
+        run: python -m playwright install --with-deps chromium
+
       - name: Recolectar sismos
         run: python backend/collect.py
 
