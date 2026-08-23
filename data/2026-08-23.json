@@ -1,0 +1,37 @@
+[
+  {
+    "id": "us6000tmx3",
+    "source": "usgs",
+    "time": "2026-08-23T05:47:51.452000+00:00",
+    "updated": "2026-08-23T07:19:54.450000+00:00",
+    "lat": 10.6742,
+    "lon": -65.3417,
+    "depth_km": 10,
+    "magnitude": 4,
+    "mag_type": "mb",
+    "place": "60 km N of Boca de Uchire, Venezuela",
+    "cdi": 2.7,
+    "mmi": null,
+    "felt_reports": 3,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 10.453035,
+        "lon": -66.6020875,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 10.45205,
+        "lon": -66.47428,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmx3",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
