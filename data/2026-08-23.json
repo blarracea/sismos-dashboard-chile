@@ -39,5 +39,27 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmx3",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tmzy",
+    "source": "usgs",
+    "time": "2026-08-23T17:56:30.373000+00:00",
+    "updated": "2026-08-23T18:15:24.040000+00:00",
+    "lat": -23.1294,
+    "lon": -66.457,
+    "depth_km": 224.789,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "80 km W of El Aguilar, Argentina",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmzy",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
