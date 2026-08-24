@@ -47,7 +47,7 @@
     "id": "us6000tn2j",
     "source": "usgs",
     "time": "2026-08-24T07:37:17.435000+00:00",
-    "updated": "2026-08-24T14:21:15.769000+00:00",
+    "updated": "2026-08-24T16:01:00.295000+00:00",
     "lat": 9.9853,
     "lon": -83.9132,
     "depth_km": 10,
@@ -56,7 +56,7 @@
     "place": "10 km NNW of Cot, Costa Rica",
     "cdi": 6.5,
     "mmi": null,
-    "felt_reports": 65,
+    "felt_reports": 71,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -120,8 +120,8 @@
         "responses": 1
       },
       {
-        "lat": 9.906500000000001,
-        "lon": -84.059415,
+        "lat": 9.942225,
+        "lon": -83.9864475,
         "intensity": 5,
         "responses": 1
       },
@@ -168,6 +168,12 @@
         "responses": 1
       },
       {
+        "lat": 9.906500000000001,
+        "lon": -84.059415,
+        "intensity": 4.3,
+        "responses": 3
+      },
+      {
         "lat": 9.933675000000001,
         "lon": -84.068285,
         "intensity": 4.1,
@@ -202,6 +208,12 @@
         "lon": -84.141485,
         "intensity": 3.9,
         "responses": 2
+      },
+      {
+        "lat": 10.006495,
+        "lon": -84.13143,
+        "intensity": 3.8,
+        "responses": 1
       },
       {
         "lat": 9.888435,
@@ -345,6 +357,12 @@
         "lat": 9.979475,
         "lon": -84.1407775,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 9.4104425,
+        "lon": -84.1546975,
+        "intensity": 2,
         "responses": 1
       },
       {
