@@ -148,5 +148,27 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0n",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tn15",
+    "source": "usgs",
+    "time": "2026-08-23T22:58:07.446000+00:00",
+    "updated": "2026-08-24T03:32:00.040000+00:00",
+    "lat": -24.1005,
+    "lon": -66.8517,
+    "depth_km": 182.936,
+    "magnitude": 4.2,
+    "mag_type": "mb",
+    "place": "55 km WNW of San Antonio de los Cobres, Argentina",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn15",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
