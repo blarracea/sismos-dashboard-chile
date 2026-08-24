@@ -1,0 +1,24 @@
+[
+  {
+    "id": "us6000tn1x",
+    "source": "usgs",
+    "time": "2026-08-24T02:41:00.646000+00:00",
+    "updated": "2026-08-24T03:48:25.040000+00:00",
+    "lat": 4.5166,
+    "lon": -76.8403,
+    "depth_km": 77.675,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "26 km SW of Sipí, Colombia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn1x",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
