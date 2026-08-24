@@ -47,19 +47,200 @@
     "id": "us6000tn2j",
     "source": "usgs",
     "time": "2026-08-24T07:37:17.435000+00:00",
-    "updated": "2026-08-24T08:27:01.040000+00:00",
+    "updated": "2026-08-24T10:20:10.835000+00:00",
     "lat": 9.9853,
     "lon": -83.9132,
     "depth_km": 10,
     "magnitude": 4.9,
     "mag_type": "mb",
     "place": "10 km NNW of Cot, Costa Rica",
-    "cdi": null,
+    "cdi": 6.5,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 39,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 9.988035,
+        "lon": -83.913965,
+        "intensity": 6.5,
+        "responses": 2
+      },
+      {
+        "lat": 9.978355,
+        "lon": -83.986775,
+        "intensity": 6.4,
+        "responses": 1
+      },
+      {
+        "lat": 9.943185,
+        "lon": -84.122875,
+        "intensity": 5.6,
+        "responses": 1
+      },
+      {
+        "lat": 9.897305,
+        "lon": -84.041275,
+        "intensity": 5.6,
+        "responses": 1
+      },
+      {
+        "lat": 9.933755,
+        "lon": -84.077395,
+        "intensity": 5.6,
+        "responses": 5
+      },
+      {
+        "lat": 9.9965025,
+        "lon": -84.02215749999999,
+        "intensity": 5.4,
+        "responses": 1
+      },
+      {
+        "lat": 9.898095,
+        "lon": -84.132375,
+        "intensity": 5.3,
+        "responses": 1
+      },
+      {
+        "lat": 9.970905,
+        "lon": -84.1955325,
+        "intensity": 5.3,
+        "responses": 1
+      },
+      {
+        "lat": 9.897545000000001,
+        "lon": -84.06860499999999,
+        "intensity": 5,
+        "responses": 1
+      },
+      {
+        "lat": 9.9512575,
+        "lon": -84.0134575,
+        "intensity": 5,
+        "responses": 1
+      },
+      {
+        "lat": 9.969645,
+        "lon": -84.04973749999999,
+        "intensity": 4.8,
+        "responses": 1
+      },
+      {
+        "lat": 10.4209275,
+        "lon": -84.0090825,
+        "intensity": 4.6,
+        "responses": 1
+      },
+      {
+        "lat": 9.861495,
+        "lon": -83.921955,
+        "intensity": 4.5,
+        "responses": 1
+      },
+      {
+        "lat": 9.925582499999999,
+        "lon": -84.177695,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 9.933675000000001,
+        "lon": -84.068285,
+        "intensity": 4.1,
+        "responses": 2
+      },
+      {
+        "lat": 9.906175,
+        "lon": -84.022975,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.9429475,
+        "lon": -84.095535,
+        "intensity": 4.1,
+        "responses": 2
+      },
+      {
+        "lat": 9.9239975,
+        "lon": -84.004505,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.888435,
+        "lon": -84.059575,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 9.916165,
+        "lon": -84.132215,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 9.9978525,
+        "lon": -84.177075,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 9.9152925,
+        "lon": -84.032005,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 9.924405,
+        "lon": -84.041035,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 10.3428225,
+        "lon": -84.3747775,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.916625,
+        "lon": -84.186885,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.960855,
+        "lon": -84.077155,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 10.0531925,
+        "lon": -84.3133325,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.836359999999999,
+        "lon": -84.315105,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 10.369625,
+        "lon": -84.3380525,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 9.6218575,
+        "lon": -84.6355175,
+        "intensity": 2.7,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn2j",
     "relevant": false,
