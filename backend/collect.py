@@ -181,6 +181,30 @@ def enrich_with_csn(events):
             event["csn_url"] = match["csn_url"]
 
 
+def preserve_existing_csn_data(events):
+    """
+    El CSN solo expone sus ~15 sismos mas recientes -- un evento que tuvo
+    match en una corrida puede dejar de tenerlo en la siguiente corrida
+    simplemente porque ya roto fuera de esa lista, no porque el dato haya
+    dejado de ser valido. Como collect.py reconstruye cada evento desde cero
+    en cada corrida (para capturar revisiones de USGS), sin esto se perderia
+    la intensidad del CSN ya capturada. Se restaura desde lo guardado si la
+    corrida actual no encontro un match nuevo.
+    """
+    stored_by_date = {}
+    for event in events:
+        if event["intensity_source"] == "csn":
+            continue  # ya tiene match fresco de esta corrida
+        date_str = event["time"][:10]
+        if date_str not in stored_by_date:
+            stored_by_date[date_str] = {e["id"]: e for e in storage.load_day(date_str)}
+        previous = stored_by_date[date_str].get(event["id"])
+        if previous and previous.get("intensity_source") == "csn":
+            event["dyfi_points"] = previous["dyfi_points"]
+            event["intensity_source"] = "csn"
+            event["csn_url"] = previous.get("csn_url")
+
+
 def main():
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=LOOKBACK_DAYS)
@@ -195,6 +219,7 @@ def main():
         events.append(build_event_record(feature, dyfi_points))
 
     enrich_with_csn(events)
+    preserve_existing_csn_data(events)
 
     storage.upsert_events(events)
     storage.purge_old(RETENTION_DAYS)

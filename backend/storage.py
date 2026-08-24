@@ -24,6 +24,17 @@ def _event_date(event):
     return event["time"][:10]  # "2026-08-21T14:32:10+00:00" -> "2026-08-21"
 
 
+def _is_day_file(path):
+    """True solo para archivos con forma de dia (YYYY-MM-DD.json) -- evita
+    que otros .json de data/ (ej. index.json, comuna_coords_cache.json)
+    se cuelen como si fueran un dia de eventos."""
+    try:
+        datetime.strptime(path.stem, "%Y-%m-%d")
+        return True
+    except ValueError:
+        return False
+
+
 def load_day(date_str):
     path = _day_file(date_str)
     if not path.exists():
@@ -54,7 +65,7 @@ def upsert_events(events):
 
 def update_index():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    files = sorted(p.stem for p in DATA_DIR.glob("*.json") if p.name != "index.json")
+    files = sorted(p.stem for p in DATA_DIR.glob("*.json") if _is_day_file(p))
     with INDEX_FILE.open("w", encoding="utf-8") as f:
         json.dump(
             {"days": files, "updated": datetime.now(timezone.utc).isoformat()},
@@ -68,11 +79,8 @@ def purge_old(retention_days):
     """Borra los archivos diarios con mas de `retention_days` dias de antiguedad."""
     cutoff = datetime.now(timezone.utc).date() - timedelta(days=retention_days)
     for path in DATA_DIR.glob("*.json"):
-        if path.name == "index.json":
+        if not _is_day_file(path):
             continue
-        try:
-            file_date = datetime.strptime(path.stem, "%Y-%m-%d").date()
-        except ValueError:
-            continue
+        file_date = datetime.strptime(path.stem, "%Y-%m-%d").date()
         if file_date < cutoff:
             path.unlink()
