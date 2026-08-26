@@ -25,7 +25,26 @@
     usgs_dyfi: "USGS “Did You Feel It?”",
   };
 
+  // Anillo amarillo que marca cual es el sismo seleccionado (desde la tabla
+  // o clickeando un marcador), para ubicarlo de un vistazo en el mapa.
+  let selectionMarker = null;
+  const highlightEvent = (event) => {
+    if (selectionMarker) {
+      map.removeLayer(selectionMarker);
+      selectionMarker = null;
+    }
+    if (event.lat == null || event.lon == null) return;
+    selectionMarker = L.circleMarker([event.lat, event.lon], {
+      radius: 14,
+      color: "#ffd400",
+      weight: 3,
+      fillOpacity: 0,
+      className: "selection-ring",
+    }).addTo(map);
+  };
+
   const showEventDetail = (event) => {
+    highlightEvent(event);
     const localTime = new Date(event.time).toLocaleString("es-CL", {
       timeZone: "America/Santiago",
     });

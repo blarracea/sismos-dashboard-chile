@@ -263,3 +263,14 @@ body {
   70% { filter: drop-shadow(0 0 8px rgba(231, 76, 60, 0)); }
   100% { filter: drop-shadow(0 0 0 rgba(231, 76, 60, 0)); }
 }
+
+/* Anillo amarillo del sismo seleccionado (tabla o click en el mapa). */
+.selection-ring {
+  animation: selection-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes selection-pulse {
+  0% { filter: drop-shadow(0 0 0 rgba(255, 212, 0, 0.9)); }
+  70% { filter: drop-shadow(0 0 10px rgba(255, 212, 0, 0)); }
+  100% { filter: drop-shadow(0 0 0 rgba(255, 212, 0, 0)); }
+}
