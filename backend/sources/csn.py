@@ -27,17 +27,25 @@ Como funciona (investigado navegando el sitio, no hay API publica):
      renderizar la pagina tal como la ve cualquier visitante y leer el texto
      ya mostrado en pantalla (scraping de contenido publico, no de la API
      privada).
+  5. La portada del CSN solo expone sus ~15 sismos mas recientes -- un sismo
+     percibido puede "caerse" de esa lista en horas si hay actividad en la
+     zona. SENAPRED tiene su propio archivo publico (senapred.cl/eventos/)
+     que retiene semanas de historial, asi que fetch_senapred_seismic_events
+     se usa como segunda pasada en collect.py para recuperar sismos que ya
+     no aparecen en la portada del CSN.
 """
 import re
 import unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.sismologia.cl"
+SENAPRED_EVENTS_URL = "https://senapred.cl/eventos/"
 REQUEST_TIMEOUT = 30
 ROMAN_VALUES = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+CHILE_UTC_OFFSET = timezone(timedelta(hours=-4))  # Chile continental en horario de invierno (sin DST)
 
 
 def fetch_recent_events():
@@ -123,10 +131,87 @@ def fetch_event_detail(csn_url):
 
 def fetch_intensity_report(senapred_url):
     """
-    Usa un navegador headless (Playwright) para renderizar la pagina de
+    Lee el reporte de intensidad Mercalli por comuna de una pagina de
+    SENAPRED. Devuelve [{"comuna", "region", "intensity_roman", "intensity"}].
+    """
+    text = _fetch_senapred_text(senapred_url)
+    if text is None:
+        return []
+    return _parse_intensity_text(text)
+
+
+def fetch_senapred_report(senapred_url):
+    """
+    Como fetch_intensity_report, pero ademas devuelve la magnitud que el CSN
+    le informo a SENAPRED (la misma pagina la menciona en una frase, ej. "la
+    magnitud del sismo fue de 4.6") -- se usa para el matching por magnitud
+    cuando se descubre el evento por el archivo de SENAPRED en vez de por el
+    link directo del informe del CSN (ver fetch_senapred_seismic_events).
+    """
+    text = _fetch_senapred_text(senapred_url)
+    if text is None:
+        return None
+    return {
+        "magnitude": _parse_magnitude_sentence(text),
+        "points": _parse_intensity_text(text),
+    }
+
+
+def fetch_senapred_seismic_events():
+    """
+    Trae el archivo propio de eventos de SENAPRED (senapred.cl/eventos/) --
+    a diferencia de los "ultimos 15" sismos que expone la portada del CSN,
+    este archivo retiene semanas de historial (paginado), asi que sirve para
+    encontrar sismos percibidos que ya rotaron fuera de esa lista corta.
+    Devuelve solo los eventos cuyo titulo empieza con "Sismo".
+    """
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        try:
+            page = browser.new_page()
+            page.goto(SENAPRED_EVENTS_URL, wait_until="domcontentloaded", timeout=30000)
+            # "Sismo" ya aparece en la intro de la pagina antes de que cargue
+            # la lista real (arma los eventos contra su API despues del
+            # primer render) -- se espera un link de evento concreto en vez
+            # de un texto generico, para no resolver antes de tiempo.
+            try:
+                page.wait_for_selector('a[href*="/evento/"]', timeout=20000)
+            except Exception:
+                return []
+            links = page.eval_on_selector_all(
+                "a", "els => els.map(e => ({text: e.innerText.trim(), href: e.href}))"
+            )
+        finally:
+            browser.close()
+
+    events = []
+    seen_urls = set()
+    for link in links:
+        if "/evento/" not in link["href"] or link["href"] in seen_urls:
+            continue
+        lines = [line.strip() for line in link["text"].splitlines() if line.strip()]
+        if not lines or not lines[0].lower().startswith("sismo"):
+            continue
+        seen_urls.add(link["href"])
+
+        date_match = re.search(r"(\d{2}-\d{2}-\d{4} \d{2}:\d{2})", link["text"])
+        local_time = None
+        if date_match:
+            naive = datetime.strptime(date_match.group(1), "%d-%m-%Y %H:%M")
+            local_time = naive.replace(tzinfo=CHILE_UTC_OFFSET)
+
+        events.append({"title": lines[0], "url": link["href"], "local_time": local_time})
+    return events
+
+
+def _fetch_senapred_text(senapred_url):
+    """
+    Usa un navegador headless (Playwright) para renderizar una pagina de
     SENAPRED -- es una aplicacion React, el contenido no existe en el HTML
-    crudo -- y lee la lista de intensidad Mercalli por comuna ya mostrada en
-    pantalla. Devuelve [{"comuna", "region", "intensity_roman", "intensity"}].
+    crudo -- y devuelve el texto ya mostrado en pantalla, o None si la
+    pagina no tiene reporte de intensidades (evento generico).
     """
     from playwright.sync_api import sync_playwright
 
@@ -141,12 +226,15 @@ def fetch_intensity_report(senapred_url):
             try:
                 page.get_by_text("Mercalli").first.wait_for(timeout=20000)
             except Exception:
-                return []  # el sismo no tenia reporte de intensidades (pagina generica)
-            text = page.inner_text("body")
+                return None
+            return page.inner_text("body")
         finally:
             browser.close()
 
-    return _parse_intensity_text(text)
+
+def _parse_magnitude_sentence(text):
+    match = re.search(r"magnitud del sismo fue de\s+([\d.]+)", text, re.IGNORECASE)
+    return float(match.group(1)) if match else None
 
 
 def _parse_intensity_text(text):

@@ -32,6 +32,12 @@ CSN_MATCH_MAX_SECONDS = 180
 CSN_MATCH_MAX_DEGREES = 0.5
 CSN_MATCH_MAX_MAGNITUDE_DIFF = 1.0
 
+# El archivo de SENAPRED solo da hora local (no lat/lon), asi que la segunda
+# pasada usa una ventana de tiempo mas ancha y matchea por magnitud en vez
+# de por ubicacion.
+SENAPRED_MATCH_MAX_MINUTES = 90
+SENAPRED_MATCH_MAX_MAGNITUDE_DIFF = 1.0
+
 # Bounding box aproximado de Chile + Sudamerica + Territorio Chileno Antartico
 # (entre los meridianos 53O y 90O, desde los 60S hasta el Polo Sur).
 BBOX = {
@@ -181,6 +187,76 @@ def enrich_with_csn(events):
             event["csn_url"] = match["csn_url"]
 
 
+def enrich_with_senapred_archive(events):
+    """
+    Segunda pasada: para eventos chilenos que la portada del CSN (solo sus
+    ~15 sismos mas recientes) ya no cubre, se busca en el archivo propio de
+    SENAPRED (senapred.cl/eventos/, retiene semanas) por cercania de tiempo
+    -- SENAPRED no da lat/lon en su listado, asi que se usa la magnitud que
+    la propia pagina del reporte menciona como cross-check en vez de
+    ubicacion.
+    """
+    pending = [e for e in events if is_chile_event(e["place"]) and e["intensity_source"] != "csn"]
+    if not pending:
+        return
+
+    try:
+        candidates = csn.fetch_senapred_seismic_events()
+    except Exception as exc:
+        print(f"Aviso: no se pudo consultar el archivo de eventos de SENAPRED ({exc}).")
+        return
+
+    for event in pending:
+        usgs_time = datetime.fromisoformat(event["time"])
+        nearby = sorted(
+            (
+                c
+                for c in candidates
+                if c["local_time"] is not None
+                and abs((usgs_time - c["local_time"]).total_seconds()) <= SENAPRED_MATCH_MAX_MINUTES * 60
+            ),
+            key=lambda c: abs((usgs_time - c["local_time"]).total_seconds()),
+        )
+        if not nearby:
+            continue
+
+        for candidate in nearby:
+            try:
+                report = csn.fetch_senapred_report(candidate["url"])
+            except Exception as exc:
+                print(f"Aviso: no se pudo leer {candidate['url']} ({exc}).")
+                continue
+            if report is None or not report["points"]:
+                continue
+            if (
+                report["magnitude"] is not None
+                and event["magnitude"] is not None
+                and abs(report["magnitude"] - event["magnitude"]) > SENAPRED_MATCH_MAX_MAGNITUDE_DIFF
+            ):
+                continue
+
+            points = []
+            for entry in report["points"]:
+                coords = comuna_coords.get_coords(entry["comuna"])
+                if coords is None:
+                    continue
+                points.append(
+                    {
+                        "lat": coords[0],
+                        "lon": coords[1],
+                        "intensity": entry["intensity"],
+                        "responses": None,
+                        "comuna": entry["comuna"],
+                        "region": entry["region"],
+                    }
+                )
+            if points:
+                event["dyfi_points"] = points
+                event["intensity_source"] = "csn"
+                event["csn_url"] = candidate["url"]
+                break  # encontramos un match valido, no probar mas candidatos
+
+
 def preserve_existing_csn_data(events):
     """
     El CSN solo expone sus ~15 sismos mas recientes -- un evento que tuvo
@@ -219,6 +295,7 @@ def main():
         events.append(build_event_record(feature, dyfi_points))
 
     enrich_with_csn(events)
+    enrich_with_senapred_archive(events)
     preserve_existing_csn_data(events)
 
     storage.upsert_events(events)

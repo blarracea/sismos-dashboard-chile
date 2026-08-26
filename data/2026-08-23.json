@@ -77,9 +77,74 @@
     "mmi": null,
     "felt_reports": 0,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "csn_url": null,
+    "dyfi_points": [
+      {
+        "lat": -35.9671286,
+        "lon": -72.315427,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Cauquenes",
+        "region": "Maule"
+      },
+      {
+        "lat": -35.9659749,
+        "lon": -71.6846723,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Longaví",
+        "region": "Maule"
+      },
+      {
+        "lat": -35.5923933,
+        "lon": -71.735308,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "San Javier",
+        "region": "Maule"
+      },
+      {
+        "lat": -36.827,
+        "lon": -73.0503,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Concepción",
+        "region": "Biobío"
+      },
+      {
+        "lat": -37.246248,
+        "lon": -73.3176399,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Arauco",
+        "region": "Biobío"
+      },
+      {
+        "lat": -37.1737794,
+        "lon": -72.94259,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Santa Juana",
+        "region": "Biobío"
+      },
+      {
+        "lat": -36.6066,
+        "lon": -72.1034,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Chillán",
+        "region": "Ñuble"
+      },
+      {
+        "lat": -36.4855033,
+        "lon": -72.2086236,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "San Nicolás",
+        "region": "Ñuble"
+      }
+    ],
+    "intensity_source": "csn",
+    "csn_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-uble-2026-08-23-16-43-33",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0n",
     "relevant": false,
     "keywords_matched": []
