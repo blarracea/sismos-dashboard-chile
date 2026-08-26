@@ -1,7 +1,7 @@
 /* Orquesta la carga de datos y el armado del mapa. */
 (async function () {
   const statusEl = document.getElementById("status");
-  const detailSection = document.getElementById("event-detail");
+  const detailPlaceholder = document.getElementById("event-detail-placeholder");
   const detailBody = document.getElementById("event-detail-body");
   const heatToggle = document.getElementById("toggle-heatmap");
   const socialToggle = document.getElementById("toggle-social");
@@ -42,7 +42,7 @@
       <dt>Fuente de intensidad</dt><dd>${intensitySourceLabel}</dd>
       <dt>Fuente</dt><dd>${fuenteLinks}</dd>
     `;
-    detailSection.classList.remove("hidden");
+    detailPlaceholder.classList.add("hidden");
   };
 
   const focusEvent = (event) => {

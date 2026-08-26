@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor de Sismos — Chile y Sudamérica</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=5" />
+<link rel="stylesheet" href="css/style.css?v=6" />
 </head>
 <body>
   <header class="app-header">
@@ -13,10 +13,8 @@
   </header>
 
   <main class="app-main">
-    <div id="map"></div>
-
-    <aside id="sidebar" class="sidebar">
-      <section class="day-table">
+    <div class="top-row">
+      <section class="panel day-table">
         <h2>Sismos por día</h2>
         <div class="day-table-controls">
           <input type="date" id="day-picker" />
@@ -29,9 +27,10 @@
             <tbody id="day-table-body"></tbody>
           </table>
         </div>
+        <p id="status" class="status">Cargando datos...</p>
       </section>
 
-      <section class="legend">
+      <section class="panel legend">
         <h2>Capas</h2>
         <label class="layer-toggle">
           <input type="checkbox" id="toggle-heatmap" checked />
@@ -62,26 +61,29 @@
         </div>
       </section>
 
-      <section id="event-detail" class="event-detail hidden">
+      <section id="event-detail" class="panel event-detail">
         <h2>Detalle del evento</h2>
+        <p id="event-detail-placeholder" class="event-detail-placeholder">Hacé click en un sismo (mapa o tabla) para ver el detalle.</p>
         <dl id="event-detail-body"></dl>
       </section>
+    </div>
 
-      <section class="social-feed">
+    <div class="bottom-row">
+      <div id="map"></div>
+
+      <aside class="panel social-feed">
         <h2>Menciones en medios <span class="social-feed-tag">no verificado</span></h2>
         <div id="social-feed-body">Cargando...</div>
-      </section>
-
-      <section id="status" class="status">Cargando datos...</section>
-    </aside>
+      </aside>
+    </div>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-  <script src="js/data-loader.js?v=5"></script>
-  <script src="js/map.js?v=5"></script>
-  <script src="js/heatmap.js?v=5"></script>
-  <script src="js/social-layer.js?v=5"></script>
-  <script src="js/app.js?v=5"></script>
+  <script src="js/data-loader.js?v=6"></script>
+  <script src="js/map.js?v=6"></script>
+  <script src="js/heatmap.js?v=6"></script>
+  <script src="js/social-layer.js?v=6"></script>
+  <script src="js/app.js?v=6"></script>
 </body>
 </html>
