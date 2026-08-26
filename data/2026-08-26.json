@@ -67,5 +67,196 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyb",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tbzn",
+    "source": "usgs",
+    "time": "2026-08-26T16:45:14.599000+00:00",
+    "updated": "2026-08-26T20:16:18.959000+00:00",
+    "lat": 6.737,
+    "lon": -73.0596,
+    "depth_km": 159.913,
+    "magnitude": 4.9,
+    "mag_type": "mww",
+    "place": "4 km E of Jordán, Colombia",
+    "cdi": 3.1,
+    "mmi": null,
+    "felt_reports": 33,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 7.1386525,
+        "lon": -73.121105,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 7.12961,
+        "lon": -73.12114,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 6.1563175,
+        "lon": -75.38413,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 7.06625,
+        "lon": -73.103295,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 4.66315,
+        "lon": -74.05782500000001,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 6.17425,
+        "lon": -75.564915,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 6.803955,
+        "lon": -73.07721000000001,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 6.183285,
+        "lon": -75.573965,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 4.6631375,
+        "lon": -74.04881,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 4.6902625,
+        "lon": -74.0397575,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 7.1114925,
+        "lon": -73.112165,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 6.219475,
+        "lon": -75.564965,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 5.0345225,
+        "lon": -75.47361000000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 4.68124,
+        "lon": -74.0578,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 6.21044,
+        "lon": -75.555915,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 4.7083525,
+        "lon": -74.0397325,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 4.6451175000000005,
+        "lon": -74.1029225,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 6.1563225,
+        "lon": -75.3750925,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 4.699295,
+        "lon": -74.0307275,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 4.6089,
+        "lon": -74.075925,
+        "intensity": 2,
+        "responses": 5
+      },
+      {
+        "lat": 4.7898700000000005,
+        "lon": -74.1207725,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 6.23753,
+        "lon": -75.601135,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 2.9448275,
+        "lon": -75.301445,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 4.7626375,
+        "lon": -74.048675,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 4.753605,
+        "lon": -74.0577025,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 4.63616,
+        "lon": -74.175055,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 4.617935,
+        "lon": -74.0669,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 4.72643,
+        "lon": -74.0306925,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbzn",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
