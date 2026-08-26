@@ -2,11 +2,20 @@ name: Recolectar datos de sismos
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # GitHub Actions no permite programar mas seguido que cada 5 minutos --
+    # es el piso real de la plataforma, cualquier valor mas chico se ignora.
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# Evita que dos corridas se pisen si una tarda mas de 5 minutos (Playwright
+# contra senapred.cl puede ser lento) -- la nueva espera a que termine la
+# anterior en vez de correr en paralelo y generar conflictos de git push.
+concurrency:
+  group: collect-sismos
+  cancel-in-progress: false
 
 jobs:
   collect:
@@ -38,5 +47,6 @@ jobs:
             echo "Sin cambios nuevos."
           else
             git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin master
             git push
           fi
