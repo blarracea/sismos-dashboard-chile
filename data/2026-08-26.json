@@ -45,5 +45,27 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbw0",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tbyb",
+    "source": "usgs",
+    "time": "2026-08-26T10:59:03.269000+00:00",
+    "updated": "2026-08-26T11:36:43.040000+00:00",
+    "lat": -26.1601,
+    "lon": -69.3386,
+    "depth_km": 101.064,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "75 km ENE of Diego de Almagro, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
