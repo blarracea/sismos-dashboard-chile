@@ -26,13 +26,18 @@ const INTENSITY_GRADIENT = {
 };
 
 // DYFI reporta en una grilla densa (decenas de puntos muy juntos, a veces a
-// 1 km entre si), asi que un radio grande da un heatmap suave y continuo.
-// El CSN reporta por comuna -- pocos puntos (10-15) separados por decenas o
-// cientos de km -- el mismo radio se ve como una sola mancha gigante en vez
-// de distinguir cada comuna, asi que usa un radio bastante mas chico.
+// 1 km entre si), asi que un radio grande da un heatmap suave y continuo --
+// los puntos se superponen y el difuminado de cada uno se compensa con el
+// de los vecinos. El CSN reporta por comuna -- pocos puntos (3-15) muy
+// separados, sin superposicion -- si el blur es casi tan grande como el
+// radio (poco "nucleo" solido), el pico de cada punto queda diluido y una
+// intensidad real III-V se ve casi transparente. Por eso el CSN usa un
+// radio chico (para no verse como una mancha gigante) pero con un nucleo
+// bien solido (blur bajo en proporcion), para que el color en el centro
+// refleje la intensidad real reportada.
 const HEAT_STYLE_BY_SOURCE = {
   usgs_dyfi: { radius: 32, blur: 24 },
-  csn: { radius: 16, blur: 12 },
+  csn: { radius: 20, blur: 8 },
 };
 
 SismosApp.buildHeatLayer = function (events) {
@@ -53,6 +58,12 @@ SismosApp.buildHeatLayer = function (events) {
       L.heatLayer(pointsBySource[source], {
         ...HEAT_STYLE_BY_SOURCE[source],
         max: 1.0,
+        // Sin minOpacity, Leaflet.heat usa un piso interno de 0.05 -- un
+        // reporte real de intensidad III-V (lo mas comun) queda con una
+        // opacidad maxima de ~13%, practicamente invisible. 0.15 lo hace
+        // visible sin volver a generar un halo marcado donde no hay dato
+        // (el halo grande era con 0.35, ver commit anterior).
+        minOpacity: 0.15,
         gradient: INTENSITY_GRADIENT,
       })
     );

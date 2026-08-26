@@ -10,14 +10,17 @@ Script principal de recoleccion. Lo ejecuta GitHub Actions cada 30 minutos
 Trae el catalogo base de sismos de USGS para toda la region (incluye el
 Territorio Chileno Antartico). Para la intensidad Mercalli percibida:
 
-- Sismos en Chile: se prioriza el CSN (sismologia.cl) -- tiene muchisima mas
+- Sismos en Chile: se prioriza el CSN/SENAPRED -- tiene muchisima mas
   participacion ciudadana real que el DYFI de USGS para eventos chilenos.
-  Ver sources/csn.py para el detalle de como se obtiene (CSN no tiene API,
-  se lee su HTML publico + se renderiza con Playwright el reporte de
-  SENAPRED al que el CSN enlaza).
-- Resto de Sudamerica, o sismos chilenos sin match/reporte en CSN: se usa
-  USGS DYFI como respaldo (baja participacion en la region, pero es lo
-  unico disponible fuera de Chile).
+  Dentro de esto, el archivo propio de SENAPRED (senapred.cl/eventos/) es la
+  fuente PRINCIPAL porque retiene semanas de historial; la portada del CSN
+  (solo sus ~15 sismos mas recientes) queda como respaldo para el caso
+  borde de un sismo tan reciente que SENAPRED todavia no indexo. Ver
+  sources/csn.py para el detalle de como se obtiene (ninguno de los dos
+  tiene API publica).
+- Resto de Sudamerica, o sismos chilenos sin match/reporte en ninguna de
+  las dos: se usa USGS DYFI como respaldo (baja participacion en la region,
+  pero es lo unico disponible fuera de Chile).
 
 Redes sociales todavia no esta implementado (ver backend/sources/social.py).
 """
@@ -128,8 +131,14 @@ def enrich_with_csn(events):
     por los del CSN/SENAPRED cuando hay un match y el sismo fue reportado
     como percibido -- el CSN es la fuente con participacion ciudadana real
     en Chile, DYFI queda de respaldo (ver docstring del modulo).
+
+    Pasada secundaria: solo se ejecuta sobre eventos que
+    enrich_with_senapred_archive() (la fuente principal, ver mas abajo) no
+    pudo resolver. Sirve para el caso borde de un sismo tan reciente que
+    todavia no aparece en el archivo de SENAPRED pero si en la portada del
+    CSN.
     """
-    chile_events = [e for e in events if is_chile_event(e["place"])]
+    chile_events = [e for e in events if is_chile_event(e["place"]) and e["intensity_source"] != "csn"]
     if not chile_events:
         return
 
@@ -189,12 +198,12 @@ def enrich_with_csn(events):
 
 def enrich_with_senapred_archive(events):
     """
-    Segunda pasada: para eventos chilenos que la portada del CSN (solo sus
-    ~15 sismos mas recientes) ya no cubre, se busca en el archivo propio de
-    SENAPRED (senapred.cl/eventos/, retiene semanas) por cercania de tiempo
-    -- SENAPRED no da lat/lon en su listado, asi que se usa la magnitud que
-    la propia pagina del reporte menciona como cross-check en vez de
-    ubicacion.
+    Pasada PRINCIPAL para intensidad de sismos chilenos: busca en el archivo
+    propio de SENAPRED (senapred.cl/eventos/), que retiene semanas de
+    historial -- a diferencia de la portada del CSN, que solo expone sus
+    ~15 sismos mas recientes y por eso pierde eventos en horas. Matchea por
+    cercania de tiempo (SENAPRED no da lat/lon en su listado) y por la
+    magnitud que la propia pagina del reporte menciona, como cross-check.
     """
     pending = [e for e in events if is_chile_event(e["place"]) and e["intensity_source"] != "csn"]
     if not pending:
@@ -294,8 +303,8 @@ def main():
         dyfi_points = usgs.fetch_dyfi_points(props.get("detail")) if has_dyfi else []
         events.append(build_event_record(feature, dyfi_points))
 
-    enrich_with_csn(events)
     enrich_with_senapred_archive(events)
+    enrich_with_csn(events)
     preserve_existing_csn_data(events)
 
     storage.upsert_events(events)

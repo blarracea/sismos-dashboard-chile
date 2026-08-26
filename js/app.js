@@ -18,12 +18,35 @@
 
   const heatLayer = SismosApp.buildHeatLayer(events);
   if (heatLayer) {
-    map.whenReady(() => heatLayer.addTo(map));
+    // Se agrega cada sub-capa (CSN, DYFI) por separado en vez de confiar en
+    // heatLayer.addTo(map): si una sub-capa tira un error al agregarse,
+    // L.LayerGroup corta el loop interno y la siguiente nunca se agrega --
+    // asi una capa rota no se lleva puesta a la otra.
+    //
+    // Ademas, aunque el mapa ya este "listo" (whenReady), el contenedor
+    // #map recien termina su layout de CSS grid un instante despues -- si
+    // Leaflet.heat lee el ancho del canvas antes de eso, lee 0 y el canvas
+    // queda roto para siempre (no se autocorrige solo, no es cosmetico).
+    // setTimeout (no requestAnimationFrame -- no dispara si la pestana no
+    // esta compositando frames) da tiempo a que el layout ya este resuelto.
+    const addHeatLayer = () => {
+      map.invalidateSize();
+      setTimeout(() => {
+        heatLayer.eachLayer((layer) => {
+          try {
+            layer.addTo(map);
+          } catch (err) {
+            console.warn("No se pudo agregar una capa de heatmap", err);
+          }
+        });
+      }, 50);
+    };
+    map.whenReady(addHeatLayer);
     heatToggle.addEventListener("change", () => {
       if (heatToggle.checked) {
-        heatLayer.addTo(map);
+        addHeatLayer();
       } else {
-        map.removeLayer(heatLayer);
+        heatLayer.eachLayer((layer) => map.removeLayer(layer));
       }
     });
   } else {
