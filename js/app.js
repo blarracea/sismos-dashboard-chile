@@ -46,9 +46,18 @@
 
   const showEventDetail = (event) => {
     highlightEvent(event);
-    const utcTime = new Date(event.time).toLocaleString("es-CL", {
-      timeZone: "UTC",
-    });
+    const eventDate = new Date(event.time);
+    const timeFormat = {
+      hour12: false,
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+    };
+    const utcTime = eventDate.toLocaleString("es-CL", { ...timeFormat, timeZone: "UTC" });
+    const chileTime = eventDate.toLocaleString("es-CL", { ...timeFormat, timeZone: "America/Santiago" });
     const fuenteLinks = event.csn_url
       ? `<a href="${event.url}" target="_blank" rel="noopener">USGS</a> · <a href="${event.csn_url}" target="_blank" rel="noopener">CSN</a>`
       : `<a href="${event.url}" target="_blank" rel="noopener">USGS</a>`;
@@ -56,6 +65,7 @@
       <dt>Referencia geográfica</dt><dd>${event.place || "-"}</dd>
       <dt>Magnitud</dt><dd>${event.magnitude ?? "-"} ${event.mag_type || ""}</dd>
       <dt>Hora (UTC)</dt><dd>${utcTime}</dd>
+      <dt>Hora (Chile)</dt><dd>${chileTime}</dd>
       <dt>Fuente</dt><dd>${fuenteLinks}</dd>
     `;
     detailPlaceholder.classList.add("hidden");
