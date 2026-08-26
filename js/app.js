@@ -11,10 +11,16 @@
 
   const map = SismosApp.initMap();
 
+  // Solo se muestran sismos con reporte de percepcion real del CSN/SENAPRED
+  // -- se deja afuera el catalogo completo de USGS (incluye sismos chicos
+  // sin ningun reporte ciudadano) y los que solo tienen DYFI de USGS.
+  const hasSenapredReport = (event) => event.intensity_source === "csn";
+
   let events = [];
   try {
-    events = await SismosApp.loadRecentEvents(7);
-    statusEl.textContent = `${events.length} eventos cargados (ultimos 7 dias).`;
+    const allEvents = await SismosApp.loadRecentEvents(7);
+    events = allEvents.filter(hasSenapredReport);
+    statusEl.textContent = `${events.length} sismos con reporte de SENAPRED (ultimos 7 dias).`;
   } catch (err) {
     statusEl.textContent = err.message;
     return;
@@ -105,7 +111,7 @@
   } else {
     heatToggle.checked = false;
     heatToggle.disabled = true;
-    heatToggle.closest("label").title = "Todavia no hay reportes DYFI en los eventos cargados.";
+    heatToggle.closest("label").title = "Todavia no hay sismos con reporte de SENAPRED en la ventana cargada.";
   }
 
   SismosApp.addEventMarkers(map, events, showEventDetail);
@@ -131,9 +137,9 @@
   // --- Tabla "Sismos por dia" ---
   const renderDayTable = async (dateStr) => {
     dayTableBody.innerHTML = '<tr><td colspan="3">Cargando...</td></tr>';
-    const dayEvents = await SismosApp.loadDay(dateStr);
+    const dayEvents = (await SismosApp.loadDay(dateStr)).filter(hasSenapredReport);
     if (dayEvents.length === 0) {
-      dayTableBody.innerHTML = '<tr><td colspan="3">Sin sismos registrados ese dia.</td></tr>';
+      dayTableBody.innerHTML = '<tr><td colspan="3">Sin sismos con reporte de SENAPRED ese dia.</td></tr>';
       return;
     }
     dayTableBody.innerHTML = dayEvents
