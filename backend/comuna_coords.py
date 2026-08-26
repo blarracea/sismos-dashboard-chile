@@ -8,8 +8,13 @@ pobladas -- lo suficiente para no depender de una consulta externa en la
 mayoria de los reportes. Cualquier comuna que no este aca se geocodifica una
 sola vez contra Nominatim (OpenStreetMap, gratuito) y el resultado queda
 guardado en data/comuna_coords_cache.json, para no volver a consultarla.
+
+Tambien se usa desde sources/social.py: find_known_place() busca si un texto
+libre (titulo de noticia, mencion en redes) nombra alguna de estas comunas,
+para poder ubicar en el mapa una mencion que no viene geolocalizada.
 """
 import json
+import re
 import time
 import unicodedata
 from pathlib import Path
@@ -141,3 +146,18 @@ def get_coords(comuna_name):
     cache[key] = coords
     _save_cache(cache)
     return coords
+
+
+def find_known_place(text):
+    """
+    Busca si el texto (titulo/descripcion de una noticia o mencion) nombra
+    alguna comuna/ciudad del set base. Solo el set base -- no el cache de
+    Nominatim, que puede tener nombres poco frecuentes con mas chance de
+    falsos positivos como substring de otra palabra. Devuelve
+    (nombre_normalizado, (lat, lon)) o (None, None) si no hay match.
+    """
+    normalized_text = _normalize(text)
+    for key, coords in SEED_COORDS.items():
+        if re.search(r"\b" + re.escape(key) + r"\b", normalized_text):
+            return key, coords
+    return None, None

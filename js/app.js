@@ -4,6 +4,10 @@
   const detailSection = document.getElementById("event-detail");
   const detailBody = document.getElementById("event-detail-body");
   const heatToggle = document.getElementById("toggle-heatmap");
+  const socialToggle = document.getElementById("toggle-social");
+  const socialFeedBody = document.getElementById("social-feed-body");
+  const dayPicker = document.getElementById("day-picker");
+  const dayTableBody = document.getElementById("day-table-body");
 
   const map = SismosApp.initMap();
 
@@ -14,45 +18,6 @@
   } catch (err) {
     statusEl.textContent = err.message;
     return;
-  }
-
-  const heatLayer = SismosApp.buildHeatLayer(events);
-  if (heatLayer) {
-    // Se agrega cada sub-capa (CSN, DYFI) por separado en vez de confiar en
-    // heatLayer.addTo(map): si una sub-capa tira un error al agregarse,
-    // L.LayerGroup corta el loop interno y la siguiente nunca se agrega --
-    // asi una capa rota no se lleva puesta a la otra.
-    //
-    // Ademas, aunque el mapa ya este "listo" (whenReady), el contenedor
-    // #map recien termina su layout de CSS grid un instante despues -- si
-    // Leaflet.heat lee el ancho del canvas antes de eso, lee 0 y el canvas
-    // queda roto para siempre (no se autocorrige solo, no es cosmetico).
-    // setTimeout (no requestAnimationFrame -- no dispara si la pestana no
-    // esta compositando frames) da tiempo a que el layout ya este resuelto.
-    const addHeatLayer = () => {
-      map.invalidateSize();
-      setTimeout(() => {
-        heatLayer.eachLayer((layer) => {
-          try {
-            layer.addTo(map);
-          } catch (err) {
-            console.warn("No se pudo agregar una capa de heatmap", err);
-          }
-        });
-      }, 50);
-    };
-    map.whenReady(addHeatLayer);
-    heatToggle.addEventListener("change", () => {
-      if (heatToggle.checked) {
-        addHeatLayer();
-      } else {
-        heatLayer.eachLayer((layer) => map.removeLayer(layer));
-      }
-    });
-  } else {
-    heatToggle.checked = false;
-    heatToggle.disabled = true;
-    heatToggle.closest("label").title = "Todavia no hay reportes DYFI en los eventos cargados.";
   }
 
   const INTENSITY_SOURCE_LABELS = {
@@ -80,5 +45,114 @@
     detailSection.classList.remove("hidden");
   };
 
+  const focusEvent = (event) => {
+    showEventDetail(event);
+    if (event.lat != null && event.lon != null) {
+      map.setView([event.lat, event.lon], 7);
+    }
+  };
+
+  // --- Heatmap de intensidad ---
+  const heatLayer = SismosApp.buildHeatLayer(events);
+  if (heatLayer) {
+    // El contenedor #map recien termina su layout de CSS grid un instante
+    // despues de whenReady -- si Leaflet.heat lee el ancho del canvas antes
+    // de eso, lee 0 y el canvas queda roto para siempre (no se autocorrige
+    // solo). setTimeout (no requestAnimationFrame, que no dispara si la
+    // pestana no esta compositando frames) da tiempo a que el layout ya
+    // este resuelto. Cada sub-capa (CSN, DYFI) se agrega por separado: si
+    // una tira un error, L.LayerGroup no debe cortar el loop y dejar a la
+    // otra sin agregar.
+    const addHeatLayer = () => {
+      map.invalidateSize();
+      setTimeout(() => {
+        heatLayer.eachLayer((layer) => {
+          try {
+            layer.addTo(map);
+          } catch (err) {
+            console.warn("No se pudo agregar una capa de heatmap", err);
+          }
+        });
+      }, 50);
+    };
+    map.whenReady(addHeatLayer);
+    heatToggle.addEventListener("change", () => {
+      if (heatToggle.checked) {
+        addHeatLayer();
+      } else {
+        heatLayer.eachLayer((layer) => map.removeLayer(layer));
+      }
+    });
+  } else {
+    heatToggle.checked = false;
+    heatToggle.disabled = true;
+    heatToggle.closest("label").title = "Todavia no hay reportes DYFI en los eventos cargados.";
+  }
+
   SismosApp.addEventMarkers(map, events, showEventDetail);
+
+  // --- Menciones en medios (RSS, no verificado) ---
+  let socialLayer = null;
+  try {
+    const mentions = await SismosApp.loadSocialMentions();
+    SismosApp.renderSocialFeed(mentions, socialFeedBody);
+    socialLayer = SismosApp.buildSocialMapLayer(mentions);
+  } catch (err) {
+    socialFeedBody.innerHTML = '<p class="social-feed-empty">No se pudieron cargar las menciones.</p>';
+  }
+  socialToggle.addEventListener("change", () => {
+    if (!socialLayer) return;
+    if (socialToggle.checked) {
+      socialLayer.addTo(map);
+    } else {
+      map.removeLayer(socialLayer);
+    }
+  });
+
+  // --- Tabla "Sismos por dia" ---
+  const renderDayTable = async (dateStr) => {
+    dayTableBody.innerHTML = '<tr><td colspan="3">Cargando...</td></tr>';
+    const dayEvents = await SismosApp.loadDay(dateStr);
+    if (dayEvents.length === 0) {
+      dayTableBody.innerHTML = '<tr><td colspan="3">Sin sismos registrados ese dia.</td></tr>';
+      return;
+    }
+    dayTableBody.innerHTML = dayEvents
+      .slice()
+      .reverse()
+      .map((event, idx) => {
+        const hora = new Date(event.time).toLocaleTimeString("es-CL", {
+          timeZone: "America/Santiago",
+          hour: "2-digit",
+          minute: "2-digit",
+        });
+        return `<tr data-idx="${idx}"><td>${hora}</td><td>${event.place || "-"}</td><td>${event.magnitude ?? "-"}</td></tr>`;
+      })
+      .join("");
+
+    dayTableBody.querySelectorAll("tr[data-idx]").forEach((row) => {
+      row.addEventListener("click", () => {
+        const event = dayEvents.slice().reverse()[Number(row.dataset.idx)];
+        focusEvent(event);
+      });
+    });
+  };
+
+  try {
+    const range = await SismosApp.loadAvailableDateRange();
+    if (range) {
+      dayPicker.min = range.min;
+      dayPicker.max = range.max;
+      dayPicker.value = range.max;
+      await renderDayTable(range.max);
+    } else {
+      dayTableBody.innerHTML = '<tr><td colspan="3">Todavia no hay datos.</td></tr>';
+    }
+  } catch (err) {
+    dayTableBody.innerHTML = '<tr><td colspan="3">No se pudo cargar el listado.</td></tr>';
+  }
+
+  dayPicker.addEventListener("change", () => {
+    if (dayPicker.value) renderDayTable(dayPicker.value);
+  });
 })();

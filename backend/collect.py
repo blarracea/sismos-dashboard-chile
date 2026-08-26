@@ -22,14 +22,16 @@ Territorio Chileno Antartico). Para la intensidad Mercalli percibida:
   las dos: se usa USGS DYFI como respaldo (baja participacion en la region,
   pero es lo unico disponible fuera de Chile).
 
-Redes sociales todavia no esta implementado (ver backend/sources/social.py).
+Ademas, guarda menciones recientes de sismos en medios chilenos (RSS via
+Google News, ver sources/social.py) en data/social_mentions.json -- un
+proxy de "donde se habla del sismo", no intensidad Mercalli verificada.
 """
 from datetime import datetime, timedelta, timezone
 
 import comuna_coords
 import keywords
 import storage
-from sources import csn, usgs
+from sources import csn, social, usgs
 
 CSN_MATCH_MAX_SECONDS = 180
 CSN_MATCH_MAX_DEGREES = 0.5
@@ -266,6 +268,17 @@ def enrich_with_senapred_archive(events):
                 break  # encontramos un match valido, no probar mas candidatos
 
 
+def collect_social_mentions():
+    """Guarda menciones recientes de sismos en medios chilenos (ver sources/social.py)."""
+    try:
+        mentions = social.fetch_rss_mentions()
+    except Exception as exc:
+        print(f"Aviso: no se pudo consultar RSS de menciones ({exc}).")
+        return
+    storage.save_social_mentions(mentions)
+    print(f"Menciones en medios: {len(mentions)} nuevas encontradas.")
+
+
 def preserve_existing_csn_data(events):
     """
     El CSN solo expone sus ~15 sismos mas recientes -- un evento que tuvo
@@ -310,6 +323,7 @@ def main():
     storage.upsert_events(events)
     storage.purge_old(RETENTION_DAYS)
     storage.update_index()
+    collect_social_mentions()
 
     print(f"Procesados {len(events)} eventos ({start.date()} a {now.date()}).")
 

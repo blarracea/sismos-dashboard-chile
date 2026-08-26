@@ -53,6 +53,109 @@ body {
   padding-bottom: 0.25rem;
 }
 
+.sidebar > section {
+  margin-bottom: 1.25rem;
+}
+
+/* --- Tabla "Sismos por dia" --- */
+.day-table-controls {
+  margin: 0.5rem 0;
+}
+
+#day-picker {
+  width: 100%;
+  padding: 0.4rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.day-table-wrap {
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+#day-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+#day-table th {
+  position: sticky;
+  top: 0;
+  background: var(--color-panel);
+  text-align: left;
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+}
+
+#day-table td {
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#day-table tr[data-idx] {
+  cursor: pointer;
+}
+
+#day-table tr[data-idx]:hover {
+  background: var(--color-bg);
+}
+
+/* --- Menciones en medios --- */
+.social-feed-tag {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #8e44ad;
+  background: #f3e6fa;
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.social-feed-empty {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.social-card {
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 0.4rem;
+  border: 1px solid var(--color-border);
+  border-left: 3px solid #8e44ad;
+  border-radius: 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-card:hover {
+  background: var(--color-bg);
+}
+
+.social-card-title {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.social-card-meta {
+  margin: 0.25rem 0 0;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
+.social-card-place {
+  color: #8e44ad;
+  font-weight: 600;
+}
+
 .layer-toggle {
   display: flex;
   align-items: center;

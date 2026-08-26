@@ -14,6 +14,8 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 INDEX_FILE = DATA_DIR / "index.json"
+SOCIAL_FILE = DATA_DIR / "social_mentions.json"
+SOCIAL_RETENTION_HOURS = 72
 
 
 def _day_file(date_str):
@@ -73,6 +75,41 @@ def update_index():
             ensure_ascii=False,
             indent=2,
         )
+
+
+def load_social_mentions():
+    if not SOCIAL_FILE.exists():
+        return []
+    with SOCIAL_FILE.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_social_mentions(new_mentions):
+    """
+    Mezcla las menciones nuevas con las ya guardadas (por link) y recorta a
+    las ultimas SOCIAL_RETENTION_HOURS -- a diferencia de los sismos, aca
+    solo importa lo reciente, no hace falta un historial de 30 dias.
+    """
+    existing = {m["link"]: m for m in load_social_mentions()}
+    for mention in new_mentions:
+        existing[mention["link"]] = mention
+
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=SOCIAL_RETENTION_HOURS)
+    kept = []
+    for mention in existing.values():
+        published = mention.get("published")
+        if published:
+            try:
+                if datetime.fromisoformat(published) < cutoff:
+                    continue
+            except ValueError:
+                pass
+        kept.append(mention)
+    kept.sort(key=lambda m: m.get("published") or "", reverse=True)
+
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    with SOCIAL_FILE.open("w", encoding="utf-8") as f:
+        json.dump(kept, f, ensure_ascii=False, indent=2)
 
 
 def purge_old(retention_days):

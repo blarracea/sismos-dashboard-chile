@@ -24,3 +24,27 @@ SismosApp.loadRecentEvents = async function (days) {
   }
   return allEvents;
 };
+
+/* Fecha minima/maxima disponibles, segun data/index.json (para el selector de fecha). */
+SismosApp.loadAvailableDateRange = async function () {
+  const indexResponse = await fetch("data/index.json", { cache: "no-store" });
+  if (!indexResponse.ok) return null;
+  const index = await indexResponse.json();
+  const days = index.days || [];
+  if (days.length === 0) return null;
+  return { min: days[0], max: days[days.length - 1] };
+};
+
+/* Trae los eventos de un dia puntual (para la tabla "Sismos por dia"). */
+SismosApp.loadDay = async function (dateStr) {
+  const response = await fetch(`data/${dateStr}.json`, { cache: "no-store" });
+  if (!response.ok) return [];
+  return response.json();
+};
+
+/* Menciones recientes en medios (RSS) -- ver js/social-layer.js. */
+SismosApp.loadSocialMentions = async function () {
+  const response = await fetch("data/social_mentions.json", { cache: "no-store" });
+  if (!response.ok) return [];
+  return response.json();
+};

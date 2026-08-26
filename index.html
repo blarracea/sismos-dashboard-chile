@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor de Sismos — Chile y Sudamérica</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=2" />
+<link rel="stylesheet" href="css/style.css?v=5" />
 </head>
 <body>
   <header class="app-header">
@@ -16,15 +16,30 @@
     <div id="map"></div>
 
     <aside id="sidebar" class="sidebar">
+      <section class="day-table">
+        <h2>Sismos por día</h2>
+        <div class="day-table-controls">
+          <input type="date" id="day-picker" />
+        </div>
+        <div class="day-table-wrap">
+          <table id="day-table">
+            <thead>
+              <tr><th>Hora</th><th>Lugar</th><th>Mag.</th></tr>
+            </thead>
+            <tbody id="day-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
       <section class="legend">
         <h2>Capas</h2>
         <label class="layer-toggle">
           <input type="checkbox" id="toggle-heatmap" checked />
           Intensidad percibida — DYFI (oficial)
         </label>
-        <label class="layer-toggle layer-toggle--disabled" title="Próximamente — Fase 2">
-          <input type="checkbox" id="toggle-social" disabled />
-          Menciones en redes (no verificado) — Próximamente
+        <label class="layer-toggle" title="RSS de medios, no es intensidad Mercalli verificada">
+          <input type="checkbox" id="toggle-social" />
+          Menciones en redes (no verificado)
         </label>
         <div class="legend-scale">
           <span style="background:#14328c"></span>
@@ -52,16 +67,21 @@
         <dl id="event-detail-body"></dl>
       </section>
 
+      <section class="social-feed">
+        <h2>Menciones en medios <span class="social-feed-tag">no verificado</span></h2>
+        <div id="social-feed-body">Cargando...</div>
+      </section>
+
       <section id="status" class="status">Cargando datos...</section>
     </aside>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-  <script src="js/data-loader.js?v=4"></script>
-  <script src="js/map.js?v=4"></script>
-  <script src="js/heatmap.js?v=4"></script>
-  <script src="js/social-layer.js?v=4"></script>
-  <script src="js/app.js?v=4"></script>
+  <script src="js/data-loader.js?v=5"></script>
+  <script src="js/map.js?v=5"></script>
+  <script src="js/heatmap.js?v=5"></script>
+  <script src="js/social-layer.js?v=5"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>
