@@ -26,11 +26,6 @@
     return;
   }
 
-  const INTENSITY_SOURCE_LABELS = {
-    csn: "Centro Sismológico Nacional (Chile)",
-    usgs_dyfi: "USGS “Did You Feel It?”",
-  };
-
   // Anillo amarillo que marca cual es el sismo seleccionado (desde la tabla
   // o clickeando un marcador), para ubicarlo de un vistazo en el mapa.
   let selectionMarker = null;
@@ -51,20 +46,16 @@
 
   const showEventDetail = (event) => {
     highlightEvent(event);
-    const localTime = new Date(event.time).toLocaleString("es-CL", {
-      timeZone: "America/Santiago",
+    const utcTime = new Date(event.time).toLocaleString("es-CL", {
+      timeZone: "UTC",
     });
-    const intensitySourceLabel = INTENSITY_SOURCE_LABELS[event.intensity_source] || "Sin reportes ciudadanos";
     const fuenteLinks = event.csn_url
       ? `<a href="${event.url}" target="_blank" rel="noopener">USGS</a> · <a href="${event.csn_url}" target="_blank" rel="noopener">CSN</a>`
       : `<a href="${event.url}" target="_blank" rel="noopener">USGS</a>`;
     detailBody.innerHTML = `
-      <dt>Lugar</dt><dd>${event.place || "-"}</dd>
+      <dt>Referencia geográfica</dt><dd>${event.place || "-"}</dd>
       <dt>Magnitud</dt><dd>${event.magnitude ?? "-"} ${event.mag_type || ""}</dd>
-      <dt>Profundidad</dt><dd>${event.depth_km != null ? event.depth_km.toFixed(1) + " km" : "-"}</dd>
-      <dt>Hora (Chile)</dt><dd>${localTime}</dd>
-      <dt>Intensidad (MMI)</dt><dd>${event.mmi ?? "-"}</dd>
-      <dt>Fuente de intensidad</dt><dd>${intensitySourceLabel}</dd>
+      <dt>Hora (UTC)</dt><dd>${utcTime}</dd>
       <dt>Fuente</dt><dd>${fuenteLinks}</dd>
     `;
     detailPlaceholder.classList.add("hidden");
