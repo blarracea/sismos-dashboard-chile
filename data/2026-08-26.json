@@ -1,0 +1,49 @@
+[
+  {
+    "id": "us7000tbw0",
+    "source": "usgs",
+    "time": "2026-08-26T01:37:01.106000+00:00",
+    "updated": "2026-08-26T02:43:41.040000+00:00",
+    "lat": -25.5207,
+    "lon": -70.9248,
+    "depth_km": 31.754,
+    "magnitude": 4.2,
+    "mag_type": "mwr",
+    "place": "45 km WSW of Taltal, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -25.4078293,
+        "lon": -70.4858424,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Taltal",
+        "region": "Antofagasta"
+      },
+      {
+        "lat": -26.347934,
+        "lon": -70.6223617,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Chañaral",
+        "region": "Atacama"
+      },
+      {
+        "lat": -26.3910794,
+        "lon": -70.0459281,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Diego de Almagro",
+        "region": "Atacama"
+      }
+    ],
+    "intensity_source": "csn",
+    "csn_url": "https://www.sismologia.cl/sismicidad/informes/2026/08/380595.html",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbw0",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
