@@ -72,7 +72,7 @@
     "id": "us7000tbzn",
     "source": "usgs",
     "time": "2026-08-26T16:45:14.599000+00:00",
-    "updated": "2026-08-26T20:16:18.959000+00:00",
+    "updated": "2026-08-27T11:26:25.686000+00:00",
     "lat": 6.737,
     "lon": -73.0596,
     "depth_km": 159.913,
@@ -81,7 +81,7 @@
     "place": "4 km E of Jordán, Colombia",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 33,
+    "felt_reports": 37,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -94,6 +94,12 @@
         "lat": 7.12961,
         "lon": -73.12114,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 4.78976,
+        "lon": -74.0396175,
+        "intensity": 3.3,
         "responses": 1
       },
       {
@@ -115,9 +121,9 @@
         "responses": 1
       },
       {
-        "lat": 6.17425,
-        "lon": -75.564915,
-        "intensity": 2.7,
+        "lat": 4.726455,
+        "lon": -74.0487225,
+        "intensity": 2.9,
         "responses": 1
       },
       {
@@ -127,9 +133,9 @@
         "responses": 1
       },
       {
-        "lat": 6.183285,
-        "lon": -75.573965,
-        "intensity": 2.5,
+        "lat": 6.17425,
+        "lon": -75.564915,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -139,14 +145,20 @@
         "responses": 1
       },
       {
-        "lat": 4.6902625,
-        "lon": -74.0397575,
+        "lat": 7.1114925,
+        "lon": -73.112165,
         "intensity": 2.5,
         "responses": 1
       },
       {
-        "lat": 7.1114925,
-        "lon": -73.112165,
+        "lat": 6.183285,
+        "lon": -75.573965,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 4.6902625,
+        "lon": -74.0397575,
         "intensity": 2.5,
         "responses": 1
       },
@@ -163,14 +175,8 @@
         "responses": 1
       },
       {
-        "lat": 4.68124,
-        "lon": -74.0578,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 6.21044,
-        "lon": -75.555915,
+        "lat": 4.7264425,
+        "lon": -74.0397075,
         "intensity": 2,
         "responses": 1
       },
@@ -187,12 +193,6 @@
         "responses": 1
       },
       {
-        "lat": 6.1563225,
-        "lon": -75.3750925,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 4.699295,
         "lon": -74.0307275,
         "intensity": 2,
@@ -205,15 +205,27 @@
         "responses": 5
       },
       {
-        "lat": 4.7898700000000005,
-        "lon": -74.1207725,
-        "intensity": 1,
+        "lat": 4.68124,
+        "lon": -74.0578,
+        "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 6.23753,
-        "lon": -75.601135,
-        "intensity": 1,
+        "lat": 7.784485,
+        "lon": -72.19399,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 6.21044,
+        "lon": -75.555915,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 6.1563225,
+        "lon": -75.3750925,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -223,20 +235,8 @@
         "responses": 1
       },
       {
-        "lat": 4.7626375,
-        "lon": -74.048675,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
         "lat": 4.753605,
         "lon": -74.0577025,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 4.63616,
-        "lon": -74.175055,
         "intensity": 1,
         "responses": 1
       },
@@ -251,11 +251,79 @@
         "lon": -74.0306925,
         "intensity": 1,
         "responses": 1
+      },
+      {
+        "lat": 4.7898700000000005,
+        "lon": -74.1207725,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 6.23753,
+        "lon": -75.601135,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 4.7626375,
+        "lon": -74.048675,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 4.63616,
+        "lon": -74.175055,
+        "intensity": 1,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
     "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbzn",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tc1f",
+    "source": "usgs",
+    "time": "2026-08-26T19:29:18.381000+00:00",
+    "updated": "2026-08-27T16:29:39.040000+00:00",
+    "lat": -16.9936,
+    "lon": -74.8729,
+    "depth_km": 10,
+    "magnitude": 4,
+    "mag_type": "mb",
+    "place": "143 km SSW of Atiquipa, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc1f",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tc3j",
+    "source": "usgs",
+    "time": "2026-08-26T22:23:12.424000+00:00",
+    "updated": "2026-08-28T03:13:58.040000+00:00",
+    "lat": -35.3195,
+    "lon": -71.4471,
+    "depth_km": 80.639,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "22 km ENE of Talca, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "csn_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc3j",
     "relevant": false,
     "keywords_matched": []
   }
