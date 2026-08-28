@@ -16,7 +16,6 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1m",
     "relevant": false,
     "keywords_matched": []
@@ -38,7 +37,6 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm25",
     "relevant": false,
     "keywords_matched": []
@@ -60,7 +58,6 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2i",
     "relevant": false,
     "keywords_matched": []
@@ -401,7 +398,6 @@
       }
     ],
     "intensity_source": "usgs_dyfi",
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81",
     "relevant": true,
     "keywords_matched": []
@@ -423,7 +419,6 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmau",
     "relevant": false,
     "keywords_matched": []

@@ -35,7 +35,6 @@
       }
     ],
     "intensity_source": "usgs_dyfi",
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmx3",
     "relevant": false,
     "keywords_matched": []
@@ -57,7 +56,6 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmzy",
     "relevant": false,
     "keywords_matched": []
@@ -144,10 +142,10 @@
       }
     ],
     "intensity_source": "csn",
-    "csn_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-uble-2026-08-23-16-43-33",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn0n",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-uble-2026-08-23-16-43-33"
   },
   {
     "id": "us6000tn15",
@@ -166,7 +164,6 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tn15",
     "relevant": false,
     "keywords_matched": []
