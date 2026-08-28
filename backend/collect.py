@@ -88,7 +88,8 @@ def build_event_record(feature, dyfi_points):
         "tsunami_flag": bool(props.get("tsunami")),
         "dyfi_points": dyfi_points,
         "intensity_source": "usgs_dyfi" if dyfi_points else None,
-        "csn_url": None,
+        "senapred_url": None,
+        "csn_informe_url": None,
         "url": props.get("url"),
         "relevant": is_relevant,
         "keywords_matched": keywords.matched_keywords(place),
@@ -129,18 +130,20 @@ def find_csn_match(usgs_event, csn_details):
 
 def enrich_with_csn(events):
     """
-    Para eventos en Chile, reemplaza los puntos de intensidad de USGS DYFI
-    por los del CSN/SENAPRED cuando hay un match y el sismo fue reportado
-    como percibido -- el CSN es la fuente con participacion ciudadana real
-    en Chile, DYFI queda de respaldo (ver docstring del modulo).
+    Dos cosas, para eventos en Chile:
 
-    Pasada secundaria: solo se ejecuta sobre eventos que
-    enrich_with_senapred_archive() (la fuente principal, ver mas abajo) no
-    pudo resolver. Sirve para el caso borde de un sismo tan reciente que
-    todavia no aparece en el archivo de SENAPRED pero si en la portada del
-    CSN.
+    1. Pasada secundaria de intensidad: para eventos que
+       enrich_with_senapred_archive() (la fuente principal, ver mas abajo)
+       no pudo resolver, busca en la portada del CSN (sus ~15 sismos mas
+       recientes) -- sirve para el caso borde de un sismo tan reciente que
+       todavia no aparece en el archivo de SENAPRED.
+    2. Completa el link al informe real del CSN (sismologia.cl) en eventos
+       que YA tienen intensidad resuelta por SENAPRED -- son dos paginas
+       distintas (el informe del CSN enlaza al reporte de SENAPRED, pero no
+       son la misma URL) y el panel de detalle del sitio muestra ambas por
+       separado.
     """
-    chile_events = [e for e in events if is_chile_event(e["place"]) and e["intensity_source"] != "csn"]
+    chile_events = [e for e in events if is_chile_event(e["place"])]
     if not chile_events:
         return
 
@@ -168,7 +171,17 @@ def enrich_with_csn(events):
 
     for event in chile_events:
         match = find_csn_match(event, felt_details)
-        if match is None or not match["senapred_url"]:
+        if match is None:
+            continue
+
+        if event["intensity_source"] == "csn":
+            # Ya tiene intensidad de SENAPRED (pasada principal) -- solo
+            # completa el link del informe del CSN, no vuelve a pedir el
+            # reporte de intensidad de nuevo.
+            event["csn_informe_url"] = match["csn_url"]
+            continue
+
+        if not match["senapred_url"]:
             continue
         try:
             intensity_report = csn.fetch_intensity_report(match["senapred_url"])
@@ -195,7 +208,8 @@ def enrich_with_csn(events):
         if points:
             event["dyfi_points"] = points
             event["intensity_source"] = "csn"
-            event["csn_url"] = match["csn_url"]
+            event["senapred_url"] = match["senapred_url"]
+            event["csn_informe_url"] = match["csn_url"]
 
 
 def enrich_with_senapred_archive(events):
@@ -264,7 +278,7 @@ def enrich_with_senapred_archive(events):
             if points:
                 event["dyfi_points"] = points
                 event["intensity_source"] = "csn"
-                event["csn_url"] = candidate["url"]
+                event["senapred_url"] = candidate["url"]
                 break  # encontramos un match valido, no probar mas candidatos
 
 
@@ -300,7 +314,8 @@ def preserve_existing_csn_data(events):
         if previous and previous.get("intensity_source") == "csn":
             event["dyfi_points"] = previous["dyfi_points"]
             event["intensity_source"] = "csn"
-            event["csn_url"] = previous.get("csn_url")
+            event["senapred_url"] = previous.get("senapred_url")
+            event["csn_informe_url"] = previous.get("csn_informe_url")
 
 
 def main():

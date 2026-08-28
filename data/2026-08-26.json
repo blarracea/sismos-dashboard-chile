@@ -41,7 +41,8 @@
       }
     ],
     "intensity_source": "csn",
-    "csn_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-atacama-2026-08-25-21-42-53",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-atacama-2026-08-25-21-42-53",
+    "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbw0",
     "relevant": false,
     "keywords_matched": []
@@ -63,8 +64,32 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyb",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tbyh",
+    "source": "usgs",
+    "time": "2026-08-26T11:38:21.908000+00:00",
+    "updated": "2026-08-28T17:55:51.040000+00:00",
+    "lat": -57.4436,
+    "lon": -65.3176,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "Drake Passage",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbyh",
     "relevant": false,
     "keywords_matched": []
   },
@@ -278,7 +303,8 @@
       }
     ],
     "intensity_source": "usgs_dyfi",
-    "csn_url": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tbzn",
     "relevant": false,
     "keywords_matched": []
@@ -300,7 +326,8 @@
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
-    "csn_url": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc1f",
     "relevant": false,
     "keywords_matched": []
@@ -320,9 +347,19 @@
     "mmi": null,
     "felt_reports": 0,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "csn_url": null,
+    "dyfi_points": [
+      {
+        "lat": -35.4264,
+        "lon": -71.6554,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Talca",
+        "region": "Maule"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-del-maule-2026-08-26-18-26-55",
+    "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tc3j",
     "relevant": false,
     "keywords_matched": []

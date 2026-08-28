@@ -1,0 +1,127 @@
+[
+  {
+    "id": "us7000tci3",
+    "source": "usgs",
+    "time": "2026-08-28T00:38:21.292000+00:00",
+    "updated": "2026-08-28T14:53:45.078000+00:00",
+    "lat": 10.2402,
+    "lon": -67.3313,
+    "depth_km": 10,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "1 km N of La Victoria, Venezuela",
+    "cdi": 3.9,
+    "mmi": null,
+    "felt_reports": 10,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 10.49992,
+        "lon": -66.839155,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 10.50896,
+        "lon": -66.839095,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 10.48209,
+        "lon": -66.87580750000001,
+        "intensity": 3.3,
+        "responses": 1
+      },
+      {
+        "lat": 10.36536,
+        "lon": -66.99528000000001,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 10.4815325,
+        "lon": -66.79362499999999,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 10.49113,
+        "lon": -66.875745,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 10.46333,
+        "lon": -66.77548999999999,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 10.463955,
+        "lon": -66.8668025,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tci3",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tci6",
+    "source": "usgs",
+    "time": "2026-08-28T06:46:33.894000+00:00",
+    "updated": "2026-08-28T13:44:30.366000+00:00",
+    "lat": 10.0415,
+    "lon": -78.4292,
+    "depth_km": 35,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "68 km NNE of Narganá, Panama",
+    "cdi": 3.1,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 8.97576,
+        "lon": -79.5218225,
+        "intensity": 3.1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tci6",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tcjv",
+    "source": "usgs",
+    "time": "2026-08-28T14:11:54.373000+00:00",
+    "updated": "2026-08-28T14:38:49.040000+00:00",
+    "lat": -21.2109,
+    "lon": -68.5089,
+    "depth_km": 131.354,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "26 km W of Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcjv",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
