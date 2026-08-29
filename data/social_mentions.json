@@ -573,17 +573,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Terremoto moderado mag. 4.2 - Océano Pacífico Sur, 46 km al oeste de Taltal, Antofagasta, Chile, Tuesday 25 Aug 2026 a las 21:37 (GMT -4) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX01wenBWdEN1enBzb0pLNkdiajljUk1UbzZQVHBuTFRud0h4NWFXNlVubWdmUzRiaDlycm1TUm04ckxJWE1lTGl0d2VSMTZvQ0pvRFdkYUcweEgzZ3dmakNMMXNpcllnTEdyaTY3LUpWMzRBem5uVkhBbUV6aWFvcGI4cnoycEdFRHB6bUdzTTF6YUJCVXVqUGtUaXBaYVhCMG5HQ0JLS21reURlMnFjOWU4c2JHR1pLR0poN01wYjlYdmk3ZV9ZdQ?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-08-26T13:51:00+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
   }
 ]
