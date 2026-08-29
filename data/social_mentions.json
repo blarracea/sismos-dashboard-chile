@@ -756,29 +756,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Terremoto moderado mag. 4.3 - 75 km al este de Diego de Almagro, Chañaral, Atacama, Chile, Wednesday 26 Aug 2026 a las 06:59 (Hora Santiago) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLVlzaVdDT2lwcXJVWlBPMnlmakJkNTEwSjI0NHBhTHZ5X2Q2azdqVmRZVUxJZkNzTUhpOVhRWDJiUGVGcEFSdGtDd1ZmLTRNbHZuelZCVXhQdDJONG51eC1qTDVsZmhLQjBmY2pCcHpwQWZWQXBzSzZxR3JPclc5cm9NZTVvNTUyYkxrS2YtbTJvclZrblE0MElVNFFTMk9GTGhURWNsZzVEdw?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-08-26T23:36:00+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": "santiago",
-    "lat": -33.4489,
-    "lon": -70.6693
-  },
-  {
-    "title": "Temblor en Ollagüe: conoce los detalles del temblor - VLN Radio",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ3BSa2tYZ0JKRGNwMFByT0ZpNm5MbnlmRU1sWE1NMnhaSjVIeHVYdllINVlaaDdTTHdXRk5RRFRycjNZaEJ0X1p6N1RsNUFFekd0UUI4ZGI5Q2JwRmEzZTEzaTZCZ3VZcXBiMlY0czdlcTNtUWtoWGFyVVNxaDQxSE9jbVphTVhvUUxDcUxwTmRoaFRPWDNoUDB1WnZzbEt5VnV1SEZpT19IX3laMDlKcWczcnV1RlUxLWFadmJOd0pkcTg2?oc=5",
-    "source": "VLN Radio",
-    "published": "2026-08-26T23:30:02+00:00",
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
