@@ -17,6 +17,7 @@
     "source": "La Tercera",
     "published": "2026-08-29T11:11:06+00:00",
     "keywords_matched": [
+      "sismo",
       "temblor"
     ],
     "place": null,
@@ -140,7 +141,6 @@
     "source": "La Tercera",
     "published": "2026-08-28T21:57:36+00:00",
     "keywords_matched": [
-      "sismo",
       "temblor"
     ],
     "place": null,
@@ -630,18 +630,6 @@
     "keywords_matched": [
       "sismo",
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor se registra durante la mañana de este miércoles cerca de Puerto Williams - Radio Agricultura",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMlFmMVVQXzBGVzNnSmt1VmJuMU9xbk4yOWFsTHptVEhQX0VEdXgzclJha2VYVGVSdnpaN1YzZXE1U2tPNk1nSjRGbVU0dDBmRkRpNGVsY2w5Nkp6X3B1bV9Zb0NtLXFmdV9RbTNyTng4bDBrcHhJWFFmdFg1RGpnWS1WS2d0V3FiQVh5UHU1S2d1V1hxRVZhQUc0VzRRN3RNR04tblBFT0tseUFCMzRnNXNWbEhXSHZ5bzgyNWd1TDJRTXlBWjJzMHNGY2RZbTFuYVA0eG9INA?oc=5",
-    "source": "Radio Agricultura",
-    "published": "2026-08-26T12:13:21+00:00",
-    "keywords_matched": [
-      "temblor"
     ],
     "place": null,
     "lat": null,

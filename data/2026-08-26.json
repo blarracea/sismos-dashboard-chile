@@ -97,7 +97,7 @@
     "id": "us7000tbzn",
     "source": "usgs",
     "time": "2026-08-26T16:45:14.599000+00:00",
-    "updated": "2026-08-27T11:26:25.686000+00:00",
+    "updated": "2026-08-29T12:13:13.162000+00:00",
     "lat": 6.737,
     "lon": -73.0596,
     "depth_km": 159.913,
@@ -106,7 +106,7 @@
     "place": "4 km E of Jordán, Colombia",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 37,
+    "felt_reports": 38,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -143,6 +143,12 @@
         "lat": 4.66315,
         "lon": -74.05782500000001,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 6.4335075,
+        "lon": -73.141915,
+        "intensity": 2.9,
         "responses": 1
       },
       {
