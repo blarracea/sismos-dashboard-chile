@@ -271,7 +271,6 @@
     "source": "La Tercera",
     "published": "2026-08-29T11:12:54+00:00",
     "keywords_matched": [
-      "sismo",
       "temblor"
     ],
     "place": null,
@@ -329,6 +328,18 @@
     "lon": null
   },
   {
+    "title": "Terremoto moderado mag. 4.6 - 145 km al norte de Calama, El Loa, Antofagasta, Chile, Friday 28 Aug 2026 a las 10:11 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOFVwQ1ZSRTM0WkNNeXZRUEcwNnVrY0xfRHFKWDl5Z0FmRGZvaFA1T2F5OE1WNmhScWtudmhRWmttVlhhV2FUUW5HdGxicWdpTTRqRC1GVkZHTDZWYThnS2plQWhyQ19XMks4U0Y2V1ZMNHVibTlIR1FtRXk4WndNZHZmcjFldkYxTnlVdVpLWEJWM3JpZzUtWFVac3hpc2dxNUZHOFJWZG5MV2NodFp3Y0xYeUdOYlhoU282aw?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-08-29T02:35:00+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
     "title": "Temblor se registra en el norte de Chile: Conoce la magnitud y el epicentro del sismo - Meganoticias",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1M5LTJwd3U0TmcxbGtXWjRKSXBRWVFVRjdiS0pPVENsZkZhTXdsWUVldk01VElMTWoxZi1IbEtkaWhIRk50NDBqVkloeS01WmlKMkVES3N1eFd4a25wakIzVEVZVEZ5dzhkUVp3TlBna1R5aVUwYzNNWV9BZ0RwcXJrWnYtVnVNQThlR2g1ekpxMkJFVGl6Q2Z1eTZpeDJXdVJiWWk5RVJEd2FYWm9YNmhOdFRrd00tdk1j0gHAAUFVX3lxTE9qQlp0UWVnQUd5Q2ZlWjhkLXh1cU9iS3dJai1aQjRaNy15cVNuQUwwaGoxd0lQYnpLZE5qeFBYc21ZWTZfR3VldG9kT3pYTUFZeG5YUzF2T19lRExIc0lBTkJFaTl2a21YNy0yYWhSUXh4OE0zeXQyTXVLWVVLald2Snd3RmdxYTJsaVYzTVJ1TDRfMmY5SFBfSmRJS3NvZnVMLTZhUGJ1UExJYWo1M0RSemtLRE5zeXVXcUlVc0hmbw?oc=5",
     "source": "Meganoticias",
@@ -383,6 +394,7 @@
     "source": "La Tercera",
     "published": "2026-08-28T21:57:36+00:00",
     "keywords_matched": [
+      "sismo",
       "temblor"
     ],
     "place": null,
