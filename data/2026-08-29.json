@@ -16,6 +16,12 @@
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 4.5368075,
+        "lon": -75.6805975,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 3.6853,
         "lon": -76.5892175,
         "intensity": 2,
