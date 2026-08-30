@@ -1,11 +1,73 @@
 [
   {
+    "title": "SHOA descarta tsunami para las costas chilenas tras sismo 5.1 en Putre - CNN Chile",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONzJHRWRiMDVXRkpzdmsxUVBxMnAzM3czelhlcllQNjJBZmpZcnR0NlVRS0FhYThTNXd4aFczbnE4QWl5UXBQNVVuMHZRVnp1RTJKX1BzVHJHa2tUYl95NXc5cHR0UzJyb3FDNVVXVWhCOHk5Mk9vOWhLVWlfeEtKZE4tY0Vtai1WWEpuUzFHU2RReGRXaUFZR01jbnBjVFhIa3k0?oc=5",
+    "source": "CNN Chile",
+    "published": "2026-08-30T16:39:38+00:00",
+    "keywords_matched": [
+      "sismo",
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Tiembla en Chile: sismo de magnitud 4.8 sacude Arica este 30 de agosto - Infobae",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkFPbmZ1Q2h3SGo3a0F5czVkRWpGbG5GLTAzSVBlcm91UnpSWEtZVGI4YVFoUUY5Q1lSdlJjcFctaGJZODVqa09qZ05xZHFmdHZXbHdDd21xaFc4dUpvY20xSUktQTBQeEhaTmU3dTJqU1NsNUZyUWRRV0p1UFVCZlMxZDNMb2NZbDZzc29YN0RBeVFabHBQdS1aeFZ2UmtPY3VXSzBmdWJMZVVuS3hwQm9sWdIBzgFBVV95cUxPNG1BZ3NmTjRuWU1TbWxrd3dFbkF1MEVrVjlrUkZ2bTdwRFVMZEFHbm5sQUxLMUhDSjd4MFN1a241eXVnamRPcG9MaEZjZ1E5TTRzZ1dpa1o0a3YzaXRLbEtZYlNxT2RKRmZNZmZJdVhNLS1qT0xXUTlTZ1lkVjRlRHdzSWdrMWZJdWhzVERyWFllWDlZemEtSG90X0g3bmFiaTA0X1VCVVNiWi1BdHJiNXYxYThrZjdiSXV4ZEFYZGZ1VFRXRUFsZmV2aTdxZw?oc=5",
+    "source": "Infobae",
+    "published": "2026-08-30T16:38:14+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
+    "title": "Sismo 5,1 sacude el norte de Chile y activa monitoreo - sabes.cl",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeHQ4MklpN3ZjdTV1QUpFaFFjZ05lNzB1dDFWRUpCN3ZIS0RYa25CaG1zR1Z0Z0tUaHh3akUzSEdRdWltWnZucGtRdXJYZlNVSTc4Y2h1U3FIb283dTNzTGgtNEY2SE5BUmRpUW1GdW1MS3c1UnMzT3lkNFBCMkkwYTF1cm9QdVZI?oc=5",
+    "source": "sabes.cl",
+    "published": "2026-08-30T16:30:13+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Sismo de magnitud 5,1 se registró este domingo en el extremo norte del país - Página 7",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRzEwOTY2N0prN0MwQjlDMVUxWXhUZ29PNXhHY3BaVWtvNUpLNlBENmxaWXVqUFNTLWFaZ0dEUk53R2ZpcFpyMEdxbS1WVHhGYjdScFYxNHFVSTU0QjZWSE5ZMnF3YWxaN0JPQmJseU43bVNJcDNCZ2JxRTNYYnJnTnlLTEMtd3QwdzlWbDFybS1rOTExaFJrbUlGUzFxa3oxTlV3QlQ0RDlZRHp3MWfSAbMBQVVfeXFMTlA2OHgyTTQ1S0JUbV81R2VINWQwVTBENzZvX2dlRTFZWUJLWUNMSzh0WURUM3pyc0NnRmZHZGVMMW5uRTFueDdCb2w3eUFRelRFM0RyTkZ0NVgwVjg0Rmx5TUFXM3BtdTF2TnhoZ1dzQWJEdVM0RVh1NDRsdTZnNTlOTTVvWnFrT01PdHNBblR2ZkhUankxRk4zZTJhSUJxMVVsbHQ5blNDMjhkR0FlV19NNkE?oc=5",
+    "source": "Página 7",
+    "published": "2026-08-30T16:28:18+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Sismo de magnitud 4,9 se percibe en tres regiones del norte del país - El Mostrador",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaGdoa2tDX1NjZTg2YndENXloOEZnRm1STHRlYnV6bGJIbUllMF9NeFNGeDduRkhtMThiOEVkcHdCT09UYlFhUzNQRkU4YTBtbXl2OHR0cnRlZFlhZGMyX05GVGhvSUNTQ3dXNV96Yjd2MDJ4X01USFBtTzJ4SWhwMlJGak5BNF82WVFUVHg5cUxVWGlsekFCSl84WkJTRU93aHhhVnNyUno3UlBZRUYxZkt3N1UzRmxtc0tlLQ?oc=5",
     "source": "El Mostrador",
     "published": "2026-08-30T16:27:30+00:00",
     "keywords_matched": [
       "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Sismo sacude parte del Norte Grande: SHOA descarta tsunami en costas chilenas - La Tercera",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR1FKV1JyWnU4ckdSQklZRlFwck1BVkVJbDdqSlBvRS0xUUdZbDUzbEpjYXNtcWg5aC1NaU1YT2hJT08xS0RncGlHdEVlRWhURkFQMWJMd2otV3F5Yms1VTNsR0Yxa09FdDBTNXVDd2xEc1FjLU9BeWlIbUFLNloxUEM5Q1Y5Z3ZCSVRSaFhzSDdfVjlDc2t5ZzM4U0xCSlZnY0RQbEVrdUJiaEU4QVFhd3RXNWRTcHplcnU3ZdIB3gFBVV95cUxPQnZfbDNnOGFXS2w2N2pGOU8tNEd2RElvVjlBZ2tfUGZOQTY4MkhxdnhyS0FUam9FZnZpQzFhaGtVbFZVQng3SjFSeDRQRjUwUUFkME9jdVVwbHJPczhfRk1TdlRsSHc0SENrYmxDMTRjTHl3TkJCcUE1cEhWLUZTTm1TTmZMMmUyOXdlRUY2di0tSldJSnRIdUhhZWQ5Z2l5U3JtQVFiOGRVenVnTWZ3a2VCSnhPUlB3eThUc1p2WmUyYXVpbzBsN3VuU2NBZ1NSeXY2cTJCMDZlT1pQLWc?oc=5",
+    "source": "La Tercera",
+    "published": "2026-08-30T16:24:15+00:00",
+    "keywords_matched": [
+      "sismo",
+      "tsunami"
     ],
     "place": null,
     "lat": null,
@@ -58,6 +120,19 @@
     "place": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "title": "SHOA descarta tsunami en las costas de Chile tras sismo 5.0 en la región de Arica y Parinacota - Meganoticias",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQY3UtczBnSzRKMWFaMUNpc3hoYWdYTjFEcWFjT3FyVnFxRTR0cjJ2QnFXMXpmVWI5a3ZHYmFfaW1FczA5bncxQU1XOThxNjRxaHlTQ2draDh0OWhqc0hPRmp5c0VFZENmWEJlMFVaeGxzd05xRHlkbzdfa1c5d1VuY3UyWml0Q2FsaDBVdVJqRjkycE03b2l3a1dXWEN2R2VFcUZUTVBNNzVsOHd0blg5STVxMmtLblIwNVBzTkNmSWZaY0FfSlZLOFdqQm11cV9O0gHWAUFVX3lxTE03Q1Zzc3VGbU9udWtDWUV6cC1XUHJxMkpzR1FXVVZsaTExc2swdkFobzNRUXN6Qnh4VTYxZzV0ZHhobUFfQmhsenI4RkM3NHY4a2Z6LUNGcEVFMVRfSDlhdjJ6YmRzUG5xcWxjcjE4ZDMxLTZldTVSZWpyZFJYa3hYU1N4bklzZzFRTFZjNHhoOTZiZTdBc21xN1ZQbzhQd2Ria2M3VDR4SW5uUWlXMGZyRUtYdjUyR21rVUtJYXdJVmNtWXhUbGFVTk42dXkwTnBjR1VDR0E?oc=5",
+    "source": "Meganoticias",
+    "published": "2026-08-30T16:17:00+00:00",
+    "keywords_matched": [
+      "sismo",
+      "tsunami"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
   },
   {
     "title": "Temblor en Chile hoy, 30 de agosto: cuál fue el epicentro y magnitud según reporte CSN - El Comercio Perú",
