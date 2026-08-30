@@ -3,16 +3,16 @@
     "id": "us7000tcwp",
     "source": "usgs",
     "time": "2026-08-30T05:19:51.149000+00:00",
-    "updated": "2026-08-30T06:38:55.409000+00:00",
+    "updated": "2026-08-30T20:34:08.278000+00:00",
     "lat": -22.1794,
     "lon": -70.4392,
     "depth_km": 52.115,
     "magnitude": 4.7,
     "mag_type": "mb",
     "place": "26 km WSW of Tocopilla, Chile",
-    "cdi": 2.7,
+    "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -123,7 +123,7 @@
     "id": "us7000tczt",
     "source": "usgs",
     "time": "2026-08-30T16:04:07.774000+00:00",
-    "updated": "2026-08-30T17:06:18.715000+00:00",
+    "updated": "2026-08-30T20:33:00.831000+00:00",
     "lat": -18.2459,
     "lon": -69.6387,
     "depth_km": 102.036,
@@ -132,13 +132,19 @@
     "place": "62 km SSE of Palca, Peru",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -17.98982,
         "lon": -70.24202,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -20.276865,
+        "lon": -70.096465,
+        "intensity": 2,
         "responses": 1
       }
     ],
