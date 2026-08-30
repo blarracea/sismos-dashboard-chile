@@ -13,6 +13,19 @@
     "lon": null
   },
   {
+    "title": "Temblor se registra en la zona norte del país: conoce la magnitud y epicentro del sismo - Meganoticias",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOalRVM3lQZ2xmcXlxZmdsdXRMSnUwVDFRVEdjUVJwSTVDWlEtY2FFM3Zuc2hpQ19URU53YlN6TlZqVktZWGdiVEVTUzJXSjIyWmRlS2VTaUp5TkNoRHlBaGlzM1d2cVRhV0VpZlNvTHZMRWtJR0NiekJYenZPQmI3dl9rbW9LeThCWWZSMkFGRU5kTWtGaVFYZTl0SHItMm5OZC1GQ2ItZzFqRmNhcnZRRzZSRzNnc0xyNkxpdzQtSlVpenZBRnBnd196N1lia0ItbG5R?oc=5",
+    "source": "Meganoticias",
+    "published": "2026-08-30T21:18:00+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Temblor en Chile hoy, 30 de agosto: sismos recientes reportados por el CSN - El Comercio Perú",
     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQcmoxS1R3T21xckY5QkdzRElqa1NQbk9UUlFSN0lhYzRhRXl3RTNzMmJuc252eXhvcWwycGkyaXVFdmJzWkFmWWVRY3lpVW9BbUQzQ1JUVGNBNk0wTm1YNUE1aTJlWGVvNWJXUXpSdEdJNGdfcHZJOW9CdVA1VnEwb2JIOGljNnFGOW45Zk9EYjRVT1UzOTVEcUJMVTdzYzhnNEJsdWZlcHVFekM5VmJVYmtzRjkzQWdqT3A2am81OVBFaWo1a2ZaRjdrNFpfMHJjRWh6R2Q5NnJHU3doaE04d200T0Y5MkU5LXBVS2JjRFMwbDE2OWZNSmZMS2Y4dWtrbVBWWFN3VXRKckVrSjNJU3VMVHNKRXFTeUxZdXpwTnlydEFWdUhGZGdpRjlSMS05M0Q0Z3VXMzl2RC1I?oc=5",
     "source": "El Comercio Perú",
@@ -50,6 +63,18 @@
     "place": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "title": "Tiembla en Chile: sismo de magnitud 4.8 sacude Arica este 30 de agosto - Infobae",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkFPbmZ1Q2h3SGo3a0F5czVkRWpGbG5GLTAzSVBlcm91UnpSWEtZVGI4YVFoUUY5Q1lSdlJjcFctaGJZODVqa09qZ05xZHFmdHZXbHdDd21xaFc4dUpvY20xSUktQTBQeEhaTmU3dTJqU1NsNUZyUWRRV0p1UFVCZlMxZDNMb2NZbDZzc29YN0RBeVFabHBQdS1aeFZ2UmtPY3VXSzBmdWJMZVVuS3hwQm9sWdIBzgFBVV95cUxPNG1BZ3NmTjRuWU1TbWxrd3dFbkF1MEVrVjlrUkZ2bTdwRFVMZEFHbm5sQUxLMUhDSjd4MFN1a241eXVnamRPcG9MaEZjZ1E5TTRzZ1dpa1o0a3YzaXRLbEtZYlNxT2RKRmZNZmZJdVhNLS1qT0xXUTlTZ1lkVjRlRHdzSWdrMWZJdWhzVERyWFllWDlZemEtSG90X0g3bmFiaTA0X1VCVVNiWi1BdHJiNXYxYThrZjdiSXV4ZEFYZGZ1VFRXRUFsZmV2aTdxZw?oc=5",
+    "source": "Infobae",
+    "published": "2026-08-30T17:30:00+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
   },
   {
     "title": "SHOA descarta riesgo de tsunami tras temblor en Arica y Parinacota - Epicentro Chile",
@@ -140,18 +165,6 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Tiembla en Chile: sismo de magnitud 4.8 sacude Arica este 30 de agosto - Infobae",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQkFPbmZ1Q2h3SGo3a0F5czVkRWpGbG5GLTAzSVBlcm91UnpSWEtZVGI4YVFoUUY5Q1lSdlJjcFctaGJZODVqa09qZ05xZHFmdHZXbHdDd21xaFc4dUpvY20xSUktQTBQeEhaTmU3dTJqU1NsNUZyUWRRV0p1UFVCZlMxZDNMb2NZbDZzc29YN0RBeVFabHBQdS1aeFZ2UmtPY3VXSzBmdWJMZVVuS3hwQm9sWdIBzgFBVV95cUxPNG1BZ3NmTjRuWU1TbWxrd3dFbkF1MEVrVjlrUkZ2bTdwRFVMZEFHbm5sQUxLMUhDSjd4MFN1a241eXVnamRPcG9MaEZjZ1E5TTRzZ1dpa1o0a3YzaXRLbEtZYlNxT2RKRmZNZmZJdVhNLS1qT0xXUTlTZ1lkVjRlRHdzSWdrMWZJdWhzVERyWFllWDlZemEtSG90X0g3bmFiaTA0X1VCVVNiWi1BdHJiNXYxYThrZjdiSXV4ZEFYZGZ1VFRXRUFsZmV2aTdxZw?oc=5",
-    "source": "Infobae",
-    "published": "2026-08-30T16:38:14+00:00",
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "arica",
-    "lat": -18.4783,
-    "lon": -70.3126
   },
   {
     "title": "Sismo 5,1 sacude el norte de Chile y activa monitoreo - sabes.cl",
