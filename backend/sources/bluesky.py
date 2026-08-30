@@ -66,6 +66,12 @@ def _login(handle, app_password):
         )
         response.raise_for_status()
         return response.json()["accessJwt"]
+    except requests.HTTPError as exc:
+        # El cuerpo de la respuesta de AT Protocol trae el motivo real (ej.
+        # "Invalid identifier or password") sin exponer la credencial en si.
+        detail = exc.response.text[:300] if exc.response is not None else str(exc)
+        print(f"Aviso: no se pudo iniciar sesion en Bluesky ({detail}).")
+        return None
     except Exception as exc:
         print(f"Aviso: no se pudo iniciar sesion en Bluesky ({exc}).")
         return None
