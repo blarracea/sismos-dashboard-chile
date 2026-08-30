@@ -126,6 +126,20 @@
     "lon": null
   },
   {
+    "title": "Temblor hoy, domingo 30 de agosto en Chile: consulta epicentro y magnitud - La Tercera",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZWlwU2lxeGE4alJ1RmpCNlFWZXRpd0hTUEkybE04cHlMMHM1R0FPZXY0M0tCVlc3T01YRmwweTVqcEJYdkdzVDhodkR5QzNjRHZHUW5YMTFNWmJ0dWlVenlpazM2cmQ3MUlDa1VRUi1Bc0dBTDFQN0N4aExZd0Z3VDZpbUstaDVzdHBtdmtTZHgyTENfZGE1WE1XLVNzeVJPRHpQMmM4YWtLdURtdllBdmdPQzlNV0HSAdgBQVVfeXFMUFl3bU5uU1hkRi10cFBUdkJZb1QydWdfcWR6eEFycWtSOFhEUzVJbmhuTjZ6TGI3M0ZoZENMcWdIc0FjazdxVS1VSURITFdkOUozWFp6R1h1S3h0QzJ1S0V5T1Nock1CaXZENWRObjQ4c21OUlNqVzBvaDNYZ0duYmpPV1NxUzFIbUhkNGlpeGNvSlhyZkJjQURoYVhmRk5rS1g0N2k0TnpOa2ViMXEwMmRKX3FKWFpiZXE1TWlTV054SXJnY0pkYmtaQnNtaGd0eWxOOVM0MmRT?oc=5",
+    "source": "La Tercera",
+    "published": "2026-08-30T16:27:54+00:00",
+    "keywords_matched": [
+      "sismo",
+      "tsunami",
+      "temblor"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
     "title": "Sismo de magnitud 4,9 se percibe en tres regiones del norte del país - El Mostrador",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaGdoa2tDX1NjZTg2YndENXloOEZnRm1STHRlYnV6bGJIbUllMF9NeFNGeDduRkhtMThiOEVkcHdCT09UYlFhUzNQRkU4YTBtbXl2OHR0cnRlZFlhZGMyX05GVGhvSUNTQ3dXNV96Yjd2MDJ4X01USFBtTzJ4SWhwMlJGak5BNF82WVFUVHg5cUxVWGlsekFCSl84WkJTRU93aHhhVnNyUno3UlBZRUYxZkt3N1UzRmxtc0tlLQ?oc=5",
     "source": "El Mostrador",
@@ -274,17 +288,16 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy, domingo 30 de agosto en Chile: consulta epicentro y magnitud - La Tercera",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZWlwU2lxeGE4alJ1RmpCNlFWZXRpd0hTUEkybE04cHlMMHM1R0FPZXY0M0tCVlc3T01YRmwweTVqcEJYdkdzVDhodkR5QzNjRHZHUW5YMTFNWmJ0dWlVenlpazM2cmQ3MUlDa1VRUi1Bc0dBTDFQN0N4aExZd0Z3VDZpbUstaDVzdHBtdmtTZHgyTENfZGE1WE1XLVNzeVJPRHpQMmM4YWtLdURtdllBdmdPQzlNV0HSAdgBQVVfeXFMUFl3bU5uU1hkRi10cFBUdkJZb1QydWdfcWR6eEFycWtSOFhEUzVJbmhuTjZ6TGI3M0ZoZENMcWdIc0FjazdxVS1VSURITFdkOUozWFp6R1h1S3h0QzJ1S0V5T1Nock1CaXZENWRObjQ4c21OUlNqVzBvaDNYZ0duYmpPV1NxUzFIbUhkNGlpeGNvSlhyZkJjQURoYVhmRk5rS1g0N2k0TnpOa2ViMXEwMmRKX3FKWFpiZXE1TWlTV054SXJnY0pkYmtaQnNtaGd0eWxOOVM0MmRT?oc=5",
-    "source": "La Tercera",
-    "published": "2026-08-30T13:26:53+00:00",
+    "title": "Fuerte sismo se sintió esta madrugada en la región de Antofagasta - enlalinea.cl",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWGJCdmFpa0Q2VFBRaGZ4b1V0aFh3VnRVXzBjNVdmeU5PU2NES2RRa0VWNDdSZ0xyd0tIazFVVGo1MEpsMUFqV2tRNmJ0QTRwX3BnYjRoV2RpYXIyWno5UzJvcHNqc1RTZHFVcUhxWEtpYjRITWlJQ09SWHhCV0cyYW1RU292elo1RUYyY3FCUFBqVG9YM0E?oc=5",
+    "source": "enlalinea.cl",
+    "published": "2026-08-30T14:57:38+00:00",
     "keywords_matched": [
-      "sismo",
-      "temblor"
+      "sismo"
     ],
-    "place": null,
-    "lat": null,
-    "lon": null
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
   },
   {
     "title": "Temblor en el norte del país: Conoce la magnitud que alcanzó el movimiento telúrico - Meganoticias",
@@ -1170,43 +1183,6 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObHNOYll5MWRDTVZYT2VHY2xWdHBkUE9SWGZ4NFFjSXBaNndKSEtiTS0tNkxRcmZhMGMzSnJwZ2RkNE82cEZJbmE5dGJWZWpQTzhDenZ5OXlsZV9vWU5oaE96dWRuNEJmZWNySml1MGNTaE1OWXE4ZE5VVkpYcmNSLWNGaGs2cE8wTUdtWW9BS3VPX3RoSF9kckFVUWtVMWxmZHNPLXNVTWk4bzlERFR1djNnV0xsdnJ3cVVXUmdYSWcyb3M?oc=5",
     "source": "Chilevisión",
     "published": "2026-08-27T18:30:24+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en el norte del país: Revisa la magnitud y epicentro - Radio Agricultura",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXFHMnktQUhfb2tPbGlOcl95NGQ3djQtd3VsQWtsM1FFcklJWm91SEE0eVRkVnExc3ZfWGdmUXh4UndFTVZWSzROejB0OU5CM0pURWtCTWp3ZlMwVG1EQ1VBc3hkT010UjNpV3U3VVpFY3I0dHo3RUs2d3IxQ0VNMnFlVnUwbEVrNG1zaG90Zm5aYzhQYmUxMkJuR2x3VS04RHViWXBZdjBTM193MVdaRkNJMHl4NjJ3VWFDSDlB?oc=5",
-    "source": "Radio Agricultura",
-    "published": "2026-08-27T18:03:09+00:00",
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en Chile hoy, jueves 27 de agosto: epicentro y magnitud - Radio Pauta 100.5",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeGM1QzBTUGhoUkFVWkR4U1d5TDdxSkpQMC00Q1ZzV1JMYjJMbXNhMGpZVjFDR2FlTW1pRVdkRml2WjQ4NW52R0NydFVuWmE4TzJpOE5fSldOZEtCRTgwOGhkbks1Qkt2b2FVemFTZEQ1RDZSeWRiaTUyUGs1VnhRNTJSQS1TUGFxbHNFZg?oc=5",
-    "source": "Radio Pauta 100.5",
-    "published": "2026-08-27T18:00:32+00:00",
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor sacude el extremo norte del país: Conoce la magnitud que tuvo el sismo - Meganoticias",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQRjB3bFdKNDhUaFBuemlfYlk2VldGeVJ1OW1jUUlVUDhnMUUtZ3plLWZqUXJTN0IzaHBQRHlwbTlpNkp4VVhNaUwwbEVQRGszVUhpZ250OEpiR1Voc0g0OXMzd09NUGlYaXczMWhJZGNYRWhWWFNwWTNiS19JdFlVR0w1OURwUGE0WlZ2REREMmNBU1U2R1VfV2lPcmFtN0hSdlg5dWJDWkNLaTJLX29IelhqaUFUMnM1LTctSHRaNjQtUdIBxwFBVV95cUxNc3FkbDdrQ2RTekVIcUJFQUFoaGlpWTFTeEVkc0g5cXJhRFZhcDNhQ1J5QWRwdlg4VS12Z2JqcUZWVXpmNWpUNzlzQ1NaQW0xeWktNV8tbzhMTWZoU0cyOHRCaG5XeWVSV210MzJWVXFDNTFaUmozT3JJNzRsMGwzTEtIWmVwRFRVX0xIeFVkcTUwVmJ4N3p6MDB1a2VqelRVM0g1NDZScThIWmRWVDRPek1zOW5IMktWU0hMTV91bnRGNzZicFNj?oc=5",
-    "source": "Meganoticias",
-    "published": "2026-08-27T18:00:00+00:00",
     "keywords_matched": [
       "sismo",
       "temblor"
