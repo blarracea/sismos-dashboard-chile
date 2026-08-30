@@ -1,5 +1,29 @@
 [
   {
+    "title": "Sismo 5.4 se percibe en tres regiones del país: epicentro fue cerca de Tocopilla - BioBioChile",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOc0lpa3I3cjJkRnhyR0c3UWl4endMclBmdGxqYWVCbDNtdmcybDVqVkRqdGdQV3ZiUVpVOFYwUFV2cDdTNXBCZWxrWnA3Yk5zbVh3T05sUzU0SkFFMDktNXBkUEpMMnpuLXd0QVliR0V3enNyZ1FHZlZwZnVfanp0cloyRFptNHh1LUNWVEw5ZjJRVWN5c2tnVHN5Z2w0RldGQS11b1BIVFlsYWFEVzhXV244UWNyYm5QdzM3Z25WaEJ4RUlLZmtIYXNjY1dFNW9yZ0tjWExtNGZKSFBKVnUxSzJ6WnBwR1p5RnRjOFBGQ2NIcWY3enpoX0psMlRjOVk?oc=5",
+    "source": "BioBioChile",
+    "published": "2026-08-30T05:52:00+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "tocopilla",
+    "lat": -22.0925,
+    "lon": -70.1979
+  },
+  {
+    "title": "Se percibe sismo de magnitud 4.1 este sábado 29 de agosto en Socaire - Infobae",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb1loaFp5MnhMNVJhMmoyVm9iWDlveDFZQ0tlOWo1c0V3QUJpUFFrclNmN3EwNzZKTFdyOG1lOEdpVU5IeEdYX2hIbmY4TnJoQVRVVFpBVWliZC1SVmxDN1NveXJfTzJMUllJV1NyanNQU1pHaW5NVzA0Z19BN2RUcGNxREpLT3hVX3NaWWVqalFEUWZsZFhtanlLWkFULWd2WmJxQllZd3VsSWJHUzFESGN30gHMAUFVX3lxTFBSWjc4MGd5TUpnU2JXQUZCQ0pTeXlzMHBQRmFfU3JFWi16U3RjUUtRcFNMNFdmRzNzbkJrMGRPUUhlTGRvZ3Bhd1F0TGJaNWRWckluczBncjdUenJhVTEtcHdMVFF6dVBOMV9XMkR2cmlpaE1felNjekd4bFdfUF9vcS11dnh0dEZ3NGJBOGhwcUNUUk9hNlZPM2VrVFNfT2xhYkZCSXQzZjk0UlB5MjMyb3hJMmVBaUpMSzJMN3FPRDZLYXlWRzZ0ZEVGWA?oc=5",
+    "source": "Infobae",
+    "published": "2026-08-30T05:40:03+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "SHOA descarta probabilidad de tsunami en Chile tras fuerte sismo con epicentro en Tocopilla - Meganoticias",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZzFEcXAwZ3lJcUoxRUNOMTJXc3JWMUlsa2lSbnl5RVVENGFIaWkwazc2VzQ3em9tcjhLbVV4eUJabEVoWXl2OWo0bjNsN2Q4dGdSN0tYRUJwMDNPNmRQTl9EMmR6RnZ6dHpQM1N6NldONkZkbnBrcjNsZkdPZlpIQzdTbnV4ekNiTUJqeWQ5amViYWZ1Q3FVMG5TTll5NmotRlN1TThLRU1TS3N0M3JIeWFabjVFaUZ0QmJHZg?oc=5",
     "source": "Meganoticias",
@@ -65,18 +89,6 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOEc0WkRHaHpTb00wZUVHcld5SkVqbThXbmlKQktJMVNheEJXalI4MHdLdm9TR0dhb0FvcUx2TFZwWE5TRXdmYkoySUJYWjJGUG9yakxBcXN2enBQZjZaSWtFd21HUm85QWo3QWdGMnR3RC1ab3hMSl9ITlVMRy16a2Jqek9LVXVNX3FPcUZVU3Ayb2RGV096QTZTeTRBUDhnSWpXUkQ2U2pVc0JlbkJWTG1IWkpaX2EtYXhMcldPemFHTjA?oc=5",
     "source": "Meganoticias",
     "published": "2026-08-30T05:25:00+00:00",
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Se percibe sismo de magnitud 4.1 este sábado 29 de agosto en Socaire - Infobae",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb1loaFp5MnhMNVJhMmoyVm9iWDlveDFZQ0tlOWo1c0V3QUJpUFFrclNmN3EwNzZKTFdyOG1lOEdpVU5IeEdYX2hIbmY4TnJoQVRVVFpBVWliZC1SVmxDN1NveXJfTzJMUllJV1NyanNQU1pHaW5NVzA0Z19BN2RUcGNxREpLT3hVX3NaWWVqalFEUWZsZFhtanlLWkFULWd2WmJxQllZd3VsSWJHUzFESGN30gHMAUFVX3lxTFBSWjc4MGd5TUpnU2JXQUZCQ0pTeXlzMHBQRmFfU3JFWi16U3RjUUtRcFNMNFdmRzNzbkJrMGRPUUhlTGRvZ3Bhd1F0TGJaNWRWckluczBncjdUenJhVTEtcHdMVFF6dVBOMV9XMkR2cmlpaE1felNjekd4bFdfUF9vcS11dnh0dEZ3NGJBOGhwcUNUUk9hNlZPM2VrVFNfT2xhYkZCSXQzZjk0UlB5MjMyb3hJMmVBaUpMSzJMN3FPRDZLYXlWRzZ0ZEVGWA?oc=5",
-    "source": "Infobae",
-    "published": "2026-08-30T05:21:13+00:00",
     "keywords_matched": [
       "sismo"
     ],
