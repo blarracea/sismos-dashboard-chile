@@ -34,5 +34,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcth",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tcvp",
+    "source": "usgs",
+    "time": "2026-08-29T23:26:17.542000+00:00",
+    "updated": "2026-08-30T02:41:31.040000+00:00",
+    "lat": -22.6579,
+    "lon": -67.5745,
+    "depth_km": 158.92,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "70 km ENE of San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcvp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
