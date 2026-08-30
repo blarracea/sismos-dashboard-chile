@@ -14,10 +14,14 @@ BLUESKY_APP_PASSWORD (secrets de GitHub Actions, ver
 salta sin romper el resto de la recoleccion.
 
 El login se hace contra bsky.social (el PDS por defecto, donde vive la
-mayoria de las cuentas). El token resultante es un JWT valido contra
-cualquier servicio de la red AT Protocol, asi que la busqueda en si se hace
-contra el AppView publico (public.api.bsky.app) con ese token -- es el mismo
-camino que usa bsky.app cuando el usuario esta logueado.
+mayoria de las cuentas). La busqueda en si NO se hace contra el AppView
+publico (public.api.bsky.app) directamente -- ese dominio esta detras de un
+borde/WAF que devuelve 403 para app.bsky.feed.searchPosts incluso con un
+token valido (se probo). En cambio se consulta contra el propio PDS
+(bsky.social) con el header atproto-proxy, que es el mecanismo estandar de
+AT Protocol para que el PDS reenvie internamente la consulta al AppView real
+-- ese camino interno no pasa por el borde publico que bloquea la busqueda
+directa.
 """
 import os
 from datetime import datetime, timezone
@@ -28,7 +32,10 @@ import comuna_coords
 import keywords
 
 LOGIN_URL = "https://bsky.social/xrpc/com.atproto.server.createSession"
-SEARCH_URL = "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts"
+SEARCH_URL = "https://bsky.social/xrpc/app.bsky.feed.searchPosts"
+# Le dice al PDS que reenvie esta lexica (que el no implementa) al AppView
+# oficial de Bluesky -- mecanismo estandar de AT Protocol para "service proxying".
+APPVIEW_PROXY = "did:web:api.bsky.app#bsky_appview"
 REQUEST_TIMEOUT = 20
 POSTS_PER_KEYWORD = 25
 
@@ -49,6 +56,10 @@ def fetch_bluesky_mentions():
     for keyword in keywords.KEYWORDS:
         try:
             posts = _search_posts(keyword, access_jwt)
+        except requests.HTTPError as exc:
+            detail = exc.response.text[:300] if exc.response is not None else str(exc)
+            print(f"Aviso: no se pudo consultar Bluesky para '{keyword}' ({detail}).")
+            continue
         except Exception as exc:
             print(f"Aviso: no se pudo consultar Bluesky para '{keyword}' ({exc}).")
             continue
@@ -79,7 +90,7 @@ def _login(handle, app_password):
 
 def _search_posts(keyword, access_jwt):
     params = {"q": keyword, "lang": "es", "sort": "latest", "limit": POSTS_PER_KEYWORD}
-    headers = {"Authorization": f"Bearer {access_jwt}"}
+    headers = {"Authorization": f"Bearer {access_jwt}", "atproto-proxy": APPVIEW_PROXY}
     response = requests.get(SEARCH_URL, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
     data = response.json()
