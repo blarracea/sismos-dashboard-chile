@@ -118,5 +118,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwp",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tczt",
+    "source": "usgs",
+    "time": "2026-08-30T16:04:07.774000+00:00",
+    "updated": "2026-08-30T16:23:35.040000+00:00",
+    "lat": -18.2459,
+    "lon": -69.6387,
+    "depth_km": 102.036,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "62 km SSE of Palca, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tczt",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
