@@ -24,14 +24,17 @@ Territorio Chileno Antartico). Para la intensidad Mercalli percibida:
 
 Ademas, guarda menciones recientes de sismos en medios chilenos (RSS via
 Google News, ver sources/social.py) en data/social_mentions.json -- un
-proxy de "donde se habla del sismo", no intensidad Mercalli verificada.
+proxy de "donde se habla del sismo", no intensidad Mercalli verificada. Y
+guarda posts publicos de Bluesky con las palabras clave del proyecto (ver
+sources/bluesky.py) en data/bluesky_mentions.json, para el panel "Bluesky en
+vivo" del dashboard.
 """
 from datetime import datetime, timedelta, timezone
 
 import comuna_coords
 import keywords
 import storage
-from sources import csn, social, usgs
+from sources import bluesky, csn, social, usgs
 
 CSN_MATCH_MAX_SECONDS = 180
 CSN_MATCH_MAX_DEGREES = 0.5
@@ -293,6 +296,17 @@ def collect_social_mentions():
     print(f"Menciones en medios: {len(mentions)} nuevas encontradas.")
 
 
+def collect_bluesky_mentions():
+    """Guarda posts publicos de Bluesky con las palabras clave (ver sources/bluesky.py)."""
+    try:
+        mentions = bluesky.fetch_bluesky_mentions()
+    except Exception as exc:
+        print(f"Aviso: no se pudo consultar Bluesky ({exc}).")
+        return
+    storage.save_bluesky_mentions(mentions)
+    print(f"Bluesky: {len(mentions)} posts nuevos encontrados.")
+
+
 def preserve_existing_csn_data(events):
     """
     El CSN solo expone sus ~15 sismos mas recientes -- un evento que tuvo
@@ -339,6 +353,7 @@ def main():
     storage.purge_old(RETENTION_DAYS)
     storage.update_index()
     collect_social_mentions()
+    collect_bluesky_mentions()
 
     print(f"Procesados {len(events)} eventos ({start.date()} a {now.date()}).")
 

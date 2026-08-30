@@ -48,3 +48,10 @@ SismosApp.loadSocialMentions = async function () {
   if (!response.ok) return [];
   return response.json();
 };
+
+/* Posts de Bluesky con las palabras clave del proyecto -- ver js/bluesky-layer.js. */
+SismosApp.loadBlueskyMentions = async function () {
+  const response = await fetch("data/bluesky_mentions.json", { cache: "no-store" });
+  if (!response.ok) return [];
+  return response.json();
+};

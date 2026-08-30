@@ -53,7 +53,7 @@ body {
 
 .bottom-row {
   display: grid;
-  grid-template-columns: 1fr 340px;
+  grid-template-columns: 1fr 300px 300px;
   height: 50%;
   border-top: 1px solid var(--color-border);
 }
@@ -69,11 +69,15 @@ body {
   min-height: 0;
 }
 
+.bluesky-feed.panel,
 .social-feed.panel {
   border-radius: 0;
   border-top: none;
-  border-right: none;
   border-bottom: none;
+}
+
+.social-feed.panel {
+  border-right: none;
 }
 
 .panel h2 {
@@ -179,6 +183,74 @@ body {
 .social-card-place {
   color: #8e44ad;
   font-weight: 600;
+}
+
+/* --- Bluesky en vivo --- */
+.bluesky-feed-title {
+  text-align: center;
+}
+
+.bluesky-feed-empty {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.bluesky-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.bluesky-card {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  background: #eaf4ff;
+  border: 1px solid #cfe6fd;
+}
+
+.bluesky-card-link:hover .bluesky-card {
+  background: #dcecff;
+}
+
+.bluesky-card-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  background: #cfe6fd;
+  object-fit: cover;
+}
+
+.bluesky-card-body {
+  min-width: 0;
+}
+
+.bluesky-card-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: baseline;
+  font-size: 0.72rem;
+}
+
+.bluesky-card-name {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.bluesky-card-handle,
+.bluesky-card-time {
+  color: var(--color-text-muted);
+}
+
+.bluesky-card-text {
+  margin: 0.2rem 0 0;
+  font-size: 0.82rem;
+  color: var(--color-text);
+  overflow-wrap: break-word;
 }
 
 .layer-toggle {

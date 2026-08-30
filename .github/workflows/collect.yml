@@ -36,6 +36,9 @@ jobs:
         run: python -m playwright install --with-deps chromium
 
       - name: Recolectar sismos
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
         run: python backend/collect.py
 
       - name: Commit y push si hay cambios

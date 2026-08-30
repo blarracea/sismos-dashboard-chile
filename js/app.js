@@ -6,6 +6,7 @@
   const heatToggle = document.getElementById("toggle-heatmap");
   const socialToggle = document.getElementById("toggle-social");
   const socialFeedBody = document.getElementById("social-feed-body");
+  const blueskyFeedBody = document.getElementById("bluesky-feed-body");
   const dayPicker = document.getElementById("day-picker");
   const dayTableBody = document.getElementById("day-table-body");
 
@@ -143,6 +144,14 @@
       map.removeLayer(socialLayer);
     }
   });
+
+  // --- Bluesky en vivo (posts publicos con las palabras clave del proyecto) ---
+  try {
+    const blueskyMentions = await SismosApp.loadBlueskyMentions();
+    SismosApp.renderBlueskyFeed(blueskyMentions, blueskyFeedBody);
+  } catch (err) {
+    blueskyFeedBody.innerHTML = '<p class="bluesky-feed-empty">No se pudieron cargar los posts.</p>';
+  }
 
   // --- Tabla "Sismos por dia" ---
   const renderDayTable = async (dateStr) => {
