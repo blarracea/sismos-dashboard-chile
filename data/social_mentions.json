@@ -36,6 +36,19 @@
     "lon": null
   },
   {
+    "title": "Temblor en Chile hoy 30 de agosto: Epicentro del sismo según CSN - RPP Noticias",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWHpvY2NKQWNqc2FaU0pkdHRrQllUNjNaaWRIOEc4b3ZDcEkyck1ZdHB1UVZpdmtEbzVDVlpSRE0yUVhEdFJvX09hZmlPZ0V5NUFzVUlMdDd6NF9JVVhQTlluSHRucmMyWXJUd3gwOGpJdFJaSVhpNS0xa0JLQ2NrQ1R0aVgyUm9WVkRtN0dONnJ3MjJBVWlHaVdBRGtRLTdHVWc?oc=5",
+    "source": "RPP Noticias",
+    "published": "2026-08-30T07:09:45+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Sismo 5.4 se percibe en tres regiones del país: epicentro fue cerca de Tocopilla - BioBioChile",
     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOc0lpa3I3cjJkRnhyR0c3UWl4endMclBmdGxqYWVCbDNtdmcybDVqVkRqdGdQV3ZiUVpVOFYwUFV2cDdTNXBCZWxrWnA3Yk5zbVh3T05sUzU0SkFFMDktNXBkUEpMMnpuLXd0QVliR0V3enNyZ1FHZlZwZnVfanp0cloyRFptNHh1LUNWVEw5ZjJRVWN5c2tnVHN5Z2w0RldGQS11b1BIVFlsYWFEVzhXV244UWNyYm5QdzM3Z25WaEJ4RUlLZmtIYXNjY1dFNW9yZ0tjWExtNGZKSFBKVnUxSzJ6WnBwR1p5RnRjOFBGQ2NIcWY3enpoX0psMlRjOVk?oc=5",
     "source": "BioBioChile",
@@ -127,19 +140,6 @@
     "published": "2026-08-30T05:25:00+00:00",
     "keywords_matched": [
       "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en Chile hoy 29 de agosto: Epicentro del sismo según CSN - RPP Noticias",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWHpvY2NKQWNqc2FaU0pkdHRrQllUNjNaaWRIOEc4b3ZDcEkyck1ZdHB1UVZpdmtEbzVDVlpSRE0yUVhEdFJvX09hZmlPZ0V5NUFzVUlMdDd6NF9JVVhQTlluSHRucmMyWXJUd3gwOGpJdFJaSVhpNS0xa0JLQ2NrQ1R0aVgyUm9WVkRtN0dONnJ3MjJBVWlHaVdBRGtRLTdHVWc?oc=5",
-    "source": "RPP Noticias",
-    "published": "2026-08-30T04:09:45+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
     ],
     "place": null,
     "lat": null,
@@ -903,17 +903,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Terremoto leve mag. 3.8 - 33 km al este de Talca, Talca, Maule, Chile, Wednesday 26 Aug 2026 a las 19:23 (Hora Santiago) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxON3ppODBaS2h6b25PR0JJQUxWNEZfN056czBKbU5GQ1NlNHJUOEIyZWxOME1iQkRGQUZXeDdqMTFJRGc3SERTY2xVUXpJZlg4QXBTdkJvSHRMYzNOazNGRU5pRTY4NVdwQ05IRWNZcjJ4c21lZmFMY3NLUS1mZFRsV2s3TWlERnlBVVJMSmFObWI4bmxmXzN1OFJINFFJSTZIXzBFMU16Zw?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-08-27T10:14:00+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": "santiago",
-    "lat": -33.4489,
-    "lon": -70.6693
   }
 ]
