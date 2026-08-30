@@ -1,0 +1,122 @@
+[
+  {
+    "id": "us7000tcwp",
+    "source": "usgs",
+    "time": "2026-08-30T05:19:51.149000+00:00",
+    "updated": "2026-08-30T05:44:55.593000+00:00",
+    "lat": -22.1794,
+    "lon": -70.4392,
+    "depth_km": 52.115,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "26 km WSW of Tocopilla, Chile",
+    "cdi": 2.7,
+    "mmi": null,
+    "felt_reports": 2,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -19.1401644,
+        "lon": -70.1592132,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Cuya",
+        "region": "Arica y Parinacota"
+      },
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapaca"
+      },
+      {
+        "lat": -40.5743116,
+        "lon": -73.1727402,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "El Loa",
+        "region": "Tarapaca"
+      },
+      {
+        "lat": -20.2716,
+        "lon": -70.1,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto Hospicio",
+        "region": "Tarapaca"
+      },
+      {
+        "lat": -20.3359256,
+        "lon": -69.6564201,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Tirana",
+        "region": "Tarapaca"
+      },
+      {
+        "lat": -20.2597061,
+        "lon": -69.7861372,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Pozo Almonte",
+        "region": "Tarapaca"
+      },
+      {
+        "lat": -22.4667,
+        "lon": -68.9333,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Calama",
+        "region": "Antofagasta"
+      },
+      {
+        "lat": -23.1002342,
+        "lon": -70.4483076,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Mejillones",
+        "region": "Antofagasta"
+      },
+      {
+        "lat": -22.0925,
+        "lon": -70.1979,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Tocopilla",
+        "region": "Antofagasta"
+      },
+      {
+        "lat": -23.6509,
+        "lon": -70.3975,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Antofagasta",
+        "region": "Antofagasta"
+      },
+      {
+        "lat": -22.8916766,
+        "lon": -69.3200101,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Sierra Gorda",
+        "region": "Antofagasta"
+      },
+      {
+        "lat": -22.3451485,
+        "lon": -69.6618035,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "María Elena",
+        "region": "Antofagasta"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-las-regiones-de-tarapaca-y-antofagasta-2026-08-30-01-24-23",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/08/381084.html",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwp",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
