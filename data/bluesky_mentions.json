@@ -1,5 +1,65 @@
 [
   {
+    "link": "https://bsky.app/profile/central-america.bsky.social/post/3mudkchxxq32w",
+    "text": "#CentralAmerica #sismo M3.4 | Offshore Guatemala | hace 20m | 30 Aug 2026 17:10 (Central Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Guatemala",
+    "author_handle": "central-america.bsky.social",
+    "author_name": "Central America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:faycpqfjlvewj6ltmo4xck2n/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T23:30:06+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudkcfxwcz2u",
+    "text": "#SouthAmerica #sismo M3.4 | Offshore Guatemala | hace 20m | 30 Aug 2026 23:10 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Guatemala",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T23:30:04+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/peru.sismos.live/post/3mudk5nuznx2w",
+    "text": "#Peru #Ecuador #sismo M3.5 | Central Peru | hace 6m | 30 Aug 2026 20:21 (Brasilia Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú #Pasco",
+    "author_handle": "peru.sismos.live",
+    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T23:27:24+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudk5lj7mg2j",
+    "text": "#SouthAmerica #sismo M3.5 | Central Peru | hace 6m | 30 Aug 2026 23:21 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú #Pasco",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T23:27:22+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudhhqkhnq2j",
     "text": "#Chile #sismo M2.6 | Atacama, Chile | hace 24m | 30 Aug 2026 19:15 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
     "author_handle": "chile-sismos.bsky.social",

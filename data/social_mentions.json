@@ -1,5 +1,18 @@
 [
   {
+    "title": "Temblor en Chile HOY | Magnitud, epicentro y profundidad del fuerte sismo este domingo 30 de agosto - redmas.com.co",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZ1NiU3BINlM0Yl96UlluZ2pkbTA2WmZqLUZwWl9tS0d5aEc0U3c1Vy1XSVpTTHFtWDJVWHdHWDRfVnlqOGhwaDZEN09uZW9DaHdoOVFNb0J0TnIxaF9oNEc5dEpOMVVzQzJwSFBGaEltVFZvMlgxVXVlaGJ0QkhqcEJaVEhWUWVybHpXUERpbHVrNVd3UHo5QXJoX1k5ME1jNnNLUHRTcVpUQk42TlIwb0pZU0J1Wl9POHpGMXlWQkNYcW11UkpfRzFBZ3lXU1RnWGdtVVdyTFY1Ul85?oc=5",
+    "source": "redmas.com.co",
+    "published": "2026-08-30T23:03:43+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Temblor en Chile hoy, 30 de agosto: sismos recientes reportados por el CSN - El Comercio Perú",
     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQcmoxS1R3T21xckY5QkdzRElqa1NQbk9UUlFSN0lhYzRhRXl3RTNzMmJuc252eXhvcWwycGkyaXVFdmJzWkFmWWVRY3lpVW9BbUQzQ1JUVGNBNk0wTm1YNUE1aTJlWGVvNWJXUXpSdEdJNGdfcHZJOW9CdVA1VnEwb2JIOGljNnFGOW45Zk9EYjRVT1UzOTVEcUJMVTdzYzhnNEJsdWZlcHVFekM5VmJVYmtzRjkzQWdqT3A2am81OVBFaWo1a2ZaRjdrNFpfMHJjRWh6R2Q5NnJHU3doaE04d200T0Y5MkU5LXBVS2JjRFMwbDE2OWZNSmZMS2Y4dWtrbVBWWFN3VXRKckVrSjNJU3VMVHNKRXFTeUxZdXpwTnlydEFWdUhGZGdpRjlSMS05M0Q0Z3VXMzl2RC1I?oc=5",
     "source": "El Comercio Perú",
@@ -124,19 +137,6 @@
     "place": "arica",
     "lat": -18.4783,
     "lon": -70.3126
-  },
-  {
-    "title": "Temblor en Chile HOY | Magnitud, epicentro y profundidad del fuerte sismo este domingo 30 de agosto - redmas.com.co",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZ1NiU3BINlM0Yl96UlluZ2pkbTA2WmZqLUZwWl9tS0d5aEc0U3c1Vy1XSVpTTHFtWDJVWHdHWDRfVnlqOGhwaDZEN09uZW9DaHdoOVFNb0J0TnIxaF9oNEc5dEpOMVVzQzJwSFBGaEltVFZvMlgxVXVlaGJ0QkhqcEJaVEhWUWVybHpXUERpbHVrNVd3UHo5QXJoX1k5ME1jNnNLUHRTcVpUQk42TlIwb0pZU0J1Wl9POHpGMXlWQkNYcW11UkpfRzFBZ3lXU1RnWGdtVVdyTFY1Ul85?oc=5",
-    "source": "redmas.com.co",
-    "published": "2026-08-30T16:55:01+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   },
   {
     "title": "Temblor se registra en la zona norte de Chile hoy: revisa acá la magnitud y el epicentro del sismo - ADN Radio",
@@ -1206,17 +1206,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Universidad de Chile conmemora terremoto de 1906 con conversatorio en Valparaíso - Universidad de Chile",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ2x5SHNqRkFtNlhpaWxrUUZSdjRqeTJOZllqcU9keXdDV2tYU090ZG9KbWZyRTg3clhRTml5eDdrQ3VmNHhrM0J6NlAta3VhdzZxbUpRMUNWSDNOZFg2RGJJRDVDUnU1S2d5bjVZbDZieHBKSGk0N0pNT1FjYWJlTkw3SmRlVVhxb0YtbU5ROFR5ZkowWWc5STc5cm94bk00S296eDV6cDQ?oc=5",
-    "source": "Universidad de Chile",
-    "published": "2026-08-27T23:33:31+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": "valparaiso",
-    "lat": -33.0472,
-    "lon": -71.6127
   }
 ]
