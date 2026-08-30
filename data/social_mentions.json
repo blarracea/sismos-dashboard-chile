@@ -39,6 +39,30 @@
     "lon": null
   },
   {
+    "title": "Sismo débil mag. 2.8 - Calingasta, San Juan, Argentina, Sunday 30 Aug 2026 a las 01:43 (GMT -3) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYlU5a2tyU2RLR2FjYWJ6R0s1WFhMdTZoU2hxNzYzdlB6dlBuUm1uRXplNk83Z1VUVmJuNmJDTUJrZk5kLXNpQzY0Q0tEbkl1c0RSaEJaekVwMFVyWVZudUJydzZPOG9zMnhBY1l5QWlSOUltX2szWWF2a25KeWdBTjBFWWVBblFGWERqX0l1LVNjWDBwcDRTVDBMMGxlbmp5OGlYeHBZSUx1WmtWWllvWQ?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-08-30T19:55:00+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Terremoto moderado mag. 4.7 - Parinacota, 74 km al este de Arica, Arica, Arica y Parinacota, Chile, Sunday 30 Aug 2026 a las 12:04 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHhVcTljcG5TX2lIU3lfdkNTMWNFYlMwVmtSZzQ3am1qZHZfeFE3eWF6ZzRELWpNZnNQbnYwV1kzaDN0THcwQXJiSFFhUDJ3WkVxdm5EQzQ3YVNMbG1INnA4U0hVYzdIUWVIVHZJZjVsckhob3JKYkNRZGxKVXRqQ19keElCdWNjRExCMmNlUHVnUmV6c1pzWHBQdjNiQUxnMHJjR0NPU3o1cHM?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-08-30T19:21:00+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
     "title": "Temblor en Chile hoy 30 de agosto: Epicentro del sismo según CSN - RPP Noticias",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWHpvY2NKQWNqc2FaU0pkdHRrQllUNjNaaWRIOEc4b3ZDcEkyck1ZdHB1UVZpdmtEbzVDVlpSRE0yUVhEdFJvX09hZmlPZ0V5NUFzVUlMdDd6NF9JVVhQTlluSHRucmMyWXJUd3gwOGpJdFJaSVhpNS0xa0JLQ2NrQ1R0aVgyUm9WVkRtN0dONnJ3MjJBVWlHaVdBRGtRLTdHVWc?oc=5",
     "source": "RPP Noticias",
@@ -560,6 +584,18 @@
     "place": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "title": "Terremoto leve mag. 3.5 - 82 km al norte de Calama, El Loa, Antofagasta, Chile, Saturday 29 Aug 2026 a las 22:39 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkJrMmc1WW9TOEEzejdHOXM1bTJjZHJYTEtUcGxTbzVxT2xPa3Z5Q203VENsMU1LdWFnZ2tROUM2ZGNReko1NGV5VENDbENqY0w1RTcyZjhOS1RaZW5ZbjhCeFZ1bklha2VfMHN1ZExGc1V1UjJleXNZWUxjb2k4MlN1bk54Z21VNzE0N2JQekZiTlJreGpLeE1LeVgyWklHcEEtYUdkdTJVMFpVVldz?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-08-30T03:14:08+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
   },
   {
     "title": "Sismo se percibió en el norte de Chile: Conoce la magnitud y epicentro del temblor - Meganoticias",
