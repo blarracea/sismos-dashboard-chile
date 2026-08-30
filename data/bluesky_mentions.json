@@ -1,1 +1,964 @@
-[]
+[
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3muddvvtsy42p",
+    "text": "#Chile #sismo M2.7 | Tarapaca, Chile | hace 28m | 30 Aug 2026 18:08 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T21:35:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/malpensada.bsky.social/post/3muddly2hlk2l",
+    "text": "Contratan a una gomela que lleva maestros de obra, tipo Don Chinche, para “renovar” una construcción de Salmona; en el próximo temblor, aléjense.",
+    "author_handle": "malpensada.bsky.social",
+    "author_name": "🇨🇴Malpensada🎶",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vaas7jmou73uril64d5sdk6k/bafkreie3qqc6v7wg6zx3lhkbra5vnl75vav25hrlqk7u6khzxzdqbvyv3m",
+    "published": "2026-08-30T21:30:09.980000+00:00",
+    "like_count": 2,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/peru.sismos.live/post/3muddiss76z2i",
+    "text": "#Peru #Ecuador #sismo M2.6 | Peru: 82 km Al S De Ilo | hace 25m | 30 Aug 2026 17:03 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Perú",
+    "author_handle": "peru.sismos.live",
+    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T21:28:22+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudcmtqzwz2v",
+    "text": "#Chile #sismo M3.4 | Offshore Antofagasta, Chile | hace 9m | 30 Aug 2026 18:04 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T21:12:44+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudcmrxtzi2j",
+    "text": "#SouthAmerica #sismo M3.4 | Offshore Antofagasta, Chile | hace 9m | 30 Aug 2026 21:04 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T21:12:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
+    "link": "https://bsky.app/profile/central-america.bsky.social/post/3mud72fcf332e",
+    "text": "#CentralAmerica #sismo M3.5 | Near Coast OF Nicaragua | hace 9m | 30 Aug 2026 13:59 (Central Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Nicaragua #Departamento_de_Carazo",
+    "author_handle": "central-america.bsky.social",
+    "author_name": "Central America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:faycpqfjlvewj6ltmo4xck2n/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T20:08:43+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mud72dg2zg2p",
+    "text": "#SouthAmerica #sismo M3.5 | Near Coast OF Nicaragua | hace 9m | 30 Aug 2026 19:59 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Nicaragua #Departamento_de_Carazo",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T20:08:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/ricardogutierrez.bsky.social/post/3mud6egxayc2g",
+    "text": "🇨🇴🇧🇬 Comprar también reconstruye. En mi columna de hoy en La Patria escribo de por qué el consumo local es clave para la reactivación de Manizales y Caldas tras el terremoto del 10 de agosto.\n🔗 www.lapatria.com/opinion/colu...",
+    "author_handle": "ricardogutierrez.bsky.social",
+    "author_name": "Ricardo Gutiérrez Zapata",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:szrzxvpdk44vg7ivw7pu6nx5/bafkreie5vful2njjsf2xjo2vzizlxfzxx64vwosubanuu2s3fsxgholvae",
+    "published": "2026-08-30T19:56:28.449000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/mexico.earthquakes.live/post/3mud6cunsp426",
+    "text": "#Mexico #sismo M4.0 | Near Coast of Oaxaca, Mexico | hace 19m | 30 Aug 2026 13:36 (Central Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#moderate #M2+ #M3+ #M4+ #México",
+    "author_handle": "mexico.earthquakes.live",
+    "author_name": "Mexico Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ptglpt63xz55darqzv56hln5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T19:55:34+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/central-america.bsky.social/post/3mud6cskrh52i",
+    "text": "#CentralAmerica #sismo M4.0 | Near Coast of Oaxaca, Mexico | hace 19m | 30 Aug 2026 13:36 (Central Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#moderate #M2+ #M3+ #M4+ #México",
+    "author_handle": "central-america.bsky.social",
+    "author_name": "Central America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:faycpqfjlvewj6ltmo4xck2n/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T19:55:32+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mud4wvnthc2v",
+    "text": "#SismoResistentes barequeo.com/sismo-resist... \"Con la guadua también se van los cartones con los que la casa estaba resanada, algunas cabezas de santos y muchas, muchas tablas. Mientras la fila avanza, las familias no saben si agradecer nuestra labor o llorar\": Miguel Ángel Osorio Aguirre.",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-08-30T19:31:00.378000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mud4o6he522v",
+    "text": "#SismoResistentes \"Llegan nuevas postales como réplicas del recuerdo. El colapso del ahora desnuda las heridas sepultadas del ayer. El movimiento telúrico del dolor indica que es imposible escapar de donde se ha pertenecido\": Juan Ramírez Jaramillo. barequeo.com/sismo-resist...",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-08-30T19:26:07.612000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/bourbonbite.bsky.social/post/3mud2eycnqc2u",
+    "text": "un espectáculo que a cualquier humano le habría puesto los pelos de punta, pero él solo mantuvo la mirada fija en ella, aguantando el apretón sin pestañear hasta que el temblor cedió.\nCuando ella finalmente soltó su mano y  soltó su sarcasmo habitual, el vampiro soltó una +",
+    "author_handle": "bourbonbite.bsky.social",
+    "author_name": "DAMON",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:a6zvzdtuzgtilijkg4dtfyle/bafkreibsaygikv4zksry44nbfm5mamyofx57efnt5mtuagczlvon5c7bum",
+    "published": "2026-08-30T18:45:11.510000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/central-america.bsky.social/post/3mud2czody223",
+    "text": "#CentralAmerica #sismo M3.0 | Offshore Guatemala | hace 5m | 30 Aug 2026 12:39 (Central Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Guatemala",
+    "author_handle": "central-america.bsky.social",
+    "author_name": "Central America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:faycpqfjlvewj6ltmo4xck2n/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T18:44:04+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mud2cxjhhy2j",
+    "text": "#SouthAmerica #sismo M3.0 | Offshore Guatemala | hace 5m | 30 Aug 2026 18:39 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Guatemala",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T18:44:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mud2b6qzf32e",
+    "text": "El detenido Nicolás Maduro, encarcelado en Nueva York desde enero de 2026, sigue sin ejercer cargo alguno en Venezuela, mientras Delcy Rodríguez se mantiene como presidenta interina en medio de una crisis humanitaria agravada por un reciente doble terremoto. La administración Trump...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-08-30T18:43:02.999027+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mud27uhxjt2e",
+    "text": "Una delegación de alto nivel de Estados Unidos, liderada por Chris Wright, podría viajar a Venezuela para discutir el acuerdo petrolero con la presidenta interina Delcy Rodríguez. El viaje ocurre en un contexto de crisis humanitaria y política en Venezuela, tras el terremoto del 24...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-08-30T18:42:16.940387+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mucz42ruuz2h",
+    "text": "Una delegación de alto nivel de Estados Unidos, liderada por Chris Wright, podría viajar a Venezuela para discutir el acuerdo petrolero con la presidenta interina Delcy Rodríguez. El viaje ocurre en un contexto de crisis humanitaria y política en Venezuela, tras el terremoto del 24...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-08-30T18:22:17.545331+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/colombia.sismos.live/post/3mucyirypnl2u",
+    "text": "#Colombia #sismo M3.6 | Northern Colombia | hace 7m | 30 Aug 2026 12:04 (Central Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Colombia #Departamento_de_Santander",
+    "author_handle": "colombia.sismos.live",
+    "author_name": "Colombia Quake Alert - Sismos en Colombia",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mtoepwnxylcuk6ka3d4enu4d/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T18:11:30+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/central-america.bsky.social/post/3mucyipfu5z2i",
+    "text": "#CentralAmerica #sismo M3.6 | Northern Colombia | hace 7m | 30 Aug 2026 12:04 (Central Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Colombia #Departamento_de_Santander",
+    "author_handle": "central-america.bsky.social",
+    "author_name": "Central America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:faycpqfjlvewj6ltmo4xck2n/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T18:11:28+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mucyinlbt32u",
+    "text": "#SouthAmerica #sismo M3.6 | Northern Colombia | hace 7m | 30 Aug 2026 18:04 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Colombia #Departamento_de_Santander",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T18:11:26+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/m-e-a-d-o.bsky.social/post/3mucyhh5huc25",
+    "text": "Como se puede leer, los colectivos ecologistas hemos conseguido que no se instale esa planta fotovoltaica que quería montar el ministerio de destrucción ecológica para sustituir la central de gas\n\nAhora, la central de gas podrá seguir funcionando, porque no afecta a las águilas\n\nOtra victoria más ✊🏻",
+    "author_handle": "m-e-a-d-o.bsky.social",
+    "author_name": "Movimiento Ecologista Anticapitalista por Decrecimiento Ordenado",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:crhtx74q3pij53yf7nt6js6x/bafkreicgmethi2jutn4uzjvt6avximeijunaehnhw2jggmrzfctffdklbu",
+    "published": "2026-08-30T18:10:46.877000+00:00",
+    "like_count": 4,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/estrelladigital.bsky.social/post/3mucy6reljk27",
+    "text": "#Opinión ✍️ David Rosenthal. Cada 31 de agosto, Bogotá recuerda la leyenda de Margallo. En esa misma fecha de 1917 ocurrió el terremoto que más daños ha causado en la ciudad. Es una historia sobre montañas, memoria y miedos que atraviesan generaciones.\nwww.estrelladigital.es/opinion/davi...",
+    "author_handle": "estrelladigital.bsky.social",
+    "author_name": "Estrella Digital",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:w2gntyapumy3a77qfk6kixw6/bafkreicyma4jduaioio7fwymtrod7wv323hgizthrepdiagdu2fz34ybui",
+    "published": "2026-08-30T18:05:55.606000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mucxgesrwj27",
+    "text": "El presidente Trump anunció que las reservas estratégicas de EE.UU. se repondrán con petróleo venezolano, un \"regalo\" que llega en medio de la grave crisis humanitaria y el reciente doble terremoto que afecta a Venezuela. Este movimiento económico ocurre mientras el ex presidente N...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-08-30T17:52:10.412614+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/peru.sismos.live/post/3mucx7k673w2v",
+    "text": "#Peru #Ecuador #sismo M3.4 | Central Peru | hace 6m | 30 Aug 2026 14:42 (Brasilia Standard Time)\n¿Lo sentiste? ¡Envía un informe!\nAftershock of M5.3 quake 3 weeks earlier\n#weak #M2+ #M3+ #Perú #Junin",
+    "author_handle": "peru.sismos.live",
+    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T17:48:26+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mucx7hrvdo25",
+    "text": "#SouthAmerica #sismo M3.4 | Central Peru | hace 6m | 30 Aug 2026 17:42 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\nAftershock of M5.3 quake 3 weeks earlier\n#weak #M2+ #M3+ #Perú #Junin",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T17:48:24+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mucwgrkr7l23",
+    "text": "La noticia deportiva sobre el Real Madrid omite el contexto político venezolano actual. Ante la reciente devastación causada por el doble terremoto del 24 de junio, el enfoque debería estar en la reconstrucción y la ayuda humanitaria, no en resultados de fútbol.",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-08-30T17:34:36.061867+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/reienart.bsky.social/post/3mucvbi22xk23",
+    "text": "Destrucción masiva en formato comprimido, alli voy xd.",
+    "author_handle": "reienart.bsky.social",
+    "author_name": "Reien art",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ow5xaawlfo4a55r4vqjdszm7/bafkreihugywpqror26ch2sf4lt7vx4dxtfzrgxzruk2zqr2qxxwxkuszia",
+    "published": "2026-08-30T17:13:45.263000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mucuk3fodr2z",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Ceuta 🆕\n2. #sismo 🆕\n3. Potosí 🆕\n4. Bolivia 🆕\n5. Aug 🆕\n6. #weak 🆕\n7. #M2 🆕\n8. #M3 🆕\n9. #Departamento_de_Potosi 🆕\n10. Precio 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-08-30T17:00:39.946000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mucua4mt4l2v",
+    "text": "#Chile #sismo M3.2 | Potosí, Bolivia | hace 6m | 30 Aug 2026 13:49 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Bolivia #Departamento_de_Potosi",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T16:55:04+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mucua2pzff2d",
+    "text": "#SouthAmerica #sismo M3.2 | Potosí, Bolivia | hace 6m | 30 Aug 2026 16:49 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Bolivia #Departamento_de_Potosi",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-30T16:55:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/verbenalimon.bsky.social/post/3muctjd4aek2m",
+    "text": "Sismo de magnitud 4,9 se percibe en tres regiones del norte del país\nwww.elmostrador.cl/noticias/pai...",
+    "author_handle": "verbenalimon.bsky.social",
+    "author_name": "Lucia",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lvcco4trx6bg6ryne7zg3qob/bafkreiclmqe7jyjsdqj3exnl2tqkpydh3hcymbxtk5hnws7tn4yfx7our4",
+    "published": "2026-08-30T16:42:21.042000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/mercedesbs.bsky.social/post/3mucsqbjsvc23",
+    "text": "Este partido lo lleva en su 🧬🧬🧬. La anti-gestión, la destrucción de lo público, la desprotección del ciudadano, las mentiras, bulos, marrullerías y las corruptelas son su bandera y no es 🇪🇸 🤷‍♀️\n\nbsky.app/profile/fons...",
+    "author_handle": "mercedesbs.bsky.social",
+    "author_name": "mercedesbs.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6zjkwgflr7idhj45fswr7wdp/bafkreibfxaewec7sxjh5clob2vvgtm2nvn3scmfwymoq5wf6z65auo5sy4",
+    "published": "2026-08-30T16:28:20.529000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/colombia.sismos.live/post/3mucrz4nnny2u",
+    "text": "#Colombia #sismo M2.6 | Colombia | hace 7m | 30 Aug 2026 13:08 (Brasilia Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Colombia",
+    "author_handle": "colombia.sismos.live",
+    "author_name": "Colombia Quake Alert - Sismos en Colombia",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mtoepwnxylcuk6ka3d4enu4d/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T16:15:22+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/peru.sismos.live/post/3mucrjsrwqd2x",
+    "text": "#Peru #Ecuador #sismo M5.0 | Arica, Arica y Parinacota, Chile | hace 3m | 30 Aug 2026 12:04 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Chile #Region_de_Arica_y_Parinacota",
+    "author_handle": "peru.sismos.live",
+    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T16:06:48+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mucrjpzzlu2p",
+    "text": "#Chile #sismo M5.0 | Arica, Arica y Parinacota, Chile | hace 3m | 30 Aug 2026 12:04 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Chile #Region_de_Arica_y_Parinacota",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-30T16:06:46+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
+    "link": "https://bsky.app/profile/ctmtatemblando.bsky.social/post/3mucrpo6hzr2q",
+    "text": "Temblor magnitud 4.8 a las 12:04, 41 km al este de Arica https://www.sismologia.cl/sismicidad/informes/2026/08/381125.html #sismo #temblor #preliminar",
+    "author_handle": "ctmtatemblando.bsky.social",
+    "author_name": "ctmtatemblando",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bds54ltpgjtysjgdjhreirgn/bafkreia6y2bfhtolqqvi7ngyukbfnevy4sf2g7pvhrzlbosragi4jvagmq",
+    "published": "2026-08-30T16:04:09+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
+    "link": "https://bsky.app/profile/queenmxtriarch.bsky.social/post/3mucono3vok2f",
+    "text": "era y congelar cualquier atisbo de vulnerabilidad ante Lily.\n\nTragó saliva suavemente, obligándose a disimular el temblor de su respiración antes de responder.❜\n\nUn orfanato... \n\n❛Murmuró Julieth. La palabra se le escapó con un peso distinto, un tono ➥",
+    "author_handle": "queenmxtriarch.bsky.social",
+    "author_name": "𝒋𝒖𝒍𝒊𝒆𝒕𝒉 𝒆𝒓𝒊𝒌𝒔𝒐𝒏 (𝐋𝐢𝐥𝐲 𝐒𝐚𝐥𝐯𝐚𝐭𝐨𝐫𝐞)",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rq2uedkmdrllpjuqgiewo4lt/bafkreigvwmuvfmtngzviniyrerifvs55m4u5qstmwgnzo7hfjk75s25wqi",
+    "published": "2026-08-30T15:15:18.035000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/spellsandashes.bsky.social/post/3mucnroexsv2r",
+    "text": "» ganas de llegar al clímax solo para que aquel momento no terminase  .\n\n    ❛  Kai . . . 𝐽𝑜𝑑𝑒𝑟  .  Me vuelves loca  .  ❜\n\n    Apenas pudo hablar , cada palabra se veía entrecortada por los gemidos de Bonnie y aquel temblor resultándose de las sacudidas que estaba recibiendo al ser »",
+    "author_handle": "spellsandashes.bsky.social",
+    "author_name": "𝑏𝒐𝒏 𝑏𝒐𝒏",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3azqs3pvwpcvrlpl6plzafhm/bafkreidhb5zykek6a3ssxfimqatudbbgvw52suqwohwr5ho2nttvf34s5m",
+    "published": "2026-08-30T14:59:38.834000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/mercedesbs.bsky.social/post/3mucncilti22u",
+    "text": "Este partido lo lleva en su 🧬🧬🧬. La anti-gestión, la destrucción de lo público, la desprotección del ciudadano, las mentiras, bulos, marrullerías y las corruptelas son su bandera y no es 🇪🇸 🤷‍♀️",
+    "author_handle": "mercedesbs.bsky.social",
+    "author_name": "mercedesbs.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6zjkwgflr7idhj45fswr7wdp/bafkreibfxaewec7sxjh5clob2vvgtm2nvn3scmfwymoq5wf6z65auo5sy4",
+    "published": "2026-08-30T14:51:09.465000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/publico.es/post/3mucnbo5k2q2y",
+    "text": "Manual para un genocidio cultural: apropiación de yacimientos, destrucción de cultivos y ocupación de los sitios sagrados palestinos \n \n✍️ Por Emilia G. Morales \n\ndiario.publico.es/m2t…",
+    "author_handle": "publico.es",
+    "author_name": "Diario Público",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:obruk6nipsroeivgkqwpowgt/bafkreicyytvgoktf53vwb3rrfjtbpvhye7t6a7ywgrbyzomlxdlkz7dog4",
+    "published": "2026-08-30T14:50:41+00:00",
+    "like_count": 18,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/paolorobertino.bsky.social/post/3mucmyqbmzk2i",
+    "text": "La maquinaria, la tecnología, las herramientas de la evolución,computadoras, calculadoras, cada invento nos acerca a la destrucción...\n\nPero con el pelo regio 💁‍♀️",
+    "author_handle": "paolorobertino.bsky.social",
+    "author_name": "Sanpauli",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nfh7kqfeffsbyekt7p7qirkz/bafkreibz56csgi2ggbsfwd5l2jarz46ihk6cecbss2fhhbrkzxbadw5n4u",
+    "published": "2026-08-30T14:45:41.974000+00:00",
+    "like_count": 7,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/otrebordm.bsky.social/post/3mucmscfzcs2a",
+    "text": "La guerra es la humillación del hombre, el triunfo sistemático de la barbarie y la destrucción metódica de todo lo que es noble 💔\nHenri Barbusse 🇫🇷\nfalleció el #30Agosto de 1935🙏🏻\n#FelizDomingo #Aug30 #Literatura\n#OtrebordmXCultura",
+    "author_handle": "otrebordm.bsky.social",
+    "author_name": "Otrebordm",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5w2h66qdxmdz5fdtk374gx4t/bafkreignhct4ypsn2cmqnrndug3wyxr2sncvigjgxazmbswnzdeh5ibxoi",
+    "published": "2026-08-30T14:42:06.111000+00:00",
+    "like_count": 5,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/ansiedadmotora.bsky.social/post/3mucmnnjdlk2a",
+    "text": "Si. Es verdad. \nEste peronismo actual me hace acordar a la ucr de la era macri. Dónde se presentaban como oposición pero eran totalmente funcional al gobierno.\nY eso los llevo a la destrucción de su partido . \nEso mismo le va a pasar al pj si siguen así .....",
+    "author_handle": "ansiedadmotora.bsky.social",
+    "author_name": "Ansiedadmotora",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ldl7pxywdvrhdpffr4ukr4n7/bafkreihejw3xvenoxisza3jtv34d2fme3z2ygdsl6l5shhay4ijizf4c64",
+    "published": "2026-08-30T14:39:29.983000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/izmael.bsky.social/post/3mucjm2tphs2d",
+    "text": "Y porque no han caído en la de Aznar, de mejor presidente de la historia a inepto que no se entera del complot en sus fuerzas de seguridad (sin entrar en las armas de destrucción masiva de Irak).",
+    "author_handle": "izmael.bsky.social",
+    "author_name": "Izmael",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:n57kctqegh2znralwji5outp/bafkreidkwttgxdudujdzaqmg6w7gjjgnovw2fzq6ghxzwafilk34jnk7qu",
+    "published": "2026-08-30T13:44:55.620000+00:00",
+    "like_count": 4,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/alertaroja24h.bsky.social/post/3mucj57g6kv2d",
+    "text": "Existe una preocupación mundial por el \"Big One\", el gran megaterremoto, debido a que las fallas de California registran su mayor tensión en mil años.",
+    "author_handle": "alertaroja24h.bsky.social",
+    "author_name": "🚨 Alerta Roja Noticias 24h",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wyx7tkgieobapwoxgcfpe2xp/bafkreifcsxg5rwsvwmvcc66oono56srwlxlebjgwlwp4ppbkevvmvlsfja",
+    "published": "2026-08-30T13:36:36.989090+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "megaterremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/naniblue22.bsky.social/post/3muciuvjsv22p",
+    "text": "Madre mía, que pena de tsunami",
+    "author_handle": "naniblue22.bsky.social",
+    "author_name": "Juana",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6p4nteh74rn4quesmdcvau44/bafkreihqypd25jzockf6ne2rcovhwsrxm7aysb65kyqac2b4gcq77kqtiu",
+    "published": "2026-08-30T13:31:58.300000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/elprobemigue.bsky.social/post/3mucdvezhe224",
+    "text": "Ha sido llegar Aznar y ya han aparecido armas de destrucción masiva.\n¡Es un lince!.",
+    "author_handle": "elprobemigue.bsky.social",
+    "author_name": "elprobemigue.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:q4vt77lt2rzbuhl4m2spl2od/bafkreiftx3urcntgwsdvdjboml2ufrhjdrbl3hg5svcqq2ytoezqif552u",
+    "published": "2026-08-30T12:02:45.832000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/dmartingomez.bsky.social/post/3mucba5gxcs2i",
+    "text": "Quizás buscaba armas de destrucción masiva...",
+    "author_handle": "dmartingomez.bsky.social",
+    "author_name": "D. Martín Gómez",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:55olby6q64szjt7ge4brjzgk/bafkreieiube5acfq4xbx565kxzixzo5g5ctmwlk6u7uthqq3dj7vdmqxd4",
+    "published": "2026-08-30T11:15:05.750000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/48greenstorm.bsky.social/post/3muc7cw7dkc2w",
+    "text": "No olvidemos que ha sido presidente autonómico durante años con mayoría absoluta y solo ha destacado por llegar a la Xunta a base de denuncias falsas a sus adversarios con la consiguiente destrucción de sus vidas laborales y personales.",
+    "author_handle": "48greenstorm.bsky.social",
+    "author_name": "Ana María",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:23d3ln4vyyznnaae3qwm46ip/bafkreiewmxypotz76tpsgnmf2wqkhj3l6invqsrem4lkt5wyx6mgauuib4",
+    "published": "2026-08-30T10:40:51.350000+00:00",
+    "like_count": 2,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/bardal.bsky.social/post/3mubzmtea5c2t",
+    "text": "Por supuesto, los animales que no forman parte del pacto, les atacan o son atacados, que tienen que comer 🤣\n\nLuego atropellos, cazadores, destrucción ambiental etc",
+    "author_handle": "bardal.bsky.social",
+    "author_name": "Bardal",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5sa6fflxtlde63yv3yhuvsob/bafkreic656w4nlfy2jna2j5z7oxm7atmoq55g7vpka3ktzp6rizxgm2as4",
+    "published": "2026-08-30T08:59:01.458000+00:00",
+    "like_count": 2,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/manueldeleon.bsky.social/post/3mubxkxcnks2d",
+    "text": "El eco de la aceleración: nadie espera un tsunami en la montaña elpais.com/clima-y-medi...",
+    "author_handle": "manueldeleon.bsky.social",
+    "author_name": "Manuel de León",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:v3u5ak3umyzv65oisjtbox4b/bafkreihffqs3tfwk4cmglzg3wx7obsgsdvvgcia72wxk7rndu3srhj7jze",
+    "published": "2026-08-30T08:22:11.008000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/mirimarais.bsky.social/post/3mubxf37uy22l",
+    "text": "hemos pasado del temblor del párpado al temblor de ceja",
+    "author_handle": "mirimarais.bsky.social",
+    "author_name": "miriam",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:txcex2jou35frhfylqq5dkim/bafkreifbxixrvhfc56dnve5qltll422hao2lsd4ef5syakji53nrc227fe",
+    "published": "2026-08-30T08:18:53.769000+00:00",
+    "like_count": 2,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/unicaucaaspu.bsky.social/post/3mubwi6m4f22y",
+    "text": "Temblor de magnitud 4,71 cerca a Cauca, Colombia a las 23:37! earthquak.es/SGC2026ratfpl",
+    "author_handle": "unicaucaaspu.bsky.social",
+    "author_name": "Aspuca (ASPU-Universidad del Cauca",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:aizojzs7uy4tutteiraqxkp7/bafkreigasfzd4x6nwiemk4jmneozba2cdtw4nguusq2t6lc6flz2zvyesy",
+    "published": "2026-08-30T08:02:44.238000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/rixartvs.bsky.social/post/3mubrv6bi2k2s",
+    "text": "Según la Central de Inteligencia \nAznar ha ido a Ceuta a buscar Armas de Destrucción Masiva",
+    "author_handle": "rixartvs.bsky.social",
+    "author_name": "Manuel Valle",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:q3zqwz6qfnnlbr3ukuv6erd5/bafkreibji3ouounhz7ksutcbohn3z2nxwpkol23fo6hysy5mwozwpvllim",
+    "published": "2026-08-30T06:40:31.364000+00:00",
+    "like_count": 6,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/neredkosrce.bsky.social/post/3mubporbgss2d",
+    "text": "¿quizás debió preocuparse antes de pedirle a Zane una reunión con Agatha?\n\nLas palabras iban a surgir suaves y con el temblor bajo control, pero quedó con los labios a medio abrir cuando ella hizo lo inesperado.\n\nSe aferró a la mano del menor y emprendió rumbo por la +",
+    "author_handle": "neredkosrce.bsky.social",
+    "author_name": "𝐓𝐎𝐁𝐈𝐀𝐒 𝐌𝐄𝐍𝐃𝐎𝐙𝐀. sʜᴇᴏʟ",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uxrsyeetpwqqld3tcia4o4lw/bafkreib5abcrz5e3berqeoo37lzdyv2hcl24upg2lyssxuvfmky4cfhmcm",
+    "published": "2026-08-30T06:01:08.960000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/ctmtatemblando.bsky.social/post/3mubnqaiuhi2h",
+    "text": "Temblor magnitud 5.3 a las 01:19, 28 km al sudoeste de Tocopilla https://www.sismologia.cl/sismicidad/informes/2026/08/381084.html #sismo #temblor #preliminar",
+    "author_handle": "ctmtatemblando.bsky.social",
+    "author_name": "ctmtatemblando",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bds54ltpgjtysjgdjhreirgn/bafkreia6y2bfhtolqqvi7ngyukbfnevy4sf2g7pvhrzlbosragi4jvagmq",
+    "published": "2026-08-30T05:19:51+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": "tocopilla",
+    "lat": -22.0925,
+    "lon": -70.1979
+  },
+  {
+    "link": "https://bsky.app/profile/inkednails.bsky.social/post/3mubmkkk7cs2q",
+    "text": "Hoy en \"Afortunado en el juego, desgraciado en amores\":\ncap.141 - ganar con un mazo de destrucción sin destruir nada\n\n#MarvelSnap",
+    "author_handle": "inkednails.bsky.social",
+    "author_name": "Ins@ciable",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3gsykpfrcilekumav5yydsn2/bafkreihapt4t436y6co7jn4iqjqcr7v5dl42eaus3x7tsajwx57jg2t44m",
+    "published": "2026-08-30T05:05:06.456000+00:00",
+    "like_count": 5,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/elnucleonews.bsky.social/post/3mubkgqci6226",
+    "text": "Hoy 29 de agosto es el día en que Skynet cobra conciencia y desencadena el Juicio Final para la destrucción de la humanidad",
+    "author_handle": "elnucleonews.bsky.social",
+    "author_name": "El Núcleo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ix6hnklmhy4ydl4g6n53ujyk/bafkreiasklacyxqyj5qpf3aeckkdc2siwkbhm6gxtjoycudiezvgcphqx4",
+    "published": "2026-08-30T04:27:10.794000+00:00",
+    "like_count": 10,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/juanfenu.bsky.social/post/3mubgmyvve225",
+    "text": "\"El Fondo de Naciones Unidas para la Infancia denunció la destrucción de un almacén con suministros nutricionales y graves daños en una instalación de agua apoyada por el organismo a causa de los bombardeos ejecutados por Israel contra Gaza esta semana, que dejaron a cuatro niños palestinos muertos\"",
+    "author_handle": "juanfenu.bsky.social",
+    "author_name": "Juan Fenu",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5vvr66ehq6f2agy5hdirfhtt/bafkreiaa2pped5z7pym4qciz4rcjhhtgzepjukk42akmkgk45ft3zqsvrm",
+    "published": "2026-08-30T03:19:06.183000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/dwrestlingifs.bsky.social/post/3mubduyx2i22o",
+    "text": "La máquina de la destrucción #CMLL",
+    "author_handle": "dwrestlingifs.bsky.social",
+    "author_name": "Donal",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:v4sbyh74vbilgyehlcjuajav/bafkreibawah65cvy4hlauia6a4o3nr4lnhiaeyy7jiuurduln3vzpvmwt4",
+    "published": "2026-08-30T02:29:53.433000+00:00",
+    "like_count": 2,
+    "keywords_matched": [
+      "destruccion"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/sumikagedemon.bsky.social/post/3muawu2omws2t",
+    "text": "+ sus fauces teñidas de verde oscuro.—\n\nNo soy tu igual. Todavía.\n\n— Su voz sale baja, fría y sin temblor. \n\nLos dedos se cierran con la misma fuerza alrededor de la mano de Gyutaro, aceptando +",
+    "author_handle": "sumikagedemon.bsky.social",
+    "author_name": "𝙎𝙪𝙢𝙞𝙠𝙖𝙜𝙚",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wanbnfdqent3sprzdtisjkdd/bafkreifbaw426tgu7pxkil7qdoyhe5skeghxd5difry6mxnxvb4gbci23y",
+    "published": "2026-08-29T22:36:43.036000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/iantoniopz.bsky.social/post/3muaudiz3tc2e",
+    "text": "(+) respaldo del sofá, respondiendo a ese subir y bajar violento del pecho de ella con su propia respiración entrecortada y acelerada.\n\nEscuchar esas risitas roncas contra su piel le sacan una sonrisa ahogada, sorda y pesada. Siente perfectamente el cansancio en el cuerpo de ella, el temblor en (+)",
+    "author_handle": "iantoniopz.bsky.social",
+    "author_name": "» Antonio.",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:injk7giv6mhjnbcxdbpntnww/bafkreiamj3a5uelzoq3eylfw4nd2zflex5y66z7evshyxqtllz2nhhd3re",
+    "published": "2026-08-29T21:51:40.097000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/iantoniopz.bsky.social/post/3muaudixts22e",
+    "text": "— El impacto del clímax sobre él, sintiendo el abrazo apretado de su cuerpo contra su virilidad y el temblor de sus muslos sobre su cadera, sacude el último aliento que le quedaba. Cuando ella colapsa exhausta sobre su pecho y apoya la frente en su hombro, echa la cabeza hacia atrás contra el (+)",
+    "author_handle": "iantoniopz.bsky.social",
+    "author_name": "» Antonio.",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:injk7giv6mhjnbcxdbpntnww/bafkreiamj3a5uelzoq3eylfw4nd2zflex5y66z7evshyxqtllz2nhhd3re",
+    "published": "2026-08-29T21:51:40.096000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  }
+]
