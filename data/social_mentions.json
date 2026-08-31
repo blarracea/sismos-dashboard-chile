@@ -60,9 +60,9 @@
       "tsunami",
       "temblor"
     ],
-    "place": "tocopilla",
-    "lat": -22.0925,
-    "lon": -70.1979
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
   },
   {
     "title": "Temblor se registra en la zona norte del país: conoce la magnitud y epicentro del sismo - Meganoticias",
@@ -338,6 +338,18 @@
     "place": "arica",
     "lat": -18.4783,
     "lon": -70.3126
+  },
+  {
+    "title": "Sismo remece al norte del país: Revisa la magnitud y el epicentro - Chilevisión",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaFdSb1ZjOEVhempHWW9BZm1LWEEtRGlUMjdodmxsS2cwVlRtOHo1T1NJYjMwbjY2WVZNT25UZkx4RldTNDc5YUhZc085UTQ5bkhlZkl0RXdZVlZhVzV2WjJ5WVNZY2M4dTBMOEI0T01fTFFWVkdGSnVDdkY0N1pZXzRHOG9yQVlUNWJpekIwY3RyRi1MQjhJYWJJekZlUkhfMDJWWUdRRGVoSFlzVXpPeVlB?oc=5",
+    "source": "Chilevisión",
+    "published": "2026-08-30T16:12:42+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
   },
   {
     "title": "Sismo 5.1 se percibe en el extremo norte del país - BioBioChile",
