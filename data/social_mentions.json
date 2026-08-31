@@ -1,5 +1,17 @@
 [
   {
+    "title": "Sismo de magnitud 4.7 remeció Tacna este domingo y tuvo epicentro en Chile - DIARIO VIRAL",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcjJCelozR0NwTkw1MzFHdzBEcHpQQVhqWTVCMnZIdXFfY1BPN0I0Q1RCZ1N2YkZPeHRKNThsTVF2c2czMmlaRmlrc0JjV1QyU1NMRVpHMEFFSkRZUU5VVTFtSGxKeXJkYWtsclRxUGNtU3JiRm5rVjZLaVFOQXVMVUlmNmZ5b0tpRURfd1h0LXBrTmJsV2VDWUVQbzNVTXJ4eHoxSFdSaTBVdw?oc=5",
+    "source": "DIARIO VIRAL",
+    "published": "2026-08-30T23:26:15+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Temblor en Chile HOY | Magnitud, epicentro y profundidad del fuerte sismo este domingo 30 de agosto - redmas.com.co",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZ1NiU3BINlM0Yl96UlluZ2pkbTA2WmZqLUZwWl9tS0d5aEc0U3c1Vy1XSVpTTHFtWDJVWHdHWDRfVnlqOGhwaDZEN09uZW9DaHdoOVFNb0J0TnIxaF9oNEc5dEpOMVVzQzJwSFBGaEltVFZvMlgxVXVlaGJ0QkhqcEJaVEhWUWVybHpXUERpbHVrNVd3UHo5QXJoX1k5ME1jNnNLUHRTcVpUQk42TlIwb0pZU0J1Wl9POHpGMXlWQkNYcW11UkpfRzFBZ3lXU1RnWGdtVVdyTFY1Ul85?oc=5",
     "source": "redmas.com.co",
@@ -37,6 +49,20 @@
     "place": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "title": "Temblor hoy, domingo 30 de agosto en Chile: consulta epicentro y magnitud - La Tercera",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZWlwU2lxeGE4alJ1RmpCNlFWZXRpd0hTUEkybE04cHlMMHM1R0FPZXY0M0tCVlc3T01YRmwweTVqcEJYdkdzVDhodkR5QzNjRHZHUW5YMTFNWmJ0dWlVenlpazM2cmQ3MUlDa1VRUi1Bc0dBTDFQN0N4aExZd0Z3VDZpbUstaDVzdHBtdmtTZHgyTENfZGE1WE1XLVNzeVJPRHpQMmM4YWtLdURtdllBdmdPQzlNV0HSAdgBQVVfeXFMUFl3bU5uU1hkRi10cFBUdkJZb1QydWdfcWR6eEFycWtSOFhEUzVJbmhuTjZ6TGI3M0ZoZENMcWdIc0FjazdxVS1VSURITFdkOUozWFp6R1h1S3h0QzJ1S0V5T1Nock1CaXZENWRObjQ4c21OUlNqVzBvaDNYZ0duYmpPV1NxUzFIbUhkNGlpeGNvSlhyZkJjQURoYVhmRk5rS1g0N2k0TnpOa2ViMXEwMmRKX3FKWFpiZXE1TWlTV054SXJnY0pkYmtaQnNtaGd0eWxOOVM0MmRT?oc=5",
+    "source": "La Tercera",
+    "published": "2026-08-30T21:20:00+00:00",
+    "keywords_matched": [
+      "sismo",
+      "tsunami",
+      "temblor"
+    ],
+    "place": "tocopilla",
+    "lat": -22.0925,
+    "lon": -70.1979
   },
   {
     "title": "Temblor se registra en la zona norte del país: conoce la magnitud y epicentro del sismo - Meganoticias",
@@ -213,20 +239,6 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Temblor hoy, domingo 30 de agosto en Chile: consulta epicentro y magnitud - La Tercera",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZWlwU2lxeGE4alJ1RmpCNlFWZXRpd0hTUEkybE04cHlMMHM1R0FPZXY0M0tCVlc3T01YRmwweTVqcEJYdkdzVDhodkR5QzNjRHZHUW5YMTFNWmJ0dWlVenlpazM2cmQ3MUlDa1VRUi1Bc0dBTDFQN0N4aExZd0Z3VDZpbUstaDVzdHBtdmtTZHgyTENfZGE1WE1XLVNzeVJPRHpQMmM4YWtLdURtdllBdmdPQzlNV0HSAdgBQVVfeXFMUFl3bU5uU1hkRi10cFBUdkJZb1QydWdfcWR6eEFycWtSOFhEUzVJbmhuTjZ6TGI3M0ZoZENMcWdIc0FjazdxVS1VSURITFdkOUozWFp6R1h1S3h0QzJ1S0V5T1Nock1CaXZENWRObjQ4c21OUlNqVzBvaDNYZ0duYmpPV1NxUzFIbUhkNGlpeGNvSlhyZkJjQURoYVhmRk5rS1g0N2k0TnpOa2ViMXEwMmRKX3FKWFpiZXE1TWlTV054SXJnY0pkYmtaQnNtaGd0eWxOOVM0MmRT?oc=5",
-    "source": "La Tercera",
-    "published": "2026-08-30T16:27:54+00:00",
-    "keywords_matched": [
-      "sismo",
-      "tsunami",
-      "temblor"
-    ],
-    "place": "tocopilla",
-    "lat": -22.0925,
-    "lon": -70.1979
   },
   {
     "title": "Sismo de magnitud 4,9 se percibe en tres regiones del norte del país - El Mostrador",
