@@ -1,9 +1,24 @@
 [
   {
-    "title": "Temblor hoy 30 de agosto en Chile: Revisa epicentro, magnitud y últimos sismos - Chilevisión",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaEZRNEkzU0NSeTljaWtGZnEycmJpY3BLSnMybURrUlp2VVhuRE9iSnI3TFRBZllocjhSMGVBU2JQX2g4YmQ4b042dkJjTFhRU0paRWlMUk5jbW9YOWprb3lQR1lSMk5LOXVmV25RVktrX0h6ZmVhM2lDZlMzTkwzNU8wdG1JSy1ZbkIyS1BkX3dabHFVZk54SlFyUFZ2ZjRIWGxNczNoeXNnYlREcGJUSFNXdXBKeXJTR080MG9NNA?oc=5",
-    "source": "Chilevisión",
-    "published": "2026-08-31T03:16:09+00:00",
+    "title": "Temblor hoy, lunes 31 de agosto en Chile: consulta epicentro y magnitud - La Tercera",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTC1YVEU5bmh5TFhkdzZUTl9nV21EUkxBNV81Nlhha3pwb2s5ZDZSWjdsdXdkN3JzaC1wdHBwSWdMZkhwcjhmdENOXzdQbExpbEhxTERXcUswMTFKbW4xOU5Md2tzUWxrTFQ2WE5Xbi1PeE1vMVBtTUJIMWJwbjVoUExMak1HOWRZVUg0YzAwUVVHa01sUmpfNk5BNDhaRjAwb0k5Tm9wVWJ0eTdFWDh6TTVwRVTSAdYBQVVfeXFMTVRWMlVGenVvbmFVUGhPdE9JR1JrQzR4VENMMVUxaEY4Y3p5OENTVEp5TUJEWGUxam9RSzQ1UE42N1JoTUVrc2p6SEVXZUgwN1VMSWFJbjZST1NZQ0tZbngxMFdQeGl4c2pZbTVTSWE2NVdkRlRib3QxSUFyYlpVelhxUS0yckVSM2RWZzIwMHJOaHZjaHFhQ1p1X1B5bzRJSTZDbVJPSEswZFRaWkhmdVNwSG12dHI3T0pSbHhXTWNuOUFUcFhsUWRhMDQ0clV4RjBDX0dPdw?oc=5",
+    "source": "La Tercera",
+    "published": "2026-08-31T10:01:54+00:00",
+    "keywords_matched": [
+      "sismo",
+      "terremoto",
+      "tsunami",
+      "temblor"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
+    "title": "Temblor en Chile hoy magnitud del sismo según CSN - RPP Noticias",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWHpvY2NKQWNqc2FaU0pkdHRrQllUNjNaaWRIOEc4b3ZDcEkyck1ZdHB1UVZpdmtEbzVDVlpSRE0yUVhEdFJvX09hZmlPZ0V5NUFzVUlMdDd6NF9JVVhQTlluSHRucmMyWXJUd3gwOGpJdFJaSVhpNS0xa0JLQ2NrQ1R0aVgyUm9WVkRtN0dONnJ3MjJBVWlHaVdBRGtRLTdHVWc?oc=5",
+    "source": "RPP Noticias",
+    "published": "2026-08-31T04:09:45+00:00",
     "keywords_matched": [
       "sismo",
       "temblor"
@@ -17,19 +32,6 @@
     "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQcmoxS1R3T21xckY5QkdzRElqa1NQbk9UUlFSN0lhYzRhRXl3RTNzMmJuc252eXhvcWwycGkyaXVFdmJzWkFmWWVRY3lpVW9BbUQzQ1JUVGNBNk0wTm1YNUE1aTJlWGVvNWJXUXpSdEdJNGdfcHZJOW9CdVA1VnEwb2JIOGljNnFGOW45Zk9EYjRVT1UzOTVEcUJMVTdzYzhnNEJsdWZlcHVFekM5VmJVYmtzRjkzQWdqT3A2am81OVBFaWo1a2ZaRjdrNFpfMHJjRWh6R2Q5NnJHU3doaE04d200T0Y5MkU5LXBVS2JjRFMwbDE2OWZNSmZMS2Y4dWtrbVBWWFN3VXRKckVrSjNJU3VMVHNKRXFTeUxZdXpwTnlydEFWdUhGZGdpRjlSMS05M0Q0Z3VXMzl2RC1I?oc=5",
     "source": "El Comercio Perú",
     "published": "2026-08-31T03:01:06+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en Chile hoy 30 de agosto: Epicentro del sismo según CSN - RPP Noticias",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWHpvY2NKQWNqc2FaU0pkdHRrQllUNjNaaWRIOEc4b3ZDcEkyck1ZdHB1UVZpdmtEbzVDVlpSRE0yUVhEdFJvX09hZmlPZ0V5NUFzVUlMdDd6NF9JVVhQTlluSHRucmMyWXJUd3gwOGpJdFJaSVhpNS0xa0JLQ2NrQ1R0aVgyUm9WVkRtN0dONnJ3MjJBVWlHaVdBRGtRLTdHVWc?oc=5",
-    "source": "RPP Noticias",
-    "published": "2026-08-31T01:09:45+00:00",
     "keywords_matched": [
       "sismo",
       "temblor"
@@ -92,13 +94,11 @@
     "source": "La Tercera",
     "published": "2026-08-30T21:20:00+00:00",
     "keywords_matched": [
-      "sismo",
-      "tsunami",
       "temblor"
     ],
-    "place": "tocopilla",
-    "lat": -22.0925,
-    "lon": -70.1979
+    "place": null,
+    "lat": null,
+    "lon": null
   },
   {
     "title": "Temblor se registra en la zona norte del país: conoce la magnitud y epicentro del sismo - Meganoticias",
@@ -139,6 +139,18 @@
     "lon": null
   },
   {
+    "title": "Terremoto moderado mag. 4.7 - Parinacota, 74 km al este de Arica, Arica, Arica y Parinacota, Chile, Sunday 30 Aug 2026 a las 13:04 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHhVcTljcG5TX2lIU3lfdkNTMWNFYlMwVmtSZzQ3am1qZHZfeFE3eWF6ZzRELWpNZnNQbnYwV1kzaDN0THcwQXJiSFFhUDJ3WkVxdm5EQzQ3YVNMbG1INnA4U0hVYzdIUWVIVHZJZjVsckhob3JKYkNRZGxKVXRqQ19keElCdWNjRExCMmNlUHVnUmV6c1pzWHBQdjNiQUxnMHJjR0NPU3o1cHM?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-08-30T20:41:40+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "arica",
+    "lat": -18.4783,
+    "lon": -70.3126
+  },
+  {
     "title": "Sismo débil mag. 2.8 - Calingasta, San Juan, Argentina, Sunday 30 Aug 2026 a las 01:43 (GMT -3) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYlU5a2tyU2RLR2FjYWJ6R0s1WFhMdTZoU2hxNzYzdlB6dlBuUm1uRXplNk83Z1VUVmJuNmJDTUJrZk5kLXNpQzY0Q0tEbkl1c0RSaEJaekVwMFVyWVZudUJydzZPOG9zMnhBY1l5QWlSOUltX2szWWF2a25KeWdBTjBFWWVBblFGWERqX0l1LVNjWDBwcDRTVDBMMGxlbmp5OGlYeHBZSUx1WmtWWllvWQ?oc=5",
     "source": "Volcano Discovery",
@@ -149,18 +161,6 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Terremoto moderado mag. 4.7 - Parinacota, 74 km al este de Arica, Arica, Arica y Parinacota, Chile, Sunday 30 Aug 2026 a las 12:04 (Hora Santiago) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONHhVcTljcG5TX2lIU3lfdkNTMWNFYlMwVmtSZzQ3am1qZHZfeFE3eWF6ZzRELWpNZnNQbnYwV1kzaDN0THcwQXJiSFFhUDJ3WkVxdm5EQzQ3YVNMbG1INnA4U0hVYzdIUWVIVHZJZjVsckhob3JKYkNRZGxKVXRqQ19keElCdWNjRExCMmNlUHVnUmV6c1pzWHBQdjNiQUxnMHJjR0NPU3o1cHM?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-08-30T19:21:00+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": "arica",
-    "lat": -18.4783,
-    "lon": -70.3126
   },
   {
     "title": "Descartan tsunami en las costas chilenas tras sismo de magnitud 5,1 en Putre - ADN Radio",
@@ -480,6 +480,19 @@
     "published": "2026-08-30T12:49:21+00:00",
     "keywords_matched": [
       "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Temblor hoy 30 de agosto en Chile: Revisa epicentro, magnitud y últimos sismos - Chilevisión",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaEZRNEkzU0NSeTljaWtGZnEycmJpY3BLSnMybURrUlp2VVhuRE9iSnI3TFRBZllocjhSMGVBU2JQX2g4YmQ4b042dkJjTFhRU0paRWlMUk5jbW9YOWprb3lQR1lSMk5LOXVmV25RVktrX0h6ZmVhM2lDZlMzTkwzNU8wdG1JSy1ZbkIyS1BkX3dabHFVZk54SlFyUFZ2ZjRIWGxNczNoeXNnYlREcGJUSFNXdXBKeXJTR080MG9NNA?oc=5",
+    "source": "Chilevisión",
+    "published": "2026-08-30T11:17:36+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
     ],
     "place": null,
     "lat": null,
@@ -1238,18 +1251,6 @@
     "keywords_matched": [
       "sismo",
       "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Especial | Sismo en Colombia: lecciones de Nepal, Haití, Chile y México que explican la respuesta - Minuto60",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTFNWa19WaFZ1ZlRscnlYU251d2xlc1oydUJ0QmVtQUlibGRXdHFYQ1ZnM0tZOVY2blpFQUhuNHBZN2VzZTBGdFN5Q2RQYnFUSkZ6NWdrMlcxZHhaVnNwSDF4UFVvelpGck9qaTkxUWtLV1JKTlNTaWlwTGFCTWJiNEcyOG9oVDVPNUd4Um9DeVlOZ3Y3YWRFYVF5cmU?oc=5",
-    "source": "Minuto60",
-    "published": "2026-08-28T07:23:12+00:00",
-    "keywords_matched": [
-      "sismo"
     ],
     "place": null,
     "lat": null,
