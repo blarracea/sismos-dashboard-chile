@@ -1,5 +1,65 @@
 [
   {
+    "link": "https://bsky.app/profile/noticiasvv.vzla.masto.host.ap.brid.gy/post/3mudsjlhrkro2",
+    "text": "Colombia rinde homenaje a las 331 víctimas que fallecieron en el terremoto del 10 de agosto\n\nhttps://noticiasvenevision.com/noticias/internacional/colombia-rinde-homenaje-a-las-331-victimas-que-fallecieron-en-el-terremoto-del-10-de-agosto\n\n#Noticias #colombia",
+    "author_handle": "noticiasvv.vzla.masto.host.ap.brid.gy",
+    "author_name": "Noticias Venevisión (BOT)",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mdzxq5rmm27vyfuzc34cawcn/bafkreiaw33psndlkt5bu3l5caxuvfdjxpdr3ibhpf6ycdcohsv4rp2rtj4",
+    "published": "2026-08-31T01:57:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudsfnom2l2h",
+    "text": "#Chile #sismo M2.5 | Coquimbo, Chile | hace 7m | 30 Aug 2026 22:47 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T01:55:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "coquimbo",
+    "lat": -29.9533,
+    "lon": -71.3436
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudsb2rnnk27",
+    "text": "#Chile #sismo M3.4 | Chile: 50 km Al SO De Ollagüe | hace 17m | 30 Aug 2026 22:35 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T01:52:28+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudsaylfuk2k",
+    "text": "#SouthAmerica #sismo M3.4 | Chile: 50 km Al SO De Ollagüe | hace 17m | 31 Aug 2026 01:35 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-31T01:52:26+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/peru.sismos.live/post/3mudrqbps632u",
     "text": "#Peru #Ecuador #sismo M2.7 | Tarapaca, Chile | hace 8m | 30 Aug 2026 21:35 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
     "author_handle": "peru.sismos.live",
@@ -51,7 +111,7 @@
     "author_name": "Revista RAYA",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lw3rkld3meqlpe2e4dbcczi4/bafkreihs4kkbi3spayk672dnmbq2jixlyot5rgmh64tzvmtehnqkelpdoy",
     "published": "2026-08-31T01:22:04.160000+00:00",
-    "like_count": 3,
+    "like_count": 5,
     "keywords_matched": [
       "terremoto"
     ],
@@ -351,7 +411,7 @@
     "author_name": "🇨🇴Malpensada🎶",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vaas7jmou73uril64d5sdk6k/bafkreie3qqc6v7wg6zx3lhkbra5vnl75vav25hrlqk7u6khzxzdqbvyv3m",
     "published": "2026-08-30T21:30:09.980000+00:00",
-    "like_count": 7,
+    "like_count": 8,
     "keywords_matched": [
       "temblor"
     ],
