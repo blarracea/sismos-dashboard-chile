@@ -10,22 +10,19 @@
   const dayPicker = document.getElementById("day-picker");
   const dayTableBody = document.getElementById("day-table-body");
 
+  // La pagina no se refresca sola por si misma -- sin esto, alguien que deja
+  // la pestana abierta nunca ve un sismo nuevo ni una mencion nueva sin
+  // recargar a mano. El ciclo re-pide todo lo que cambia con el tiempo
+  // (eventos, mapa, ambos feeds, tabla del dia de hoy) sin tocar la vista
+  // del mapa ni el detalle que la persona tenga seleccionado.
+  const REFRESH_INTERVAL_MS = 3 * 60 * 1000;
+
   const map = SismosApp.initMap();
 
   // Solo se muestran sismos con reporte de percepcion real del CSN/SENAPRED
   // -- se deja afuera el catalogo completo de USGS (incluye sismos chicos
   // sin ningun reporte ciudadano) y los que solo tienen DYFI de USGS.
   const hasSenapredReport = (event) => event.intensity_source === "csn";
-
-  let events = [];
-  try {
-    const allEvents = await SismosApp.loadRecentEvents(7);
-    events = allEvents.filter(hasSenapredReport);
-    statusEl.textContent = `${events.length} sismos con reporte de SENAPRED (ultimos 7 dias).`;
-  } catch (err) {
-    statusEl.textContent = err.message;
-    return;
-  }
 
   // Anillo amarillo que marca cual es el sismo seleccionado (desde la tabla
   // o clickeando un marcador), para ubicarlo de un vistazo en el mapa.
@@ -88,9 +85,12 @@
     }
   };
 
-  // --- Heatmap de intensidad ---
-  const heatLayer = SismosApp.buildHeatLayer(events);
-  if (heatLayer) {
+  // --- Heatmap de intensidad + marcadores de eventos ---
+  let heatLayer = null;
+  let markersLayer = null;
+
+  const addHeatLayer = () => {
+    if (!heatLayer) return;
     // El contenedor #map recien termina su layout de CSS grid un instante
     // despues de whenReady -- si Leaflet.heat lee el ancho del canvas antes
     // de eso, lee 0 y el canvas queda roto para siempre (no se autocorrige
@@ -99,43 +99,65 @@
     // este resuelto. Cada sub-capa (CSN, DYFI) se agrega por separado: si
     // una tira un error, L.LayerGroup no debe cortar el loop y dejar a la
     // otra sin agregar.
-    const addHeatLayer = () => {
-      map.invalidateSize();
-      setTimeout(() => {
-        heatLayer.eachLayer((layer) => {
-          try {
-            layer.addTo(map);
-          } catch (err) {
-            console.warn("No se pudo agregar una capa de heatmap", err);
-          }
-        });
-      }, 50);
-    };
-    map.whenReady(addHeatLayer);
-    heatToggle.addEventListener("change", () => {
-      if (heatToggle.checked) {
-        addHeatLayer();
-      } else {
-        heatLayer.eachLayer((layer) => map.removeLayer(layer));
-      }
-    });
-  } else {
-    heatToggle.checked = false;
-    heatToggle.disabled = true;
-    heatToggle.closest("label").title = "Todavia no hay sismos con reporte de SENAPRED en la ventana cargada.";
-  }
+    map.invalidateSize();
+    setTimeout(() => {
+      heatLayer.eachLayer((layer) => {
+        try {
+          layer.addTo(map);
+        } catch (err) {
+          console.warn("No se pudo agregar una capa de heatmap", err);
+        }
+      });
+    }, 50);
+  };
 
-  SismosApp.addEventMarkers(map, events, showEventDetail);
+  const removeHeatLayer = () => {
+    if (!heatLayer) return;
+    heatLayer.eachLayer((layer) => map.removeLayer(layer));
+  };
+
+  heatToggle.addEventListener("change", () => {
+    if (heatToggle.checked) {
+      addHeatLayer();
+    } else {
+      removeHeatLayer();
+    }
+  });
+
+  // Trae los eventos, reconstruye heatmap y marcadores. Se llama al iniciar
+  // y despues cada REFRESH_INTERVAL_MS -- no toca el zoom/centro del mapa
+  // ni el detalle seleccionado, solo los datos.
+  const refreshEvents = async () => {
+    let events;
+    try {
+      const allEvents = await SismosApp.loadRecentEvents(7);
+      events = allEvents.filter(hasSenapredReport);
+      statusEl.textContent = `${events.length} sismos con reporte de SENAPRED (ultimos 7 dias).`;
+    } catch (err) {
+      statusEl.textContent = err.message;
+      return;
+    }
+
+    removeHeatLayer();
+    heatLayer = SismosApp.buildHeatLayer(events);
+    if (heatLayer) {
+      heatToggle.disabled = false;
+      heatToggle.closest("label").title = "";
+      if (heatToggle.checked) {
+        map.whenReady(addHeatLayer);
+      }
+    } else {
+      heatToggle.checked = false;
+      heatToggle.disabled = true;
+      heatToggle.closest("label").title = "Todavia no hay sismos con reporte de SENAPRED en la ventana cargada.";
+    }
+
+    if (markersLayer) map.removeLayer(markersLayer);
+    markersLayer = SismosApp.addEventMarkers(map, events, showEventDetail);
+  };
 
   // --- Menciones en medios (RSS, no verificado) ---
   let socialLayer = null;
-  try {
-    const mentions = await SismosApp.loadSocialMentions();
-    SismosApp.renderSocialFeed(mentions, socialFeedBody);
-    socialLayer = SismosApp.buildSocialMapLayer(mentions);
-  } catch (err) {
-    socialFeedBody.innerHTML = '<p class="social-feed-empty">No se pudieron cargar las menciones.</p>';
-  }
   socialToggle.addEventListener("change", () => {
     if (!socialLayer) return;
     if (socialToggle.checked) {
@@ -145,13 +167,27 @@
     }
   });
 
+  const refreshSocialFeed = async () => {
+    try {
+      const mentions = await SismosApp.loadSocialMentions();
+      SismosApp.renderSocialFeed(mentions, socialFeedBody);
+      if (socialLayer) map.removeLayer(socialLayer);
+      socialLayer = SismosApp.buildSocialMapLayer(mentions);
+      if (socialLayer && socialToggle.checked) socialLayer.addTo(map);
+    } catch (err) {
+      socialFeedBody.innerHTML = '<p class="social-feed-empty">No se pudieron cargar las menciones.</p>';
+    }
+  };
+
   // --- Bluesky en vivo (posts publicos con las palabras clave del proyecto) ---
-  try {
-    const blueskyMentions = await SismosApp.loadBlueskyMentions();
-    SismosApp.renderBlueskyFeed(blueskyMentions, blueskyFeedBody);
-  } catch (err) {
-    blueskyFeedBody.innerHTML = '<p class="bluesky-feed-empty">No se pudieron cargar los posts.</p>';
-  }
+  const refreshBlueskyFeed = async () => {
+    try {
+      const blueskyMentions = await SismosApp.loadBlueskyMentions();
+      SismosApp.renderBlueskyFeed(blueskyMentions, blueskyFeedBody);
+    } catch (err) {
+      blueskyFeedBody.innerHTML = '<p class="bluesky-feed-empty">No se pudieron cargar los posts.</p>';
+    }
+  };
 
   // --- Tabla "Sismos por dia" ---
   const renderDayTable = async (dateStr) => {
@@ -182,21 +218,38 @@
     });
   };
 
-  try {
-    const range = await SismosApp.loadAvailableDateRange();
-    if (range) {
-      dayPicker.min = range.min;
-      dayPicker.max = range.max;
-      dayPicker.value = range.max;
-      await renderDayTable(range.max);
-    } else {
-      dayTableBody.innerHTML = '<tr><td colspan="3">Todavia no hay datos.</td></tr>';
-    }
-  } catch (err) {
-    dayTableBody.innerHTML = '<tr><td colspan="3">No se pudo cargar el listado.</td></tr>';
-  }
-
   dayPicker.addEventListener("change", () => {
     if (dayPicker.value) renderDayTable(dayPicker.value);
   });
+
+  // Solo re-renderiza la tabla si la persona esta viendo el dia mas
+  // reciente -- si esta mirando un dia pasado (que ya no cambia), no la
+  // interrumpe ni la saca de ahi cada vez que corre el refresco.
+  const refreshDayTable = async () => {
+    try {
+      const range = await SismosApp.loadAvailableDateRange();
+      if (!range) {
+        dayTableBody.innerHTML = '<tr><td colspan="3">Todavia no hay datos.</td></tr>';
+        return;
+      }
+      const wasOnLatest = !dayPicker.value || dayPicker.value === dayPicker.max;
+      dayPicker.min = range.min;
+      dayPicker.max = range.max;
+      if (wasOnLatest) {
+        dayPicker.value = range.max;
+        await renderDayTable(range.max);
+      }
+    } catch (err) {
+      dayTableBody.innerHTML = '<tr><td colspan="3">No se pudo cargar el listado.</td></tr>';
+    }
+  };
+
+  await Promise.all([refreshEvents(), refreshSocialFeed(), refreshBlueskyFeed(), refreshDayTable()]);
+
+  setInterval(() => {
+    refreshEvents();
+    refreshSocialFeed();
+    refreshBlueskyFeed();
+    refreshDayTable();
+  }, REFRESH_INTERVAL_MS);
 })();

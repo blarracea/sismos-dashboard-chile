@@ -52,13 +52,32 @@ body {
 }
 
 .bottom-row {
-  display: grid;
-  grid-template-columns: 1fr 300px 300px;
+  /* Flexbox en vez de grid con "1fr" a proposito: con grid, si las dos
+     columnas fijas de los feeds (300px cada una) no entraban en el ancho
+     disponible, la columna "1fr" del mapa se resolvia a 0px en vez de
+     respetar ningun minimo -- el mapa desaparecia por completo (se
+     verifico incluso con minmax(320px, 1fr), Chrome igual la colapsaba a
+     0 cuando la suma de los minimos no entraba). Flexbox con min-width en
+     el mapa y flex-shrink:0 en los paneles laterales no tiene ese problema:
+     el mapa nunca baja de su minimo, y si de verdad no entra todo, la fila
+     scrollea horizontal en vez de colapsar una columna a 0.
+  */
+  display: flex;
   height: 50%;
   border-top: 1px solid var(--color-border);
+  overflow-x: auto;
 }
 
-#map { height: 100%; width: 100%; }
+#map {
+  flex: 1 1 320px;
+  min-width: 320px;
+  height: 100%;
+}
+
+.bluesky-feed.panel,
+.social-feed.panel {
+  flex: 0 0 300px;
+}
 
 .panel {
   background: var(--color-panel);
