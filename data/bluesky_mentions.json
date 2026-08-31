@@ -1575,20 +1575,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/elnucleonews.bsky.social/post/3mubkgqci6226",
-    "text": "Hoy 29 de agosto es el día en que Skynet cobra conciencia y desencadena el Juicio Final para la destrucción de la humanidad",
-    "author_handle": "elnucleonews.bsky.social",
-    "author_name": "El Núcleo",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ix6hnklmhy4ydl4g6n53ujyk/bafkreiasklacyxqyj5qpf3aeckkdc2siwkbhm6gxtjoycudiezvgcphqx4",
-    "published": "2026-08-30T04:27:10.794000+00:00",
-    "like_count": 10,
-    "keywords_matched": [
-      "destruccion"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
