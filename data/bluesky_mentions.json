@@ -1,5 +1,95 @@
 [
   {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudxcf7ih52j",
+    "text": "#Chile #sismo M2.7 | Tarapaca, Chile | hace 6m | 30 Aug 2026 23:17 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T03:22:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudx7jezam23",
+    "text": "#Chile #sismo M3.1 | Off Coast OF Maule, Chile | hace 6m | 31 Aug 2026 00:14 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T03:21:05+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudx7hhfl42u",
+    "text": "#SouthAmerica #sismo M3.1 | Off Coast OF Maule, Chile | hace 6m | 31 Aug 2026 03:14 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-31T03:21:03+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudx3zhuiz2j",
+    "text": "#Chile #sismo M3.4 | El Loa, Antofagasta, Chile | hace 5m | 31 Aug 2026 00:13 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T03:19:08+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
+    "link": "https://bsky.app/profile/argentina.sismos.online/post/3mudx3xciu42c",
+    "text": "#Argentina #sismo M3.4 | El Loa, Antofagasta, Chile | hace 5m | 31 Aug 2026 00:13 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
+    "author_handle": "argentina.sismos.online",
+    "author_name": "Argentina Quake Alert - Sismos en Argentina",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5oewbqgf2rzanxcbfbkuqs3a/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-31T03:19:05+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudx3umo7r24",
+    "text": "#SouthAmerica #sismo M3.4 | El Loa, Antofagasta, Chile | hace 5m | 31 Aug 2026 03:13 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-31T03:19:03+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
     "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mudw2vsbra26",
     "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Político 🆕\n2. Pone 🆕\n3. #Colombia 🆕\n4. #sismo 🆕\n5. Aug 🆕\n6. #minor 🆕\n7. #M2 🆕\n8. Cinco 🆕\n9. Pasos 🆕\n10. Olvido 🆕",
     "author_handle": "trending-es.bsky.social",
@@ -1389,21 +1479,6 @@
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ix6hnklmhy4ydl4g6n53ujyk/bafkreiasklacyxqyj5qpf3aeckkdc2siwkbhm6gxtjoycudiezvgcphqx4",
     "published": "2026-08-30T04:27:10.794000+00:00",
     "like_count": 10,
-    "keywords_matched": [
-      "destruccion"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/juanfenu.bsky.social/post/3mubgmyvve225",
-    "text": "\"El Fondo de Naciones Unidas para la Infancia denunció la destrucción de un almacén con suministros nutricionales y graves daños en una instalación de agua apoyada por el organismo a causa de los bombardeos ejecutados por Israel contra Gaza esta semana, que dejaron a cuatro niños palestinos muertos\"",
-    "author_handle": "juanfenu.bsky.social",
-    "author_name": "Juan Fenu",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5vvr66ehq6f2agy5hdirfhtt/bafkreiaa2pped5z7pym4qciz4rcjhhtgzepjukk42akmkgk45ft3zqsvrm",
-    "published": "2026-08-30T03:19:06.183000+00:00",
-    "like_count": 0,
     "keywords_matched": [
       "destruccion"
     ],
