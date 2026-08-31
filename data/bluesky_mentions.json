@@ -1,5 +1,35 @@
 [
   {
+    "link": "https://bsky.app/profile/revistaraya.bsky.social/post/3mudqknnh2s2f",
+    "text": "🔴 #RAYAinvestiga Viaje a El Cairo, el pueblo donde el presidente montó un show con el terremoto \n\nRAYA Investiga recorre los barrios populares de Pereira, donde el terremoto los dejó devastados, a la intemperie y sin ayudas estatales tras 15 días de tragedia. \n\nyoutu.be/CKUFkVPIFBY",
+    "author_handle": "revistaraya.bsky.social",
+    "author_name": "Revista RAYA",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lw3rkld3meqlpe2e4dbcczi4/bafkreihs4kkbi3spayk672dnmbq2jixlyot5rgmh64tzvmtehnqkelpdoy",
+    "published": "2026-08-31T01:22:04.160000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudq4dfgew2j",
+    "text": "#Chile #sismo M2.7 | Tarapaca, Chile | hace 7m | 30 Aug 2026 21:06 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T01:14:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/peru.sismos.live/post/3mudpzgebxp2e",
     "text": "#Peru #Ecuador #sismo M4.3 | Off Coast of Northern Peru | hace 4m | 30 Aug 2026 20:08 (Peru Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#moderate #M2+ #M3+ #M4+ #Perú",
     "author_handle": "peru.sismos.live",
@@ -246,7 +276,7 @@
     "author_name": "Jose Juan RD",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mwaxb5q77dhexhgfysekb56b/bafkreid6un24mu4csxn5klqe63gkhq6p7kty4eikedan53ifeskcmcznpm",
     "published": "2026-08-30T22:16:45.158000+00:00",
-    "like_count": 4,
+    "like_count": 5,
     "keywords_matched": [
       "tsunami"
     ],
