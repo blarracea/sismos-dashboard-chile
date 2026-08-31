@@ -1,5 +1,50 @@
 [
   {
+    "link": "https://bsky.app/profile/peru.sismos.live/post/3mudrqbps632u",
+    "text": "#Peru #Ecuador #sismo M2.7 | Tarapaca, Chile | hace 8m | 30 Aug 2026 21:35 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "peru.sismos.live",
+    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T01:43:05+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudrq74i5m27",
+    "text": "#Chile #sismo M2.7 | Tarapaca, Chile | hace 8m | 30 Aug 2026 21:35 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T01:43:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudrktq7c427",
+    "text": "#Chile #sismo M2.5 | Tarapaca, Chile | hace 7m | 30 Aug 2026 21:33 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T01:40:03+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/revistaraya.bsky.social/post/3mudqknnh2s2f",
     "text": "🔴 #RAYAinvestiga Viaje a El Cairo, el pueblo donde el presidente montó un show con el terremoto \n\nRAYA Investiga recorre los barrios populares de Pereira, donde el terremoto los dejó devastados, a la intemperie y sin ayudas estatales tras 15 días de tragedia. \n\nyoutu.be/CKUFkVPIFBY",
     "author_handle": "revistaraya.bsky.social",
@@ -306,7 +351,7 @@
     "author_name": "🇨🇴Malpensada🎶",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vaas7jmou73uril64d5sdk6k/bafkreie3qqc6v7wg6zx3lhkbra5vnl75vav25hrlqk7u6khzxzdqbvyv3m",
     "published": "2026-08-30T21:30:09.980000+00:00",
-    "like_count": 6,
+    "like_count": 7,
     "keywords_matched": [
       "temblor"
     ],
