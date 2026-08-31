@@ -100,6 +100,8 @@ def _search_posts(keyword, access_jwt):
         text = ((post.get("record") or {}).get("text") or "").strip()
         if not text or not keywords.is_relevant(text):
             continue
+        if not _mentions_chile_or_peru(text):
+            continue
 
         author = post.get("author") or {}
         handle = author.get("handle")
@@ -125,6 +127,25 @@ def _search_posts(keyword, access_jwt):
             }
         )
     return items
+
+
+def _mentions_chile_or_peru(text):
+    """
+    Bluesky trae varias cuentas-bot de terremotos por region (Mexico,
+    Centroamerica, Sudamerica en general, etc.) que republican cualquier
+    sismo detectado en su zona -- se filtran aca porque el dashboard es de
+    Chile/Peru, no un monitor sismico mundial. El filtro es por CONTENIDO
+    (no por cuenta) porque los bots regionales (ej. "south-america.bsky.social")
+    a veces si publican sobre Chile y otras veces sobre Nicaragua -- filtrar
+    por cuenta perderia los posts relevantes de esas mismas cuentas. Tambien
+    corta el mismo criterio a las personas reales que comentan sobre sismos
+    en otros paises (ej. Colombia, Mexico), que no son el foco del panel.
+    """
+    normalized = keywords.normalize(text)
+    if "chile" in normalized or "peru" in normalized:
+        return True
+    place, _ = comuna_coords.find_known_place(text)
+    return place is not None
 
 
 def _parse_created_at(created_at):
