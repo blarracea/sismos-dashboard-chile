@@ -1,5 +1,140 @@
 [
   {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mug6yljway2s",
+    "text": "#Chile #sismo M2.9 | Offshore Coquimbo, Chile | hace 7m | 31 Aug 2026 21:38 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-01T00:45:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "coquimbo",
+    "lat": -29.9533,
+    "lon": -71.3436
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mug4jwb6sl2v",
+    "text": "#Chile #sismo M2.8 | Antofagasta, Chile | hace 12m | 31 Aug 2026 20:49 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-01T00:01:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mug2gmvevh2m",
+    "text": "#Chile #sismo M3.0 | Océano Pacífico Sur, 89 km NNO de Iquique, Iquique, Tarapacá, Chile | hace 5m | 31 Aug 2026 19:19 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Tarapacá",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T23:24:05+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "iquique",
+    "lat": -20.2133,
+    "lon": -70.1503
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mug2gkvqke25",
+    "text": "#SouthAmerica #sismo M3.0 | Océano Pacífico Sur, 89 km NNO de Iquique, Iquique, Tarapacá, Chile | hace 5m | 31 Aug 2026 23:19 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Tarapacá",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-31T23:24:03+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "iquique",
+    "lat": -20.2133,
+    "lon": -70.1503
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mug2d5jg3i2p",
+    "text": "#Chile #sismo M3.4 | Los Andes, Salta, Argentina | hace 27m | 31 Aug 2026 19:55 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Argentina #Salta_Province",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T23:22:08+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "los andes",
+    "lat": -32.8339,
+    "lon": -70.5983
+  },
+  {
+    "link": "https://bsky.app/profile/argentina.sismos.online/post/3mug2d3ccvz2t",
+    "text": "#Argentina #sismo M3.4 | Los Andes, Salta, Argentina | hace 27m | 31 Aug 2026 19:55 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Argentina #Salta_Province",
+    "author_handle": "argentina.sismos.online",
+    "author_name": "Argentina Quake Alert - Sismos en Argentina",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5oewbqgf2rzanxcbfbkuqs3a/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-31T23:22:05+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "los andes",
+    "lat": -32.8339,
+    "lon": -70.5983
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mug2cyokq425",
+    "text": "#SouthAmerica #sismo M3.4 | Los Andes, Salta, Argentina | hace 27m | 31 Aug 2026 22:55 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Argentina #Salta_Province",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-08-31T23:22:03+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "los andes",
+    "lat": -32.8339,
+    "lon": -70.5983
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mufzx2gl2s24",
+    "text": "#Chile #sismo M2.6 | Libertador O'Higgins, Chile | hace 6m | 31 Aug 2026 20:09 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T23:15:22+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mufyxhed7o2k",
+    "text": "#Chile #sismo M2.7 | Antofagasta, Chile | hace 5m | 31 Aug 2026 19:52 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-08-31T22:57:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
     "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mufxnrqk3m25",
     "text": "#Chile #sismo M3.0 | Valparaiso, Valparaíso, Chile | hace 4m | 31 Aug 2026 19:30 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Valparaiso",
     "author_handle": "chile-sismos.bsky.social",
@@ -771,111 +906,6 @@
     "author_name": "Chile Quake Alert - Chile Sismos",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
     "published": "2026-08-31T01:40:03+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudq4dfgew2j",
-    "text": "#Chile #sismo M2.7 | Tarapaca, Chile | hace 7m | 30 Aug 2026 21:06 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-08-31T01:14:02+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/peru.sismos.live/post/3mudpzgebxp2e",
-    "text": "#Peru #Ecuador #sismo M4.3 | Off Coast of Northern Peru | hace 4m | 30 Aug 2026 20:08 (Peru Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#moderate #M2+ #M3+ #M4+ #Perú",
-    "author_handle": "peru.sismos.live",
-    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-08-31T01:12:24+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudpzdxihs2h",
-    "text": "#SouthAmerica #sismo M4.3 | Off Coast of Northern Peru | hace 4m | 31 Aug 2026 01:08 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#moderate #M2+ #M3+ #M4+ #Perú",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-08-31T01:12:22+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudnskpars2m",
-    "text": "#Chile #sismo M3.5 | Jujuy, Argentina | hace 7m | 30 Aug 2026 21:26 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Argentina #Jujuy_Province",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-08-31T00:32:47+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mudm46fdor24",
-    "text": "#Chile #sismo M2.8 | Tarapaca, Chile | hace 5m | 30 Aug 2026 20:57 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-08-31T00:02:22+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/peru.sismos.live/post/3mudk5nuznx2w",
-    "text": "#Peru #Ecuador #sismo M3.5 | Central Peru | hace 6m | 30 Aug 2026 20:21 (Brasilia Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú #Pasco",
-    "author_handle": "peru.sismos.live",
-    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-08-30T23:27:24+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mudk5lj7mg2j",
-    "text": "#SouthAmerica #sismo M3.5 | Central Peru | hace 6m | 30 Aug 2026 23:21 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú #Pasco",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-08-30T23:27:22+00:00",
     "like_count": 0,
     "keywords_matched": [
       "sismo"
