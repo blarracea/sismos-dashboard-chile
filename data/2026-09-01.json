@@ -3,7 +3,7 @@
     "id": "us7000tdbz",
     "source": "usgs",
     "time": "2026-09-01T04:50:45.457000+00:00",
-    "updated": "2026-09-01T19:12:30.957000+00:00",
+    "updated": "2026-09-01T20:23:31.864000+00:00",
     "lat": 8.6353,
     "lon": -82.4204,
     "depth_km": 10,
@@ -12,7 +12,7 @@
     "place": "4 km WSW of Caldera, Panama",
     "cdi": 4.1,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -31,6 +31,12 @@
         "lat": 8.731797499999999,
         "lon": -82.43175,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 8.740805,
+        "lon": -82.440875,
+        "intensity": 2.7,
         "responses": 1
       },
       {
