@@ -1,5 +1,43 @@
 [
   {
+    "title": "Fuerte temblor de magnitud 5,8 se registra en Isla de Pascua: SHOA descarta tsunami en Chile - Radio Agricultura",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObFB1T2FERW1rVHU4TW80d2IwNjI5Sk0zeWI1TnlRNFdfdTY5anpfUVIzQkM0cEJOVXhWMmJwSERHNHNGMWgtcTBRLWZXV1JNQTgyMktzOGdBVU9zRGxfTC1iOV9rVnRTdEx5UHMzYllmUUs5VXp4RVM2VDVqSDJZOUw3TXNNY3JVcDlOMDhTZnN3bWFEX2xDWkxLQ1dhUUt1VEVMUHE3cTFQMmlJaktIbHhNdzM1QVVzNVZnOFpMWkpCQlhqZUNMeGJYT0wxVjF0MTVoZUFITFFzdUFpVnljUTBJY1M?oc=5",
+    "source": "Radio Agricultura",
+    "published": "2026-09-02T13:13:20+00:00",
+    "keywords_matched": [
+      "tsunami",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Sismo 5,8 se registra al sur de Isla de Pascua y descartan tsunami para las costas de Chile - Radio Maray",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTGdMc3N6N3RvZHI4NkhQb1psN3ptRkZtWGZmcTFZMGFPSzB6M0h0bnppamhuLURjaF9ubmlVTW1mY3lKM3ltR1ZLODR2Si1WbWo0UkVxVjFUMDBYOVd1ZXVoQWY3MW10MHhFb3kzQ0oxMmlmVl9wRlJVR1RWVy1makdoNk40U1pwdEVGdlVnYkpubXlvSWcwUVhsemxGNjJHZkw2al9rR2dhQkd4alRkX0ZsbzJzaEY2VWhBc3QxRFI4eEhrWlE4?oc=5",
+    "source": "Radio Maray",
+    "published": "2026-09-02T13:06:58+00:00",
+    "keywords_matched": [
+      "sismo",
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "¿Peligro para Chile? Expertos aclaran si los grandes sismos de Perú, Colombia y Venezuela están conectados - elvacanudo.cl",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR0swUHVUUGxVZ0ViV01JcXpnZ09sVlN1SWpWemJyVlhTektrUTZNNnhqQV9EbUNUMktKUldCdkViRkVQdjE2aTZUNVdqMHE3X0I2cDZBVnFKTW9ZYjRMSzkxeU9NTjRkNlRUNGVEYVhLVk5rYk9VNnExQTllWmEyRHNNMFlOQ3RwQVlNeEFVWUFHeS1DczFxaVlwQTgzdTQ5TGpZMnVQM0dxVUtTaVd6Z2RZUG1aaGlTdjJSbDdLc0dKTE9s?oc=5",
+    "source": "elvacanudo.cl",
+    "published": "2026-09-02T08:40:58+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Temblor en Chile hoy, lunes 1 de septiembre: reporte de magnitud y epicentro vía CSN - El Comercio Perú",
     "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxNTW41bFNfektLRUs1cTh0eTZKXzN1djJ6STE5SmFiNUV5MElwRG1keGxUa1JfWS1MQ3NmYk5hMW5scklGaUpBR1g4aDRNQVhncnVsM0U3aWxINm9xVE1zZ3dqTzRhX0RHX2M1dEJZSjU0bFo2Q1ZLTEJNUmh6Q2g2X0pzeVN1bWpFNmpNYml6SDNWdFdaLThRQm9aVWF2dG92LWNwUGhVcUp0OW14LTd1UE9pV3ZzTUJ0cy1URkJtMUFldjBpdUpFUjk2LTNlSTZacmRlbjBHTlJtR1pyVUI1NEF6TDZjYUZzeXN2VHdTa09KMVI4Y09TT0F2UDZtNGp4ZTNic2NCdWlSRlFSeXNxZzN3aTNkOVgzb1hxMy0tN1prNExsakRDclRYT2ZHYlBIdzhoRzVib19fMWY5dnJ4TA?oc=5",
     "source": "El Comercio Perú",
@@ -244,24 +282,24 @@
     "lon": null
   },
   {
-    "title": "Temblor en Chile del lunes 31 de agosto: cuál fue el epicentro según reporte CSN - El Comercio Perú",
-    "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQcmoxS1R3T21xckY5QkdzRElqa1NQbk9UUlFSN0lhYzRhRXl3RTNzMmJuc252eXhvcWwycGkyaXVFdmJzWkFmWWVRY3lpVW9BbUQzQ1JUVGNBNk0wTm1YNUE1aTJlWGVvNWJXUXpSdEdJNGdfcHZJOW9CdVA1VnEwb2JIOGljNnFGOW45Zk9EYjRVT1UzOTVEcUJMVTdzYzhnNEJsdWZlcHVFekM5VmJVYmtzRjkzQWdqT3A2am81OVBFaWo1a2ZaRjdrNFpfMHJjRWh6R2Q5NnJHU3doaE04d200T0Y5MkU5LXBVS2JjRFMwbDE2OWZNSmZMS2Y4dWtrbVBWWFN3VXRKckVrSjNJU3VMVHNKRXFTeUxZdXpwTnlydEFWdUhGZGdpRjlSMS05M0Q0Z3VXMzl2RC1I?oc=5",
-    "source": "El Comercio Perú",
-    "published": "2026-09-01T05:01:05+00:00",
+    "title": "Tiembla en Chile: sismo de magnitud 4.3 sacude Taltal este 31 de agosto - Infobae",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEFXRXpsZWl3Xzdsa3lRVlNkTVpOMDdQLUF5S3JsOUFaSzhYNmNreG50Q05HaHNLaE5tT3R1WndRSkF4XzRFTDRZVmdERnlKT1dxMERrMzhsem16WWpVeVBlcl9BQ3NldHN1dkRia2JiYnAxTmZvblVHeW50U0hhcFNIaW05WldfRmMyWGhfVGZHNndCOFpWRDM3azBOaVRjbVdRX1FoREpBczJrd1V6ajVHTTPSAc8BQVVfeXFMTnJVUGYwcUJfVzVzRGp6Y08wb1VDV1FNdFB3bnBBQUJCbGlzX1dlazRPbG53ZWxLUXRxTG5uQy1vekVoclBkWWxEREdqcUs1QnoxRlJ2WkV3ZlQtOXRfZEhSX0ZFTkgtR2J1dy16eF9fUmlWU0wySWNBN1NfTGpzNE4xeGFNcFJ2Y1FsRVh3eXVHekwxT1hYRTFPc0dpTzdrTy1HUzFoejM3cVFOX2ZtbHJHZlpfU1Z1cjJVRUJZNnczUy1PRUltTzJCa1FiOVdF?oc=5",
+    "source": "Infobae",
+    "published": "2026-09-01T05:16:00+00:00",
     "keywords_matched": [
-      "temblor"
+      "sismo"
     ],
     "place": null,
     "lat": null,
     "lon": null
   },
   {
-    "title": "Tiembla en Chile: sismo de magnitud 4.3 sacude Taltal este 31 de agosto - Infobae",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEFXRXpsZWl3Xzdsa3lRVlNkTVpOMDdQLUF5S3JsOUFaSzhYNmNreG50Q05HaHNLaE5tT3R1WndRSkF4XzRFTDRZVmdERnlKT1dxMERrMzhsem16WWpVeVBlcl9BQ3NldHN1dkRia2JiYnAxTmZvblVHeW50U0hhcFNIaW05WldfRmMyWGhfVGZHNndCOFpWRDM3azBOaVRjbVdRX1FoREpBczJrd1V6ajVHTTPSAc8BQVVfeXFMTnJVUGYwcUJfVzVzRGp6Y08wb1VDV1FNdFB3bnBBQUJCbGlzX1dlazRPbG53ZWxLUXRxTG5uQy1vekVoclBkWWxEREdqcUs1QnoxRlJ2WkV3ZlQtOXRfZEhSX0ZFTkgtR2J1dy16eF9fUmlWU0wySWNBN1NfTGpzNE4xeGFNcFJ2Y1FsRVh3eXVHekwxT1hYRTFPc0dpTzdrTy1HUzFoejM3cVFOX2ZtbHJHZlpfU1Z1cjJVRUJZNnczUy1PRUltTzJCa1FiOVdF?oc=5",
-    "source": "Infobae",
-    "published": "2026-09-01T04:21:46+00:00",
+    "title": "Temblor en Chile del lunes 31 de agosto: cuál fue el epicentro según reporte CSN - El Comercio Perú",
+    "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxQcmoxS1R3T21xckY5QkdzRElqa1NQbk9UUlFSN0lhYzRhRXl3RTNzMmJuc252eXhvcWwycGkyaXVFdmJzWkFmWWVRY3lpVW9BbUQzQ1JUVGNBNk0wTm1YNUE1aTJlWGVvNWJXUXpSdEdJNGdfcHZJOW9CdVA1VnEwb2JIOGljNnFGOW45Zk9EYjRVT1UzOTVEcUJMVTdzYzhnNEJsdWZlcHVFekM5VmJVYmtzRjkzQWdqT3A2am81OVBFaWo1a2ZaRjdrNFpfMHJjRWh6R2Q5NnJHU3doaE04d200T0Y5MkU5LXBVS2JjRFMwbDE2OWZNSmZMS2Y4dWtrbVBWWFN3VXRKckVrSjNJU3VMVHNKRXFTeUxZdXpwTnlydEFWdUhGZGdpRjlSMS05M0Q0Z3VXMzl2RC1I?oc=5",
+    "source": "El Comercio Perú",
+    "published": "2026-09-01T05:01:05+00:00",
     "keywords_matched": [
-      "sismo"
+      "temblor"
     ],
     "place": null,
     "lat": null,
@@ -750,92 +788,5 @@
     "place": "antofagasta",
     "lat": -23.6509,
     "lon": -70.3975
-  },
-  {
-    "title": "Temblor en el norte del país: Conoce la magnitud que alcanzó el movimiento telúrico - Meganoticias",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeUxoQkZZaExSei1nVHYzaGFoQzNEbTFwdEZmN3M5d2l0b3FnRmhuV2VUTU50UG9HNmV6RVNDaGhhMHVITjR4VWhqMFhVVlVlNFQ2Q0VPR1dhbFZLV0Jpc01jRG1KYjdBZkZac2VhbnNNRllhLWpaVDR0MW5wcWZpUWZxQUtMVnZpR01EdXNpTXdUNl9odjdUQzJlWjZFek16NC1kQ3VVMTBqRDlfYW40TDVjcENncnFoSndURlBFNEJfWnNpRVhNcWc0WVbSAdIBQVVfeXFMTU11SVVBanN1bGJtOW5qemc3a2YyOHl6ZWwzcnZzVjkwcHJ0d1d3V2FZdk45bzBEU3lVRkIzOEZ0TnRiR3ZoWVFOczZ0ejV3N2FiSlctZkhFNXhYWkJtVUlpV3Z0Zkx6MUE2SWZyd2pCVlNsNW9oLVRkMXFIeG8zYzRfRXNvbWxfb2t0bXQ2LUpHZDBjUElrZllQSnExa3oyRXhJcHRudUlQM3piSzhtX0dadEVxOF9iQXd0VTVySElYd2lQSE9pbmQ3eEZRUk0tdXR3?oc=5",
-    "source": "Meganoticias",
-    "published": "2026-08-30T13:09:00+00:00",
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en el norte del país: Conoce la magnitud que alcanzó el movimiento telúrico - Meganoticias",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeUxoQkZZaExSei1nVHYzaGFoQzNEbTFwdEZmN3M5d2l0b3FnRmhuV2VUTU50UG9HNmV6RVNDaGhhMHVITjR4VWhqMFhVVlVlNFQ2Q0VPR1dhbFZLV0Jpc01jRG1KYjdBZkZac2VhbnNNRllhLWpaVDR0MW5wcWZpUWZxQUtMVnZpR01EdXNpTXdUNl9odjdUQzJlWjZFek16NC1kQ3VVMTBqRDlfYW40TDVjcENncnFoSndURlBFNEJfWnNpRVhNcWc0WVY?oc=5",
-    "source": "Meganoticias",
-    "published": "2026-08-30T13:09:00+00:00",
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "¿Bolivia está libre de terremotos? Estas son las zonas con mayor riesgo sísmico en el país - Red Uno",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdXZJZFNCazBFXzR0aWl0bW03bUNUbzJUTkdlMFlTbmJ5T0Q2bXRiQ3kyTFVDZXliRVZOREZHMUhCblhhSnNxMjdrdmsta2N4TEdQX3ZXb1FzXzh3ekg0MU9mTEZabWNCeHJlcmFyaURNYzNPNW5tRGhBbDIyMzI3bWliNGM5S2x2UGJoaUlza1BjZVkzUWVjN1U3VnBlYWprQ2NySnZGMUh5N1NMNk9RUmhBdUp0N3dxSUVUNmZuOV9BeWZjMXY3aWRzNUU5ZnEwSU5ON2VR?oc=5",
-    "source": "Red Uno",
-    "published": "2026-08-30T12:49:21+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Sismo 5,1 sacude el norte de Chile y activa monitoreo - sabes.cl",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeHQ4MklpN3ZjdTV1QUpFaFFjZ05lNzB1dDFWRUpCN3ZIS0RYa25CaG1zR1Z0Z0tUaHh3akUzSEdRdWltWnZucGtRdXJYZlNVSTc4Y2h1U3FIb283dTNzTGgtNEY2SE5BUmRpUW1GdW1MS3c1UnMzT3lkNFBCMkkwYTF1cm9QdVZI?oc=5",
-    "source": "sabes.cl",
-    "published": "2026-08-30T11:26:00+00:00",
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor hoy 30 de agosto en Chile: Revisa epicentro, magnitud y últimos sismos - Chilevisión",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaEZRNEkzU0NSeTljaWtGZnEycmJpY3BLSnMybURrUlp2VVhuRE9iSnI3TFRBZllocjhSMGVBU2JQX2g4YmQ4b042dkJjTFhRU0paRWlMUk5jbW9YOWprb3lQR1lSMk5LOXVmV25RVktrX0h6ZmVhM2lDZlMzTkwzNU8wdG1JSy1ZbkIyS1BkX3dabHFVZk54SlFyUFZ2ZjRIWGxNczNoeXNnYlREcGJUSFNXdXBKeXJTR080MG9NNA?oc=5",
-    "source": "Chilevisión",
-    "published": "2026-08-30T11:17:36+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor se registra en la zona centro-norte: Revisa el epicentro y magnitud del sismo - Meganoticias",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRUE0QTFUdndSMXpYVzI4UEtTUzhKVUR3YTFGV1dHbDdmTGUwOVJ3NWtxTTJtNEEwZ21fNF80cFNHZXpnMnhmWDZOVENrSzZYWFBRWXJ0dVZGNTRWMG1LU05HcUhNNU8zbXFkbXdCLUFnQXpKUkJZR2N5ZVM3QUdqbV92OGdKbG1JcHV2dVZLZEdjNzFJek1YLTJtZU81NmEyWDU0akc2UzlPRTlpVzViN3g0YkVKU01GX0NySGVzdlBqNXZuWGZMeUUtWF9RQzRiZ01JQ2dsakhENkU4UWY4MUhaRQ?oc=5",
-    "source": "Meganoticias",
-    "published": "2026-08-30T11:15:00+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor se registra en la zona centro-norte: Revisa el epicentro y magnitud del sismo - Meganoticias",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRUE0QTFUdndSMXpYVzI4UEtTUzhKVUR3YTFGV1dHbDdmTGUwOVJ3NWtxTTJtNEEwZ21fNF80cFNHZXpnMnhmWDZOVENrSzZYWFBRWXJ0dVZGNTRWMG1LU05HcUhNNU8zbXFkbXdCLUFnQXpKUkJZR2N5ZVM3QUdqbV92OGdKbG1JcHV2dVZLZEdjNzFJek1YLTJtZU81NmEyWDU0akc2UzlPRTlpVzViN3g0YkVKU01GX0NySGVzdlBqNXZuWGZMeUUtWF9RQzRiZ01JQ2dsakhENkU4UWY4MUhaRdIB6AFBVV95cUxOZkdKeVljSjhvYmVrTmxXcVc5bGNQME5vMjRvNTY3bDlOSUFNWC0wNWUwTkU5Z3lMOFZGdWZiVWFYMDRWUTdjYVNRRFoxUVY0S2dMV05pT1JXSm9pR3JnQWJ0M2FSWk8tQXpKdWQ1ZV9tUDd6OXB0QnJTd2c5MEN2ZkMydzBsRkNMZExXVnEyWFNXbUdralVqLTZ2VmllTXVBMkZLdnRkcG5BZVVBNmpQUWtXdnVXdWZqS1ZRdjBaMUtCeVRtcUdvOGNZc1RxYmg0WjEwQm5GUHpVX1V6VWo4Mm0tOXVKRi1i?oc=5",
-    "source": "Meganoticias",
-    "published": "2026-08-30T11:15:00+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
