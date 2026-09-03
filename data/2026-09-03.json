@@ -211,5 +211,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000te20",
+    "source": "usgs",
+    "time": "2026-09-03T16:58:46.861000+00:00",
+    "updated": "2026-09-03T18:54:21.040000+00:00",
+    "lat": 6.8385,
+    "lon": -73.0977,
+    "depth_km": 144.678,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "11 km N of Jordán, Colombia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]

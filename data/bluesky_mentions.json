@@ -1,5 +1,20 @@
 [
   {
+    "link": "https://bsky.app/profile/mascarpone79.bsky.social/post/3mumyxvee5u27",
+    "text": "🧵 1/2 · Un potente terremoto de magnitud 7,2 sacudió este jueves la región andina de Ayacucho, en el sur del Perú. El Instituto Geofísico del Perú (IGP) confirmó que el epicentro se localizó a 35 kilómetros al norte de Coracora, en la provincia de",
+    "author_handle": "mascarpone79.bsky.social",
+    "author_name": "Amanda 🦋",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cfc625lht3caomta2vf5pvx7/bafkreiev2pjzzl35brqzgauha7cdaannqegeqexcq4ulpniglsu7vlgqhe",
+    "published": "2026-09-03T17:46:35.942364+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/peru.sismos.live/post/3mumxmoabu524",
     "text": "#Peru #Ecuador #sismo M3.4 | Northern Peru | hace 8m | 3 Sep 2026 12:14 (Peru Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú #Departamento_de_Cajamarca",
     "author_handle": "peru.sismos.live",
@@ -614,95 +629,5 @@
     "place": "antofagasta",
     "lat": -23.6509,
     "lon": -70.3975
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mukpctix2l2t",
-    "text": "#Chile #sismo M2.6 | Offshore Valparaiso, Chile | hace 8m | 2 Sep 2026 16:40 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-02T19:48:25+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "valparaiso",
-    "lat": -33.0472,
-    "lon": -71.6127
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mukmtl6jrx2r",
-    "text": "#Chile #sismo M3.6 | Iquique, Tarapacá, Chile | hace 3m | 2 Sep 2026 16:01 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Tarapacá",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-02T19:04:05+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "iquique",
-    "lat": -20.2133,
-    "lon": -70.1503
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mukmtj4vet22",
-    "text": "#SouthAmerica #sismo M3.6 | Iquique, Tarapacá, Chile | hace 3m | 2 Sep 2026 19:01 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Tarapacá",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-02T19:04:03+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "iquique",
-    "lat": -20.2133,
-    "lon": -70.1503
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3muklin7clt2d",
-    "text": "#Chile #sismo M3.4 | Offshore Valparaiso, Chile | hace 4m | 2 Sep 2026 15:35 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Valparaiso",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-02T18:40:05+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "valparaiso",
-    "lat": -33.0472,
-    "lon": -71.6127
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3muklilc3mw2j",
-    "text": "#SouthAmerica #sismo M3.4 | Offshore Valparaiso, Chile | hace 4m | 2 Sep 2026 18:35 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Valparaiso",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-02T18:40:03+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "valparaiso",
-    "lat": -33.0472,
-    "lon": -71.6127
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mukiujat352q",
-    "text": "#Chile #sismo M2.7 | Tarapaca, Chile | hace 3m | 2 Sep 2026 14:49 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-02T17:53:02+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
