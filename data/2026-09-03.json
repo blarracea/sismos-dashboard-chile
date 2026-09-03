@@ -56,7 +56,7 @@
     "id": "us7000tduc",
     "source": "usgs",
     "time": "2026-09-03T06:04:02.572000+00:00",
-    "updated": "2026-09-03T12:43:24.563000+00:00",
+    "updated": "2026-09-03T15:32:20.356000+00:00",
     "lat": -29.7346,
     "lon": -71.6979,
     "depth_km": 55.164,
@@ -65,7 +65,7 @@
     "place": "42 km NW of Coquimbo, Chile",
     "cdi": 4.6,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
