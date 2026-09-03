@@ -1,0 +1,208 @@
+[
+  {
+    "id": "us7000tdu1",
+    "source": "usgs",
+    "time": "2026-09-03T05:17:16.340000+00:00",
+    "updated": "2026-09-03T07:00:58.040000+00:00",
+    "lat": 4.3826,
+    "lon": -76.6896,
+    "depth_km": 81.358,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "30 km S of Sipí, Colombia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdu1",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tdua",
+    "source": "usgs",
+    "time": "2026-09-03T05:52:15.584000+00:00",
+    "updated": "2026-09-03T07:07:08.040000+00:00",
+    "lat": -23.1019,
+    "lon": -68.2614,
+    "depth_km": 145.014,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "22 km SSW of San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdua",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tduc",
+    "source": "usgs",
+    "time": "2026-09-03T06:04:02.572000+00:00",
+    "updated": "2026-09-03T09:33:32.752000+00:00",
+    "lat": -29.7346,
+    "lon": -71.6979,
+    "depth_km": 55.164,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "42 km NW of Coquimbo, Chile",
+    "cdi": 3.1,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -28.5086484,
+        "lon": -71.0785719,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Freirina",
+        "region": "Atacama"
+      },
+      {
+        "lat": -28.9667,
+        "lon": -70.5333,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto del Carmen",
+        "region": "Atacama"
+      },
+      {
+        "lat": -28.4651248,
+        "lon": -71.2207947,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Huasco",
+        "region": "Atacama"
+      },
+      {
+        "lat": -28.5708,
+        "lon": -70.7581,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Vallenar",
+        "region": "Atacama"
+      },
+      {
+        "lat": -29.9027,
+        "lon": -71.2519,
+        "intensity": 6,
+        "responses": null,
+        "comuna": "La Serena",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.5,
+        "lon": -71.15,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "La Higuera",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0319,
+        "lon": -70.7081,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Vicuña",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6006,
+        "lon": -71.1994,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Ovalle",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.2333,
+        "lon": -71.0833,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Andacollo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0167,
+        "lon": -70.6833,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Paiguano",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.3667,
+        "lon": -70.9833,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Río Hurtado",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -31.6335,
+        "lon": -71.1697,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Illapel",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -31.1781518,
+        "lon": -71.0024382,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Combarbalá",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6947,
+        "lon": -70.96,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Monte Patria",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.7833,
+        "lon": -71.25,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Punitaqui",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -31.7804674,
+        "lon": -70.9649896,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Salamanca",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-mediana-intensidad-en-la-region-de-coquimbo-2026-09-03-02-07-25",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/381556.html",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc",
+    "relevant": true,
+    "keywords_matched": []
+  }
+]
