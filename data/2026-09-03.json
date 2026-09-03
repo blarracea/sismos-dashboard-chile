@@ -234,5 +234,189 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000te5e",
+    "source": "usgs",
+    "time": "2026-09-03T21:18:21.492000+00:00",
+    "updated": "2026-09-03T22:32:16.514000+00:00",
+    "lat": -31.8967,
+    "lon": -71.2399,
+    "depth_km": 81.851,
+    "magnitude": 4.8,
+    "mag_type": "mww",
+    "place": "29 km WSW of Salamanca, Chile",
+    "cdi": 2.3,
+    "mmi": null,
+    "felt_reports": 4,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -31.6335,
+        "lon": -71.1697,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Illapel",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0319,
+        "lon": -70.7081,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Vicuña",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6947,
+        "lon": -70.96,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Monte Patria",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -31.7804674,
+        "lon": -70.9649896,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Salamanca",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6006,
+        "lon": -71.1994,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Ovalle",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.3667,
+        "lon": -70.9833,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Río Hurtado",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -31.1781518,
+        "lon": -71.0024382,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Combarbalá",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.5,
+        "lon": -71.15,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Higuera",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9027,
+        "lon": -71.2519,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Serena",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0167,
+        "lon": -70.6833,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Paiguano",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.7833,
+        "lon": -71.25,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Punitaqui",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -31.9121725,
+        "lon": -71.5138659,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Los Vilos",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.2333,
+        "lon": -71.0833,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Andacollo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -32.4496375,
+        "lon": -71.2316695,
+        "intensity": 6,
+        "responses": null,
+        "comuna": "La Ligua",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.8811,
+        "lon": -71.2492,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Quillota",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0018741,
+        "lon": -71.2657315,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Limache",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.8000578,
+        "lon": -71.145221,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Hijuelas",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0246,
+        "lon": -71.5518,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Viña del Mar",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0852808,
+        "lon": -70.9293877,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Tiltil",
+        "region": "Metropolitana de Santiago"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-valparaiso-2026-09-03-17-23-12",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/381638.html",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te5e",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
