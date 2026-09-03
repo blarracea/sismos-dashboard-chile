@@ -1,0 +1,25 @@
+[
+  {
+    "id": "us7000tdia",
+    "source": "usgs",
+    "time": "2026-09-02T03:01:25.583000+00:00",
+    "updated": "2026-09-03T04:49:39.040000+00:00",
+    "lat": -20.9293,
+    "lon": -69.2391,
+    "depth_km": 116.86,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "78 km SSE of La Tirana, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdia",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
