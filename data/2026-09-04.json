@@ -1,0 +1,25 @@
+[
+  {
+    "id": "us7000te8p",
+    "source": "usgs",
+    "time": "2026-09-04T06:48:06.994000+00:00",
+    "updated": "2026-09-04T13:27:46.040000+00:00",
+    "lat": -21.3768,
+    "lon": -68.5636,
+    "depth_km": 130.651,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "36 km WSW of Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8p",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
