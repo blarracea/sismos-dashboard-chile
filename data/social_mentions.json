@@ -1,5 +1,42 @@
 [
   {
+    "title": "Un fuerte sismo sacudió Chile y se sintió en San Juan - Diario La Provincia San Juan",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQTFmTGh4bE01a2szWlhjcUtfRlpXVC0wRldGNzZfREQxWGY1VTlHXzh4eFhibVdaZG5JaVdJcjh1Ym1xckU4X2VKRVN4RUoyZEx5SU9tT25iOXlvOWlDOE9MRENKZW03aERoRzJ2OV82TUtmaU1DTEZnZUozdk1ReHI2eDhISlNxM0xUaXpTclg1bWowSF90Y2s3ME94dHPSAZ8BQVVfeXFMT0ExZkxoeGxNNWtrM1pYY3FLX0ZaV1QtMEZXRjc2X0REMVhmNVU5R184eHhYYm1XWmRuSWlXSXI4dWJtcXJFOF9lSkVTeEVKMmRMeUlPbU9uYjl5bzlpQzhPTERDSmVtN2hEaEcydjlfNk1LZmlNQ0xGZ2VKM3ZNUXhyNng4SEpTcTNMVGl6U3JYNW1qMEhfdGNrNzBPeHRz?oc=5",
+    "source": "Diario La Provincia San Juan",
+    "published": "2026-09-03T23:47:54+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Temblor en Chile hoy vía el CSN: últimos sismos del jueves 3 de setiembre - El Comercio Perú",
+    "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQb0liQmdGSW9mdGpQLWZxU3BnN29JY29xMThhZnNZb20yS1d1NExVMlBSMkJlbkgtRC01aHpZZk9ad1FoTVRzblNyUG5sbG1GOE9NcVZkN29vRGJuZFNKdnd6TnZSMndwUVRMRTdOYkV0UXAxRFJZeDl2NlBBQmFxXzFDcWU0VjNSdnpJSU5tbTlJLTgwT0dSR2tGWkRkc3Y4YmF0aXlnVmhhVi16Q2U3MlRielotMW5FOW9oUEhLdVhGWWFZRmp6Z3kzUTFBZ2ZjTnBmQzNHeUpkdEVPSG93aTNFYjQ3MGVaR1hoNXdLT1pIdzFSSHJ3eldpckJfazZGWjhuQmcybW5OVWt3Y1V2NzlkZVhqRXZaNmFudkRKcXB3b1U1UUR4SUV1a3JWaTBoTmJqNEI1UWd2MG01RWVlMG1feHBwUlpaODA2ejUzSdIB4wJBVV95cUxNT0VnbFVzbVYwVlZvRkxHemZzTUotMjdrSmlzc0I3cHZTY3VwYUhYSWRsVklIY2hnRHRLaWJYeUVYSW1QY1hzRWdVeXZtSWJ2R29sV0l0R1BoOHdieXZMRlYwTUlMZHdBR3ZCa2lOSDFJYkZZSHI3WnNKYW5FWmZrOWJ4U19kRmxKc0FCSEpDUGI4R3JFUGZNTkE5ZFlKdGE0M2pPLXk1V3YxcWtHSHoxWVdIYmF2NUpFY1U5Y1R3T0pNRmo4VGtHQzhySkNNdkUwMzREeVF6cVhwRXVYQVY5SDFjM2V3Qk0tT2lDOHlrR3FmVnJLMzN3UUk4VGNiMmZzeFROMHg0V1kzT0dhQ0NzejEzTEFSR0NORFlOcnVYdDVqR3lXN3FPVzR3em92SXZyeHBvRDZ5X2tKU0I1VW1QZEY3ak54QXI5aTZtYkRKM3lJMkZmZDZyN0hUeHFNcjZzWDl3?oc=5",
+    "source": "El Comercio Perú",
+    "published": "2026-09-03T23:10:44+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Sismo 5.0 con epicentro frente a Los Vilos sacudió las regiones de Coquimbo, Valparaíso y Metropolitana - G5noticias",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPV25oSlRRVTVLa1FUaDltcV9NaXktcGNiRmhnSVNDWGV3ZFJnM1hGMkQxUU9rZkdMTWEwSS1aZXNUNnAtbFlzM2I0NUpzWFUwNEZSS2xTSjRlSlY5Ylo5SmlWZ0EzMDlIZHBiOFhuTTBhVUdoQXBkNW1tT1RYYTRlQzAzSjBmaU00ZWRSU2x1TW1nM01PdENMZG51bUtkVFFGNVR4RVlwTGkzaDVRZVhXdlowWXozQjhqUVB4RHpBMFlDeVhXdGxOTVZrZkpLZlpDWHc?oc=5",
+    "source": "G5noticias",
+    "published": "2026-09-03T22:30:28+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "coquimbo",
+    "lat": -29.9533,
+    "lon": -71.3436
+  },
+  {
     "title": "Sismo de magnitud 5,0 se registra en la región de Coquimbo - elobservatodo.cl",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRUVrUFNaWU0yd21Xdm9hcjh3YlJpT2N4WldsME5ibFNkZWpMMFZBOEJCU2Mzemh6ZWxnZG5TSGtVdGNRelpaSHY1ck43Z2FoaWlHcTcyWUNUaXItNnh6US1BZTRubnZ1d3hZX1pfS2FMV2N1dmtTdnZzYjVsNHZqRXdaZjM2aDhDanM5RVY1bTJSbkhDeUg0TVMwYnZfQkVKWTlxc2ln?oc=5",
     "source": "elobservatodo.cl",
@@ -12,9 +49,21 @@
     "lon": -71.3436
   },
   {
-    "title": "Sismo de magnitud 5.1 sacude en Canela Baja este jueves 3 de septiembre - Infobae",
+    "title": "Sismo remece al centro norte del país: Revisa la magnitud y el epicentro - chilevision.cl",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaVVkbmNRdkxrcUlJNmdmU0RNcWtPV3hqZ1hCMXFKRUFIaEtSX3poMzZHUV9oclY1MEkzQURQbHI3N0R6MFdmWk9OaVpLN0VCMkNrOWlpTkpzSEdkVmJwYWVvQ3lza1VOOHZVV25lNExVNzk1eVZaVWZJQkp5dXFiVnpIcFg4MUFVT284SkZESjNJVXViZW8zRkNURHNoSkRqbUNhMXpubjlQWkRSLUNJTk1HSzJqNGx1?oc=5",
+    "source": "chilevision.cl",
+    "published": "2026-09-03T21:55:22+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Sismo de magnitud 5.1 sacude en Canela Baja este jueves 3 de septiembre - infobae.com",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRkpMd09rV0ctSHZyc3ZqSDFRNkcwZEg1TllNQzdFNHBGUDhsUlNWb1QybU85M1hvNVUyMDlRZlRJTzEyZnBIMGxfTTl3MlNuQnQxczNPRlBxUFNnd242bjFLb3NMNEZORHBlRjNZdXllb1psZmZCSURQZEtSd0RsR3F2cmUyMFJic2VNVWFvQnl4VVhINTkzaG9lVnA2Mm5hbG1IUWxUMXJoS1hoQVo0YnA3TXVPd9IB0AFBVV95cUxPNTN5R3Y1WDBpMUtGaXpubWM5ejlxdUdLTDJvX2ZsZngwMmQ5Um9OSUFuOFpiUzVqSmZ5aU5yX1BsVDc0cFVmaFNKdTVZaEdtOTV4V1cyTko1ckNxdEtjY1UwVEVHU2doYi1LREFvM0daSHNOSXdac0FKN0hsY1FQMFgyaDNOTEhDNWpoV0p6YXI1RXM4RGF2RkgxZ19uUXNNVUFQMDE1V0RKRDJaRkdVTnhkRzZ4UzV1bzZqczR4MUI2ck02WEd0MHJ1YzZSbWxn?oc=5",
-    "source": "Infobae",
+    "source": "infobae.com",
     "published": "2026-09-03T21:48:48+00:00",
     "keywords_matched": [
       "sismo"
@@ -24,10 +73,22 @@
     "lon": null
   },
   {
-    "title": "Sismo de mediana intensidad se percibió en la zona centro-norte del país - SoyChile.cl",
+    "title": "Sismo de magnitud 5.0 sacude la región de Coquimbo y se percibe en Valparaíso y RM - BioBioChile",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOczZCOGlmRXhETVJfRHVpTU94bWIzRkx3akRFVFhvRGUxN3RpWjg0WUdyMzZ6LTU5d2pOVkZZNkpGTmU3X3JPMlFIRl9hd3p5NWZtbnlqeTVrSnh2UzJQei00Mnh6cEMxaUxWZDhxdXFXcFJWQUtuOWhhUG5CdnBSVmJPQUxDRXFzeUxlb3FVbmVIZ0l0OUNsbHY5Q1RvU01KLXZJbmVCUFFDWTEzeV9QUlRnR2lOWmJGYUtNTXRwOEZBaFJBM3cwOE16Nk9PLWNGMko1N2tR?oc=5",
+    "source": "BioBioChile",
+    "published": "2026-09-03T21:39:23+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "coquimbo",
+    "lat": -29.9533,
+    "lon": -71.3436
+  },
+  {
+    "title": "Sismo de mediana intensidad se percibió en la zona centro-norte del país - soychile.cl",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYnJOTG9FRkVSdGpBdjhhMWhmbDczNXNIeFVKQkw1NkE4azQ2LUNIaWdpZ1ZYdEtOWXJldl9IdmswbnlsSjlkVDB1VXV3R1MySkthZ2Vyd3dhb0VtRDN1UkJNVFR3OU5lYzg2MWVaUFNZX2t0RDFMeC02MkFRQmRNb1hXeS1TYnYwNXVvaVBoRVBWM0llZGNJcE93WnZLZk41RTR0VUZ5MFdRNWJSVGc?oc=5",
-    "source": "SoyChile.cl",
-    "published": "2026-09-03T21:33:45+00:00",
+    "source": "soychile.cl",
+    "published": "2026-09-03T21:38:27+00:00",
     "keywords_matched": [
       "sismo"
     ],
@@ -48,9 +109,21 @@
     "lon": -71.3436
   },
   {
-    "title": "Sismo de menor intensidad se percibió en las regiones de Coquimbo y Valparaíso: epicentro se localizó al noreste de Los Vilos - Puranoticia.cl",
+    "title": "AHORA| Temblor de 5,0 se percibe a 24 km al oeste de Salamanca en la Región de Coquimbo - El Desconcierto",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOM0k3YXRGeXJhNVY2R0NMcV9fb2F4cm1EUTIyRlFrVDZXV0RKbmtCbzRDZE5abHpZanFHbGM1Wmstcmw4MFVwQTh3WDFhdkY5SWhraU5qMW12ZE1JZmwxMzRmVDZBQ2dNaDVuTkFmTXZmUDZCNFgtVHpKOXJrbl8yYS1iMVZwT1pROC1adFAxY3c1bXBMUmdZWGNHc09OMXBqOGNESE91cERqSER5ZTNtM3NxQVhUbWpQ?oc=5",
+    "source": "El Desconcierto",
+    "published": "2026-09-03T21:30:00+00:00",
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": "coquimbo",
+    "lat": -29.9533,
+    "lon": -71.3436
+  },
+  {
+    "title": "Sismo de mediana intensidad se percibió en las regiones de Coquimbo y Valparaíso: epicentro se localizó al oeste de Salamanca - puranoticia.pnt.cl",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSWVyTXJPWU1xcGV0OHZYaFJQQ1ZFZFNOb1N4XzlQaEs4X3M2ams4eUg5NkhHd1lQN0p6Y0RncUxsMFFvR0FoZklCOFo0empqbnBsU0pibmxESEhDcnRHZDV4OVM1eENzSUVQVFp2Q0o3MmJYUDBORjloU3N6dW5SQzlHanZDQkh4a3RLY29PQi1hd3NzaVBrWFU4M2o3clhkcDNoQTVMUzA5UTBfTVhxSTFXZzE?oc=5",
-    "source": "Puranoticia.cl",
+    "source": "puranoticia.pnt.cl",
     "published": "2026-09-03T21:29:00+00:00",
     "keywords_matched": [
       "sismo"
@@ -71,6 +144,19 @@
     "place": "coquimbo",
     "lat": -29.9533,
     "lon": -71.3436
+  },
+  {
+    "title": "Temblor se registra en la zona norte de Chile hoy: revisa acá la magnitud y el epicentro del sismo - ADN Radio",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ19DU2Q2aVdLeWJETXZqWGpLRFhsbWpOeW5wQ2hBX28yb1RoejdfaVhYazhScVhhRGV6eENaR1NuYk5hUGZPWEp1bndDUjhYcDdxa2xHNnpGeGlzLWJFRDc4ZzJvMDVUMUpsdHhfTG9NUW5UdUpYTmJlNG9jUW1RVHhvZTF1bExYVnpQUnB6SDE0NEl5ZUVqbHNQVlhPWUQ4Q2N6UlMtOUZITWV1eldhODBOMk85YXhHR2U5RVJZSWNDeWJVUlIxSVlnbkFHZ9IB4gFBVV95cUxPMFBNaEU2QUc3ZzE5WEFRUjh1azRSNlp2Tk50YjB1RThTSWVnZFJxVjd0N1ItcW5WY1FmS1ZiNVdzV1N1VFhsTU15aTJPSl9uOUs5NDlGVzl4MGZJSy1kaER6eEhzOVVpYnZNQmI4UXVFN0g0SVNCd3UxaFltVkhMcFpjTUgxZnBwUkVlTG1sMlpmdEt3VVFFNmhrY1ltV1ptd2VlUFNQQUc4Z1FCOE1wQ2NmTmE3Qlp6d2p6OEUyNmZESklpcEFBOEhrdk1JWE9lc21IOHdYZjE2eGZkSmU3V1JB?oc=5",
+    "source": "ADN Radio",
+    "published": "2026-09-03T21:26:21+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
   },
   {
     "title": "Temblor en la zona centro: revisa magnitud, epicentro y profundidad - VLN Radio",
@@ -110,32 +196,6 @@
     "lon": -71.3436
   },
   {
-    "title": "Temblor en Chile EN VIVO hoy 3 de septiembre 2026: hora exacta, magnitud y dónde fue el epicentro del últimos sismo según el CSN - Gestión",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOSnBkQ1VwWVU1YUloZTVUWWpkQ1ktVWJRQzEtLXdKWmlDeFkzZUJkcEQ4alU0RXRUdEY3Y0U0LXJWSnZKMFVFWGI1UzBpa0RoUWpLYl9rZTZwOE9OM0ktM19kZl9mSm9IdnF5N2VCazFFa0hxellEX0VrbmJDVlB0R2wycUVtbHZlUzFkREFYZUd6SVRmYnVPN0pRYVFHMFJDNjdJcUlieVppUWh6R1JFZm9mcFdLdWJFbGd5Tkg0TmNGQVpXeEVIcDhoTGtWa1N2S1RWX1lYRGtXUDZ2N3dIUnJSblVQNGoydjdnalhJR1ktWjllcmN3aFZyZkR6TGR2QXJfdV9RSzlpMUp3?oc=5",
-    "source": "Gestión",
-    "published": "2026-09-03T20:45:03+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en Chile HOY, jueves 3 de septiembre: hora exacta, epicentro y magnitud dle último sismo - El Comercio Perú",
-    "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQb0liQmdGSW9mdGpQLWZxU3BnN29JY29xMThhZnNZb20yS1d1NExVMlBSMkJlbkgtRC01aHpZZk9ad1FoTVRzblNyUG5sbG1GOE9NcVZkN29vRGJuZFNKdnd6TnZSMndwUVRMRTdOYkV0UXAxRFJZeDl2NlBBQmFxXzFDcWU0VjNSdnpJSU5tbTlJLTgwT0dSR2tGWkRkc3Y4YmF0aXlnVmhhVi16Q2U3MlRielotMW5FOW9oUEhLdVhGWWFZRmp6Z3kzUTFBZ2ZjTnBmQzNHeUpkdEVPSG93aTNFYjQ3MGVaR1hoNXdLT1pIdzFSSHJ3eldpckJfazZGWjhuQmcybW5OVWt3Y1V2NzlkZVhqRXZaNmFudkRKcXB3b1U1UUR4SUV1a3JWaTBoTmJqNEI1UWd2MG01RWVlMG1feHBwUlpaODA2ejUzSdIB4wJBVV95cUxNT0VnbFVzbVYwVlZvRkxHemZzTUotMjdrSmlzc0I3cHZTY3VwYUhYSWRsVklIY2hnRHRLaWJYeUVYSW1QY1hzRWdVeXZtSWJ2R29sV0l0R1BoOHdieXZMRlYwTUlMZHdBR3ZCa2lOSDFJYkZZSHI3WnNKYW5FWmZrOWJ4U19kRmxKc0FCSEpDUGI4R3JFUGZNTkE5ZFlKdGE0M2pPLXk1V3YxcWtHSHoxWVdIYmF2NUpFY1U5Y1R3T0pNRmo4VGtHQzhySkNNdkUwMzREeVF6cVhwRXVYQVY5SDFjM2V3Qk0tT2lDOHlrR3FmVnJLMzN3UUk4VGNiMmZzeFROMHg0V1kzT0dhQ0NzejEzTEFSR0NORFlOcnVYdDVqR3lXN3FPVzR3em92SXZyeHBvRDZ5X2tKU0I1VW1QZEY3ak54QXI5aTZtYkRKM3lJMkZmZDZyN0hUeHFNcjZzWDl3?oc=5",
-    "source": "El Comercio Perú",
-    "published": "2026-09-03T20:07:44+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
     "title": "Otro fuerte temblor sacudió la costa de La Serena y se percibió en todo el Gran Mendoza - Diario Mendoza",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTF9lakdsWHZ0a2tlRjFNRXJ4bkJMa2hiTlMzSEREUUZFUjZqTFozUUR5UjRsR2FUVm9RTWtKR0VEbUlTZzVrTzJHR3Z1TXVWWDN6VENqWXM2UFJwbmpZWUwzV3dubnJVTVZGRGRLNFdidXJnOUhvTHRmbWxrVnBaQ0dDZTFQOUkyQm9KVVk1Q1dQcmNzT2plU1RRa2F5bkVRaWNGeXNmdlh0RHo0YVpnUHRYNmRqQkFq0gG-AUFVX3lxTE10NnhvQjlzR09BUUFwekdlb2RtcG50SjNUTno3QVI3anFRRWpBZkh0MTN4eWwxSVJyRzd5MXZTY042cVB4TDBxX0hYUTRwcS0tVWp1eF9ZVkxZZGM0dHdMS2Z1MHRUVXV5dXJ1cVpPUnhGRVEyemNyMm0yMGFNOFItTktITjBFSTJxWFFGc0xLU0xJLUNlZE5fdXNSNjJYeGl2REtTN0tYNWtNWjdySFNUZ3BvdTNBN2s1UFhYM3c?oc=5",
     "source": "Diario Mendoza",
@@ -160,9 +220,21 @@
     "lon": null
   },
   {
-    "title": "Temblor en Chile hoy, jueves 3 de septiembre: epicentro y magnitud - Radio Pauta 100.5",
+    "title": "Sismo en Chile se hizo sentir en suelo argentino: Qué reveló INPRES - Urgente24",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLWpwWFI2WGk4TE1Wd2lfaVZSRy1DeGh3NkpjbGZLWGt3QTRMQlpvdHZBTlNtT2tqWF9KSlMzSTJrNjR6WjY1RUdQeXJEaTBtZnByT1V0a01JVHgzS2lIcDZWaDhUdzlkWUZyRWdzc2Y1TkxFZ0VHTkdsbkI2NVZuOFRDMjc1akNnb0hYZUYzRzg2R2hDbjQ0Wlk5ONIBoAFBVV95cUxQZ085dGFfcnZuajNrZWFXV2VYX1ZlZlpMZFNvTU1aa3NOWC1YUHcyZ0lQRUdwVnJ3U2hNeklNTWY1OXRJald5SGtuREE2T2UyZHNiTjBia2l4Q0wzYXZoVS1hMVFudW1YTXI1TS1rLV9mVkZsWnRRUFl4bFBUTjR4YktBbzE3TDllNzNQWnE5ZF9FczhXZGJRY1k3NF9ua1hi?oc=5",
+    "source": "Urgente24",
+    "published": "2026-09-03T18:27:00+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Temblor en Chile hoy, jueves 3 de septiembre: epicentro y magnitud - pauta.cl",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSGE2dWdjSVkxcTcyQUFKVHJKVHdfaEJfQ3JydENrNXFmTHpHUkozaWhrbGp1LUNMYWI3Uk9zS0p1R1FCN2pjdktQU3Ytem9sd0l0TVJHalp1US1kMzZfLVppQzhwX19zQlp5U3lDeFFsZkY0bkktWTRmUXNRVThPaDRHM0tXYktWMHJiY2dBQUVQZW1DTmdHcEgyeWYxS2R0RG1jMlhIWFJIY2RMYm1tTEpibWZXQQ?oc=5",
-    "source": "Radio Pauta 100.5",
+    "source": "pauta.cl",
     "published": "2026-09-03T18:00:37+00:00",
     "keywords_matched": [
       "temblor"
@@ -172,9 +244,9 @@
     "lon": null
   },
   {
-    "title": "Temblor sacude la zona central del país: Revisa la magnitud y epicentro del sismo - Radio Agricultura",
+    "title": "Temblor sacude la zona central del país: Revisa la magnitud y epicentro del sismo - radioagricultura.cl",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeTJraTNIb1RSODdKNUw0REl3YTlLTUIzN0dXam9PUFBjZlJCUTNpM3VvSS1ncjh0Vl8xTU1oSGtObldKUHdQdW1lUkVrN1pqRUhHYzk1WlZlWXdNYU9DQXhoMzczck15Tm8wVXdRVWZGMlFWenhHX3p3TDhEclNQVnU4NDhacndhZ3JERDRpalFnbkhtUFFnZG5wc2tpYU01T2tob09RTk45MmJRRzZnc2N4bXN6NzNCYjV5aDVMUWp1ZTFSdGxOUHlEaUx2STRTdmZzdXVrVzJVZw?oc=5",
-    "source": "Radio Agricultura",
+    "source": "radioagricultura.cl",
     "published": "2026-09-03T16:58:02+00:00",
     "keywords_matched": [
       "sismo",
@@ -185,9 +257,9 @@
     "lon": null
   },
   {
-    "title": "Un sismo de magnitud 5,4 sacudió La Serena durante la madrugada: qué informaron las autoridades - tiempodesanjuan.com",
+    "title": "Un sismo de magnitud 5,4 sacudió La Serena durante la madrugada: qué informaron las autoridades - Tiempo de San Juan",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORGYxRHFrSF9FclBFdzlERzl0ZG0wNGlHQkNRWG1XTmhyNXNQdXViOFZaZWt5UWstZjNjaW82QmNxbXRWYkVCYlJLel8yd3VubDkwQWx3cEhnOWxZOTU5UXNaMGxXNktPSjRaUW9uSjBJclVJdkhlNTg3TG84aENTVnk1Ukw3Vl80YWlvWWNma0hhak55c09RRHRYenpuemM2eG1lMlZNTFNHdGxRQ05rUmxzeFlpNEtjMV96Q2ZrOVRLNGN0TUkzd19yWmVyVC02eFQ5MU44MHFQcXM?oc=5",
-    "source": "tiempodesanjuan.com",
+    "source": "Tiempo de San Juan",
     "published": "2026-09-03T16:50:00+00:00",
     "keywords_matched": [
       "sismo"
@@ -221,10 +293,23 @@
     "lon": null
   },
   {
-    "title": "Temblor sacude el norte del país: Revisa la magnitud y el epicentro del sismo - Radio Agricultura",
+    "title": "Temblor sacude el norte del país: Revisa la magnitud y el epicentro del sismo - radioagricultura.cl",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOXFzVFd2M2staXhOVE96RkVfdHRsUElkTFRnWTVJeE1KaDFpUjlkdEo4S21CYm9ESXNMZFRndTN6VmRxczRvVkNPV0JhMmFjZTZLUUxMY3RFY3RsdXIxT3h5M2FIbkFJUzBrUXZBQ2dXZV9Jcm1KZ1FMd0FnRnlhM1NCbl9QSjZWc2pNNEdralBTcGRjYlV1Vmw0TWVrU1N4UmFXWDJBSTFWenBTZVVaamtZSk5FaTlCSk1zRFdRaTRMMWluOGdUVmEwS2JlUnYxV2c?oc=5",
-    "source": "Radio Agricultura",
+    "source": "radioagricultura.cl",
     "published": "2026-09-03T13:49:41+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Temblor en Chile EN VIVO hoy, 3 de septiembre - hora exacta, magnitud y dónde fue el epicentro del últimos sismo vía el CSN - Gestión",
+    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOSnBkQ1VwWVU1YUloZTVUWWpkQ1ktVWJRQzEtLXdKWmlDeFkzZUJkcEQ4alU0RXRUdEY3Y0U0LXJWSnZKMFVFWGI1UzBpa0RoUWpLYl9rZTZwOE9OM0ktM19kZl9mSm9IdnF5N2VCazFFa0hxellEX0VrbmJDVlB0R2wycUVtbHZlUzFkREFYZUd6SVRmYnVPN0pRYVFHMFJDNjdJcUlieVppUWh6R1JFZm9mcFdLdWJFbGd5Tkg0TmNGQVpXeEVIcDhoTGtWa1N2S1RWX1lYRGtXUDZ2N3dIUnJSblVQNGoydjdnalhJR1ktWjllcmN3aFZyZkR6TGR2QXJfdV9RSzlpMUp3?oc=5",
+    "source": "Gestión",
+    "published": "2026-09-03T13:13:42+00:00",
     "keywords_matched": [
       "sismo",
       "temblor"
@@ -319,9 +404,9 @@
     "lon": null
   },
   {
-    "title": "SHOA descarta riesgo de tsunami en Chile tras temblor registrado en la región de Coquimbo - adnradio.cl",
+    "title": "SHOA descarta riesgo de tsunami en Chile tras temblor registrado en la región de Coquimbo - ADN Radio",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMUtqQk9BaTJQXzRheDE3Y3VWWFdMYUFXUVktQUtVc3BvVmtSUDhWRWxwWkxNT2hXN2N0d29VS2FzSTBPd2ZSUDExSDZ1T2htWTJKRXZ4SVZ6cWZGUjF4U3Nvd2R4N0lUeUdEQjk4Tmo3UjdDb2R5ek4wWHVZUno2U3FtLTNuMEZaY0Y5dkltc2tvcE96Z0M2YzViVEszX1Fsc0lJNVpoWV9HWUItNTRsVmJTWEhRa2hIakZNTzZhRXUtcWl4UjZFZTZlcGVpeXFXc3BtTzZZVdIB1wFBVV95cUxPMUtqQk9BaTJQXzRheDE3Y3VWWFdMYUFXUVktQUtVc3BvVmtSUDhWRWxwWkxNT2hXN2N0d29VS2FzSTBPd2ZSUDExSDZ1T2htWTJKRXZ4SVZ6cWZGUjF4U3Nvd2R4N0lUeUdEQjk4Tmo3UjdDb2R5ek4wWHVZUno2U3FtLTNuMEZaY0Y5dkltc2tvcE96Z0M2YzViVEszX1Fsc0lJNVpoWV9HWUItNTRsVmJTWEhRa2hIakZNTzZhRXUtcWl4UjZFZTZlcGVpeXFXc3BtTzZZVQ?oc=5",
-    "source": "adnradio.cl",
+    "source": "ADN Radio",
     "published": "2026-09-03T10:49:36+00:00",
     "keywords_matched": [
       "tsunami",
@@ -357,12 +442,13 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy, jueves 3 de septiembre en Chile: consulta epicentro y magnitud - La Tercera",
+    "title": "Temblor hoy, jueves 3 de septiembre en Chile: consulta epicentro y magnitud - latercera.com",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ2taaXllU0ppbl9keGd4Z1NIY094ckhBS045OUljRHJmMXdYMzBZbUNOZDF3WExUczlRaGl3b1Ftd3U3R1J5a25sTUxuTjh2UWtTVDFPeDZkUzVWVXpBYXhLSGNVdUUzZzRCSmk0REtRUUJtM016NkhsUWQ2N3dSNDhjOVkyMy1BT0NZc1AxTWt5MmVCcXc2SnZhN3N1UEo1bmc4Q1daQjlSQ1RhcklqekFXYkEzbzl0M0HSAdsBQVVfeXFMUFlqRXBrcjl5SHNVNzlUVk8xYmFNdlNNUVVIOVlQSXp5aS1Cb05mUm9zMkRPek1sMHpodjZyMVUyel9GT2dZM1NfbUxGcmJkQmVLdzloZXFiMURrejhFTzk3ZzF0Z3ZOalZlbmU1a2hxSXNKc0dCQ0g1MUtMMzZyM2h4eXdvNGNzUWJlZXRQNENuS0RmVERkQktvRkliQk1BaFZFeDNQYVViaDFmQ2VMcVcxT2ZGNjVXUDZqM1JpTExxbW5QdWpWN2MzN1NLWklQMENMYVpGTU1pYW9n?oc=5",
-    "source": "La Tercera",
+    "source": "latercera.com",
     "published": "2026-09-03T10:02:49+00:00",
     "keywords_matched": [
       "sismo",
+      "tsunami",
       "temblor"
     ],
     "place": "coquimbo",
@@ -431,9 +517,9 @@
     "lon": -71.3436
   },
   {
-    "title": "Tiembla en Chile: sismo de magnitud 5.2 sacude La Serena este 3 de septiembre - Infobae",
+    "title": "Tiembla en Chile: sismo de magnitud 5.2 sacude La Serena este 3 de septiembre - infobae.com",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWGVzTkd1Q3hsYUJLNDFFZkh0RURWLXVlSXRwRG11b29pYUtlRDd3a2REQzl6T2h5X3NXWDRxdmxzd2pIb2hHWWhQSE1EcE91WHUwdjJrUTBSWXMxZzhROS1ZWG5VckYycTY1UU16UnN5cDBoVnhtSTQ1WjU1QUpQczhrd3R1SnQ2M1NNcVJ6OE1qSWdIVTB6NUZCS2h2ZGdnUW1MZG9na0xyRGxucER4NE5ZYUE4NEhWd0NCX9IB1wFBVV95cUxQUHFFSHViVWpjVTlPQWltV3U0VWVsUm0zRG15aTZKMXFDdmRoYTZKM1I1c1FxNzB2YndYZWhTcEJXTWpPanRldXJySFFXSmh3Yi1GR3ZQdE5HSEF4cVZoWWo1aFQtSlA2ck5TeTlERU5XXzM0YzJyNTRTNS1mV2dlM0ZZQWpQSEdRdFF1OU5zVS16bzU5a2tHUkhENmstX0dLWXZlMWhfN1RsaW53eldibFJFT3ZtZWtKUzNEaVNRUGdkS2d2QUVDVXA4T0oweFRXTFMzSUZPZw?oc=5",
-    "source": "Infobae",
+    "source": "infobae.com",
     "published": "2026-09-03T06:32:38+00:00",
     "keywords_matched": [
       "sismo"
@@ -539,9 +625,9 @@
     "lon": null
   },
   {
-    "title": "Temblor sacude la zona central del país: revisa la magnitud y epicentro - Radio Agricultura",
+    "title": "Temblor sacude la zona central del país: revisa la magnitud y epicentro - radioagricultura.cl",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX1dpSjAxWEYtY21VamVMdWM5Z1g3UHdROENYeE1wak5ua2hveUk4WXFDTHJjdXVETlljeUJVNDZpU2NrdEJjRWd4S1ZGNmY2XzdqVEc3bkNPWWpWa1cwRXlQY1ZpYTRPZEhYdFlQXzRRY2tCZkQyR3Rwa05qLWNWUGRNajdmdHRQbGdSN3R2Y3ZWVFY1V0p5OGV4M09LS3MzOG4zZjg3dHZhYm9QbUwtX1JMa3FPVm1lQllNVUJnOXdDZF9uelIyZUxHZmY?oc=5",
-    "source": "Radio Agricultura",
+    "source": "radioagricultura.cl",
     "published": "2026-09-03T02:14:07+00:00",
     "keywords_matched": [
       "temblor"
@@ -590,9 +676,9 @@
     "lon": null
   },
   {
-    "title": "Voz de \"Piccolo\" probó el terremoto: \"No sabe fuerte, pero dicen que pega como patada de mula\" - Cooperativa",
+    "title": "Voz de \"Piccolo\" probó el terremoto: \"No sabe fuerte, pero dicen que pega como patada de mula\" - cooperativa.cl",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPN1ZISjNvc056S0ZlRFJlMGJXSEZ6aTkwTTVsU1kzcC1nRjlndmpzTjNCYmpUTFRaaks5Rjg4MThfLVJOVGJYczlTYVhaOWxHcGJpYUp6Z2M3U1Bsa1FWUlpDUzVPa1ZRM29KX3Zlc0I4T2ZyNDdaRXd5ei04eXJuUmc1TXZGLWp1MDM2REFteW1TV29KUS1IWVZlUGV3UENlcmdHNE9HQVZ3eEpBSG1kM003TWRwcnVqZjhydzFYb3ZRMmc5Q1JqTFNZM1cyQ3BfQk5HVndoNjcyQdIBjAFBVV95cUxQNHhtTUdMSTBYT1RXdFQtODhRU19DaHZJOFdXQkZ6aHoyRWJsLU1MbGd2ME1qYWk0TFJ3XzRueFB1RzF3LVZnbXgteWdZNDhwdnUwZkZJb2JMdkVLSTdIZGpMa1M5T0xVNkdwNms4a2VabUE4dU9NUW9FWnVPa1EtMDlkLUwyUjlZTnE1TA?oc=5",
-    "source": "Cooperativa",
+    "source": "cooperativa.cl",
     "published": "2026-09-02T21:23:00+00:00",
     "keywords_matched": [
       "terremoto"
@@ -602,9 +688,9 @@
     "lon": null
   },
   {
-    "title": "¿Cómo Traer A Mi Familia Desde Colombia A Chile Post Terremoto De Agosto Del 2026? - Infomigra",
+    "title": "¿Cómo Traer A Mi Familia Desde Colombia A Chile Post Terremoto De Agosto Del 2026? - infomigra.org",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNekd6aTVwSGZyLU5LMThtMkZYWFQyRzdmNlVRcFlxYkZ0OG1tVU5mSE1Jazg1ZFBFOHRsQWt2MkZrMHAzRDZXMnp5aDlabTY5LVd4QlF2cWF2SXdEcW9zNkRvd1lUWEdJcjhrYWduMHdJU3dYRDV3RlplcEtiVEI0N0F2MmRUZFhfS01oZlJ3aDBDSTVKUGUyM0pWQmZUNHp4VlhnQzFVSmo5Z1U?oc=5",
-    "source": "Infomigra",
+    "source": "infomigra.org",
     "published": "2026-09-02T21:15:39+00:00",
     "keywords_matched": [
       "terremoto"
@@ -700,9 +786,9 @@
     "lon": null
   },
   {
-    "title": "SHOA descarta riesgo de tsunami en Chile tras temblor 5,8 registrado en la región de Valparaíso - adnradio.cl",
+    "title": "SHOA descarta riesgo de tsunami en Chile tras temblor 5,8 registrado en la región de Valparaíso - ADN Radio",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ1VmS004SkJKR0l6Y3pSRXFpLXlhRmtWajFyRGt0cWdfaVk3ZC1MTXRrdEluWGN2VFo5azByWGJkTEhMTXA0VXcycVVQZkVyTldvUGVfRnpMT2ZNaFk5anQ2ckNXTlFBLXdkOWM0X1JQWTgyT3p6aTIxSkYyVmdwXzE3OGJOYnJ2aEhoYVp6SENjOWxFSEtramUwLUNDLWE0Wk5ndjRZYzhjYkNFdjlhaDBxdmFUTUxKaUxyZGJPRjFsejltdHotUURn0gHeAUFVX3lxTFBqckF1ZkVPSlg3ZUdwbGFuclNKVEJrTTJpbDRraF9HOFo3ZG5DX2Q0ckVqQVp0YXNsWlZDNGFCUE1iempveG9oUkFkd0c3QkdmNW9QbEFVYWtLZU41X1dzU2ZYTjJWWVI1Nkp4ZUlqMlkxcXVfcEZnLXA5RllUZGdKbTNlSE9WM0xmaWlfV1IzVHFTcUZ3YlBsQW9ZNW5QRXl1ZWstbmxaT3hCLVg1NFpSNTljQ2ZFOEc0M3RyQVZXV3pOdkFpWHB2N3NLMFloMnVraXFCYU5SVTFSR3Fwdw?oc=5",
-    "source": "adnradio.cl",
+    "source": "ADN Radio",
     "published": "2026-09-02T15:27:46+00:00",
     "keywords_matched": [
       "tsunami",
@@ -725,9 +811,9 @@
     "lon": null
   },
   {
-    "title": "SHOA descarta riesgo de tsunami en Chile tras temblor 5,8 registrado en la región de Valparaíso - adnradio.cl",
+    "title": "SHOA descarta riesgo de tsunami en Chile tras temblor 5,8 registrado en la región de Valparaíso - ADN Radio",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQanJBdWZFT0pYN2VHcGxhbnJTSlRCa00yaWw0a2hfRzhaN2RuQ19kNHJFakFadGFzbFpWQzRhQlBNYnpqb3hvaFJBZHdHN0JHZjVvUGxBVWFrS2VONV9Xc1NmWE4yVllSNTZKeGVJajJZMXF1X3BGZy1wOUZZVGRnSm0zZUhPVjNMZmlpX1dSM1RxU3FGd2JQbEFvWTVuUEV5dWVrLW5sWk94Qi1YNTRaUjU5Y0NmRThHNDN0ckFWV1d6TnZBaVhwdjdzSzBZaDJ1a2lxQmFOUlUxUkdxcHfSAd4BQVVfeXFMUGpyQXVmRU9KWDdlR3BsYW5yU0pUQmtNMmlsNGtoX0c4WjdkbkNfZDRyRWpBWnRhc2xaVkM0YUJQTWJ6am94b2hSQWR3RzdCR2Y1b1BsQVVha0tlTjVfV3NTZlhOMlZZUjU2SnhlSWoyWTFxdV9wRmctcDlGWVRkZ0ptM2VIT1YzTGZpaV9XUjNUcVNxRndiUGxBb1k1blBFeXVlay1ubFpPeEItWDU0WlI1OWNDZkU4RzQzdHJBVldXek52QWlYcHY3c0swWWgydWtpcUJhTlJVMVJHcXB3?oc=5",
-    "source": "adnradio.cl",
+    "source": "ADN Radio",
     "published": "2026-09-02T14:59:41+00:00",
     "keywords_matched": [
       "tsunami",
@@ -762,9 +848,9 @@
     "lon": null
   },
   {
-    "title": "SHOA descarta tsunami para las costas chilenas tras sismo 5.8 al sur de Rapa Nui - SoyChile.cl",
+    "title": "SHOA descarta tsunami para las costas chilenas tras sismo 5.8 al sur de Rapa Nui - soychile.cl",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUHM0d2hqTjBoSDN6cWtRYmhfcmk1WVFpRzRNc0JFRUFTUTQtOTJSbG10S21EWW9JS3pYOXlMSFJ6eGJ2Mm5GNy1ZYkp3SUVkbk93eUtxUHhJVlZmRHZRWHhRWFZxRGtjcC1vWlJXcG51T243VVFGN0M1bko2dEd2S1ZreFVhTXNZMTZ0cW90VmRiaF84aHV1U2lCTEVzQQ?oc=5",
-    "source": "SoyChile.cl",
+    "source": "soychile.cl",
     "published": "2026-09-02T14:11:16+00:00",
     "keywords_matched": [
       "sismo",
@@ -788,9 +874,9 @@
     "lon": null
   },
   {
-    "title": "SHOA descarta tsunami en las costas de Chile tras sismo 5,8 al sur de Isla de Pascua - Puranoticia.cl",
+    "title": "SHOA descarta tsunami en las costas de Chile tras sismo 5,8 al sur de Isla de Pascua - puranoticia.pnt.cl",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLU51Qndjam5HNm53UWlFWnAyVnltdGQ4OHRXRnBiVURBRVpadVM0dUNCM2ExVElQOFJHS240b2VFZHdIcjdsWHg0MF9WRnczZXp4WEdiQmdxaWRsVTFvNjVWcUVtNjkwSU40aWFGYTlPNS1maE41eTgzbVJ2a0o0NzdLSVBGbEFLWlBraVVnMWpPV3UweWpWa2JYU2U1QUdNRnJPT2xwZFlKQ2Zzc2JJc1VIVWtZamF5SjJz?oc=5",
-    "source": "Puranoticia.cl",
+    "source": "puranoticia.pnt.cl",
     "published": "2026-09-02T13:29:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -826,9 +912,9 @@
     "lon": null
   },
   {
-    "title": "Fuerte temblor de magnitud 5,8 se registra en Isla de Pascua: SHOA descarta tsunami en Chile - Radio Agricultura",
+    "title": "Fuerte temblor de magnitud 5,8 se registra en Isla de Pascua: SHOA descarta tsunami en Chile - radioagricultura.cl",
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxObFB1T2FERW1rVHU4TW80d2IwNjI5Sk0zeWI1TnlRNFdfdTY5anpfUVIzQkM0cEJOVXhWMmJwSERHNHNGMWgtcTBRLWZXV1JNQTgyMktzOGdBVU9zRGxfTC1iOV9rVnRTdEx5UHMzYllmUUs5VXp4RVM2VDVqSDJZOUw3TXNNY3JVcDlOMDhTZnN3bWFEX2xDWkxLQ1dhUUt1VEVMUHE3cTFQMmlJaktIbHhNdzM1QVVzNVZnOFpMWkpCQlhqZUNMeGJYT0wxVjF0MTVoZUFITFFzdUFpVnljUTBJY1M?oc=5",
-    "source": "Radio Agricultura",
+    "source": "radioagricultura.cl",
     "published": "2026-09-02T13:13:20+00:00",
     "keywords_matched": [
       "tsunami",
@@ -839,9 +925,22 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy, miércoles 2 de septiembre en Chile: consulta epicentro y magnitud - La Tercera",
+    "title": "Temblor hoy 2 de septiembre en Chile: Revisa epicentro, magnitud y últimos sismos - chilevision.cl",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd3lSWmZ1UjNaVGxIY3ZzbE5ZSzI4WmxBSURHcUQybmxWYnVGVmY3bnktRFM2a1VtN3ZMd1BPU3hWMGVVeUFyOXoxc1hLMXpvSEN0TmpJQ3pjZGxsaFRuT19vVWZUZlFMSmY2Y2xYMEgtblpJWFNKMDRScEdmYklPVGZyUHhCQ2REeW1aWXlMbEpyYVU5aWpUUVU5YlE2TDNJRUlCc041MElBc2lqQk04ODlTNFJvaFl0cE1MdVRaUVczNU0?oc=5",
+    "source": "chilevision.cl",
+    "published": "2026-09-02T11:23:48+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Temblor hoy, miércoles 2 de septiembre en Chile: consulta epicentro y magnitud - latercera.com",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdnY0aC1KYU1ENThwZFdUZ3Q0WS1zQ1NyRFB0TXpqS3h0bXdjX0kzMlRBcEphTXZmNTJwcFlkZGdXeVJCbUQtRm9xdzNyc0JHTTdhMzBJS1BfUG94RWpjT2ZHZkg1N291RmJvWTlPcm9JVEZVeWpzOWh5UUJWTEozLWY2RG03ZS1jWERTd2tsNkE1YmwwaTVSYi0wQ2RJWWJJdVkwSk0zcWViRUl3U0JUMHhCSEdtQlhsNFZnbUFR0gHfAUFVX3lxTE9SZUpjQ1h3ZFdNVkdmNTNQMndNdkc3ek5wR0M1aGIwQi04dHNmWmh1dUFzeWFrZGhWUjlJc0txYVZWTTFjRmlzY2VSeGR5RzVwdnhXbHlQZTZMTHNhNVNPemhiZ2xiTEUyazNfTlZMUkRaaElMTVFkSlNRcHdVQ0VMT1l6aDBQaFJ1SEJDdHhWbGtnS2J6QmlTeV9hVnZ0VHVUYWtSTlpxUW8yRjlMSnJrcl9FZVRDTnNfTkRZVVFpZHRhRWxKOXpONi1ON1FpMG1vQTJacUtXTFpIX0dkS3M?oc=5",
-    "source": "La Tercera",
+    "source": "latercera.com",
     "published": "2026-09-02T09:56:19+00:00",
     "keywords_matched": [
       "temblor"
@@ -997,9 +1096,9 @@
     "lon": null
   },
   {
-    "title": "Fuerte temblor en el norte del país: Revisa la magnitud y epicentro - Radio Agricultura",
+    "title": "Fuerte temblor en el norte del país: Revisa la magnitud y epicentro - radioagricultura.cl",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUU4xNTFuN2ZCM1FuNF9PaUV0U1hDWkx0RkdlTmJEVnBLeTBGb0V4SkYyN2tzWEI1U3g2UkU4Y2djOWFRbS14WWFUbWlJYzZYS2ZXUXdFQklsVHIxTWluNElWMmdHVGFOYmk3QnU0SVJZQmRkRXBMNUlWQks2enVqWFBqX1NkRElyQ0ZFWUdsUW1UdTVpeEJtZHdVU0QzUG5QcnpKbGdYU2g1U0NQYWd5dzBBVXhYaE90N1ZlUWhtYkd0dWxwM0Nn?oc=5",
-    "source": "Radio Agricultura",
+    "source": "radioagricultura.cl",
     "published": "2026-09-01T14:20:26+00:00",
     "keywords_matched": [
       "temblor"
@@ -1009,9 +1108,9 @@
     "lon": null
   },
   {
-    "title": "“Hay que preocuparse”: Latife Soto alerta con nueva predicción y le pone fecha a próximos terremotos - lacuarta.com",
+    "title": "“Hay que preocuparse”: Latife Soto alerta con nueva predicción y le pone fecha a próximos terremotos - La Cuarta",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT3VaVGNDVjF3ai1mTWZkNkpMb096U00xaElPOUNJR0J1Rkk3azNIMmFPVjFxbi1VQXNfS0lkRmpsTmlFOWFLX3lCZ0k2amtJU2lyNkViemh1NU1wdkVhMWVzb2hkQ2JkbTBTTWQ0ZlJ4UEVpYWtYcFJudDNIdWRmcmdJVkJ1RDlnVllIbUF5bmJxQnMwWVkzT3pfYWRnTzd2SVRVd21xODJLZlFWclJxLUVVQzd6M1o3NHd5X3JoaW40WTdEWDRlanJXUEpBZkZSMHVFWTd1SDlFOUVJ0gH-AUFVX3lxTE1LQ0t5cGQxMXk1Zk1JVEtpMzZ4Zkd6RHF6MUswcXplYmx5OXo0eV9SQ1gwLVNvN0hFT3VHREtoMWl3RkNBOEZGRHFOSjk0NWNULUpYTU81WTVZS0pNS2NOM2hBLTd1Z1E3elNjaFZWdUtpMXdGUkg2N094SVJoeVVVM1J5Qy1EaEh5dGlfQ2dEaVRnSmxWbkotZ1I3NFNGNHhDUklyZ09DNUp2VExzZ2hNSWptd2lqSjVSbzVUUTZlUmZGWkJlU1hDcElpOThLanBRS2RyWEstVXJYNUxpbnBHN2FRMnp6QXJ6VDhiS0tORVVxMGVMTl8wamdocHBn?oc=5",
-    "source": "lacuarta.com",
+    "source": "La Cuarta",
     "published": "2026-09-01T13:51:53+00:00",
     "keywords_matched": [
       "terremoto"
@@ -1033,9 +1132,9 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy en Chile: se registra sismo de magnitud 4.2 en Punta este 1 de septiembre - Infobae",
+    "title": "Temblor hoy en Chile: se registra sismo de magnitud 4.2 en Punta este 1 de septiembre - infobae.com",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUnp0MWMwZ0kzN0ZBcHFMRktZYWdYT01GQm11bnFQcWNCcVZ6eHdSR2lUNk4wXzJIVVFTM1lyYWcwTFk4NU10RWdKZnVQWnBPYWVLQ0J3TXJvQTZJQ3IxajFwZmRWRVNMTkJMS3pfaXZUeW1FWFdEQ0NDanJpYTZYT1FiUTZzdk5PbEphVG5JaHFFVFhaTXhuQlFRV2dNVFdkSlJYRDFJdDR4Q1VQOVd4SW01RW5pZWZLRjVLWHhHSFM5Q1R6d3dR0gHiAUFVX3lxTE1peXRkcjltX1Y4UmJlUGhiRXRZWDY0QTRMQ2J4MHo4bTBCSmFyZGVUcmRrc2hmVEwwM0gyOWdGcnJYdk9fQmRTMjZxWnc0SHJKX1ExS0FDY1lNa3BLTWU3alFTRkFyMG1rdjhoZTZNZURlQ3AwcExfcXpQckE0SUlSNHZDRGx0X1FJdGM0UVFzV1o1T2dpSGRJaVR0OC1TUGgyX20tTExqRW9rNHhCdEJPX2VtSGVWclVySHpQdmRBQldlczc4Q1Z1TnRlZzVwZGNjMF9ZZVd4a2xIZ0szRmdjYXc?oc=5",
-    "source": "Infobae",
+    "source": "infobae.com",
     "published": "2026-09-01T13:31:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -1046,9 +1145,9 @@
     "lon": null
   },
   {
-    "title": "Temblor sacude el norte de Chile durante la mañana de este martes - Radio Agricultura",
+    "title": "Temblor sacude el norte de Chile durante la mañana de este martes - radioagricultura.cl",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM0t4T3pnV2xON2NxcURqQmNFUGx3RTR1bUVQSUF1U2FZTTVZNVNYaWpCRDBIZTN0bDFta1RPTk9xbFNJZm1Od1FnaWltSzFpcmRhX056U1IwZzYtY2FJaEYtNFBGd0VORDhDNGI2dnVEUzBpM0lEdE5XYmNKLTM0LUwwSVloWUVlN0J2M2p1ZjV5ZVI1ZXg5VHR2NmVJaWdpbFo4ZDM2a0tBbmFNSXFPSEYtMk9WSGxiVVBmVU9ORWZFbmc?oc=5",
-    "source": "Radio Agricultura",
+    "source": "radioagricultura.cl",
     "published": "2026-09-01T13:17:50+00:00",
     "keywords_matched": [
       "temblor"
@@ -1106,9 +1205,9 @@
     "lon": null
   },
   {
-    "title": "Galería de Plataforma Editorial: Elecciones en Chile, Terremoto en Haití y Bienales de Arquitectura - 1 - archdaily.com",
+    "title": "Galería de Plataforma Editorial: Elecciones en Chile, Terremoto en Haití y Bienales de Arquitectura - 1 - ArchDaily",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUldEWjJwUC0xdTdSNk5IeFBDVXAtenRJQnFVZVptcmdyNmJHdDJIVDFvMnY0eXlQemlrN0JBNFFSdFhxdG1qZ2VQOHpERDgzVDlXNVIycl9fVV9DdmNfR3QwRmhvSkgtTWlsVEh6NG5WRExpeHBDeTVwN2p1bXI1SmxROE11aHdwaE9Lc285UEt4OG9GOXR4Qg?oc=5",
-    "source": "archdaily.com",
+    "source": "ArchDaily",
     "published": "2026-09-01T11:42:54+00:00",
     "keywords_matched": [
       "terremoto"
@@ -1118,9 +1217,9 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy 1 de septiembre en Chile: Revisa epicentro, magnitud y últimos sismos - Chilevisión",
+    "title": "Temblor hoy 1 de septiembre en Chile: Revisa epicentro, magnitud y últimos sismos - chilevision.cl",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS3pGajQzSnYyLWV3TDZaWmxObzlBZDVhQ1htZG02OS1tVFVFRDVfR0xNUmtWUjR0Z2NPMjdSc3dVYTk0aGpldjYyRUl5UVlNa0tSMzhvS3l3U0paSWFTSkZhektGbHU4eTJjMktkLXNPOU1uNDBpREoyUTNFby1XQmhiTFNEeUxiMmlvOGZ6LWkydl9La3g0TzhSaVBmMFljYkhTOFZCMnFKb24zSUtEV05PMUliU3dOTEpreHVza1ZTVTQ?oc=5",
-    "source": "Chilevisión",
+    "source": "chilevision.cl",
     "published": "2026-09-01T11:04:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -1192,9 +1291,9 @@
     "lon": null
   },
   {
-    "title": "Tiembla en Chile: sismo de magnitud 4.3 sacude Taltal este 31 de agosto - Infobae",
+    "title": "Tiembla en Chile: sismo de magnitud 4.3 sacude Taltal este 31 de agosto - infobae.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdEFXRXpsZWl3Xzdsa3lRVlNkTVpOMDdQLUF5S3JsOUFaSzhYNmNreG50Q05HaHNLaE5tT3R1WndRSkF4XzRFTDRZVmdERnlKT1dxMERrMzhsem16WWpVeVBlcl9BQ3NldHN1dkRia2JiYnAxTmZvblVHeW50U0hhcFNIaW05WldfRmMyWGhfVGZHNndCOFpWRDM3azBOaVRjbVdRX1FoREpBczJrd1V6ajVHTTPSAc8BQVVfeXFMTnJVUGYwcUJfVzVzRGp6Y08wb1VDV1FNdFB3bnBBQUJCbGlzX1dlazRPbG53ZWxLUXRxTG5uQy1vekVoclBkWWxEREdqcUs1QnoxRlJ2WkV3ZlQtOXRfZEhSX0ZFTkgtR2J1dy16eF9fUmlWU0wySWNBN1NfTGpzNE4xeGFNcFJ2Y1FsRVh3eXVHekwxT1hYRTFPc0dpTzdrTy1HUzFoejM3cVFOX2ZtbHJHZlpfU1Z1cjJVRUJZNnczUy1PRUltTzJCa1FiOVdF?oc=5",
-    "source": "Infobae",
+    "source": "infobae.com",
     "published": "2026-09-01T05:16:00+00:00",
     "keywords_matched": [
       "sismo"

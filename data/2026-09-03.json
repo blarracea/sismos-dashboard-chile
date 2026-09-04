@@ -239,7 +239,7 @@
     "id": "us7000te5e",
     "source": "usgs",
     "time": "2026-09-03T21:18:21.492000+00:00",
-    "updated": "2026-09-03T22:32:16.514000+00:00",
+    "updated": "2026-09-03T22:48:57.523000+00:00",
     "lat": -31.8967,
     "lon": -71.2399,
     "depth_km": 81.851,
@@ -248,7 +248,7 @@
     "place": "29 km WSW of Salamanca, Chile",
     "cdi": 2.3,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
