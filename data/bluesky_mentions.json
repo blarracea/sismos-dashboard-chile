@@ -1,5 +1,35 @@
 [
   {
+    "link": "https://bsky.app/profile/peru.sismos.live/post/3mury47532y2z",
+    "text": "#Peru #Ecuador #sismo M3.8 | Off Coast of Northern Peru | hace 5m | 5 Sep 2026 12:09 (Peru Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú",
+    "author_handle": "peru.sismos.live",
+    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-05T17:14:23+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mury44qa672b",
+    "text": "#SouthAmerica #sismo M3.8 | Off Coast of Northern Peru | hace 5m | 5 Sep 2026 17:09 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-09-05T17:14:22+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3murrgbvgow2h",
     "text": "#Chile #sismo M3.3 | Potosí, Bolivia | hace 6m | 5 Sep 2026 12:09 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Bolivia #Departamento_de_Potosi",
     "author_handle": "chile-sismos.bsky.social",
@@ -643,20 +673,5 @@
     "place": "antofagasta",
     "lat": -23.6509,
     "lon": -70.3975
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mupf2xjjlq2l",
-    "text": "#Chile #sismo M2.7 | Offshore Tarapaca, Chile | hace 9m | 4 Sep 2026 13:19 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T16:28:22+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
