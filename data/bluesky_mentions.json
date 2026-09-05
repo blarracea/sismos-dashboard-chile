@@ -1,5 +1,80 @@
 [
   {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mush3i5lpa27",
+    "text": "#Chile #sismo M3.2 | Off Coast OF O'Higgins, Chile | hace 6m | 5 Sep 2026 18:36 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-05T21:42:26+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mush3gdzyh2b",
+    "text": "#SouthAmerica #sismo M3.2 | Off Coast OF O'Higgins, Chile | hace 6m | 5 Sep 2026 21:36 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-09-05T21:42:24+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3musguudrzm2u",
+    "text": "#Chile #sismo M3.5 | Offshore Valparaiso, Chile | hace 7m | 5 Sep 2026 18:31 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Valparaiso",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-05T21:38:44+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "valparaiso",
+    "lat": -33.0472,
+    "lon": -71.6127
+  },
+  {
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3musgusilkj2f",
+    "text": "#SouthAmerica #sismo M3.5 | Offshore Valparaiso, Chile | hace 7m | 5 Sep 2026 21:31 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Valparaiso",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-09-05T21:38:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "valparaiso",
+    "lat": -33.0472,
+    "lon": -71.6127
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3musdtngkua2e",
+    "text": "#Chile #sismo M2.7 | Antofagasta, Chile | hace 6m | 5 Sep 2026 17:38 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-05T20:44:22+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
     "link": "https://bsky.app/profile/pedroalmendras.bsky.social/post/3musa2i5vhk2b",
     "text": "Los angeles 1908. Edificio de la intendencia provincial. Fue destruido por el terremoto de 1939.",
     "author_handle": "pedroalmendras.bsky.social",
@@ -478,110 +553,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/peru.sismos.live/post/3mupvxr2m3c2z",
-    "text": "#Peru #Ecuador #sismo M3.2 | Peru: Off Coast OF Tarapaca, Chile | hace 8m | 4 Sep 2026 17:23 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú",
-    "author_handle": "peru.sismos.live",
-    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T21:30:48+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mupvxo7d6k2m",
-    "text": "#Chile #sismo M3.2 | Peru: Off Coast OF Tarapaca, Chile | hace 7m | 4 Sep 2026 17:23 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T21:30:45+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mupvxkcqud2l",
-    "text": "#SouthAmerica #sismo M3.2 | Peru: Off Coast OF Tarapaca, Chile | hace 7m | 4 Sep 2026 21:23 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-04T21:30:41+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3mupvk3nnqc2m",
-    "text": "Colombia — El senador estadounidense visitará Colombia para discutir temas de seguridad y apoyo tras el terremoto. #Perú #Colombia #Ecuador #Lima #News",
-    "author_handle": "es-us.pds.netasgard.com",
-    "author_name": "Netasgard News Estados Unidos (es)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-04T21:23:09+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3muptdponod2t",
-    "text": "#Chile #sismo M3.4 | Limarí, Coquimbo, Chile | hace 9m | 4 Sep 2026 17:34 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Coquimbo",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T20:43:48+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "coquimbo",
-    "lat": -29.9533,
-    "lon": -71.3436
-  },
-  {
-    "link": "https://bsky.app/profile/argentina.sismos.online/post/3muptdnmvlb2n",
-    "text": "#Argentina #sismo M3.4 | Limarí, Coquimbo, Chile | hace 9m | 4 Sep 2026 17:34 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Coquimbo",
-    "author_handle": "argentina.sismos.online",
-    "author_name": "Argentina Quake Alert - Sismos en Argentina",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5oewbqgf2rzanxcbfbkuqs3a/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-04T20:43:45+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "coquimbo",
-    "lat": -29.9533,
-    "lon": -71.3436
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3muptdkfqzu2l",
-    "text": "#SouthAmerica #sismo M3.4 | Limarí, Coquimbo, Chile | hace 9m | 4 Sep 2026 20:34 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Coquimbo",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-04T20:43:42+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "coquimbo",
-    "lat": -29.9533,
-    "lon": -71.3436
   }
 ]
