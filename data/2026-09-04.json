@@ -21,5 +21,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8p",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tefw",
+    "source": "usgs",
+    "time": "2026-09-04T23:38:40.818000+00:00",
+    "updated": "2026-09-04T23:57:09.040000+00:00",
+    "lat": 9.4666,
+    "lon": -40.8475,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "central Mid-Atlantic Ridge",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefw",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
