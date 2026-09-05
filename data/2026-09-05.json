@@ -113,5 +113,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tei5",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tej2",
+    "source": "usgs",
+    "time": "2026-09-05T11:37:12.553000+00:00",
+    "updated": "2026-09-05T11:58:52.040000+00:00",
+    "lat": -26.1078,
+    "lon": -66.7176,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "69 km E of Antofagasta de la Sierra, Argentina",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tej2",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
