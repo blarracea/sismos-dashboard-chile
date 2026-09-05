@@ -1,5 +1,35 @@
 [
   {
+    "link": "https://bsky.app/profile/pedroalmendras.bsky.social/post/3musa2i5vhk2b",
+    "text": "Los angeles 1908. Edificio de la intendencia provincial. Fue destruido por el terremoto de 1939.",
+    "author_handle": "pedroalmendras.bsky.social",
+    "author_name": "Pedro Almendras",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6bdr67nwosh7jhg54piuy4iz/bafkreigvgfjj23gpblp42oortcznp33yw3dbjlftm4opce3icypktnttyu",
+    "published": "2026-09-05T19:36:37.741000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "los angeles",
+    "lat": -37.4694,
+    "lon": -72.3533
+  },
+  {
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mus5hsa43226",
+    "text": "#Chile #sismo M2.5 | Tarapaca, Chile | hace 9m | 5 Sep 2026 14:41 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#minor #M2+ #Chile",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-05T18:50:22+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/peru.sismos.live/post/3mury47532y2z",
     "text": "#Peru #Ecuador #sismo M3.8 | Off Coast of Northern Peru | hace 5m | 5 Sep 2026 12:09 (Peru Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Perú",
     "author_handle": "peru.sismos.live",
@@ -553,125 +583,5 @@
     "place": "coquimbo",
     "lat": -29.9533,
     "lon": -71.3436
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mups4ukaaf2l",
-    "text": "#Chile #sismo M3.3 | Iquique, Tarapacá, Chile | hace 7m | 4 Sep 2026 17:15 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Tarapacá",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T20:22:04+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "iquique",
-    "lat": -20.2133,
-    "lon": -70.1503
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mups4sjpew2d",
-    "text": "#SouthAmerica #sismo M3.3 | Iquique, Tarapacá, Chile | hace 7m | 4 Sep 2026 20:15 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Tarapacá",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-04T20:22:02+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "iquique",
-    "lat": -20.2133,
-    "lon": -70.1503
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mupqg4vgnm2d",
-    "text": "#Chile #sismo M3.1 | Antofagasta, Chile | hace 8m | 4 Sep 2026 16:43 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T19:51:28+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mupqg2otqf22",
-    "text": "#SouthAmerica #sismo M3.1 | Antofagasta, Chile | hace 8m | 4 Sep 2026 19:43 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-04T19:51:25+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mupo2ederq2v",
-    "text": "#Chile #sismo M3.0 | El Loa, Antofagasta, Chile | hace 9m | 4 Sep 2026 15:59 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T19:09:05+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mupo2cbmdo2s",
-    "text": "#SouthAmerica #sismo M3.0 | El Loa, Antofagasta, Chile | hace 9m | 4 Sep 2026 18:59 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-04T19:09:03+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
-  },
-  {
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mupnd4xrlc2r",
-    "text": "#Chile #sismo M3.0 | El Loa, Antofagasta, Chile | hace 8m | 4 Sep 2026 15:48 (Argentina Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-04T18:56:06+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
-  },
-  {
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mupnd2fhja2v",
-    "text": "#SouthAmerica #sismo M3.0 | El Loa, Antofagasta, Chile | hace 8m | 4 Sep 2026 18:48 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#weak #M2+ #M3+ #Chile #Region_de_Antofagasta",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-04T18:56:03+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
   }
 ]
