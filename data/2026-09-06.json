@@ -3,7 +3,7 @@
     "id": "us7000telw",
     "source": "usgs",
     "time": "2026-09-06T01:27:25.731000+00:00",
-    "updated": "2026-09-06T14:25:39.921000+00:00",
+    "updated": "2026-09-06T17:17:33.070000+00:00",
     "lat": -20.6208,
     "lon": -69.9347,
     "depth_km": 49.996,
@@ -12,12 +12,18 @@
     "place": "42 km SSE of La Tirana, Chile",
     "cdi": 2.5,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -20.276865,
         "lon": -70.096465,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": -20.258615,
+        "lon": -70.1250575,
         "intensity": 2.5,
         "responses": 1
       },
