@@ -162,34 +162,9 @@
     "mmi": null,
     "felt_reports": 0,
     "tsunami_flag": false,
-    "dyfi_points": [
-      {
-        "lat": -18.4783,
-        "lon": -70.3126,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Arica",
-        "region": "Arica y Parinacota"
-      },
-      {
-        "lat": -18.833472,
-        "lon": -69.7442148,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Codpa",
-        "region": "Arica y Parinacota"
-      },
-      {
-        "lat": -18.5183473,
-        "lon": -70.1771824,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "San Miguel de Azapa",
-        "region": "Arica y Parinacota"
-      }
-    ],
-    "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-arica-y-parinacota-2026-08-28-16-49-21",
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcqp",
     "relevant": false,

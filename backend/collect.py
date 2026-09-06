@@ -29,6 +29,7 @@ guarda posts publicos de Bluesky con las palabras clave del proyecto (ver
 sources/bluesky.py) en data/bluesky_mentions.json, para el panel "Bluesky en
 vivo" del dashboard.
 """
+import math
 from datetime import datetime, timedelta, timezone
 
 import comuna_coords
@@ -39,6 +40,37 @@ from sources import bluesky, csn, social, usgs
 CSN_MATCH_MAX_SECONDS = 180
 CSN_MATCH_MAX_DEGREES = 0.5
 CSN_MATCH_MAX_MAGNITUDE_DIFF = 1.0
+
+# Un reporte de intensidad para UN sismo no deberia tener comunas
+# arbitrariamente lejos del epicentro -- si una comuna geocodifica asi de
+# lejos, es casi siempre un nombre ambiguo mal resuelto (ver
+# comuna_coords.NOT_A_COMUNA para el caso conocido de "El Loa") o un mal
+# match entre el evento y un reporte de SENAPRED de OTRO sismo (dos sismos
+# distintos el mismo dia, con hora/magnitud parecidas -- SENAPRED_MATCH no
+# tiene forma de descartar esto de antemano porque su archivo no da lat/lon,
+# ver enrich_with_senapred_archive). Ninguno de los dos casos es un dato
+# real. Esta es la defensa general: cubre cualquier nombre/match mal
+# resuelto que todavia no este identificado puntualmente.
+#
+# El limite escala con la magnitud porque un sismo chico no se siente
+# realistamente a cientos de km (un M4.4 emparejado por error con un
+# reporte a ~660 km es justamente el caso que este chequeo tiene que
+# atrapar), pero un sismo grande si puede sentirse mas lejos. 150 km de piso
+# y 700 km de techo son a criterio, calibrados contra los reportes reales
+# vistos hasta ahora (el mas ancho, un M4.7 sentido desde Cuya hasta
+# Antofagasta, no pasa de ~340 km del epicentro).
+MAX_INTENSITY_POINT_DISTANCE_FLOOR_KM = 150
+MAX_INTENSITY_POINT_DISTANCE_CEILING_KM = 700
+MAX_INTENSITY_POINT_DISTANCE_KM_PER_MAGNITUDE = 120
+
+
+def _max_intensity_distance_km(magnitude):
+    if magnitude is None:
+        return MAX_INTENSITY_POINT_DISTANCE_CEILING_KM
+    return max(
+        MAX_INTENSITY_POINT_DISTANCE_FLOOR_KM,
+        min(MAX_INTENSITY_POINT_DISTANCE_CEILING_KM, magnitude * MAX_INTENSITY_POINT_DISTANCE_KM_PER_MAGNITUDE),
+    )
 
 # El archivo de SENAPRED solo da hora local (no lat/lon), asi que la segunda
 # pasada usa una ventana de tiempo mas ancha y matchea por magnitud en vez
@@ -101,6 +133,45 @@ def build_event_record(feature, dyfi_points):
 
 def is_chile_event(place):
     return "chile" in (place or "").lower()
+
+
+def _haversine_km(lat1, lon1, lat2, lon2):
+    earth_radius_km = 6371.0
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    delta_lat = math.radians(lat2 - lat1)
+    delta_lon = math.radians(lon2 - lon1)
+    a = math.sin(delta_lat / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(delta_lon / 2) ** 2
+    return 2 * earth_radius_km * math.asin(math.sqrt(a))
+
+
+def _build_intensity_point(entry, event):
+    """
+    Geocodifica una entrada de comuna del reporte y arma el punto para
+    dyfi_points -- o descarta el punto (devuelve None) si el nombre no se
+    pudo geocodificar o geocodifico a un lugar demasiado lejos del
+    epicentro del sismo (ver MAX_INTENSITY_POINT_DISTANCE_KM).
+    """
+    coords = comuna_coords.get_coords(entry["comuna"])
+    if coords is None:
+        return None
+
+    distance_km = _haversine_km(event["lat"], event["lon"], coords[0], coords[1])
+    if distance_km > _max_intensity_distance_km(event["magnitude"]):
+        print(
+            f"Aviso: se descarta el punto de intensidad de '{entry['comuna']}' para "
+            f"{event['id']} -- geocodifico a {distance_km:.0f} km del epicentro, "
+            "probablemente un nombre mal resuelto."
+        )
+        return None
+
+    return {
+        "lat": coords[0],
+        "lon": coords[1],
+        "intensity": entry["intensity"],
+        "responses": None,
+        "comuna": entry["comuna"],
+        "region": entry["region"],
+    }
 
 
 def find_csn_match(usgs_event, csn_details):
@@ -192,21 +263,7 @@ def enrich_with_csn(events):
             print(f"Aviso: no se pudo leer el reporte SENAPRED de {event['id']} ({exc}).")
             continue
 
-        points = []
-        for entry in intensity_report:
-            coords = comuna_coords.get_coords(entry["comuna"])
-            if coords is None:
-                continue
-            points.append(
-                {
-                    "lat": coords[0],
-                    "lon": coords[1],
-                    "intensity": entry["intensity"],
-                    "responses": None,
-                    "comuna": entry["comuna"],
-                    "region": entry["region"],
-                }
-            )
+        points = [p for p in (_build_intensity_point(entry, event) for entry in intensity_report) if p]
 
         if points:
             event["dyfi_points"] = points
@@ -263,21 +320,7 @@ def enrich_with_senapred_archive(events):
             ):
                 continue
 
-            points = []
-            for entry in report["points"]:
-                coords = comuna_coords.get_coords(entry["comuna"])
-                if coords is None:
-                    continue
-                points.append(
-                    {
-                        "lat": coords[0],
-                        "lon": coords[1],
-                        "intensity": entry["intensity"],
-                        "responses": None,
-                        "comuna": entry["comuna"],
-                        "region": entry["region"],
-                    }
-                )
+            points = [p for p in (_build_intensity_point(entry, event) for entry in report["points"]) if p]
             if points:
                 event["dyfi_points"] = points
                 event["intensity_source"] = "csn"
@@ -316,6 +359,13 @@ def preserve_existing_csn_data(events):
     en cada corrida (para capturar revisiones de USGS), sin esto se perderia
     la intensidad del CSN ya capturada. Se restaura desde lo guardado si la
     corrida actual no encontro un match nuevo.
+
+    Se revalida la distancia al restaurar (no solo al construir el punto por
+    primera vez): un match viejo entre el evento y el reporte de SENAPRED
+    equivocado (dos sismos distintos el mismo dia, con hora/magnitud
+    parecidas) puede haber quedado guardado de una corrida anterior a que
+    existiera esta validacion, y sin este chequeo se seguiria preservando
+    para siempre.
     """
     stored_by_date = {}
     for event in events:
@@ -326,7 +376,16 @@ def preserve_existing_csn_data(events):
             stored_by_date[date_str] = {e["id"]: e for e in storage.load_day(date_str)}
         previous = stored_by_date[date_str].get(event["id"])
         if previous and previous.get("intensity_source") == "csn":
-            event["dyfi_points"] = previous["dyfi_points"]
+            max_distance_km = _max_intensity_distance_km(event["magnitude"])
+            valid_points = [
+                p
+                for p in previous["dyfi_points"]
+                if p.get("lat") is not None
+                and _haversine_km(event["lat"], event["lon"], p["lat"], p["lon"]) <= max_distance_km
+            ]
+            if not valid_points:
+                continue  # el match guardado ya no pasa la validacion -- no se preserva
+            event["dyfi_points"] = valid_points
             event["intensity_source"] = "csn"
             event["senapred_url"] = previous.get("senapred_url")
             event["csn_informe_url"] = previous.get("csn_informe_url")

@@ -124,6 +124,20 @@ def _geocode_nominatim(comuna_name):
     return float(results[0]["lat"]), float(results[0]["lon"])
 
 
+# Nombres que SENAPRED a veces reporta en el lugar de "comuna" pero en
+# realidad son una PROVINCIA (agrupa varias comunas, no es un punto en si) --
+# geocodificarlos como si fueran una comuna deja el dato en cualquier lugar
+# de Chile que comparta el nombre. Caso real: "El Loa" es la provincia de la
+# Region de Antofagasta (capital Calama, comunas Calama/Ollague/San Pedro de
+# Atacama) -- no existe una comuna llamada "El Loa", y Nominatim la
+# geocodifico a un lugar sin relacion en la Region de Los Lagos, a mas de
+# 2000 km del sismo real. Se prioriza no mostrar el punto antes que
+# mostrarlo en el lugar equivocado (ver tambien la validacion de distancia
+# en collect.py, que es la defensa general para cualquier otro caso como
+# este que todavia no este en esta lista).
+NOT_A_COMUNA = {"el loa"}
+
+
 def get_coords(comuna_name):
     """
     Devuelve (lat, lon) para una comuna chilena. Busca primero en el set
@@ -131,6 +145,9 @@ def get_coords(comuna_name):
     contra Nominatim y guarda el resultado en el cache.
     """
     key = _normalize(comuna_name)
+
+    if key in NOT_A_COMUNA:
+        return None
 
     if key in SEED_COORDS:
         return SEED_COORDS[key]
