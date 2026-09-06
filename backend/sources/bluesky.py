@@ -24,6 +24,7 @@ AT Protocol para que el PDS reenvie internamente la consulta al AppView real
 directa.
 """
 import os
+import re
 from datetime import datetime, timezone
 
 import requests
@@ -38,6 +39,14 @@ SEARCH_URL = "https://bsky.social/xrpc/app.bsky.feed.searchPosts"
 APPVIEW_PROXY = "did:web:api.bsky.app#bsky_appview"
 REQUEST_TIMEOUT = 20
 POSTS_PER_KEYWORD = 25
+
+# Los bots de monitoreo republican TODO sismo detectado, la mayoria M2-M4
+# que nadie sintio -- se dejan pasar solo si es de una magnitud que si
+# amerita aparecer igual que una reaccion organica (mismo umbral que
+# collect.RELEVANT_MAGNITUDE para "sismo relevante" en el resto del sitio).
+MIN_BOT_MAGNITUDE = 5.0
+# Patron del formato que usa toda esta familia de bots: "... #sismo M5.1 | ...".
+BOT_MAGNITUDE_PATTERN = re.compile(r"\bM(\d+(?:\.\d+)?)\b")
 
 
 def fetch_bluesky_mentions():
@@ -102,7 +111,7 @@ def _search_posts(keyword, access_jwt):
             continue
         if not _mentions_chile_or_peru(text):
             continue
-        if _is_automated_alert(text):
+        if _is_automated_alert(text) and not _meets_bot_magnitude_threshold(text):
             continue
 
         author = post.get("author") or {}
@@ -165,6 +174,20 @@ def _is_automated_alert(text):
     """
     normalized = keywords.normalize(text)
     return "lo sentiste" in normalized and "envia un informe" in normalized
+
+
+def _meets_bot_magnitude_threshold(text):
+    """Deja pasar el repost de un bot solo si es de un sismo M5.0+ -- lo
+    suficientemente grande como para que igual valga la pena verlo, en vez
+    de cortar todos los posts de bot sin distincion."""
+    match = BOT_MAGNITUDE_PATTERN.search(text)
+    if not match:
+        return False
+    try:
+        magnitude = float(match.group(1))
+    except ValueError:
+        return False
+    return magnitude >= MIN_BOT_MAGNITUDE
 
 
 def _parse_created_at(created_at):
