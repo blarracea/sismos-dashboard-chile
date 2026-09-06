@@ -46,20 +46,5 @@
     "place": "calama",
     "lat": -22.4667,
     "lon": -68.9333
-  },
-  {
-    "link": "https://bsky.app/profile/pedroalmendras.bsky.social/post/3musa2i5vhk2b",
-    "text": "Los angeles 1908. Edificio de la intendencia provincial. Fue destruido por el terremoto de 1939.",
-    "author_handle": "pedroalmendras.bsky.social",
-    "author_name": "Pedro Almendras",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6bdr67nwosh7jhg54piuy4iz/bafkreigvgfjj23gpblp42oortcznp33yw3dbjlftm4opce3icypktnttyu",
-    "published": "2026-09-05T19:36:37.741000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": "los angeles",
-    "lat": -37.4694,
-    "lon": -72.3533
   }
 ]
