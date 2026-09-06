@@ -102,6 +102,8 @@ def _search_posts(keyword, access_jwt):
             continue
         if not _mentions_chile_or_peru(text):
             continue
+        if _is_automated_alert(text):
+            continue
 
         author = post.get("author") or {}
         handle = author.get("handle")
@@ -146,6 +148,23 @@ def _mentions_chile_or_peru(text):
         return True
     place, _ = comuna_coords.find_known_place(text)
     return place is not None
+
+
+def _is_automated_alert(text):
+    """
+    El objetivo del panel es gente reaccionando en el momento a un sismo, no
+    reposts automaticos de un bot de monitoreo (chile-sismos.bsky.social,
+    peru.sismos.live, south-america.bsky.social, etc.) -- esos datos ya
+    estan en el mapa/tabla via CSN/SENAPRED, y como estos bots republican
+    CUALQUIER sismo detectado (incluso M2.x que nadie sintio), terminan
+    inundando el panel y tapando las reacciones reales. Se detectan por el
+    llamado a la accion estandarizado que toda esta familia de bots agrega
+    a cada post -- mas confiable que una lista de handles conocidos, porque
+    tambien atrapa variantes regionales nuevas (ej. "brasil.sismos.live")
+    sin tener que agregarlas a mano.
+    """
+    normalized = keywords.normalize(text)
+    return "lo sentiste" in normalized and "envia un informe" in normalized
 
 
 def _parse_created_at(created_at):
