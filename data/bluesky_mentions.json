@@ -1,5 +1,21 @@
 [
   {
+    "link": "https://bsky.app/profile/ctmtatemblando.bsky.social/post/3mutsre4xub2m",
+    "text": "Temblor magnitud 4.9 a las 07:39, 38 km al este de Calama https://www.sismologia.cl/sismicidad/informes/2026/09/381955.html #sismo #temblor #preliminar",
+    "author_handle": "ctmtatemblando.bsky.social",
+    "author_name": "ctmtatemblando",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bds54ltpgjtysjgdjhreirgn/bafkreia6y2bfhtolqqvi7ngyukbfnevy4sf2g7pvhrzlbosragi4jvagmq",
+    "published": "2026-09-06T10:39:29+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": "calama",
+    "lat": -22.4667,
+    "lon": -68.9333
+  },
+  {
     "link": "https://bsky.app/profile/pedroalmendras.bsky.social/post/3musa2i5vhk2b",
     "text": "Los angeles 1908. Edificio de la intendencia provincial. Fue destruido por el terremoto de 1939.",
     "author_handle": "pedroalmendras.bsky.social",
@@ -13,20 +29,5 @@
     "place": "los angeles",
     "lat": -37.4694,
     "lon": -72.3533
-  },
-  {
-    "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mure2sndxp22",
-    "text": "Perú — Dos sismos afectaron Perú en septiembre 2026, según reportes del IGP #Perú #IGP #News",
-    "author_handle": "netasgardespana.bsky.social",
-    "author_name": "Netasgard España",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iioeaqu2zvac4ykuc2ncab2q/bafkreif2vtlwyzyr4sauqrlumb4barbhwlrhwni3pt2cszgvxy22dp2tz4",
-    "published": "2026-09-05T11:15:43+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]

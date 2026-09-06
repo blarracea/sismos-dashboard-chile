@@ -21,5 +21,67 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teme",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tenr",
+    "source": "usgs",
+    "time": "2026-09-06T09:14:26.925000+00:00",
+    "updated": "2026-09-06T12:17:23.401000+00:00",
+    "lat": -17.21,
+    "lon": -72.7654,
+    "depth_km": 35,
+    "magnitude": 4.2,
+    "mag_type": "mb",
+    "place": "65 km S of Camaná, Peru",
+    "cdi": 2.7,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -16.3966475,
+        "lon": -71.53259249999999,
+        "intensity": 2.7,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tenr",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tep0",
+    "source": "usgs",
+    "time": "2026-09-06T10:39:32.174000+00:00",
+    "updated": "2026-09-06T11:28:06.040000+00:00",
+    "lat": -22.2344,
+    "lon": -68.7038,
+    "depth_km": 115.537,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "33 km NE of Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -22.4667,
+        "lon": -68.9333,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Calama",
+        "region": "Antofagasta"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://www.senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-antofagasta-2026-09-06-07-45-01",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/381955.html",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tep0",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
