@@ -1,5 +1,37 @@
 [
   {
+    "link": "https://bsky.app/profile/es-cl.pds.netasgard.com/post/3muu33kolh22m",
+    "text": "Chile — Autoridad marítima descarta riesgo de tsunami tras temblor en zona costera #Chile #News #Breaking",
+    "author_handle": "es-cl.pds.netasgard.com",
+    "author_name": "Netasgard News Chile",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:k5c64fomtd4epji6ey23ak7a/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-06T13:13:04+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mutzbctnih2g",
+    "text": "Perú — Un sismo de 4,2 grados fue registrado en Arequipa este domingo según el IGP #Perú #IGP #Temblor #News",
+    "author_handle": "netasgardespana.bsky.social",
+    "author_name": "Netasgard España",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iioeaqu2zvac4ykuc2ncab2q/bafkreif2vtlwyzyr4sauqrlumb4barbhwlrhwni3pt2cszgvxy22dp2tz4",
+    "published": "2026-09-06T12:40:29+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "link": "https://bsky.app/profile/ctmtatemblando.bsky.social/post/3mutsre4xub2m",
     "text": "Temblor magnitud 4.9 a las 07:39, 38 km al este de Calama https://www.sismologia.cl/sismicidad/informes/2026/09/381955.html #sismo #temblor #preliminar",
     "author_handle": "ctmtatemblando.bsky.social",
