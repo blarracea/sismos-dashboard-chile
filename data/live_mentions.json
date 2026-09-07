@@ -1,5 +1,21 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/mascarpone79.bsky.social/post/3muwr35ibpe2l",
+    "text": "Durísimas imágenes del terremoto de ayer en Galicia.",
+    "author_handle": "mascarpone79.bsky.social",
+    "author_name": "Amanda 🦋",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cfc625lht3caomta2vf5pvx7/bafkreiev2pjzzl35brqzgauha7cdaannqegeqexcq4ulpniglsu7vlgqhe",
+    "published": "2026-09-07T14:51:52.571526+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://fed.brid.gy/r/https://lapatilla.com/2026/09/07/viviendas-en-pinto-salinas-estan-a-punto-de-colapsar-a-dos-meses-del-doble-terremoto-video/",
     "text": "Viviendas en Pinto Salinas están a punto de colapsar a dos meses del doble terremoto (VIDEO) https:// fed.brid.gy/r/https://lapatill a.com/2026/09/07/viviendas-en-pinto-salinas-estan-a-punto-de-colapsar-a-dos-meses-del-doble-terremoto-video/",
