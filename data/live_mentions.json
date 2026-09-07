@@ -1248,21 +1248,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/muyinteresante.com/post/3mutc7s5yie2w",
-    "text": "Durante décadas, los geólogos asumieron que un megaterremoto solo se detenía cuando agotaba su energía. Ahora, un estudio revela que ciertas estructuras ocultas bajo el océano podrían frenar la ruptura sísmica justo antes del desastre.",
-    "author_handle": "muyinteresante.com",
-    "author_name": "Muy Interesante",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3sb6q35dqo5p423tjemwqkj7/bafkreifenuafeladxcaoog2cj3krkefjlvnv5qvbaljqdfxt75r4xx5vgi",
-    "published": "2026-09-06T05:48:02.146000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "megaterremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
