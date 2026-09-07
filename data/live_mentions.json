@@ -1459,21 +1459,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/elcomercio.pe/post/3muuhf77nlm2x",
-    "text": "Un temblor de magnitud 4.4 sacudió Arequipa y otros dos, de 4.0, se sintieron en Ucayali y Huancavelica durante las primeras horas del domingo 6 de setiembre.",
-    "author_handle": "elcomercio.pe",
-    "author_name": "Diario El Comercio (Perú)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vrz2ryxawsorzgs4zb4tndar/bafkreieizpbdjwxfhcp2y4izjwpuvt27dqavktqjleen3yt75hcp6cxycq",
-    "published": "2026-09-06T16:53:12.528000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
