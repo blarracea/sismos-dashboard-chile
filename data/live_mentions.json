@@ -1411,21 +1411,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/weather.masto.es.ap.brid.gy/post/3muuc7civbwi2",
-    "text": "El riesgo de tsunami en el Mediterráneo: la falla de Averroes y la preparación en Almería https://www.meteorologiaenred.com/el-riesgo-de-tsunami-en-el-mediterraneo-la-falla-de-averroes-y-la-preparacion-en-almeria.html",
-    "author_handle": "weather.masto.es.ap.brid.gy",
-    "author_name": "weather",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nkc2pvs4gbi3j6penctssfj6/bafkreibsew5nfau5snjgaayzkx7zpleseuh5mabuym2eprid5o5qhdhcem",
-    "published": "2026-09-06T15:20:23+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
