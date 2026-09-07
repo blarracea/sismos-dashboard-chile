@@ -1,5 +1,17 @@
 [
   {
+    "title": "Se percibe sismo de magnitud 4.9 este domingo 6 de septiembre en Calama - Cadena Láser",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMFNBdkk1Y0FXdGk4dWVLUkhjOXhsdGxmOURzS2F3NlRidVdrRzNUdjdaNWRWcmpyOGUtN1RiRjVqeWFvTVBueU1xWXlCdmtpcDdMcG1hTVluRnB5WXFsRTZybXpoR2VYR2U3dkpyN3pici03NTUxaFl5NTFfX1VBRGxheFVTSTFkcTYzSW1NanNTaGlyZVJXSnBxT01HWk1vRzFNb1kwYw?oc=5",
+    "source": "Cadena Láser",
+    "published": "2026-09-07T03:24:09+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "calama",
+    "lat": -22.4667,
+    "lon": -68.9333
+  },
+  {
     "title": "Galería de Terremoto en Chile: Reporte desde Cauquenes - 5 - ArchDaily",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNzdqb1BVbjNzbXBDNHFnbHdMYU5hV3FaVFp6T0FXRkZVakVmY29UZlUyZ21yU19wa2RvWVZQdWRXYm5KVk51LUpwcnpuUlVvTFNJTWdIcEhRMTdXWnZyZ0tIdXd1bDg5c2kyazhuU3VXWkIxSHBfWHAxY2lYbFVlVUxCRjdMYmpPcUFQdS10YWhWYWs?oc=5",
     "source": "ArchDaily",
@@ -125,6 +137,30 @@
     "lon": null
   },
   {
+    "title": "Terremoto leve mag. 3.4 - Departamento de Las Heras, 94 km al noroeste de Mendoza, Guaymallén, Mendoza, Argentina, Sunday 6 Sep 2026 a las 08:48 (GMT -3) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTU5UWDd6MWlNa3F0blNQdEcxTGV6Y25mT2xPb21fTmRoNnZacGM1a3VaWnUwSVZJUWNydkEtcV9MRE5nX21tZWVfREhLREtnTHdUUDNHRXAxdVo0enlMRWdGczRZbDNjem9ZRXBtcXliWFdoMlZXWmpyUkpEYUtiS0VoTEVZQmtaZVBMLXl4bExER2dySU8zbjlqM0RaRWlNaEJuOWhjMWpXSG1JR2c?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T12:29:53+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Fuerte terremoto magnitud 5.2 - Southern East Pacific Rise, Sunday 6 Sep 2026 a las 04:00 (GMT -8) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObU5pazFkUkVQQ2tLTERUdWl4WVFXY2pWWXp6bU8zM0N5U3FISmYtSm1lT19nN18wY2M0dmdQTWNHZnhTOFhKTVZlMmN1d0FPbW9CcGFjSFFPdXB4Zl9mbU5tRzZuSFJYOWFMTXVyaV9LVmFnalpOMUlfbDBzVWt3SVZ1ajNZUUluVXlYem9zZGF3MUJFQlJPNHNkS2JKMFZEMEYwV0tvT1BnNTNVNGZ6LWlsR1BqNENZMlZFbVVWeUYydw?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T12:25:31+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "SHOA descarta posibilidad de tsunami tras sismo al oeste de Isla de Pascua - Teletrece",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeF91bl82MmlCdTFMUUlJSGNGX3JhLUhPQkh6YmFfVVgtcC10ODR4NVBQNER0THpsTTQwR3VpNGxlOC1nVExYMGJlVlI1YWRKVkVZenF6VFlMdTNybVFucm5jbUYwQ3hqZ3lhZXU5TWQ4d29vMzQ1b0FQNGt4dHFua1kwMlZORHJoRXZBQlo5TFQwQ1FYRmpFOWd4dXJNLVlwdWhfamd6eG82Y1RGVjM4?oc=5",
     "source": "Teletrece",
@@ -145,6 +181,30 @@
     "keywords_matched": [
       "sismo",
       "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Terremoto moderado mag. 4.8 - 34 km al noreste de Calama, El Loa, Antofagasta, Chile, Sunday 6 Sep 2026 a las 07:39 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYk5PaEQ2ZU5EVjBHX3dYQWU4TG9JYnVSUGttVm5nSndZTnliTnhIMDVFOTZiVzRFeGtSVHdYM2VOQjRpUTM5RGROSzNNZHZVcklUVllMamdFcFg0ZGRzTFJFS2pWdk0yVm1yN2VTN0JNX09rSjhtbGRSeUZ6TF9FcnJldHBoSGhJellUYTQ5UXN5SjhleFpxdmFMb3ptdjBaWTVldlZmbDgzYWVldmc?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T11:50:02+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
+    "title": "Fuerte terremoto magnitud 5.2 - Southern East Pacific Rise, Sunday 6 Sep 2026 a las 02:32 (GMT -8) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVZnbzhKOXFmcTBoSUVWc0xzY0JIXzIxbnQyTjl4V1RSUEV1b3dhbTNXR2gtWXlab3VnNVM1eWZNa084eFVqUXcyVnl3SWJqenhEaE9wdlZJUGtoTEdzak9mNTQ3bENuanBFdzZQOEZYbkQ3Q2I4OFNSVDgtVGdXT1VzSVFyelNpcHU5RGtXOEg0Z0VGQzVxN0p0TDZYMXBqNXRGcldjaWI0UlNOU0xiOTlWV1dFcEdxM3VPOHUtR0lJUQ?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T11:50:00+00:00",
+    "keywords_matched": [
+      "terremoto"
     ],
     "place": null,
     "lat": null,
@@ -189,6 +249,18 @@
     "lon": null
   },
   {
+    "title": "Fuerte terremoto magnitud 5.0 - Chile: Southern East Pacific Rise, Sunday 6 Sep 2026 a las 02:38 (GMT -8) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcDR3N09wLVdnQm1GbXA4LWMwSmxzTk95V0hqNDB4R2xEeDdfUFRtMk4wenhLSHJmX3RWNmtrWDMwT01WeFZ1b0pFNlY0aVNSSzkyRDJVeUN6cGZ3WG9fX1JVOFQxSDhWdFp5Z3d6N1ZIR3JJTXpaa0xSTV8tRTJvakhuMnZpZml0dzhLenoyaXhuRmFZSFhZQ3BBeklJOXlZR0pQN3kzak1KVkpnaF9iLUV2R1NLcGdtRUYwdmVXOVN0dw?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T11:21:58+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Al oeste de Isla de Pascua: SHOA descarta tsunami en costas de Chile tras sismo 5.7 en el Pacífico - La Tercera",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNc0c3a2VWLWxFbk9LcktzQkRBTzdxMnJGRTE1R3lGYXlySjFRaW1FNHJiOWxZTFM2ZFpXVFh5S05iYXVwLXpING00elVyZlI4V2hzV0JKUGY1al9aOU5iVW5FaDV2V2RhejA1Y2Jnb3hDTWxMeXpxcXFITlZvTVZTd1BCdl9NRFA0ZVhydGk0NlVwTk0yTGNZcWtqVDB6TVZyY2RvZnVSYV8ybG9PTVRzS0VfTkMwTlJiR0gzcEozM1JYN3BJdGtvb9IB6gFBVV95cUxPUXhFSm9UZGdhV1gtQmhXcFBjbTQtWDRwVm9mQmpBR2FqN3R0WG5HMnNiZEJWVEphNzlaMlB2RUNvVHF6VkdjN2pUYXJiMHJIV3h2VklHRERuemxaU0tRNEpFX2QzTXVHYl9NMEY1RTB5TzBreVVhVG13bnlUQkV3MVNLdUpUUENWQ3BCdXVCdnljVTBvQlR5VUJSY1FjaWs2RU9Ba1hDT2ljT1dWLVpjcXFqb0Jzb3lrVF9KZWhwU3VQYUJ4eTZIQTl2ajZsR01pT2RxbkNTb3B6Y3ZXNnNHOXpRaVhVSWNUcnc?oc=5",
     "source": "La Tercera",
@@ -209,6 +281,18 @@
     "keywords_matched": [
       "sismo",
       "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Fuerte terremoto magnitud 5.1 - Southern East Pacific Rise, Sunday 6 Sep 2026 a las 02:38 (GMT -8) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNXdSSTdTa2MtZjlVd29MM0dHVVhtS3l6dzc5M3hMekpKRFAyUmpQbHNTUnVfWDJGNnU5WFhQTU8tWTRvbHpwd3F2bXIyTlZLUDZOWGdwTDFDY2J5a0ZXQkJkU2F6V0pHaWhNZU5nR1I3Q3pMNTB6WUsxU25lRWxFZGN6ZFRqRXkzRzI4N1ZZWm1rSDFFaW5fbThNNXJRQWQ1UzhBb2o0TUFveUpMWmppVnY4NG4yLVIycmZWekhhV21lQQ?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T11:15:21+00:00",
+    "keywords_matched": [
+      "terremoto"
     ],
     "place": null,
     "lat": null,
@@ -288,6 +372,30 @@
     "place": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "title": "Terremoto moderado mag. 4.0 - 39 km al este de Nueva Imperial, Cautín, Araucanía, Chile, Sunday 6 Sep 2026 a las 03:09 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcW9Ga0NzMDFZMnRKX3EydmJpbmtfN0lSalN0cWZsbnlsOW1iS3lpdVVCdTZUWjZRWGhwelBJZmI1dUZOajV3dWw3cl94blBHdHROc0VVRUtQWG5rZVBfdzdEMnlieGxqejdXdTJRR1l4MTQ3ZUJSMHBUbEsxNmRkQ2owUlVnSGxpTnROZnNNcVVZc1RBeVpPb2k5MDN3TmZBZi1lNW9qak8wOWMyeGkyX3ViVUpTQ2UyUUYxRlRRMFQxS19BOURv?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T06:19:56+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "santiago",
+    "lat": -33.4489,
+    "lon": -70.6693
+  },
+  {
+    "title": "Terremoto leve mag. 3.0 - 47 km al este de Puente Alto, Cordillera, Metropolitana, Chile, Sunday 6 Sep 2026 a las 03:13 (GMT -3) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQd0F1akVaQjh2T1lDSWhQeXlSRXNNS2JaVXNxTHRYRXp1cHh1WURTNmp0Q28xMnFoeERpT3ZyLXVDak1BM2xTYWdFc1dxS0xsbmRlSVBkSjNPTmlnc1pwU0EyWUZFVGJwbUFqVFRmTnVVTlBPMVlTZFZHdUh1QUxOTkxFYklyMExTOHFfZXR1aF93U3NERTIwNTdCbFdnMjJmZ3JzcXllRm1BeWlac2NoVndwUGZYNlJ4OVE?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T06:04:37+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "puente alto",
+    "lat": -33.611,
+    "lon": -70.5756
   },
   {
     "title": "Temblor en Chile: últimos sismos reportados este domingo 6 de setiembre - El Comercio Perú",
