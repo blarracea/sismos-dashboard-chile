@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muwzb4plve2z",
+    "text": "⚠️ El \"gobierno interino\" de Delcy Rodríguez —bajo presión por los daños del terremoto— intenta vender un acuerdo petrolero con EE.UU. como estabilidad, pero Pdvsa sigue en crisis: sin transparencia, con deuda millonaria y dependencia de China. El texto omite que el convenio, si ex...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-09-07T17:18:22.164831+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muwz4li3yd25",
     "text": "El primer mes de Abelardo de la Espriella como presidente de Colombia estuvo marcado por el reciente terremoto y la detención de nueve criminales pertenecientes a grupos como el Tren de Aragua y las disidencias de las FARC. De la Espriella, cuyo gobierno cuenta con el apoyo de Trum...",
     "author_handle": "venezuelanewschepa.bsky.social",
@@ -23,7 +39,7 @@
     "author_name": "* 𝒕𝒉𝒆 𝒅𝒖𝒂𝒍 𝒒𝒖𝒆𝒆𝒏",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d4xwdjh54rfqifkuoxg6ko5l/bafkreid5asrykbbhqhjcldntm4owu4vkdxj3gl4dnlo7kc2kb4tlk2arty",
     "published": "2026-09-07T17:01:59.719000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "temblor"
     ],
@@ -39,7 +55,7 @@
     "author_name": "* 𝒕𝒉𝒆 𝒅𝒖𝒂𝒍 𝒒𝒖𝒆𝒆𝒏",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d4xwdjh54rfqifkuoxg6ko5l/bafkreid5asrykbbhqhjcldntm4owu4vkdxj3gl4dnlo7kc2kb4tlk2arty",
     "published": "2026-09-07T17:01:59.714000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "temblor"
     ],
