@@ -93,10 +93,28 @@ body {
   border-radius: 0;
   border-top: none;
   border-bottom: none;
+  /* El titulo de estos dos paneles queda afuera del area con scroll (ver
+     #live-feed-body/#social-feed-body) en vez de "sticky" flotando sobre
+     el contenido -- position:sticky tenia casos borde de renderizado (un
+     resto del texto de una tarjeta se veia pasar por encima del titulo en
+     Chrome) que costaba reproducir y corregir de forma confiable. Con el
+     titulo realmente afuera del scroll, no hay contenido que pueda
+     quedar "detras" de el en ningun momento -- es la solucion mas simple
+     y sin casos borde. */
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
 }
 
 .social-feed.panel {
   border-right: none;
+}
+
+#live-feed-body,
+#social-feed-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 .panel h2 {
@@ -169,18 +187,10 @@ body {
 /* --- Menciones en medios --- */
 h2.social-feed-title {
   text-align: center;
-  /* Fijo arriba al scrollear la lista -- el panel entero es el contenedor
-     con scroll (overflow-y:auto en .panel), asi que sticky respecto a el
-     alcanza sin necesitar un wrapper aparte. El fondo solido evita que las
-     tarjetas se vean pasar por detras del titulo. El espacio antes de la
-     primera tarjeta es padding-bottom (no margin): un margin ahi queda
-     transparente y se veria pasar el fondo celeste de las tarjetas por ese
-     hueco al scrollear.
-  */
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background: var(--color-panel);
+  /* Queda afuera del area con scroll (ver #social-feed-body y el comentario
+     en .live-feed.panel/.social-feed.panel) -- flex-shrink:0 para que no
+     se achique cuando el contenido de abajo necesite mas espacio. */
+  flex-shrink: 0;
   padding-bottom: 0.75rem;
 }
 
@@ -225,13 +235,8 @@ h2.social-feed-title {
 /* --- Redes en vivo (Bluesky + Mastodon) --- */
 h2.live-feed-title {
   text-align: center;
-  /* Fijo arriba al scrollear la lista -- ver el comentario en
-     .social-feed-title, mismo criterio (incluido el padding-bottom en vez
-     de margin). */
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background: var(--color-panel);
+  /* Ver el comentario en h2.social-feed-title, mismo criterio. */
+  flex-shrink: 0;
   padding-bottom: 0.75rem;
 }
 
