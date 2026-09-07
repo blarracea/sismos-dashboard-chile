@@ -104,10 +104,10 @@ def _login(handle, app_password):
 
 
 def _search_posts(keyword, access_jwt):
-    # Sin restriccion de idioma: el alcance ahora es mundial, y palabras
-    # como "earthquake" en ingles quedarian sin resultados si se filtrara a
-    # posts en espanol.
-    params = {"q": keyword, "sort": "latest", "limit": POSTS_PER_KEYWORD}
+    # "terremoto"/"tsunami"/"maremoto" tambien son palabras en otros idiomas
+    # (italiano, portugues, ingles) -- se restringe a espanol para no traer
+    # ruido de esos idiomas (ya no hay ninguna palabra clave en ingles).
+    params = {"q": keyword, "lang": "es", "sort": "latest", "limit": POSTS_PER_KEYWORD}
     headers = {"Authorization": f"Bearer {access_jwt}", "atproto-proxy": APPVIEW_PROXY}
     response = requests.get(SEARCH_URL, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
