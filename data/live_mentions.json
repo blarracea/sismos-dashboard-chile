@@ -1330,21 +1330,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/almanefelibata.bsky.social/post/3mutgc3kflc2x",
-    "text": "¿Temblor? 🤦🏻‍♀️\nBuen día, bonica 🥰\nAún no he escuchado noticias, cuando hay exceso de \"IDA\", soy incapaz de ver u oir informativos. Me pone mal cuerpo.",
-    "author_handle": "almanefelibata.bsky.social",
-    "author_name": "Pepa 🌚",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kasvy2ckqdsj4wcwhwswboxz/bafkreibmenm6ccn2vlpzfulz7ggtai4htiix6yylzhv3p76uiwbum6ynsa",
-    "published": "2026-09-06T07:00:55.146000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
