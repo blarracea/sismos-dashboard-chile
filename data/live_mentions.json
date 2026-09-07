@@ -1,6 +1,23 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/murilloflores30.bsky.social/post/3mux6jsn7bk2m",
+    "text": "#sismo \"Efeméride De Hoy\" \nEl Dia De Hoy Lunes #7DeSeptiembre Se Cumplen 9 Años Del Terremoto Ocurrido En La Ciudad De México Y En Algunos Estados De La Republica Ocurrido El 7 De Septiembre Del 2017 #terremoto #CiudadDeMexico #MesPatrio #Septiembre",
+    "author_handle": "murilloflores30.bsky.social",
+    "author_name": "Christian Alberto",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gdbglbytaprftrty3jjsxi33/bafkreifprzn66rl3dwrmzoqyrcqqdrpjfmychkj63apg3hpkucz6djr2n4",
+    "published": "2026-09-07T18:52:43.253000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/thelastjournal.bsky.social/post/3mux3zexzlk2a",
     "text": "< hacia Bonnie. Iba dirigida hacia Damon.\n\n——¿De verdad Damon te ha contado esto? ¿En qué momento?\n\nPreguntó con el ceño todavía fruncido y un ligero temblor colándose en su voz. Le habría gustado ser ella quien compartiese algo tan íntimo. Era su vida. Su decisión. No la de >",
     "author_handle": "thelastjournal.bsky.social",
@@ -1470,22 +1487,6 @@
     "like_count": 0,
     "keywords_matched": [
       "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117225608645563283",
-    "text": "7 minutes 50 seconds ago - Central Mexico mB 5.4 18.35N 98.02W 10km 2026/09/06 18:46:25 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rorkvl # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-06T18:53:55.105000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
     ],
     "place": null,
     "lat": null,
