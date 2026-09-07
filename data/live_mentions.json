@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/thelastjournal.bsky.social/post/3mux3zexzlk2a",
+    "text": "< hacia Bonnie. Iba dirigida hacia Damon.\n\n——¿De verdad Damon te ha contado esto? ¿En qué momento?\n\nPreguntó con el ceño todavía fruncido y un ligero temblor colándose en su voz. Le habría gustado ser ella quien compartiese algo tan íntimo. Era su vida. Su decisión. No la de >",
+    "author_handle": "thelastjournal.bsky.social",
+    "author_name": "𝐌𝐈𝐒𝐒 𝐆𝐈𝐋𝐁𝐄𝐑𝐓.",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:loxr3hywsicy2a446ss47m3f/bafkreibebzkbthan54g2jgsvsjg5vzai7ykckskznhm4jel2kifalpefte",
+    "published": "2026-09-07T18:07:44.549000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muwzb4plve2z",
     "text": "⚠️ El \"gobierno interino\" de Delcy Rodríguez —bajo presión por los daños del terremoto— intenta vender un acuerdo petrolero con EE.UU. como estabilidad, pero Pdvsa sigue en crisis: sin transparencia, con deuda millonaria y dependencia de China. El texto omite que el convenio, si ex...",
     "author_handle": "venezuelanewschepa.bsky.social",
@@ -167,7 +183,7 @@
     "author_name": "Jorge Gillies (Profegeorgie)",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:augtlujmnwbeg5iit7etcyti/bafkreiclyw5k5upqho2c2x4iejioksqxnrrphyx5groudhfwi2fqslox74",
     "published": "2026-09-07T15:10:55.643000+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "terremoto"
     ],
