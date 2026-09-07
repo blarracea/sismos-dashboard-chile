@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/francylorena.bsky.social/post/3muxkab35wc2s",
+    "text": "Estos cumpleaños laborales post terremoto en Cali están más extraños y distópicos que los cumpleaños virtuales en la pandemia",
+    "author_handle": "francylorena.bsky.social",
+    "author_name": "Fran",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5mnp7meyh24knwzpfjx33ngj/bafkreifunag6ulpuqdr2az63vi222b5fat27w7l467dj7tlnqukpr6uiyq",
+    "published": "2026-09-07T22:22:07.749000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/diarioar.bsky.social/post/3muxj6epp4c2p",
     "text": "El tsunami de la AfD: ¿que le depara a Alemania la victoria del partido opositor? diarioar.ar/U2NReHBGMV== #DiarioAr",
     "author_handle": "diarioar.bsky.social",
@@ -1761,21 +1777,5 @@
     "place": "antofagasta",
     "lat": -23.6509,
     "lon": -70.3975
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/terremotiinita.bsky.social/post/3muuzsbmivz2t",
-    "text": "Lieve #terremoto alle 00:05\nEpicentro: Sant'Angelo in Pontano (MC)\nMagnitudo: 1.4\nProfondità: 20.8 km\nDettagli: https://terremoti.ingv.it/event/47088782\nAiuta questo progetto 💚🤍❤️: https://patreon.com/TerremotiinItalia",
-    "author_handle": "terremotiinita.bsky.social",
-    "author_name": "Terremoti in Italia",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rwat243kuvk37vfwvp4cz7el/bafkreidjqylcgiese7uljits3b4rbogo4ljocjx52jaqpepjb6cpcujclm",
-    "published": "2026-09-06T22:22:39.168000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
