@@ -48,6 +48,11 @@ MIN_BOT_MAGNITUDE = 5.0
 # Patron del formato que usa toda esta familia de bots: "... #sismo M5.1 | ...".
 BOT_MAGNITUDE_PATTERN = re.compile(r"\bM(\d+(?:\.\d+)?)\b")
 
+# Cuentas puntuales excluidas a pedido del usuario -- no encajan en el
+# filtro de bot por contenido (_is_automated_alert), asi que se bloquean
+# por handle directamente.
+BLOCKED_HANDLES = {"ctmtatemblando.bsky.social"}
+
 
 def fetch_bluesky_mentions():
     """Una busqueda por cada palabra clave, dedupeadas por link al post."""
@@ -107,6 +112,11 @@ def _search_posts(keyword, access_jwt):
     items = []
     for post in data.get("posts", []):
         text = ((post.get("record") or {}).get("text") or "").strip()
+        author = post.get("author") or {}
+        handle = author.get("handle")
+
+        if handle and handle.lower() in BLOCKED_HANDLES:
+            continue
         if not text or not keywords.is_relevant(text):
             continue
         if not _mentions_chile_or_peru(text):
@@ -114,8 +124,6 @@ def _search_posts(keyword, access_jwt):
         if _is_automated_alert(text) and not _meets_bot_magnitude_threshold(text):
             continue
 
-        author = post.get("author") or {}
-        handle = author.get("handle")
         rkey = (post.get("uri") or "").rsplit("/", 1)[-1]
         if not handle or not rkey:
             continue
