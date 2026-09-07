@@ -2,9 +2,15 @@ name: Recolectar datos de sismos
 
 on:
   schedule:
-    # GitHub Actions no permite programar mas seguido que cada 5 minutos --
-    # es el piso real de la plataforma, cualquier valor mas chico se ignora.
-    - cron: "*/5 * * * *"
+    # El cron nativo de "schedule" es "best effort" -- en la practica corre
+    # cada 1-3+ horas en vez de respetar el intervalo configurado, sin
+    # importar que tan seguido se pida (se probo con */5). Un
+    # workflow_dispatch (disparo explicito, no cron) SI corre casi al
+    # instante -- por eso la cadencia real de 5 min la maneja un servicio
+    # externo (cron-job.org) llamando a la API de disparo cada 5 min. Este
+    # cron nativo queda solo como red de respaldo de baja frecuencia, por
+    # si ese servicio externo alguna vez falla o el token vence.
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 permissions:
