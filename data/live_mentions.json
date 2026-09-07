@@ -1,6 +1,38 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/alanislola.eurosky.social/post/3muxmrjeae22l",
+    "text": "En la tarde paseé por el Partal, visité el Palacio de Carlos I, (la Alcazaba no, está cerrada por el terremoto que hubo hace unas semanas y por supuesto los palacios nazaríes. De esto tengo pocas fotos hechas con el móvil, así que no te marearé más.",
+    "author_handle": "alanislola.eurosky.social",
+    "author_name": "Alanis Lola",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sfkd6kg5xtawjdze27w4iazh/bafkreidvaxat54kcjftl4cv7c2vwys2qagchcz77ayqmi3vabbm6owgvja",
+    "published": "2026-09-07T23:06:52.173000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/bourbonbite.bsky.social/post/3muxmlpsvad2n",
+    "text": "——Tranquila, fiera. Un día de estos vas a romperte un dedo del pie contra mí y la culpa volverá a ser mía.\n\nHabló contra su cuello, disfrutando del ligero temblor que el susto aún le dejaba en el cuerpo.\nApretó un poco más el abrazo alrededor de su cintura, apoyando +",
+    "author_handle": "bourbonbite.bsky.social",
+    "author_name": "DAMON",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:a6zvzdtuzgtilijkg4dtfyle/bafkreibsaygikv4zksry44nbfm5mamyofx57efnt5mtuagczlvon5c7bum",
+    "published": "2026-09-07T23:04:19.789000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muxmf4ye5p2z",
     "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Podemos 🆕\n2. Detrás 🆕\n3. #sismo 🆕\n4. Talca 🆕\n5. Maule 🆕\n6. Sep 🆕\n7. #weak 🆕\n8. #M2 🆕\n9. #M3 🆕\n10. #Region_del_Maule 🆕",
     "author_handle": "trending-es.bsky.social",
@@ -23,7 +55,7 @@
     "author_name": "Piromanía constructiva 🇵🇸",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fgydtkj4ipeqthkneugji6dg/bafkreie2i4prrssuv4xqllfi77rp65np5unpn5neq32fdcoizur24qgrhy",
     "published": "2026-09-07T22:44:07.284000+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "sismo"
     ],
@@ -1759,23 +1791,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/tatemblando.bsky.social/post/3muv47y3avw2x",
-    "text": "⚠️ Nuevo #Sismo Registrado ⚠️\nFecha: 06-09-2026\nHora: 19:59:00\nUbicación: 51 km al NE de Alto del Carmen\nProfundidad: 95 km\nMagnitud: 2.9\nLatitud: -28.34\nLongitud: -70.28\nVer Mapa\n#Terremoto #Sismología #Chile #EarthQuake #Alerta",
-    "author_handle": "tatemblando.bsky.social",
-    "author_name": "Bot de Sismos en Chile",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afxdzjcdzhnkuok36jduitku/bafkreicggeeeczc4ltk6gz6v3rz63ija4jaj42qa2jqwibkpv4d6gvvl7i",
-    "published": "2026-09-06T23:06:06.369766+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "terremoto",
-      "earthquake"
-    ],
-    "place": "alto del carmen",
-    "lat": -28.9667,
-    "lon": -70.5333
   }
 ]
