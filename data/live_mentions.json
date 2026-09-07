@@ -1491,21 +1491,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/jecharte.eurosky.social/post/3muuid6b6ic22",
-    "text": "En muy poco grado. Me tiemblan las manos.\nEs un poco lo de Bruce Banner de estar siempre enfadado. Por defecto siempre me tiemblan un poco; el esfuerzo es que no lo hagan o que la velocidad disimule el temblor. A veces lo dejo ir (el Trump de hoy). Imagino que con el tiempo no ira a mejor.",
-    "author_handle": "jecharte.eurosky.social",
-    "author_name": "Jose María Echarte",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rvohjx2b6akk3nnzis6elsq2/bafkreibevx5uh6roq6x65ubfzvn2cg2jvcfu3rl7skm3m3ihklt5ylq7nm",
-    "published": "2026-09-06T17:09:58.765000+00:00",
-    "like_count": 14,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
