@@ -1363,21 +1363,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/minerva-marei.bsky.social/post/3mutldevn7k2x",
-    "text": "Es como un temblor de tierra.",
-    "author_handle": "minerva-marei.bsky.social",
-    "author_name": "Minerva 🏹",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zsg4sl7umswpqzthqr2ht4jm/bafkreifmr4gdss24qd3cwfwo5yg2pjpt6oipppdfeh3phwmryuncpxpj6i",
-    "published": "2026-09-06T08:31:07.214000+00:00",
-    "like_count": 8,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
