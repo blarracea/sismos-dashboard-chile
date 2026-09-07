@@ -1379,38 +1379,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-cl.pds.netasgard.com/post/3muu33kolh22m",
-    "text": "Chile — Autoridad marítima descarta riesgo de tsunami tras temblor en zona costera #Chile #News #Breaking",
-    "author_handle": "es-cl.pds.netasgard.com",
-    "author_name": "Netasgard News Chile",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:k5c64fomtd4epji6ey23ak7a/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-06T13:13:04+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@Quicksand_Index/117224260402114597",
-    "text": "Tōhoku 2011 On March 11, 2011, a magnitude 9.0 megathrust earthquake ruptured the seafloor off northeastern Japan. The resulting tsunami overwhelmed coastal communities, killing or leaving missing more than 22,000 people in the broader disaster. Waves also disabled power and cooling at Fukushima Daiichi, causing reactor meltdowns and mass evacuation. Japan’s strongest recorded earthquake became a compound catastrophe of geology, engineering failure, and human loss. # tsunami",
-    "author_handle": "Quicksand_Index@mastodon.social",
-    "author_name": "Greg Johnson",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/116/977/346/604/950/886/original/f66f89cd25a101b3.png",
-    "published": "2026-09-06T13:11:02.525000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
