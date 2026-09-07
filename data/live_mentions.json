@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3muwvrelph22y",
+    "text": "#SismoResistentes barequeo.com/sismo-resist... \"En Utrecht unimos fuerzas entre colombianos. Un Bailoteo Solidario nació del colectivismo y del cariño que sentimos por nuestras raíces. Aquí nos unimos colombianos de todas partes, desde el macizo colombiano hasta el caribe\": Santiago Cardona Urrea.",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-07T16:15:53.284000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "santiago",
+    "lat": -33.4489,
+    "lon": -70.6693
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/profesorgeorgie.bsky.social/post/3muws57j5fs2i",
     "text": "En apenas dos semanas tendrán lugar elecciones en dos estados más: Berlin y Mecklenburgo-Pomerania, ambos en el Este de Alemania. Recién con esos resultados podremos evaluar la magnitud real del terremoto político cuyo primer remezón sentimos ayer.",
     "author_handle": "profesorgeorgie.bsky.social",
