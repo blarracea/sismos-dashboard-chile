@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-mx.pds.netasgard.com/post/3muwlccab4c2m",
+    "text": "México — Sismo de magnitud 4.2 registrado en Michoacán, sin reportes de daños #México #Consulta #News",
+    "author_handle": "es-mx.pds.netasgard.com",
+    "author_name": "Netasgard News México",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ltno6ftk5z7zxe4l5kb5fjwt/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-07T13:08:30+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/barequeo.bsky.social/post/3muwj24eghs2y",
     "text": "#SismoResistentes \"Llegaron colombianos desde todo el país: Endhoven, Amsterdam, La Haya, Wageningen y más. Muchos viajaron en tren por horas, tan solo para compartir un poco de solidaridad con los afectados por el terremoto\": Santiago Cardona Urrea. barequeo.com/sismo-resist...",
     "author_handle": "barequeo.bsky.social",
