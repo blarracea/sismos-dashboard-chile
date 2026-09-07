@@ -164,6 +164,14 @@ body {
 /* --- Menciones en medios --- */
 .social-feed-title {
   text-align: center;
+  /* Fijo arriba al scrollear la lista -- el panel entero es el contenedor
+     con scroll (overflow-y:auto en .panel), asi que sticky respecto a el
+     alcanza sin necesitar un wrapper aparte. El fondo solido evita que las
+     tarjetas se vean pasar por detras del titulo. */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--color-panel);
 }
 
 .social-feed-empty {
@@ -207,6 +215,12 @@ body {
 /* --- Redes en vivo (Bluesky + Mastodon) --- */
 .live-feed-title {
   text-align: center;
+  /* Fijo arriba al scrollear la lista -- ver el comentario en
+     .social-feed-title, mismo criterio. */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--color-panel);
 }
 
 .live-feed-empty {
