@@ -151,7 +151,7 @@
     "author_name": "Barequeo",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
     "published": "2026-09-07T16:15:53.284000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "sismo"
     ],
@@ -1502,22 +1502,6 @@
     "like_count": 0,
     "keywords_matched": [
       "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/gonlez78.bsky.social/post/3muujvuth6k2m",
-    "text": "Y yo poniendo esto ☻️ despues del temblor que ni senti...\n\na 3.2 at 12:15am",
-    "author_handle": "gonlez78.bsky.social",
-    "author_name": "Fabriela48 🦂",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:umo2356ueq2fxz6hp2xz5awa/bafkreiawenc424odmkqrqfmkcmxmi54alosr66z3ax4aliahzjoxq7np3q",
-    "published": "2026-09-06T17:38:20.153000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
       "temblor"
     ],
     "place": null,
