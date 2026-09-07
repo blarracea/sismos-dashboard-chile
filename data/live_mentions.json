@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/lcrmx.mastodon.social.ap.brid.gy/post/3muxkzk3znif2",
+    "text": "#MexicoNews #Mexico ¿ya te enteraste de esta #noticia? ¿Qué es el epicentro de un sismo y cómo se determina? Esto debes saber antes del Simulacro Nacional https://www.youtube.com/shorts/NmWsG5o4pc0",
+    "author_handle": "lcrmx.mastodon.social.ap.brid.gy",
+    "author_name": "Noticias de México",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:yd46lhy7p7z7r2mcd544tuuh/bafkreieia7ogquaqldufj6zmjci2puueyntroigeca6mktjp3ppipmzwga",
+    "published": "2026-09-07T22:36:11+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/francylorena.bsky.social/post/3muxkab35wc2s",
     "text": "Estos cumpleaños laborales post terremoto en Cali están más extraños y distópicos que los cumpleaños virtuales en la pandemia",
     "author_handle": "francylorena.bsky.social",
@@ -1741,22 +1757,6 @@
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/singerslegacy.bsky.social/post/3muv2iwimx22d",
-    "text": "imperceptiblemente y un calor rápido le sube por el pecho, pero disimula el temblor apretando el agarre con la firmeza de siempre. Sostiene la mirada de Dean un segundo más de lo debido antes de bajar la vista a su cerveza.\n\n——Me alegro de que Rockford esté a salvo... +",
-    "author_handle": "singerslegacy.bsky.social",
-    "author_name": "𝑬𝑳𝑰𝒁𝑨𝑩𝑬𝑻𝑯 𝑺𝑰𝑵𝑮𝑬𝑹",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:whajprifvrtbbby4jxuf7p2z/bafkreidvrkgdrkl5q6rhnl75ev55j2dloh4bexbaqdsi6adanxwaglotwy",
-    "published": "2026-09-06T22:35:19.284000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "temblor"
     ],
     "place": null,
     "lat": null,
