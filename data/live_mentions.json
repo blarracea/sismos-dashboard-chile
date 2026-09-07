@@ -1,6 +1,55 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/ncseismicobserv.bsky.social/post/3muvefz7dn22x",
+    "text": "2 minutes 31 seconds ago -  Off Coast of Oregon  mb 4.9  43.91N 127.98W  10km 2026/09/07  01:30:26 - For updates, see http://seisme.nc/fr/component/alertes/?ids=ird2026rpevca #séisme #earthquake #sismo #지진 #地震",
+    "author_handle": "ncseismicobserv.bsky.social",
+    "author_name": "New Caledonia Seismic Observatory",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:id37xjbbdoca45lwnmsto5ua/bafkreiflp7zpcuv5hwg2rj3imlhhvmdblms3bgkqrfbiq56funp527bqly",
+    "published": "2026-09-07T01:32:37+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "earthquake"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.cl/@adnradio/117227167887846573",
+    "text": "📰 Red Geocientífica de Chile alerta por posible “enjambre sísmico en el Cajón del Maipo”: registran al menos 374 movimientos La actividad comenzó durante la mañana del sábado y continuó este domingo... 🔗 https://www. adnradio.cl/2026/09/06/red-geo cientifica-de-chile-alerta-por-posible-enjambre-sismico-en-el-cajon-del-maipo-registran-al-menos-374-movimientos/ # sismo # cajondelmaipo # geocientifica",
+    "author_handle": "adnradio@mastodon.cl",
+    "author_name": "Radio ADN",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/117/014/603/019/388/484/original/f2b28d435d8ef1ee.png",
+    "published": "2026-09-07T01:30:27+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/elpaismexico.bsky.social/post/3muvebe2iwz27",
+    "text": "A más de tres semanas del terremoto del pasado 10 de agosto, la mandataria calcula que la reconstrucción costará cuatro billones de pesos y que tardará al menos cuatro años en completarse",
+    "author_handle": "elpaismexico.bsky.social",
+    "author_name": "EL PAÍS México",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7zlnvtvm2fqq4wj5m43im34y/bafkreihan3wto7pltwlg5cwpgftcu2zfmw3yrs6ycyzjoiips7a3dfkh7i",
+    "published": "2026-09-07T01:30:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/acentodiario.bsky.social/post/3muvdy2hfpr24",
     "text": "De la Espriella, un mes de poder en Colombia: terremoto, mano dura y una Presidencia que busca controlar el mensaje",
     "author_handle": "acentodiario.bsky.social",
@@ -87,7 +136,7 @@
     "author_name": "Early Warning",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hmgbggxs7iy4vcn7hgyjyjsa/bafkreiaysgzttwpi57vyxpeoecgfb5zukpshnjaquykqx5ltgeuqizej2m",
     "published": "2026-09-07T01:14:06+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "earthquake"
     ],
@@ -263,7 +312,7 @@
     "author_name": "Chibi The Edge Slayer🌙💚",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:htepcam6mzluihgxxus3e3c4/bafkreidhyuykd2n5h37idqrhn334qgl5pbpqcb5t4xwf7ldqrg3skxxn2u",
     "published": "2026-09-07T01:00:28.280000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "tsunami"
     ],
@@ -295,7 +344,7 @@
     "author_name": "Digital Brain",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6qsr3ebzrptzaycswv63nnh4/bafkreibhpvzmx5bpfwbw7g367vmmdcgpftzx4hdvbqosgw2o7wxbejh57e",
     "published": "2026-09-07T01:00:19.966000+00:00",
-    "like_count": 15,
+    "like_count": 16,
     "keywords_matched": [
       "earthquake"
     ],
@@ -343,7 +392,7 @@
     "author_name": "Early Warning",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hmgbggxs7iy4vcn7hgyjyjsa/bafkreiaysgzttwpi57vyxpeoecgfb5zukpshnjaquykqx5ltgeuqizej2m",
     "published": "2026-09-07T00:58:16+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "earthquake"
     ],
@@ -712,7 +761,7 @@
     "author_name": "news reviewer",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mi4a7igcb3mnchhomfqkzsbt/bafkreigg4du5rfp6x5ol4hopyrmg2xpqw2uwxc5o7u6ajpbngfmcikhg5q",
     "published": "2026-09-06T23:52:32+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "tsunami"
     ],
