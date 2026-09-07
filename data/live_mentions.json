@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/alanislola.eurosky.social/post/3muxmufnxv22l",
+    "text": "En la tarde paseé por el Partal, visité el Palacio de Carlos I, (la Alcazaba no, está cerrada por el terremoto que hubo hace unas semanas y por supuesto los palacios nazaríes. De esto tengo pocas fotos hechas con el móvil, así que no te marearé más.",
+    "author_handle": "alanislola.eurosky.social",
+    "author_name": "Alanis Lola",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sfkd6kg5xtawjdze27w4iazh/bafkreidvaxat54kcjftl4cv7c2vwys2qagchcz77ayqmi3vabbm6owgvja",
+    "published": "2026-09-07T23:08:20.493000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/alanislola.eurosky.social/post/3muxmrjeae22l",
     "text": "En la tarde paseé por el Partal, visité el Palacio de Carlos I, (la Alcazaba no, está cerrada por el terremoto que hubo hace unas semanas y por supuesto los palacios nazaríes. De esto tengo pocas fotos hechas con el móvil, así que no te marearé más.",
     "author_handle": "alanislola.eurosky.social",
@@ -55,7 +71,7 @@
     "author_name": "Piromanía constructiva 🇵🇸",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fgydtkj4ipeqthkneugji6dg/bafkreie2i4prrssuv4xqllfi77rp65np5unpn5neq32fdcoizur24qgrhy",
     "published": "2026-09-07T22:44:07.284000+00:00",
-    "like_count": 2,
+    "like_count": 3,
     "keywords_matched": [
       "sismo"
     ],
