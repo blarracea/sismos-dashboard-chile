@@ -1,5 +1,21 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117227350309949148",
+    "text": "10 minutes 48 seconds ago - Kermadec Islands Region mB 5.5 31.16S 179.15E 606km 2026/09/07 02:06:45 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rpfxyb # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-07T02:16:50.746000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/lordfthenight.bsky.social/post/3muvgkp2xps2s",
     "text": "— Se mueve de forma violenta y dura sobre ella, notando la tensión en su cuerpo, y ese temblor por intentar contenerse, pero no le da permiso, aun, casi como un castigo por haber llegado antes sin su autorización.\n\nEs un susurro gélido que se escucha en el oído de ella. —\n\n¿Que pasa mi hermoso (+)",
@@ -1096,22 +1112,6 @@
     "like_count": 0,
     "keywords_matched": [
       "megaterremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/uol-noticias.bsky.social/post/5xlfintjqg3jc",
-    "text": "Vem celacanto provocar maremoto",
-    "author_handle": "uol-noticias.bsky.social",
-    "author_name": "Uol -  Notícias",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:wdfgw25cnbc3ljkhnif3mrum/bafkreickjxy23ero6sgmyffb5grtkyywjbqfswcfuwlbcfynymlep7cmdy",
-    "published": "2026-09-06T02:15:01+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "maremoto"
     ],
     "place": null,
     "lat": null,
