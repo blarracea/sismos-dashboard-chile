@@ -1490,22 +1490,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/thenewsreport73.bsky.social/post/3muul65uk5b2t",
-    "text": "🚨 Story update: Temblor hoy en México: suman 2 mil 372 réplicas del sismo ocurrido en Chiapas el pasado 17 de julio\n\nSe actualiza ubicación de Chiapas a Oaxaca…\nNow single-sourced so far. Full timeline: https://thenewsreport.org/timeline/temblor-hoy-en-mexico-mas-de-2-mil-300-replicas-de-sismo-reg/",
-    "author_handle": "thenewsreport73.bsky.social",
-    "author_name": "thenewsreport73.bsky.social",
-    "author_avatar": null,
-    "published": "2026-09-06T18:00:51+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
