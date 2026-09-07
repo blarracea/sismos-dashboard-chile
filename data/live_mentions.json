@@ -1396,38 +1396,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/gonlez78.bsky.social/post/3mutzf4i5rk27",
-    "text": "Y se nos vino la lluvia, subira la calor nuevamente y quisas venga un temblor en california!!!",
-    "author_handle": "gonlez78.bsky.social",
-    "author_name": "Fabriela48 🦂",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:umo2356ueq2fxz6hp2xz5awa/bafkreiawenc424odmkqrqfmkcmxmi54alosr66z3ax4aliahzjoxq7np3q",
-    "published": "2026-09-06T12:42:37.879000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mutzbctnih2g",
-    "text": "Perú — Un sismo de 4,2 grados fue registrado en Arequipa este domingo según el IGP #Perú #IGP #Temblor #News",
-    "author_handle": "netasgardespana.bsky.social",
-    "author_name": "Netasgard España",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iioeaqu2zvac4ykuc2ncab2q/bafkreif2vtlwyzyr4sauqrlumb4barbhwlrhwni3pt2cszgvxy22dp2tz4",
-    "published": "2026-09-06T12:40:29+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
