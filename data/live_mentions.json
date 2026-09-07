@@ -1,6 +1,38 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/selinkoso.bsky.social/post/3muxbwmyzks23",
+    "text": "El sismo es la oportunidad perfecta para que la banca haga negocios nuevos.",
+    "author_handle": "selinkoso.bsky.social",
+    "author_name": "Daniel Suárez",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z3627tnjf2kstp6sumd7i3y7/bafkreiapmgpneclttdybpmr6f4bkrk6xbrlmtcpostgmppfosjmmcwx24q",
+    "published": "2026-09-07T19:53:34.784000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muxbqcchia25",
+    "text": "Pedro León-Oliver, presidente de Pdvsa, declaró que el acuerdo con EE.UU. es por 25 años y renovable, a pesar de la detención del ex presidente Maduro. Los recursos se destinarían a programas sociales, en medio de la crisis humanitaria y la reconstrucción post-terremoto.",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-09-07T19:50:01.817150+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/canariasahora.bsky.social/post/3muxbmqhizs2c",
     "text": "🔴🔴 ÚLTIMA HORA | Terremoto en Agaete de magnitud 2,3 y sentido por la población\n#Canarias \nwww.eldiario.es/canariasahor...",
     "author_handle": "canariasahora.bsky.social",
@@ -23,7 +55,7 @@
     "author_name": "⠀𝑱𝐎𝐄𝐋 𝐌𝐈𝐋𝐋𝐄𝐑.",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gfd26k3r2hruso33gix6epsk/bafkreiabiiwtfbultbknyxbybztwye5k5rxqqa4qn64eoc3yuq37qtkwhi",
     "published": "2026-09-07T19:22:01.524000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "terremoto"
     ],
@@ -39,7 +71,7 @@
     "author_name": "* 𝒕𝒉𝒆 𝒅𝒖𝒂𝒍 𝒒𝒖𝒆𝒆𝒏",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d4xwdjh54rfqifkuoxg6ko5l/bafkreid5asrykbbhqhjcldntm4owu4vkdxj3gl4dnlo7kc2kb4tlk2arty",
     "published": "2026-09-07T19:21:49.341000+00:00",
-    "like_count": 3,
+    "like_count": 4,
     "keywords_matched": [
       "temblor"
     ],
