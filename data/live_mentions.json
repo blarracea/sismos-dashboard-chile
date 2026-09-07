@@ -1,5 +1,38 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muvhnqe4f62z",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. #sismo\n2. Sep\n3. Central 🆕\n4. Aftershock\n5. Quake\n6. Earlier\n7. #weak\n8. #M2\n9. #M3\n10. #Departamento_del_Choco",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-07T02:30:39.107000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117227403741588059",
+    "text": "United States Geological Survey (USGS) Sismo de magnitud 5 mb, Kermadec Islands region, a una profundidad de 585.146 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Domingo 6 de Septiembre del 2026 a las 8:06 PM UTC : Lunes 7 de Septiembre del 2026 a las 2:06 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-07T02:30:26.055000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117227356405523948",
     "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.2 mb, KERMADEC ISLANDS REGION, a una profundidad de 558.1 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Domingo 6 de Septiembre del 2026 a las 8:06 PM UTC : Lunes 7 de Septiembre del 2026 a las 2:06 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
