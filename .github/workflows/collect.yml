@@ -73,6 +73,12 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           END=$((SECONDS + LOOP_MINUTES * 60))
           while [ $SECONDS -lt $END ]; do
+            # El checkout se hizo una sola vez al principio del job -- sin
+            # este pull, un cambio de codigo (ej. un ajuste a los filtros)
+            # no se aplicaria hasta que este bloque de ~5h40 termine solo y
+            # se re-dispare. Con esto, un commit nuevo se recoge en el
+            # siguiente ciclo (5 min), igual que los datos.
+            git pull --rebase origin master
             python backend/collect.py
             git add data/
             if git diff --cached --quiet; then
