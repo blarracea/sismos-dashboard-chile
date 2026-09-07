@@ -25,9 +25,9 @@ Territorio Chileno Antartico). Para la intensidad Mercalli percibida:
 Ademas, guarda menciones recientes de sismos en medios chilenos (RSS via
 Google News, ver sources/social.py) en data/social_mentions.json -- un
 proxy de "donde se habla del sismo", no intensidad Mercalli verificada. Y
-guarda posts publicos de Bluesky con las palabras clave del proyecto (ver
-sources/bluesky.py) en data/bluesky_mentions.json, para el panel "Bluesky en
-vivo" del dashboard.
+guarda posts publicos de Bluesky y Mastodon con las palabras clave del
+proyecto (ver sources/bluesky.py y sources/mastodon.py) en
+data/live_mentions.json, para el panel "Redes en vivo" del dashboard.
 """
 import math
 from datetime import datetime, timedelta, timezone
@@ -35,7 +35,7 @@ from datetime import datetime, timedelta, timezone
 import comuna_coords
 import keywords
 import storage
-from sources import bluesky, csn, social, usgs
+from sources import bluesky, csn, mastodon, social, usgs
 
 CSN_MATCH_MAX_SECONDS = 180
 CSN_MATCH_MAX_DEGREES = 0.5
@@ -339,15 +339,21 @@ def collect_social_mentions():
     print(f"Menciones en medios: {len(mentions)} nuevas encontradas.")
 
 
-def collect_bluesky_mentions():
-    """Guarda posts publicos de Bluesky con las palabras clave (ver sources/bluesky.py)."""
+def collect_live_mentions():
+    """Guarda posts publicos de Bluesky y Mastodon con las palabras clave
+    (ver sources/bluesky.py y sources/mastodon.py) -- Mastodon es fuente
+    secundaria, complementa a Bluesky en el mismo panel/archivo."""
+    mentions = []
     try:
-        mentions = bluesky.fetch_bluesky_mentions()
+        mentions.extend(bluesky.fetch_bluesky_mentions())
     except Exception as exc:
         print(f"Aviso: no se pudo consultar Bluesky ({exc}).")
-        return
-    storage.save_bluesky_mentions(mentions)
-    print(f"Bluesky: {len(mentions)} posts nuevos encontrados.")
+    try:
+        mentions.extend(mastodon.fetch_mastodon_mentions())
+    except Exception as exc:
+        print(f"Aviso: no se pudo consultar Mastodon ({exc}).")
+    storage.save_live_mentions(mentions)
+    print(f"Redes en vivo: {len(mentions)} posts nuevos encontrados (Bluesky + Mastodon).")
 
 
 def preserve_existing_csn_data(events):
@@ -412,7 +418,7 @@ def main():
     storage.purge_old(RETENTION_DAYS)
     storage.update_index()
     collect_social_mentions()
-    collect_bluesky_mentions()
+    collect_live_mentions()
 
     print(f"Procesados {len(events)} eventos ({start.date()} a {now.date()}).")
 

@@ -49,9 +49,9 @@ SismosApp.loadSocialMentions = async function () {
   return response.json();
 };
 
-/* Posts de Bluesky con las palabras clave del proyecto -- ver js/bluesky-layer.js. */
-SismosApp.loadBlueskyMentions = async function () {
-  const response = await fetch("data/bluesky_mentions.json", { cache: "no-store" });
+/* Posts de Bluesky + Mastodon con las palabras clave del proyecto -- ver js/live-feed.js. */
+SismosApp.loadLiveMentions = async function () {
+  const response = await fetch("data/live_mentions.json", { cache: "no-store" });
   if (!response.ok) return [];
   return response.json();
 };

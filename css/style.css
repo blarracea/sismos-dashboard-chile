@@ -74,7 +74,7 @@ body {
   height: 100%;
 }
 
-.bluesky-feed.panel,
+.live-feed.panel,
 .social-feed.panel {
   flex: 0 0 300px;
 }
@@ -88,7 +88,7 @@ body {
   min-height: 0;
 }
 
-.bluesky-feed.panel,
+.live-feed.panel,
 .social-feed.panel {
   border-radius: 0;
   border-top: none;
@@ -204,23 +204,23 @@ body {
   font-weight: 600;
 }
 
-/* --- Bluesky en vivo --- */
-.bluesky-feed-title {
+/* --- Redes en vivo (Bluesky + Mastodon) --- */
+.live-feed-title {
   text-align: center;
 }
 
-.bluesky-feed-empty {
+.live-feed-empty {
   font-size: 0.8rem;
   color: var(--color-text-muted);
 }
 
-.bluesky-card-link {
+.live-card-link {
   display: block;
   text-decoration: none;
   color: inherit;
 }
 
-.bluesky-card {
+.live-card {
   display: flex;
   gap: 0.5rem;
   padding: 0.5rem;
@@ -230,11 +230,11 @@ body {
   border: 1px solid #cfe6fd;
 }
 
-.bluesky-card-link:hover .bluesky-card {
+.live-card-link:hover .live-card {
   background: #dcecff;
 }
 
-.bluesky-card-avatar {
+.live-card-avatar {
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -243,11 +243,11 @@ body {
   object-fit: cover;
 }
 
-.bluesky-card-body {
+.live-card-body {
   min-width: 0;
 }
 
-.bluesky-card-header {
+.live-card-header {
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
@@ -255,17 +255,22 @@ body {
   font-size: 0.72rem;
 }
 
-.bluesky-card-name {
+.live-card-platform {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.live-card-name {
   font-weight: 600;
   color: var(--color-text);
 }
 
-.bluesky-card-handle,
-.bluesky-card-time {
+.live-card-handle,
+.live-card-time {
   color: var(--color-text-muted);
 }
 
-.bluesky-card-text {
+.live-card-text {
   margin: 0.2rem 0 0;
   font-size: 0.82rem;
   color: var(--color-text);

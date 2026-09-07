@@ -6,7 +6,7 @@
   const heatToggle = document.getElementById("toggle-heatmap");
   const socialToggle = document.getElementById("toggle-social");
   const socialFeedBody = document.getElementById("social-feed-body");
-  const blueskyFeedBody = document.getElementById("bluesky-feed-body");
+  const liveFeedBody = document.getElementById("live-feed-body");
   const dayPicker = document.getElementById("day-picker");
   const dayTableBody = document.getElementById("day-table-body");
 
@@ -179,13 +179,13 @@
     }
   };
 
-  // --- Bluesky en vivo (posts publicos con las palabras clave del proyecto) ---
-  const refreshBlueskyFeed = async () => {
+  // --- Redes en vivo (Bluesky + Mastodon, posts con las palabras clave del proyecto) ---
+  const refreshLiveFeed = async () => {
     try {
-      const blueskyMentions = await SismosApp.loadBlueskyMentions();
-      SismosApp.renderBlueskyFeed(blueskyMentions, blueskyFeedBody);
+      const mentions = await SismosApp.loadLiveMentions();
+      SismosApp.renderLiveFeed(mentions, liveFeedBody);
     } catch (err) {
-      blueskyFeedBody.innerHTML = '<p class="bluesky-feed-empty">No se pudieron cargar los posts.</p>';
+      liveFeedBody.innerHTML = '<p class="live-feed-empty">No se pudieron cargar los posts.</p>';
     }
   };
 
@@ -244,12 +244,12 @@
     }
   };
 
-  await Promise.all([refreshEvents(), refreshSocialFeed(), refreshBlueskyFeed(), refreshDayTable()]);
+  await Promise.all([refreshEvents(), refreshSocialFeed(), refreshLiveFeed(), refreshDayTable()]);
 
   setInterval(() => {
     refreshEvents();
     refreshSocialFeed();
-    refreshBlueskyFeed();
+    refreshLiveFeed();
     refreshDayTable();
   }, REFRESH_INTERVAL_MS);
 })();

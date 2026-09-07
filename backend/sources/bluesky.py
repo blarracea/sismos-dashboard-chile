@@ -132,6 +132,7 @@ def _search_posts(keyword, access_jwt):
 
         items.append(
             {
+                "platform": "bluesky",
                 "link": f"https://bsky.app/profile/{handle}/post/{rkey}",
                 "text": text,
                 "author_handle": handle,

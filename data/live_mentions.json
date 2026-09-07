@@ -12,7 +12,8 @@
     ],
     "place": "antofagasta",
     "lat": -23.6509,
-    "lon": -70.3975
+    "lon": -70.3975,
+    "platform": "bluesky"
   },
   {
     "link": "https://bsky.app/profile/es-cl.pds.netasgard.com/post/3muu33kolh22m",
@@ -28,7 +29,8 @@
     ],
     "place": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "platform": "bluesky"
   },
   {
     "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mutzbctnih2g",
@@ -44,6 +46,7 @@
     ],
     "place": null,
     "lat": null,
-    "lon": null
+    "lon": null,
+    "platform": "bluesky"
   }
 ]

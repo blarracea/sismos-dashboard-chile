@@ -16,8 +16,8 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 INDEX_FILE = DATA_DIR / "index.json"
 SOCIAL_FILE = DATA_DIR / "social_mentions.json"
 SOCIAL_RETENTION_HOURS = 72
-BLUESKY_FILE = DATA_DIR / "bluesky_mentions.json"
-BLUESKY_RETENTION_HOURS = 24
+LIVE_MENTIONS_FILE = DATA_DIR / "live_mentions.json"
+LIVE_MENTIONS_RETENTION_HOURS = 24
 
 
 def _day_file(date_str):
@@ -114,24 +114,25 @@ def save_social_mentions(new_mentions):
         json.dump(kept, f, ensure_ascii=False, indent=2)
 
 
-def load_bluesky_mentions():
-    if not BLUESKY_FILE.exists():
+def load_live_mentions():
+    if not LIVE_MENTIONS_FILE.exists():
         return []
-    with BLUESKY_FILE.open("r", encoding="utf-8") as f:
+    with LIVE_MENTIONS_FILE.open("r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def save_bluesky_mentions(new_mentions):
+def save_live_mentions(new_mentions):
     """
     Igual logica que save_social_mentions, pero con una ventana mas corta
-    (BLUESKY_RETENTION_HOURS) -- este panel se muestra como un chat en vivo,
+    (LIVE_MENTIONS_RETENTION_HOURS) -- este panel se muestra como un chat en
+    vivo (Bluesky + Mastodon, ver sources/bluesky.py y sources/mastodon.py),
     interesa lo que se esta diciendo ahora, no un archivo de dias.
     """
-    existing = {m["link"]: m for m in load_bluesky_mentions()}
+    existing = {m["link"]: m for m in load_live_mentions()}
     for mention in new_mentions:
         existing[mention["link"]] = mention
 
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=BLUESKY_RETENTION_HOURS)
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=LIVE_MENTIONS_RETENTION_HOURS)
     kept = []
     for mention in existing.values():
         published = mention.get("published")
@@ -145,7 +146,7 @@ def save_bluesky_mentions(new_mentions):
     kept.sort(key=lambda m: m.get("published") or "", reverse=True)
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    with BLUESKY_FILE.open("w", encoding="utf-8") as f:
+    with LIVE_MENTIONS_FILE.open("w", encoding="utf-8") as f:
         json.dump(kept, f, ensure_ascii=False, indent=2)
 
 
