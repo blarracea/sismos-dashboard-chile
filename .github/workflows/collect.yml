@@ -1,24 +1,42 @@
 name: Recolectar datos de sismos
 
+# El cron nativo de "schedule" es "best effort" -- en la practica corria
+# cada 1-3+ horas en vez de respetar el intervalo configurado, sin importar
+# que tan seguido se pidiera (se probo con */5). Un workflow_dispatch
+# (disparo explicito, no cron) SI corre casi al instante -- por eso la
+# cadencia real de 5 minutos la maneja el propio job: arranca, recolecta,
+# espera 5 min, recolecta de nuevo, y asi durante ~5h40 (el maximo que
+# permite un solo job); justo antes de terminar se re-dispara a si mismo
+# para arrancar el siguiente bloque, encadenado indefinidamente. No hace
+# falta ningun servicio externo ni token propio: usa el GITHUB_TOKEN
+# automatico que GitHub genera y destruye en cada corrida.
+#
+# El "schedule" de aca abajo queda solo como red de respaldo de muy baja
+# frecuencia, por si la cadena se corta alguna vez (ej. el runner se cae a
+# mitad del ciclo y no llega a re-dispararse solo).
 on:
   schedule:
-    # El cron nativo de "schedule" es "best effort" -- en la practica corre
-    # cada 1-3+ horas en vez de respetar el intervalo configurado, sin
-    # importar que tan seguido se pida (se probo con */5). Un
-    # workflow_dispatch (disparo explicito, no cron) SI corre casi al
-    # instante -- por eso la cadencia real de 5 min la maneja un servicio
-    # externo (cron-job.org) llamando a la API de disparo cada 5 min. Este
-    # cron nativo queda solo como red de respaldo de baja frecuencia, por
-    # si ese servicio externo alguna vez falla o el token vence.
-    - cron: "*/30 * * * *"
-  workflow_dispatch: {}
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      loop_minutes:
+        description: "Minutos totales del ciclo interno (dejar el default salvo para pruebas)"
+        required: false
+        default: "335"
+      cycle_seconds:
+        description: "Segundos de espera entre recolecciones dentro del ciclo (dejar el default salvo para pruebas)"
+        required: false
+        default: "300"
 
 permissions:
   contents: write
+  # Necesario para que el propio job pueda re-dispararse via la API de
+  # Actions al final de su ciclo (ver el ultimo paso).
+  actions: write
 
-# Evita que dos corridas se pisen si una tarda mas de 5 minutos (Playwright
-# contra senapred.cl puede ser lento) -- la nueva espera a que termine la
-# anterior en vez de correr en paralelo y generar conflictos de git push.
+# Evita que dos corridas se pisen si el ciclo tarda mas de lo esperado --
+# la nueva espera a que termine la anterior en vez de correr en paralelo y
+# generar conflictos de git push.
 concurrency:
   group: collect-sismos
   cancel-in-progress: false
@@ -26,6 +44,9 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    # Un poco por debajo del limite real de 360 min de un job, para dejar
+    # margen a los pasos de setup (checkout, pip, Chromium) antes del loop.
+    timeout-minutes: 350
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -41,21 +62,39 @@ jobs:
       - name: Instalar Chromium (Playwright, para leer el reporte de SENAPRED)
         run: python -m playwright install --with-deps chromium
 
-      - name: Recolectar sismos
+      - name: Ciclo de recoleccion cada 5 minutos
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-        run: python backend/collect.py
-
-      - name: Commit y push si hay cambios
+          LOOP_MINUTES: ${{ github.event.inputs.loop_minutes || '335' }}
+          CYCLE_SECONDS: ${{ github.event.inputs.cycle_seconds || '300' }}
         run: |
           git config user.name "sismos-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/
-          if git diff --cached --quiet; then
-            echo "Sin cambios nuevos."
-          else
-            git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin master
-            git push
-          fi
+          END=$((SECONDS + LOOP_MINUTES * 60))
+          while [ $SECONDS -lt $END ]; do
+            python backend/collect.py
+            git add data/
+            if git diff --cached --quiet; then
+              echo "Sin cambios nuevos."
+            else
+              git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
+              git pull --rebase origin master
+              git push
+            fi
+            sleep "$CYCLE_SECONDS"
+          done
+
+      - name: Encadenar el siguiente ciclo
+        # if: always() -- si el ciclo de arriba fallo a mitad de camino (ej.
+        # un error de red puntual), igual se intenta encadenar el siguiente
+        # bloque en vez de dejar la cadena cortada silenciosamente.
+        if: always()
+        run: |
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -w "\nHTTP %{http_code}\n" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/collect.yml/dispatches" \
+            -d '{"ref":"${{ github.ref_name }}"}'
