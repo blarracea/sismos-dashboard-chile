@@ -714,6 +714,22 @@
     "lon": null
   },
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/nieblaluz.bsky.social/post/3muuooc364224",
+    "text": "Pero la plebe les votará, con los ojos y oídos vendados no quieren ver quienes son. El tsunami d pobreza y desprotección acecha si sacan votos para desgobernar España, da igual con sin vox, ambos son el lumpen d los bajos fondos d la post verdad política.",
+    "author_handle": "nieblaluz.bsky.social",
+    "author_name": "Nieblaluz",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pbspvq5urgpypkggcp6ac6if/bafkreihj6iwodwanp42on2njt6fde3g6noxu5i2d42yf2gjn45e5zizgia",
+    "published": "2026-09-06T19:03:34.313000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@NCSeismicobserv/117225608645563283",
     "text": "7 minutes 50 seconds ago - Central Mexico mB 5.4 18.35N 98.02W 10km 2026/09/06 18:46:25 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rorkvl # séisme # earthquake # sismo # 지진 # 地震",
@@ -723,8 +739,7 @@
     "published": "2026-09-06T18:53:55.105000+00:00",
     "like_count": 0,
     "keywords_matched": [
-      "sismo",
-      "earthquake"
+      "sismo"
     ],
     "place": null,
     "lat": null,
@@ -829,6 +844,22 @@
   },
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/weather.masto.es.ap.brid.gy/post/3muuc7civbwi2",
+    "text": "El riesgo de tsunami en el Mediterráneo: la falla de Averroes y la preparación en Almería https://www.meteorologiaenred.com/el-riesgo-de-tsunami-en-el-mediterraneo-la-falla-de-averroes-y-la-preparacion-en-almeria.html",
+    "author_handle": "weather.masto.es.ap.brid.gy",
+    "author_name": "weather",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nkc2pvs4gbi3j6penctssfj6/bafkreibsew5nfau5snjgaayzkx7zpleseuh5mabuym2eprid5o5qhdhcem",
+    "published": "2026-09-06T15:20:23+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/acidpoetry.bsky.social/post/3muuac6vtnc2e",
     "text": "» vacíos en el tablero del coche  .\n\n    El llanto fuerte se ha extinguido , reemplazado por un temblor silencioso que le sacude el pecho  .\n\n    Sus manos se clavan en sus propios muslos , apretando la tela con desesperación y buscando algún tipo de ancla en mitad de la tormenta  .\n\n     Las »",
     "author_handle": "acidpoetry.bsky.social",
@@ -870,8 +901,7 @@
     "published": "2026-09-06T13:11:02.525000+00:00",
     "like_count": 0,
     "keywords_matched": [
-      "tsunami",
-      "earthquake"
+      "tsunami"
     ],
     "place": null,
     "lat": null,
@@ -905,6 +935,22 @@
     "keywords_matched": [
       "sismo",
       "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/miguezdiez.bsky.social/post/3mutwv36n7s2s",
+    "text": "Primer día de vacaciones: otakus, 𝘒𝘢𝘩𝘰𝘰𝘵!, mucho calor y comerse la cabeza con un hipotético tsunami en Cádiz.",
+    "author_handle": "miguezdiez.bsky.social",
+    "author_name": "KatuGurē",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bjreowipcvh7h7oaqetgkrem/bafkreihzqws65yu2m4uaay52y2zgd2tsdrwyf2elzfmqztyyyibnugh7ra",
+    "published": "2026-09-06T11:57:52.162000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "tsunami"
     ],
     "place": null,
     "lat": null,
@@ -1017,22 +1063,6 @@
     "like_count": 0,
     "keywords_matched": [
       "maremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/muyinteresante.com/post/3musua7myqo25",
-    "text": "Durante décadas, los geólogos asumieron que un megaterremoto solo se detenía cuando agotaba su energía. Ahora, un estudio revela que ciertas estructuras ocultas bajo el océano podrían frenar la ruptura sísmica justo antes del desastre.",
-    "author_handle": "muyinteresante.com",
-    "author_name": "Muy Interesante",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3sb6q35dqo5p423tjemwqkj7/bafkreifenuafeladxcaoog2cj3krkefjlvnv5qvbaljqdfxt75r4xx5vgi",
-    "published": "2026-09-06T01:37:43.869000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "megaterremoto"
     ],
     "place": null,
     "lat": null,
