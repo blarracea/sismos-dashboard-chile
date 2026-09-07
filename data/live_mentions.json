@@ -1412,21 +1412,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/miguezdiez.bsky.social/post/3mutwv36n7s2s",
-    "text": "Primer día de vacaciones: otakus, 𝘒𝘢𝘩𝘰𝘰𝘵!, mucho calor y comerse la cabeza con un hipotético tsunami en Cádiz.",
-    "author_handle": "miguezdiez.bsky.social",
-    "author_name": "KatuGurē",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bjreowipcvh7h7oaqetgkrem/bafkreihzqws65yu2m4uaay52y2zgd2tsdrwyf2elzfmqztyyyibnugh7ra",
-    "published": "2026-09-06T11:57:52.162000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
