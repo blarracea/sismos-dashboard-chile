@@ -100,7 +100,12 @@ body {
 }
 
 .panel h2 {
-  margin-top: 0;
+  /* Sin margin-bottom: un margen es transparente, y en un titulo sticky
+     (ver .live-feed-title / .social-feed-title) eso deja un hueco por
+     donde se ve pasar el fondo de las tarjetas al scrollear -- el espacio
+     de respiro ahi va como padding en vez de margin, que si queda pintado
+     con el fondo solido del titulo. */
+  margin: 0;
   font-size: 1rem;
   color: var(--color-header-bg);
   border-bottom: 2px solid var(--color-accent);
@@ -162,16 +167,21 @@ body {
 }
 
 /* --- Menciones en medios --- */
-.social-feed-title {
+h2.social-feed-title {
   text-align: center;
   /* Fijo arriba al scrollear la lista -- el panel entero es el contenedor
      con scroll (overflow-y:auto en .panel), asi que sticky respecto a el
      alcanza sin necesitar un wrapper aparte. El fondo solido evita que las
-     tarjetas se vean pasar por detras del titulo. */
+     tarjetas se vean pasar por detras del titulo. El espacio antes de la
+     primera tarjeta es padding-bottom (no margin): un margin ahi queda
+     transparente y se veria pasar el fondo celeste de las tarjetas por ese
+     hueco al scrollear.
+  */
   position: sticky;
   top: 0;
   z-index: 1;
   background: var(--color-panel);
+  padding-bottom: 0.75rem;
 }
 
 .social-feed-empty {
@@ -213,14 +223,16 @@ body {
 }
 
 /* --- Redes en vivo (Bluesky + Mastodon) --- */
-.live-feed-title {
+h2.live-feed-title {
   text-align: center;
   /* Fijo arriba al scrollear la lista -- ver el comentario en
-     .social-feed-title, mismo criterio. */
+     .social-feed-title, mismo criterio (incluido el padding-bottom en vez
+     de margin). */
   position: sticky;
   top: 0;
   z-index: 1;
   background: var(--color-panel);
+  padding-bottom: 0.75rem;
 }
 
 .live-feed-empty {
