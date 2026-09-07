@@ -7,7 +7,7 @@
     "author_name": "Alanis Lola",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sfkd6kg5xtawjdze27w4iazh/bafkreidvaxat54kcjftl4cv7c2vwys2qagchcz77ayqmi3vabbm6owgvja",
     "published": "2026-09-07T23:08:20.493000+00:00",
-    "like_count": 3,
+    "like_count": 4,
     "keywords_matched": [
       "terremoto"
     ],
@@ -23,7 +23,7 @@
     "author_name": "Alanis Lola",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sfkd6kg5xtawjdze27w4iazh/bafkreidvaxat54kcjftl4cv7c2vwys2qagchcz77ayqmi3vabbm6owgvja",
     "published": "2026-09-07T23:06:52.173000+00:00",
-    "like_count": 2,
+    "like_count": 3,
     "keywords_matched": [
       "terremoto"
     ],
@@ -1755,38 +1755,6 @@
       "sismo",
       "terremoto",
       "earthquake"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/jeromyo.bsky.social/post/3muv52vkkmk2e",
-    "text": "The Cure would be a Dem tsunami in November",
-    "author_handle": "jeromyo.bsky.social",
-    "author_name": "Jerome",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ve6jfpuzqv75mkisnby2fydh/bafkreibhgb6c3bkbs6mrnugldz3ejda2zzxvkvik6wu6ec3ejkwvtpswty",
-    "published": "2026-09-06T23:21:09.778000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/muyinteresante.com/post/3muv52u5j3z2f",
-    "text": "En 1954, Granada vivió uno de los terremotos más potentes documentados instrumentalmente en España. Su magnitud invita a imaginar una catástrofe enorme, pero la realidad sobre el terreno desmintió por completo esa expectativa.",
-    "author_handle": "muyinteresante.com",
-    "author_name": "Muy Interesante",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3sb6q35dqo5p423tjemwqkj7/bafkreifenuafeladxcaoog2cj3krkefjlvnv5qvbaljqdfxt75r4xx5vgi",
-    "published": "2026-09-06T23:21:07.323000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
