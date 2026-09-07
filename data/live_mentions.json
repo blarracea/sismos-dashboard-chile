@@ -1380,21 +1380,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/bibianacc.bsky.social/post/3mutqx7mfgk27",
-    "text": "Poesía valenciana en MÉXICO.\n\nLa UNAM le encargó a Juan Carlos Abril esta antología.\n\nEn sus páginas palpita \"Violencia\" y saltan \"Chispitas de carne\" 😉. \n\nEl temblor se extiende.",
-    "author_handle": "bibianacc.bsky.social",
-    "author_name": "Bibiana C C",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:npbfwrxwhj6u7pl5vz24mfmg/bafkreiev7ftpphp7ks6cbf5o355wsa44u25zgbhdnfn7f652ixnfzq5doy",
-    "published": "2026-09-06T10:11:41.449000+00:00",
-    "like_count": 3,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
