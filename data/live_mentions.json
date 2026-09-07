@@ -1395,21 +1395,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:butbzsrnfrh7isiyaxpggat5/post/3muue6tsx722d",
-    "text": "#Trump’s poll numbers are dropping like the tide before a giant blue #tsunami ! 🌊🌊🌊 #VoteBlue",
-    "author_handle": "badgerstatebreakdown.substack.com@bsky.brid.gy",
-    "author_name": "Badger State Breakdown",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/116/376/605/180/981/145/original/d069209b46bf1871.jpeg",
-    "published": "2026-09-06T15:55:58.609000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
