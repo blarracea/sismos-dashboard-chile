@@ -1396,21 +1396,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@donporque/117223459778759987",
-    "text": "¿Por qué sigue temblando Granada? Ocho nuevos seísmos este domingo # Granada # Terremoto # Terremotos # Seismos # Andalucia # Armilla # Alhendin # Geologia # IGN # Actualidad # UltimaHora # España # felizdomingo # 6deseptiembre https:// donporque.com/terremotos-en-gr anada-septiembre-2026/",
-    "author_handle": "donporque@mastodon.social",
-    "author_name": "Don Porqué",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/116/738/094/750/895/971/original/63f9b649e34706fd.jpg",
-    "published": "2026-09-06T09:47:25.948000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
