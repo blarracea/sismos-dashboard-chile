@@ -1380,21 +1380,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/folha.com/post/3mutt72gdu22x",
-    "text": "#OPINIÃO \n\n📝Giovana Madalosso | Vem celacanto provocar maremoto. Minha carreira como pichadora não durou mais de cinco minutos, mas sigo observando as frases que almas inquietas picham em muros, muretas e viaduto",
-    "author_handle": "folha.com",
-    "author_name": "Folha de S.Paulo",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:aduoxavv4nlceto54tgu3fjr/bafkreihzxgyrmzwdu2zpnpjba3kaqajl3numrechvrack3mwqhsaapzf4i",
-    "published": "2026-09-06T10:51:51.945000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "maremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
