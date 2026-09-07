@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/atahualpa.bsky.social/post/3muxlhli5ds2r",
+    "text": "¿Se acuerdan de cuando el 7 de septiembre tocaba sismo  nocturno con luces eléctricas en la CDMX?",
+    "author_handle": "atahualpa.bsky.social",
+    "author_name": "Piromanía constructiva 🇵🇸",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fgydtkj4ipeqthkneugji6dg/bafkreie2i4prrssuv4xqllfi77rp65np5unpn5neq32fdcoizur24qgrhy",
+    "published": "2026-09-07T22:44:07.284000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/lcrmx.mastodon.social.ap.brid.gy/post/3muxkzk3znif2",
     "text": "#MexicoNews #Mexico ¿ya te enteraste de esta #noticia? ¿Qué es el epicentro de un sismo y cómo se determina? Esto debes saber antes del Simulacro Nacional https://www.youtube.com/shorts/NmWsG5o4pc0",
     "author_handle": "lcrmx.mastodon.social.ap.brid.gy",
@@ -1745,21 +1761,5 @@
     "place": "alto del carmen",
     "lat": -28.9667,
     "lon": -70.5333
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/analisisurbano.bsky.social/post/3muv2y5rvd22y",
-    "text": "#Abelardo #DelaEspriella #Colombia | Abelardo de la Espriella cumple su primer mes como presidente de Colombia marcado por el terremoto, la ofensiva contra grupos armados y un giro frente al Gobierno Petro.\n\nanalisisurbano.org/primer-mes-a...",
-    "author_handle": "analisisurbano.bsky.social",
-    "author_name": "Análisis Urbano",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mki4shkacf77iurqdb5uvxvi/bafkreiadaw5ond5dyi2guweg7pvxletk42y7c467nh24rnxwe36evyijey",
-    "published": "2026-09-06T22:43:50.260000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
