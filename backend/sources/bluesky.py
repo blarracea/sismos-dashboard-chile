@@ -1,6 +1,7 @@
 """
 Fuente Bluesky -- feed en vivo de posts publicos que mencionan las palabras
-clave del proyecto (ver keywords.py).
+clave del proyecto (ver keywords.py), en cualquier parte del mundo -- sin
+filtro geografico, a pedido del usuario.
 
 Bluesky exige sesion iniciada para buscar posts (app.bsky.feed.searchPosts):
 se verifico que ni siquiera el sitio oficial bsky.app permite buscar estando
@@ -103,7 +104,10 @@ def _login(handle, app_password):
 
 
 def _search_posts(keyword, access_jwt):
-    params = {"q": keyword, "lang": "es", "sort": "latest", "limit": POSTS_PER_KEYWORD}
+    # Sin restriccion de idioma: el alcance ahora es mundial, y palabras
+    # como "earthquake" en ingles quedarian sin resultados si se filtrara a
+    # posts en espanol.
+    params = {"q": keyword, "sort": "latest", "limit": POSTS_PER_KEYWORD}
     headers = {"Authorization": f"Bearer {access_jwt}", "atproto-proxy": APPVIEW_PROXY}
     response = requests.get(SEARCH_URL, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
@@ -118,8 +122,6 @@ def _search_posts(keyword, access_jwt):
         if handle and handle.lower() in BLOCKED_HANDLES:
             continue
         if not text or not keywords.is_relevant(text):
-            continue
-        if not _mentions_chile_or_peru(text):
             continue
         if _is_automated_alert(text) and not _meets_bot_magnitude_threshold(text):
             continue
@@ -147,25 +149,6 @@ def _search_posts(keyword, access_jwt):
             }
         )
     return items
-
-
-def _mentions_chile_or_peru(text):
-    """
-    Bluesky trae varias cuentas-bot de terremotos por region (Mexico,
-    Centroamerica, Sudamerica en general, etc.) que republican cualquier
-    sismo detectado en su zona -- se filtran aca porque el dashboard es de
-    Chile/Peru, no un monitor sismico mundial. El filtro es por CONTENIDO
-    (no por cuenta) porque los bots regionales (ej. "south-america.bsky.social")
-    a veces si publican sobre Chile y otras veces sobre Nicaragua -- filtrar
-    por cuenta perderia los posts relevantes de esas mismas cuentas. Tambien
-    corta el mismo criterio a las personas reales que comentan sobre sismos
-    en otros paises (ej. Colombia, Mexico), que no son el foco del panel.
-    """
-    normalized = keywords.normalize(text)
-    if "chile" in normalized or "peru" in normalized:
-        return True
-    place, _ = comuna_coords.find_known_place(text)
-    return place is not None
 
 
 def _is_automated_alert(text):

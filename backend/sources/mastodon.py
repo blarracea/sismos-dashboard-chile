@@ -1,7 +1,8 @@
 """
 Fuente Mastodon -- complementa a Bluesky en el mismo panel "Redes en vivo"
 con posts publicos que mencionan las palabras clave del proyecto (ver
-keywords.py).
+keywords.py), en cualquier parte del mundo -- sin filtro geografico, a
+pedido del usuario.
 
 A diferencia de Bluesky, Mastodon expone timelines publicas por hashtag
 (api/v1/timelines/tag/:hashtag) sin necesitar cuenta ni autenticacion --
@@ -73,8 +74,6 @@ def _fetch_hashtag_timeline(tag):
         text = _strip_html(status.get("content") or "")
         if not text or not keywords.is_relevant(text):
             continue
-        if not _mentions_chile_or_peru(text):
-            continue
 
         account = status.get("account") or {}
         acct = account.get("acct")
@@ -134,15 +133,6 @@ def _extract_magnitude(text):
             except ValueError:
                 continue
     return None
-
-
-def _mentions_chile_or_peru(text):
-    """Mismo criterio que bluesky._mentions_chile_or_peru -- ver ahi el detalle."""
-    normalized = keywords.normalize(text)
-    if "chile" in normalized or "peru" in normalized:
-        return True
-    place, _ = comuna_coords.find_known_place(text)
-    return place is not None
 
 
 def _parse_created_at(created_at):

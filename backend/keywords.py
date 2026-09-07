@@ -14,6 +14,8 @@ KEYWORDS = [
     "tsunami",
     "temblor",
     "megaterremoto",
+    "maremoto",
+    "earthquake",
 ]
 
 
