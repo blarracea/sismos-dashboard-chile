@@ -359,9 +359,9 @@
     "lon": null
   },
   {
-    "title": "Sismo de magnitud 4.9 se percibe en la zona norte de Chile - biobiochile.cl",
+    "title": "Sismo de magnitud 4.9 se percibe en la zona norte de Chile - BioBioChile",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS1VBV3ZRRUdxR0V4THBQd24xektCSllTenliMDNORFRQdTQ3TVUxUTJ2ZFg1ZFpCNDN0SjJRY1FKeGItb0RvdjVKWXVoWWZHUlktQmptaHJYTlBlb18yMFphbUJCMk5wOTA1RXdLMnRjV1g5ZGdUSmtYQ1FFaWhaNF9iMXVMSWNjSHlsQjdOR05zbHRkSjJkeEtPOHBxc19wNUVvU3MtVFhkaFFkSzZTN1FTVGhSLUZvMUh0Y1NnTVBOSGQ1bmM3eGFjVUNLV2JFMzItdHkwTm5QZw?oc=5",
-    "source": "biobiochile.cl",
+    "source": "BioBioChile",
     "published": "2026-09-06T10:54:34+00:00",
     "keywords_matched": [
       "sismo"
@@ -946,19 +946,6 @@
     "source": "La Tercera",
     "published": "2026-09-04T10:21:10+00:00",
     "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor se registra en la zona norte: Revisa el epicentro y magnitud del sismo - Meganoticias",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeC1lZk1JanhYYS12UVlvOXpKR21ObGIxVnVVcFNER2lTbkxuSnhXaGtwcWlKUmRpX25DU3JpbkJGRERrbDI3Q3JtaTJabXRDSzAtMVp2amxzOVlkTXpVSkhUMDl6TlVpdGFqSGZ0UWJfT1lLNDFTZDM3TVFza1lvakZLQWZ2QXRVMUxTTWthU2pvbTlPdU03ZXZsVW9HOGpOY2FkUHdPZHBoT2xOUDZCakZn0gG3AUFVX3lxTE02VkV6emRHUG9ORmM1SUxabGJJWjlHWnhuZzh2VkZPRkxOUW1ETWZ4ODB4cEpEYnU4M2lNUWpxMGxiOHFVbzBtS3haZ1cweVNFNElBdGdILWlCSkpVSzdRblpXdzk5aXM2TGVDMFlsTG12UzBhQWpZQnFaaFF5SnluQUxxUVZSLWpxb3RFMDhNT2lPSzhHMXk5Z3hBVmlyWk9QTld4dnNJZlotMUN0YmFZSTROQ1dudw?oc=5",
-    "source": "Meganoticias",
-    "published": "2026-09-04T07:21:00+00:00",
-    "keywords_matched": [
-      "sismo",
       "temblor"
     ],
     "place": null,
