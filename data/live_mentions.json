@@ -1758,23 +1758,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/tatemblando.bsky.social/post/3muv5vmpdhv2d",
-    "text": "⚠️ Nuevo #Sismo Registrado ⚠️\nFecha: 06-09-2026\nHora: 20:30:49\nUbicación: 52 km al SO de Mina Collahuasi\nProfundidad: 116 km\nMagnitud: 2.8\nLatitud: -21.15\nLongitud: -69.01\nVer Mapa\n#Terremoto #Sismología #Chile #EarthQuake #Alerta",
-    "author_handle": "tatemblando.bsky.social",
-    "author_name": "Bot de Sismos en Chile",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afxdzjcdzhnkuok36jduitku/bafkreicggeeeczc4ltk6gz6v3rz63ija4jaj42qa2jqwibkpv4d6gvvl7i",
-    "published": "2026-09-06T23:36:06.386366+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "terremoto",
-      "earthquake"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
