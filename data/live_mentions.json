@@ -1777,23 +1777,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/tatemblando.bsky.social/post/3muuzgmfmpa2d",
-    "text": "⚠️ Nuevo #Sismo Registrado ⚠️\nFecha: 06-09-2026\nHora: 19:06:20\nUbicación: 61 km al E de Quillagua\nProfundidad: 79 km\nMagnitud: 3.5\nLatitud: -21.80\nLongitud: -68.96\nVer Mapa\n#Terremoto #Sismología #Chile #EarthQuake #Alerta",
-    "author_handle": "tatemblando.bsky.social",
-    "author_name": "Bot de Sismos en Chile",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afxdzjcdzhnkuok36jduitku/bafkreicggeeeczc4ltk6gz6v3rz63ija4jaj42qa2jqwibkpv4d6gvvl7i",
-    "published": "2026-09-06T22:16:07.790800+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "terremoto",
-      "earthquake"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
