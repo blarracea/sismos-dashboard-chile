@@ -1,5 +1,6 @@
 [
   {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muv2akyy6s2p",
     "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. #sismo 🆕\n2. Tocopilla 🆕\n3. Antofagasta 🆕\n4. Sep 🆕\n5. #weak 🆕\n6. #M2 🆕\n7. #M3 🆕\n8. #Region_de_Antofagasta 🆕\n9. Pedazo 🆕\n10. Aeropuerto 🆕",
     "author_handle": "trending-es.bsky.social",
@@ -12,10 +13,10 @@
     ],
     "place": "antofagasta",
     "lat": -23.6509,
-    "lon": -70.3975,
-    "platform": "bluesky"
+    "lon": -70.3975
   },
   {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/es-cl.pds.netasgard.com/post/3muu33kolh22m",
     "text": "Chile — Autoridad marítima descarta riesgo de tsunami tras temblor en zona costera #Chile #News #Breaking",
     "author_handle": "es-cl.pds.netasgard.com",
@@ -29,10 +30,10 @@
     ],
     "place": null,
     "lat": null,
-    "lon": null,
-    "platform": "bluesky"
+    "lon": null
   },
   {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mutzbctnih2g",
     "text": "Perú — Un sismo de 4,2 grados fue registrado en Arequipa este domingo según el IGP #Perú #IGP #Temblor #News",
     "author_handle": "netasgardespana.bsky.social",
@@ -46,7 +47,6 @@
     ],
     "place": null,
     "lat": null,
-    "lon": null,
-    "platform": "bluesky"
+    "lon": null
   }
 ]
