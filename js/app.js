@@ -15,7 +15,16 @@
   // recargar a mano. El ciclo re-pide todo lo que cambia con el tiempo
   // (eventos, mapa, ambos feeds, tabla del dia de hoy) sin tocar la vista
   // del mapa ni el detalle que la persona tenga seleccionado.
-  const REFRESH_INTERVAL_MS = 3 * 60 * 1000;
+  //
+  // No hay forma de que esta pagina estatica se entere del momento exacto
+  // en que GitHub Actions termina una recoleccion (no existe un canal para
+  // que el backend le avise al navegador) -- y ademas el ciclo de
+  // recoleccion no corre en horario fijo (recolecta, espera 300s, recolecta
+  // de nuevo), asi que "a los N segundos de la recoleccion" no es algo a lo
+  // que este cliente se pueda sincronizar. En su lugar, se pregunta seguido
+  // (cada 60s) si hay datos nuevos -- logra el mismo objetivo real (ver lo
+  // nuevo poco despues de que se recolecto) sin depender de un timing exacto.
+  const REFRESH_INTERVAL_MS = 60 * 1000;
 
   const map = SismosApp.initMap();
 
