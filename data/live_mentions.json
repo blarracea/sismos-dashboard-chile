@@ -55,7 +55,7 @@
     "author_name": "lacarlawa 🪽",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:q3rtejjcqeq6w25xnq32rddz/bafkreiduihhlgxcd57g3qh6hrsjz6zes6jh5hx6esm5qatthjpe2x42ta4",
     "published": "2026-09-08T05:11:40.755000+00:00",
-    "like_count": 3,
+    "like_count": 4,
     "keywords_matched": [
       "tsunami"
     ],
@@ -1366,23 +1366,6 @@
     "like_count": 2,
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117228300246712066",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.5 mww, southeast of the Loyalty Islands, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Domingo 6 de Septiembre del 2026 a las 11:50 PM UTC : Lunes 7 de Septiembre del 2026 a las 5:50 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-07T06:18:25.658000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
     ],
     "place": null,
     "lat": null,
