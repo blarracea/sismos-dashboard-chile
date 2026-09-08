@@ -1791,21 +1791,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es.nippon.com/post/3muwvyuxqdd2n",
-    "text": "Los daños provocados por el terremoto que afectó a Kumamoto el 28 de julio obligan a cancelar el acto principal del Yatsushiro Myōken-sai, un histórico festival de otoño con orígenes en el periodo Edo.",
-    "author_handle": "es.nippon.com",
-    "author_name": "Nippon.com en español",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cc3ymgcygljd4cfk7juy3lr5/bafkreifvdtdchl77ak7vhbououjjnw2lajbhmhu7ekltfq4fkjsfdjnoh4",
-    "published": "2026-09-07T16:20:00+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
