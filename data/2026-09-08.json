@@ -1,0 +1,25 @@
+[
+  {
+    "id": "us7000tfqh",
+    "source": "usgs",
+    "time": "2026-09-08T01:24:15.300000+00:00",
+    "updated": "2026-09-08T02:34:28.040000+00:00",
+    "lat": -24.1437,
+    "lon": -67.1868,
+    "depth_km": 167.68,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "88 km W of San Antonio de los Cobres, Argentina",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tfqh",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
