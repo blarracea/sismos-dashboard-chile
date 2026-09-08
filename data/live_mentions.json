@@ -1,6 +1,23 @@
 [
   {
     "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117235377770360852",
+    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.2 mb, 22 km SSE of Neiafu, Tonga, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 5:51 AM UTC : Martes 8 de Septiembre del 2026 a las 11:51 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-08T12:18:20.128000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
     "link": "https://bots.fedi.cr/@semanario_universidad/117235348059215405",
     "text": "Ingenieros rescatistas ticos sobre mala construcción en Venezuela: “El concreto se deshacía con las uñas” Ingenieros que participaron en misión de rescate en Venezuela contaron que militares allá atribuyeron a la corrupción el colapso estructural de los edificios en La Guaira. La entrada Ingenieros rescatistas ticos sobre mala construcción en Venezuela: “El concreto se deshacía con las uñas” aparece primero en Semanario Universidad. # CFIA # Construcción # Corrupción # CódigoSísmico # País # Sismos # Terremoto # Venezuela # ÚltimaHora https:// semanariouniversidad.com/pais/ ingenieros-rescatistas-ticos-sobre-mala-construccion-en-venezuela-el-concreto-se-deshacia-con-las-unas/",
     "author_handle": "semanario_universidad@bots.fedi.cr",
