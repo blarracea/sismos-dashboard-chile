@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv24u4f5rt24",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Película 🆕\n2. #sismo 🆕\n3. Calingasta 🆕\n4. Juan 🆕\n5. Sep 🆕\n6. #weak 🆕\n7. #M2 🆕\n8. #M3 🆕\n9. #San_Juan_Province 🆕\n10. Vuelvo 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-08T23:00:40.580000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/rockaxis.bot.altgr.xyz/post/3mv24ojlj6gg2",
     "text": "🎸 @spiritboxband sorprendió con el lanzamiento sin previo aviso de 'Mourning', su primera canción nueva desde \"Tsunami Sea\", publicado en 2025.\n\nEl estreno llega antes de su nueva gira por Europa y el Reino Unido, y podría marcar el inicio de una nueva etapa para la […] \n\n[Original post on lile.cl]",
     "author_handle": "rockaxis.bot.altgr.xyz",
@@ -1437,37 +1453,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/bourbonbite.bsky.social/post/3muxmlpsvad2n",
-    "text": "——Tranquila, fiera. Un día de estos vas a romperte un dedo del pie contra mí y la culpa volverá a ser mía.\n\nHabló contra su cuello, disfrutando del ligero temblor que el susto aún le dejaba en el cuerpo.\nApretó un poco más el abrazo alrededor de su cintura, apoyando +",
-    "author_handle": "bourbonbite.bsky.social",
-    "author_name": "DAMON",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:a6zvzdtuzgtilijkg4dtfyle/bafkreibsaygikv4zksry44nbfm5mamyofx57efnt5mtuagczlvon5c7bum",
-    "published": "2026-09-07T23:04:19.789000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muxmf4ye5p2z",
-    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Podemos 🆕\n2. Detrás 🆕\n3. #sismo 🆕\n4. Talca 🆕\n5. Maule 🆕\n6. Sep 🆕\n7. #weak 🆕\n8. #M2 🆕\n9. #M3 🆕\n10. #Region_del_Maule 🆕",
-    "author_handle": "trending-es.bsky.social",
-    "author_name": "Trending - Español",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
-    "published": "2026-09-07T23:00:38.549000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": "talca",
-    "lat": -35.4264,
-    "lon": -71.6554
   }
 ]
