@@ -1,5 +1,37 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117234134831108534",
+    "text": "11 minutes 9 seconds ago - South Georgia Island Region mB 5.9 54.76S 31.71W 10km 2026/09/08 06:51:06 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rrleds # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-08T07:02:14.323000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muyha3kmfm2g",
+    "text": "El canal *El Hormiguero* y *La revuelta* —ambos vinculados a la oposición venezolana— aprovechan su regreso para presionar por elecciones libres tras el terremoto del 24 de junio, mientras Delcy Rodríguez enfrenta crisis humanitaria y fragmentación interna. La ironía de Alsina (exd...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-09-08T07:00:59.927230+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/noticnacinter.bsky.social/post/3muydf63fpc2j",
     "text": "Hoy,7/sept/26,🇲🇽vivió un sismo y fuertes lluvias por el monzón y onda tropical 37,mientras que en el ámbito internacional destacan la guerra en🇺🇦, tensiones en 🇮🇷 y ataques en 🇮🇱-Líbano.Además,Lula encabezó el desfile del Día de la Independencia en🇧🇷 y Nepal elevó a más de 1,300 los muertos por la riada.",
