@@ -1342,21 +1342,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117227350309949148",
-    "text": "10 minutes 48 seconds ago - Kermadec Islands Region mB 5.5 31.16S 179.15E 606km 2026/09/07 02:06:45 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rpfxyb # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-07T02:16:50.746000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
