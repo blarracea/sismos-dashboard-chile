@@ -219,7 +219,7 @@
     "author_name": "Piromanía constructiva 🇵🇸",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fgydtkj4ipeqthkneugji6dg/bafkreie2i4prrssuv4xqllfi77rp65np5unpn5neq32fdcoizur24qgrhy",
     "published": "2026-09-07T22:44:07.284000+00:00",
-    "like_count": 11,
+    "like_count": 12,
     "keywords_matched": [
       "sismo"
     ],
@@ -1354,23 +1354,6 @@
     "like_count": 0,
     "keywords_matched": [
       "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117227261788880874",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.3 mw, OFF COAST OF OREGON, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Domingo 6 de Septiembre del 2026 a las 7:30 PM UTC : Lunes 7 de Septiembre del 2026 a las 1:30 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-07T01:54:20.097000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
     ],
     "place": null,
     "lat": null,
