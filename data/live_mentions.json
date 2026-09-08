@@ -7,7 +7,7 @@
     "author_name": "Demetrioymedio",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d5mitcvf6g7ghwd6iauem45c/bafkreigbzyzaoq2332adnkplwy6xiazgwrt4acnfsayd4dqhvn6zic5ugu",
     "published": "2026-09-08T07:57:22.528000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "terremoto"
     ],
@@ -1420,22 +1420,5 @@
     "place": "antofagasta",
     "lat": -23.6509,
     "lon": -70.3975
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/elpais.com/post/3muw27jkd4z2v",
-    "text": "El maremoto político y social que ha supuesto la crisis con epicentro en Ceuta no se ha traducido por ahora en un tsunami electoral. El barómetro de 40dB. muestra un panorama sin cambios drásticos, aunque PP y Vox superan por primera vez el 50% del voto",
-    "author_handle": "elpais.com",
-    "author_name": "EL PAÍS",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:u6mkbcgviwlbhuwqirmhcgu3/bafkreic2bx7n2nii352qlbosnsniq7o6ubc2xmqscy77px2qg7gh6lhf6a",
-    "published": "2026-09-07T08:02:43+00:00",
-    "like_count": 5,
-    "keywords_matched": [
-      "tsunami",
-      "maremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
