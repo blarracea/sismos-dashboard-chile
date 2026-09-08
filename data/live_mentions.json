@@ -1,6 +1,23 @@
 [
   {
     "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117235401247919291",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.2 mb, TONGA, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 5:51 AM UTC : Martes 8 de Septiembre del 2026 a las 11:51 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-08T12:24:18.324000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117235377770360852",
     "text": "United States Geological Survey (USGS) Sismo de magnitud 5.2 mb, 22 km SSE of Neiafu, Tonga, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 5:51 AM UTC : Martes 8 de Septiembre del 2026 a las 11:51 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
     "author_handle": "monitorsismico@mastodon.social",
