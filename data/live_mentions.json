@@ -1,5 +1,21 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/359gcu.bsky.social/post/3muzevmifkk2s",
+    "text": "AfD gana en Sajonia por hartazgo\nCastigan al Pacto y al establishment\nCansancio de Ucrania\nven sus impuestos fuera y economía peor\napoyan reconciliación con Rusia\nVoto protesta qe mueve a abstencionistas Descontento por abandono y miedo\nTerremoto sin mayorías\nsíntoma de malestar migratorio y bélico",
+    "author_handle": "359gcu.bsky.social",
+    "author_name": "359gcu.bsky",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ixzbq37r4yg7s7golqqvhwrl/bafkreicbudfefhg475lchxctwnxvarctphnk4v373cjngu7zyzsuv3lsby",
+    "published": "2026-09-08T15:52:01.384000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@NCSeismicobserv/117236188987193380",
     "text": "8 minutes 33 seconds ago - Flores Region, Indonesia mB 5.0 8.20S 121.10E 73km 2026/09/08 15:36:46 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rscpff # séisme # earthquake # sismo # 지진 # 地震",
