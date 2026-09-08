@@ -1,5 +1,37 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3muykeuwlss2v",
+    "text": "Imágenes del fuerte terremoto en el barrio de Chamberí de Madrid, parece que Miguel Angel Rodríguez estaba allí... 😜😂😂☺️🙄",
+    "author_handle": "demetrioymedio.bsky.social",
+    "author_name": "Demetrioymedio",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d5mitcvf6g7ghwd6iauem45c/bafkreigbzyzaoq2332adnkplwy6xiazgwrt4acnfsayd4dqhvn6zic5ugu",
+    "published": "2026-09-08T07:57:22.528000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/malagapress.bsky.social/post/3muykcj2wia2w",
+    "text": "Manilva ha enviado este jueves toda la ayuda recogida por los vecinos para los damnificados por el terremoto en Colombia del pasado 10 de agosto.",
+    "author_handle": "malagapress.bsky.social",
+    "author_name": "Málaga Press",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:szfmrgqjl77lqtthcynvcw6a/bafkreiavvxwjcuw7m7fqqp67sctlobhalzlpit77bzofvtkwg7uddqyftm",
+    "published": "2026-09-08T07:56:02.441000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117234199558310919",
     "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.1 mb, SOUTH SANDWICH ISLANDS REGION, a una profundidad de 82.4 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 12:50 AM UTC : Martes 8 de Septiembre del 2026 a las 6:50 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
@@ -1401,22 +1433,6 @@
     "keywords_matched": [
       "tsunami",
       "maremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/lacasademitia.bsky.social/post/3muvzr2deok2o",
-    "text": "ALEMANIA SAJONIA-ANHALT  Un terremoto sacude la política alemana  - por Joaquin Rábago - www.lacasademitia.es/articulo/pol...",
-    "author_handle": "lacasademitia.bsky.social",
-    "author_name": "La casa de mi tía Chema Tante",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:foyhv2xlx4pmy3cvshsxtyhq/bafkreigtynuaxs5lgo2w6cjfwzof54war4iluhgnpsc7htncgxikiisg4e",
-    "published": "2026-09-07T07:54:37.753000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
