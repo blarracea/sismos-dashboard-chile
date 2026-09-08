@@ -1,6 +1,39 @@
 [
   {
     "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117232807307608876",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.1 mw, VANUATU, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Lunes 7 de Septiembre del 2026 a las 6:52 PM UTC : Martes 8 de Septiembre del 2026 a las 12:52 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-08T01:24:37.914000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muxucde66225",
+    "text": "⚠️ El presidente **Donald Trump** atribuyó la supuesta \"desaceleración\" de la inflación en Venezuela —según datos del **BCV (sin verificar su credibilidad)**— al acuerdo petrolero con el gobierno interino de **Delcy Rodríguez**, aunque el **doble terremoto del 24 de junio** y la cr...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-09-08T01:22:12.751236+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117232758990372670",
     "text": "United States Geological Survey (USGS) Sismo de magnitud 5.1 mww, 96 km ESE of Isangel, Vanuatu, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Lunes 7 de Septiembre del 2026 a las 6:52 PM UTC : Martes 8 de Septiembre del 2026 a las 12:52 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
     "author_handle": "monitorsismico@mastodon.social",
@@ -1351,22 +1384,6 @@
     "author_name": "EL PAÍS México",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7zlnvtvm2fqq4wj5m43im34y/bafkreihan3wto7pltwlg5cwpgftcu2zfmw3yrs6ycyzjoiips7a3dfkh7i",
     "published": "2026-09-07T01:30:02+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/acentodiario.bsky.social/post/3muvdy2hfpr24",
-    "text": "De la Espriella, un mes de poder en Colombia: terremoto, mano dura y una Presidencia que busca controlar el mensaje",
-    "author_handle": "acentodiario.bsky.social",
-    "author_name": "Acento Diario",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ac7ntgfs6yk5bia3vpvlt75z/bafkreigkldcdxajv5afholkogdhhmuqxd24bx56y3zy5zqbyiphaykxwkm",
-    "published": "2026-09-07T01:24:50+00:00",
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
