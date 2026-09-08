@@ -1,5 +1,53 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117236188987193380",
+    "text": "8 minutes 33 seconds ago - Flores Region, Indonesia mB 5.0 8.20S 121.10E 73km 2026/09/08 15:36:46 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rscpff # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-08T15:44:38.255000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://masto.es/@claraalbor/117236188789488559",
+    "text": "🌋El volcán Anak Krakatau, conocido como el “hijo de Krakatoa”, entró en erupción este domingo en Indonesia y lanzó una columna de ceniza que afectó el espacio aéreo de la región. 🔥 La historia del Krakatoa explica por qué genera tanta preocupación: en 1883, una gigantesca erupción provocó un tsunami con olas de hasta 22 metros y dejó más de 36.000 muertos. En 2018, el Anak Krakatau volvió a provocar un tsunami que causó 430 muertes. # anakkrakatau # krakatoa # volcan # volcanes # erupcion # indonesia # geologia # naturaleza # historia # desastresnaturales # tsunami",
+    "author_handle": "claraalbor@masto.es",
+    "author_name": "𝙲𝚕𝚊𝚛𝚊-𝙰𝚕𝚋𝚘𝚛 :mastodon: :whitespipixelheart:",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/115/481/841/396/993/707/original/00c79d49147ffc41.gif",
+    "published": "2026-09-08T15:44:35+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3muzecqwin22a",
+    "text": "#SismoResistentes barequeo.com/sismo-resist... \"“Hijueputa, no hay luz”, decía mientras trataba de conectar el radio. Obvio, se cayó toda la red. Las llamadas de minutos deben funcionar. Le marqué a una hermana de mi abuela. No contestaba\": Nicolás Eduardo Cárdenas Castrillón",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-08T15:41:28.508000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/ninagato.bsky.social/post/3muzcvguggc2b",
     "text": "Hablando seriamente de lo de Salmona, no pasemos de alto que es un síntoma muy preocupante de que estudios que no son de arquitectura están haciendo remodelaciones en apartamentos y esto es delicado mirando lo del terremoto y como algunas estructuras colapsaron por malas intervenciones.",
