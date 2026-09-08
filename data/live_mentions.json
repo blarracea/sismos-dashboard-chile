@@ -1453,21 +1453,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/diarioar.bsky.social/post/3muxj6epp4c2p",
-    "text": "El tsunami de la AfD: ¿que le depara a Alemania la victoria del partido opositor? diarioar.ar/U2NReHBGMV== #DiarioAr",
-    "author_handle": "diarioar.bsky.social",
-    "author_name": "DiarioAr",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:v3uwv7mgm7sbqzyv6kgtdy6r/bafkreifi3sfr3z6vy4adrp332f34aledvennmic6orolueiwd3b7b7bbk4",
-    "published": "2026-09-07T22:03:10.716000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
