@@ -1677,37 +1677,5 @@
     "place": "santiago",
     "lat": -33.4489,
     "lon": -70.6693
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/profesorgeorgie.bsky.social/post/3muws57j5fs2i",
-    "text": "En apenas dos semanas tendrán lugar elecciones en dos estados más: Berlin y Mecklenburgo-Pomerania, ambos en el Este de Alemania. Recién con esos resultados podremos evaluar la magnitud real del terremoto político cuyo primer remezón sentimos ayer.",
-    "author_handle": "profesorgeorgie.bsky.social",
-    "author_name": "Jorge Gillies (Profegeorgie)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:augtlujmnwbeg5iit7etcyti/bafkreiclyw5k5upqho2c2x4iejioksqxnrrphyx5groudhfwi2fqslox74",
-    "published": "2026-09-07T15:10:55.643000+00:00",
-    "like_count": 2,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/elpaismexico.bsky.social/post/3muws3mr3p623",
-    "text": "De la Espriella, un mes de presidente en campaña permanente\r\n\r\nEn sus primeros 30 días, el mandatario de Colombia gobierna a punta de símbolos, desde la emergencia del terremoto a la inseguridad elpais.com/america-co…",
-    "author_handle": "elpaismexico.bsky.social",
-    "author_name": "EL PAÍS México",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7zlnvtvm2fqq4wj5m43im34y/bafkreihan3wto7pltwlg5cwpgftcu2zfmw3yrs6ycyzjoiips7a3dfkh7i",
-    "published": "2026-09-07T15:10:00+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
