@@ -1420,21 +1420,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117228205610816362",
-    "text": "4 minutes 17 seconds ago - Southeast of Loyalty Islands mB 5.9 23.59S 171.84E 10km 2026/09/07 05:50:43 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rpnloc # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-07T05:54:21.620000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
