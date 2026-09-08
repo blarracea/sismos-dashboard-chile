@@ -1,5 +1,22 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117232758990372670",
+    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.1 mww, 96 km ESE of Isangel, Vanuatu, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Lunes 7 de Septiembre del 2026 a las 6:52 PM UTC : Martes 8 de Septiembre del 2026 a las 12:52 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-08T01:12:20.652000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muxt3pwbht2w",
     "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Leyendo 🆕\n2. Rica 🆕\n3. Uottawa 🆕\n4. Cinco ⬆\n5. Ocurrió 🆕\n6. Baja 🆕\n7. #sismo 🆕\n8. Puntarenas 🆕\n9. Costa 🆕\n10. #weak 🆕",
@@ -136,7 +153,7 @@
     "author_name": "Piromanía constructiva 🇵🇸",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fgydtkj4ipeqthkneugji6dg/bafkreie2i4prrssuv4xqllfi77rp65np5unpn5neq32fdcoizur24qgrhy",
     "published": "2026-09-07T22:44:07.284000+00:00",
-    "like_count": 9,
+    "like_count": 10,
     "keywords_matched": [
       "sismo"
     ],
@@ -1385,22 +1402,6 @@
     "like_count": 1,
     "keywords_matched": [
       "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/efe.com/post/3muvdbsuagh2h",
-    "text": "El expresidente de Colombia Iván Duque califica como positivo el primer mes de Abelardo De la Espriella en el Gobierno en medio de la emergencia por el terremoto de magnitud 7,4 que vivió ese país.",
-    "author_handle": "efe.com",
-    "author_name": "EFE Noticias",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ybty5x2ny6ydl4hh6rxqezdo/bafkreieiaro4uzoyfddyveydfbagzrlt6nkdbd5nu75euymodk4org6lxi",
-    "published": "2026-09-07T01:12:24.136853+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
