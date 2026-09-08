@@ -1,5 +1,21 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muxurehgum22",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. #sismo ⬆\n2. Antofagasta 🆕\n3. Sep 🆕\n4. #weak ⬆\n5. #M2 🆕\n6. #M3 🆕\n7. #Region_de_Antofagasta 🆕\n8. Chile 🆕\n9. Hacerse 🆕\n10. Remake 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-08T01:30:38.973000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117232807307608876",
     "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.1 mw, VANUATU, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Lunes 7 de Septiembre del 2026 a las 6:52 PM UTC : Martes 8 de Septiembre del 2026 a las 12:52 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
@@ -1338,23 +1354,6 @@
     "keywords_matched": [
       "sismo",
       "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/ncseismicobserv.bsky.social/post/3muvefz7dn22x",
-    "text": "2 minutes 31 seconds ago -  Off Coast of Oregon  mb 4.9  43.91N 127.98W  10km 2026/09/07  01:30:26 - For updates, see http://seisme.nc/fr/component/alertes/?ids=ird2026rpevca #séisme #earthquake #sismo #지진 #地震",
-    "author_handle": "ncseismicobserv.bsky.social",
-    "author_name": "New Caledonia Seismic Observatory",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:id37xjbbdoca45lwnmsto5ua/bafkreiflp7zpcuv5hwg2rj3imlhhvmdblms3bgkqrfbiq56funp527bqly",
-    "published": "2026-09-07T01:32:37+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "earthquake"
     ],
     "place": null,
     "lat": null,
