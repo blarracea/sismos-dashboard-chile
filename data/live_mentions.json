@@ -1,6 +1,22 @@
 [
   {
     "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117233600435818727",
+    "text": "6 minutes 15 seconds ago - Flores Region, Indonesia mB 5.4 8.05S 120.70E 10km 2026/09/08 04:40:29 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rrgvtf # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-08T04:46:20.103000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
     "link": "https://mastodon.social/@killbait/117233578807105812",
     "text": "Earthquake Hits California Coast, Causes Minor Damage 📰 Original title: Magnitude 3.2 earthquake strikes along prominent SoCal urban fault line 🤖 IA: It's not clickbait ✅ 👥 Users: It's not clickbait ✅ 👇👇👇 https:// en.killbait.com/earthquake-hit s-california-coast-causes-minor-damage.html?utm_source=mastodon_social&utm_medium=social&utm_campaign=killbait.mastodon_social # incidents # terremoto # california # dañosmenores",
     "author_handle": "killbait@mastodon.social",
