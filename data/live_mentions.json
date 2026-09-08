@@ -1,6 +1,39 @@
 [
   {
     "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117236370205001295",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, WESTERN XIZANG, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 10:08 AM UTC : Martes 8 de Septiembre del 2026 a las 4:08 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-08T16:30:43.470000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/acuario51.bsky.social/post/3muzgwzvvmk2m",
+    "text": "www.notmid.com/terremoto-po... 5 Temas del Día",
+    "author_handle": "acuario51.bsky.social",
+    "author_name": "acuario51.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hj5thaqmoaq4e7oodflfsrov/bafkreigjw7uf6l4z2pxdnbmgwgeqgxvj666g2ltm2n433v656jaopiscsu",
+    "published": "2026-09-08T16:28:36.496000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
     "link": "https://mastodon.social/@NCSeismicobserv/117236306360845291",
     "text": "6 minutes 26 seconds ago - Nepal mB 5.2 29.15N 83.87E 10km 2026/09/08 16:08:36 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rsdqsb # séisme # earthquake # sismo # 지진 # 地震",
     "author_handle": "NCSeismicobserv@mastodon.social",
