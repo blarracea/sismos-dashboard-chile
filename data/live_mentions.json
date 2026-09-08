@@ -1,5 +1,21 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3muyzmwsqsc2a",
+    "text": "#SismoResistentes \"Yo en mi casa rascándome las pelotas, mientras muchos lo perdieron todo. Me enteré de un grupo de Whatsapp de jóvenes que tenía la intención de ayudar en medio de la emergencia. Me uní en contra de la voluntad de mi mamá\": Nicolás Eduardo Cárdenas C. barequeo.com/sismo-resist...",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-08T12:30:19.061000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117235401247919291",
     "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.2 mb, TONGA, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 5:51 AM UTC : Martes 8 de Septiembre del 2026 a las 11:51 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
@@ -1629,22 +1645,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3muwj24eghs2y",
-    "text": "#SismoResistentes \"Llegaron colombianos desde todo el país: Endhoven, Amsterdam, La Haya, Wageningen y más. Muchos viajaron en tren por horas, tan solo para compartir un poco de solidaridad con los afectados por el terremoto\": Santiago Cardona Urrea. barequeo.com/sismo-resist...",
-    "author_handle": "barequeo.bsky.social",
-    "author_name": "Barequeo",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
-    "published": "2026-09-07T12:28:08.004000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": "santiago",
-    "lat": -33.4489,
-    "lon": -70.6693
   }
 ]
