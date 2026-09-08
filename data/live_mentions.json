@@ -186,7 +186,7 @@
     "author_name": "Piromanía constructiva 🇵🇸",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fgydtkj4ipeqthkneugji6dg/bafkreie2i4prrssuv4xqllfi77rp65np5unpn5neq32fdcoizur24qgrhy",
     "published": "2026-09-07T22:44:07.284000+00:00",
-    "like_count": 10,
+    "like_count": 11,
     "keywords_matched": [
       "sismo"
     ],
@@ -1355,38 +1355,6 @@
     "keywords_matched": [
       "sismo",
       "earthquake"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.cl/@adnradio/117227167887846573",
-    "text": "📰 Red Geocientífica de Chile alerta por posible “enjambre sísmico en el Cajón del Maipo”: registran al menos 374 movimientos La actividad comenzó durante la mañana del sábado y continuó este domingo... 🔗 https://www. adnradio.cl/2026/09/06/red-geo cientifica-de-chile-alerta-por-posible-enjambre-sismico-en-el-cajon-del-maipo-registran-al-menos-374-movimientos/ # sismo # cajondelmaipo # geocientifica",
-    "author_handle": "adnradio@mastodon.cl",
-    "author_name": "Radio ADN",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/117/014/603/019/388/484/original/f2b28d435d8ef1ee.png",
-    "published": "2026-09-07T01:30:27+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/elpaismexico.bsky.social/post/3muvebe2iwz27",
-    "text": "A más de tres semanas del terremoto del pasado 10 de agosto, la mandataria calcula que la reconstrucción costará cuatro billones de pesos y que tardará al menos cuatro años en completarse",
-    "author_handle": "elpaismexico.bsky.social",
-    "author_name": "EL PAÍS México",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7zlnvtvm2fqq4wj5m43im34y/bafkreihan3wto7pltwlg5cwpgftcu2zfmw3yrs6ycyzjoiips7a3dfkh7i",
-    "published": "2026-09-07T01:30:02+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
