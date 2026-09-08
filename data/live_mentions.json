@@ -1629,22 +1629,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/ncseismicobserv.bsky.social/post/3muv7ynwatk22",
-    "text": "7 minutes 26 seconds ago -  Hindu Kush Region, Afghanistan  mB 4.8  36.10N 70.52E  158km 2026/09/07  00:06:22 - For updates, see http://seisme.nc/fr/component/alertes/?ids=ird2026rpcaqs #séisme #earthquake #sismo #지진 #地震",
-    "author_handle": "ncseismicobserv.bsky.social",
-    "author_name": "New Caledonia Seismic Observatory",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:id37xjbbdoca45lwnmsto5ua/bafkreiflp7zpcuv5hwg2rj3imlhhvmdblms3bgkqrfbiq56funp527bqly",
-    "published": "2026-09-07T00:13:34+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "earthquake"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
