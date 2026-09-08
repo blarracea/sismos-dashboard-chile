@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-co.pds.netasgard.com/post/3muz6nonroc2m",
+    "text": "Bolívar — El aeropuerto de San Antonio registra un incremento tras el sismo. #Bolívar #News",
+    "author_handle": "es-co.pds.netasgard.com",
+    "author_name": "Netasgard News Colombia",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afml3t7dkpxncetzmoak2gbu/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-08T14:00:12+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "san antonio",
+    "lat": -33.5928,
+    "lon": -71.6128
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/fidelcanoco.bsky.social/post/3muz4l6un522q",
     "text": "Si los subsidios llegan algún día, bienvenidos, pero acá nadie está manicruzado esperándolos, cuando se sabe que con tanta teja rota cualquier aguacero daña lo que el terremoto no destruyó: Adriana Villegas www.elespectador.com/opinion/colu...",
     "author_handle": "fidelcanoco.bsky.social",
