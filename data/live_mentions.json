@@ -1,5 +1,21 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muxt3pwbht2w",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Leyendo 🆕\n2. Rica 🆕\n3. Uottawa 🆕\n4. Cinco ⬆\n5. Ocurrió 🆕\n6. Baja 🆕\n7. #sismo 🆕\n8. Puntarenas 🆕\n9. Costa 🆕\n10. #weak 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-08T01:00:38.914000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@NCSeismicobserv/117232700103764531",
     "text": "5 minutes 18 seconds ago - Vanuatu Islands MLv 5.1 19.83S 170.13E 92km 2026/09/08 00:52:05 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rqzgyo # séisme # earthquake # sismo # 지진 # 地震",
@@ -1417,70 +1433,6 @@
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/thadochocinco.bsky.social/post/3muvcnghtz22d",
-    "text": "look at the height Bronson Reed got on that Tsunami, he looked like Rob Van Dam up there",
-    "author_handle": "thadochocinco.bsky.social",
-    "author_name": "Thad Ochocinco",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nq6a2xaspv2cqpcwbyq7upip/bafkreidznyg5nxuypz7ph7jplpgh7ncwnlr53k2ksia34iyesrc4jw3i7i",
-    "published": "2026-09-07T01:01:00.205000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/alexcat66.bsky.social/post/3muvcmwzvek2q",
-    "text": "As they should be. Assuming SCOTUS doesn’t overturn the SCOMO opinion that struck down MO’s 7-1 R gerrymander for the midterms, the only 2 GOP gerrymanders likely to hold up is LA and TN (and even TN’s isn’t certain to hold in the event of a true blue tsunami).\n\nTX and OH’s certainly isn’t holding",
-    "author_handle": "alexcat66.bsky.social",
-    "author_name": "alexcat66.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:33rgcvflsw4k5frzjxxhtii2/bafkreie2e4k63di65o5bkowqznxid2daps7i7ywbonwh3rcfanadyxgsy4",
-    "published": "2026-09-07T01:00:44.018000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/chibiplumbobs.bsky.social/post/3muvcmhzlas2w",
-    "text": "Health wise, hes breathing better and recovering faster after a tsunami",
-    "author_handle": "chibiplumbobs.bsky.social",
-    "author_name": "Chibi The Edge Slayer🌙💚",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:htepcam6mzluihgxxus3e3c4/bafkreidhyuykd2n5h37idqrhn334qgl5pbpqcb5t4xwf7ldqrg3skxxn2u",
-    "published": "2026-09-07T01:00:28.280000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/joshuaclaytor.bsky.social/post/3muvcmcv6j22p",
-    "text": "Bronson reed looking fit means the tsunami isn't as impressive",
-    "author_handle": "joshuaclaytor.bsky.social",
-    "author_name": "Joshua Claytor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:em2h7rksmg5tqbszvmvdpzyi/bafkreif6v775zu5q4ejk4vjotidmgewshrnemgxjamhozt554yb3uzouqe",
-    "published": "2026-09-07T01:00:22.889000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "tsunami"
     ],
     "place": null,
     "lat": null,
