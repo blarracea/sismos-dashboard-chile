@@ -1374,37 +1374,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/wdelbar.bsky.social/post/3muvdlwefic2t",
-    "text": "En la App de Bancolombia el primer aviso que aparece, parafraseando, es: pregunta por nuestros créditos especiales si eres una persona que lo perdió todo en el terremoto del 10 de agosto. #Paridos",
-    "author_handle": "wdelbar.bsky.social",
-    "author_name": "Arroba doble u delbar",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2aoyh6ryqkyk6brhh2w33twk/bafkreidvxcyt3l7lztmcywp6odjr6gbggdr5qf5wrh3im5xsa5ojseqogm",
-    "published": "2026-09-07T01:18:03.500000+00:00",
-    "like_count": 4,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/daviddspam.bsky.social/post/3muvdlb6pws2h",
-    "text": "Wade gets to call the Tsunami again so all is right in the World.\nMatch before it was really good and hope this wont be the last time they meet as i believe they still got another level. #SNME",
-    "author_handle": "daviddspam.bsky.social",
-    "author_name": "David Dickerson",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xq3uy2rj7xlqdp24crodbht2/bafkreiehp7lxerin7dtdzr2eehcamhrsvrwstui7fjhw5ptz4ybgpfnnry",
-    "published": "2026-09-07T01:17:41.294000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]

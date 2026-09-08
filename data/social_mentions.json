@@ -12,6 +12,30 @@
     "lon": null
   },
   {
+    "title": "Terremoto moderado mag. 4.3 - 32 km al sureste de Talca, Talca, Maule, Chile, Monday 7 Sep 2026 a las 19:25 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbmpIcnhvanNPWFh5dE90cXBJeGRJT0p3UTNfYm9mSDNhQmU1QlVPSGs4U1JGZ2t3VnNwUGJhSlIxOHhFNlBuTFdMTUVNQ2stYnZvcWVUZ1k0UzZkUXhrYkFQbk0xU0xoSUFuUTAwd0hNZ2w3TWZOQVA2aUp5dUctVzlXckNwQTZzSFBHREJ0N3ZUblN2UmQ5SW9Ldkdxa2J5Y3ctTzd3?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-07T22:41:05+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "santiago",
+    "lat": -33.4489,
+    "lon": -70.6693
+  },
+  {
+    "title": "Terremoto moderado mag. 4.5 - 200 km al sur de Baquedano, Antofagasta, Chile, Monday 7 Sep 2026 a las 18:54 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMm8zTTZ0VEQzUWNHN0JrNXhzLXo5V0N3dGFwOXhSTTRnajJKN1dQZGp1WnVZQ0VLYkc3SzVqQ0l1Z3Jjbkd1Qm95d3U4SWpMY1BLbmNVV3oyRFZ0bE85UlFpQkhibEhUTGlYRHZlck05QkNmVEtMQmtrZDR4TW5CTlhrLTNkZ0FUZXJfRUNndlR3OGo3TEE1a0tsMDVYWVNDMFZtT2VhbjNIX0RpS0Iw?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-07T22:32:49+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
     "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTdKNGtUOU1COFo1VGpBRnh0cGlveXh4aGxocEdYSnY4cVZSbEYyRHAxR1c0dFZMZ05WQ2RiY2tialNHT3BCRDdlNDJudlYtZnUyb2J6Tzh5REJQd2ZnUktoVEZuWHhiREdScFBOTGEyeEh0SllsSHVObDhPTGRibE9kbXdRVFNNSHZSV0M3d256ZUZQNVJmVTcwQUVHUzBWcm5CNHhoOS1QTlpGMHExQkh5YUFYcU94T3U2Q1N2MzRlTnM?oc=5",
     "source": "Radio Agricultura",
@@ -531,10 +555,10 @@
     "lon": -70.3975
   },
   {
-    "title": "Fuerte terremoto magnitud 5.2 - Southern East Pacific Rise, Sunday 6 Sep 2026 a las 02:32 (GMT -8) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVZnbzhKOXFmcTBoSUVWc0xzY0JIXzIxbnQyTjl4V1RSUEV1b3dhbTNXR2gtWXlab3VnNVM1eWZNa084eFVqUXcyVnl3SWJqenhEaE9wdlZJUGtoTEdzak9mNTQ3bENuanBFdzZQOEZYbkQ3Q2I4OFNSVDgtVGdXT1VzSVFyelNpcHU5RGtXOEg0Z0VGQzVxN0p0TDZYMXBqNXRGcldjaWI0UlNOU0xiOTlWV1dFcEdxM3VPOHUtR0lJUQ?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-09-06T11:50:00+00:00",
+    "title": "Galería de Terremoto en Chile (en actualización) - 20 - ArchDaily",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGNiVFU0b2RiSDNkMTJ1QkFKMmZzSnhWUG9fUlJqYlhuV0RvSFRLVjNHb09weWhoVnNzaEpvWUJBUE56anAyaVUxT0NqamNRTDdib2o1Qktyb3JOR01HWkdFSVNVRW9BTG42Y3RkYnlmUlRLOE50UVpESG1xMUdqQl9yV1gwTms2LTVRVW4xM29tZEstSUE2cXYxMkRRWjVUbW9PN3RYT0E3RWV0VXNB?oc=5",
+    "source": "ArchDaily",
+    "published": "2026-09-06T11:34:54+00:00",
     "keywords_matched": [
       "terremoto"
     ],
@@ -543,10 +567,10 @@
     "lon": null
   },
   {
-    "title": "Galería de Terremoto en Chile (en actualización) - 20 - ArchDaily",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSGNiVFU0b2RiSDNkMTJ1QkFKMmZzSnhWUG9fUlJqYlhuV0RvSFRLVjNHb09weWhoVnNzaEpvWUJBUE56anAyaVUxT0NqamNRTDdib2o1Qktyb3JOR01HWkdFSVNVRW9BTG42Y3RkYnlmUlRLOE50UVpESG1xMUdqQl9yV1gwTms2LTVRVW4xM29tZEstSUE2cXYxMkRRWjVUbW9PN3RYT0E3RWV0VXNB?oc=5",
-    "source": "ArchDaily",
-    "published": "2026-09-06T11:34:54+00:00",
+    "title": "Fuerte terremoto magnitud 5.2 - Southern East Pacific Rise, Sunday 6 Sep 2026 a las 02:32 (GMT -8) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOOVZnbzhKOXFmcTBoSUVWc0xzY0JIXzIxbnQyTjl4V1RSUEV1b3dhbTNXR2gtWXlab3VnNVM1eWZNa084eFVqUXcyVnl3SWJqenhEaE9wdlZJUGtoTEdzak9mNTQ3bENuanBFdzZQOEZYbkQ3Q2I4OFNSVDgtVGdXT1VzSVFyelNpcHU5RGtXOEg0Z0VGQzVxN0p0TDZYMXBqNXRGcldjaWI0UlNOU0xiOTlWV1dFcEdxM3VPOHUtR0lJUQ?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-06T11:27:37+00:00",
     "keywords_matched": [
       "terremoto"
     ],
@@ -1020,19 +1044,6 @@
     "published": "2026-09-05T01:50:48+00:00",
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en Chile EN VIVO hoy, 4 de septiembre - hora exacta, magnitud y dónde fue el epicentro del últimos sismo vía el CSN - Gestión",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOSnBkQ1VwWVU1YUloZTVUWWpkQ1ktVWJRQzEtLXdKWmlDeFkzZUJkcEQ4alU0RXRUdEY3Y0U0LXJWSnZKMFVFWGI1UzBpa0RoUWpLYl9rZTZwOE9OM0ktM19kZl9mSm9IdnF5N2VCazFFa0hxellEX0VrbmJDVlB0R2wycUVtbHZlUzFkREFYZUd6SVRmYnVPN0pRYVFHMFJDNjdJcUlieVppUWh6R1JFZm9mcFdLdWJFbGd5Tkg0TmNGQVpXeEVIcDhoTGtWa1N2S1RWX1lYRGtXUDZ2N3dIUnJSblVQNGoydjdnalhJR1ktWjllcmN3aFZyZkR6TGR2QXJfdV9RSzlpMUp3?oc=5",
-    "source": "Gestión",
-    "published": "2026-09-05T01:20:00+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
     ],
     "place": null,
     "lat": null,
