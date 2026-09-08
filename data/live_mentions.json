@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muxy4o44j62r",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Habitación 🆕\n2. #sismo 🆕\n3. Suroeste 🆕\n4. Medellin 🆕\n5. Sep 🆕\n6. Central 🆕\n7. Aftershock 🆕\n8. Quake 🆕\n9. Earlier 🆕\n10. #moderate 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-08T02:30:39.406000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muxwd24tuz2d",
     "text": "Demolition works have started in Cali, Colombia, to remove buildings damaged by the 7.4 magnitude earthquake.\n\nFuente: La Patilla\n🔗\n\nhttps://lapatilla.com/2026/09/07/la-ciudad-colombiana-de-cali-comenzo-con-la-demolicion-de-edificios-danados-por-el-terremoto/",
     "author_handle": "venezuelanewschepa.bsky.social",
@@ -1270,39 +1286,6 @@
     "published": "2026-09-07T02:34:57.310000+00:00",
     "like_count": 0,
     "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muvhnqe4f62z",
-    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. #sismo\n2. Sep\n3. Central 🆕\n4. Aftershock\n5. Quake\n6. Earlier\n7. #weak\n8. #M2\n9. #M3\n10. #Departamento_del_Choco",
-    "author_handle": "trending-es.bsky.social",
-    "author_name": "Trending - Español",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
-    "published": "2026-09-07T02:30:39.107000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117227403741588059",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5 mb, Kermadec Islands region, a una profundidad de 585.146 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Domingo 6 de Septiembre del 2026 a las 8:06 PM UTC : Lunes 7 de Septiembre del 2026 a las 2:06 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-07T02:30:26.055000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
       "temblor"
     ],
     "place": null,
