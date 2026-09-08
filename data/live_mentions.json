@@ -1,5 +1,22 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117236251274054293",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.1 mb, FLORES REGION, INDONESIA, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 9:36 AM UTC : Martes 8 de Septiembre del 2026 a las 3:36 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-08T16:00:28.680000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/359gcu.bsky.social/post/3muzevmifkk2s",
     "text": "AfD gana en Sajonia por hartazgo\nCastigan al Pacto y al establishment\nCansancio de Ucrania\nven sus impuestos fuera y economía peor\napoyan reconciliación con Rusia\nVoto protesta qe mueve a abstencionistas Descontento por abandono y miedo\nTerremoto sin mayorías\nsíntoma de malestar migratorio y bélico",
@@ -71,7 +88,7 @@
     "author_name": "Niña Gato",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7cnkevmlvnwungqycw5jkdxh/bafkreig5owqpw2xdswcbjqgylkp4hvh36zllickqhfixt3d62sjhd5ivhy",
     "published": "2026-09-08T15:16:08.006000+00:00",
-    "like_count": 0,
+    "like_count": 2,
     "keywords_matched": [
       "terremoto"
     ],
