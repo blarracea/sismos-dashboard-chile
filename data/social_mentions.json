@@ -37,28 +37,28 @@
     "lon": null
   },
   {
-    "title": "Terremoto moderado mag. 4.3 - 32 km al sureste de Talca, Talca, Maule, Chile, Monday 7 Sep 2026 a las 19:25 (Hora Santiago) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbmpIcnhvanNPWFh5dE90cXBJeGRJT0p3UTNfYm9mSDNhQmU1QlVPSGs4U1JGZ2t3VnNwUGJhSlIxOHhFNlBuTFdMTUVNQ2stYnZvcWVUZ1k0UzZkUXhrYkFQbk0xU0xoSUFuUTAwd0hNZ2w3TWZOQVA2aUp5dUctVzlXckNwQTZzSFBHREJ0N3ZUblN2UmQ5SW9Ldkdxa2J5Y3ctTzd3?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-09-07T22:41:05+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": "santiago",
-    "lat": -33.4489,
-    "lon": -70.6693
-  },
-  {
     "title": "Terremoto moderado mag. 4.5 - 200 km al sur de Baquedano, Antofagasta, Chile, Monday 7 Sep 2026 a las 18:54 (Hora Santiago) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMm8zTTZ0VEQzUWNHN0JrNXhzLXo5V0N3dGFwOXhSTTRnajJKN1dQZGp1WnVZQ0VLYkc3SzVqQ0l1Z3Jjbkd1Qm95d3U4SWpMY1BLbmNVV3oyRFZ0bE85UlFpQkhibEhUTGlYRHZlck05QkNmVEtMQmtrZDR4TW5CTlhrLTNkZ0FUZXJfRUNndlR3OGo3TEE1a0tsMDVYWVNDMFZtT2VhbjNIX0RpS0Iw?oc=5",
     "source": "Volcano Discovery",
-    "published": "2026-09-07T22:32:49+00:00",
+    "published": "2026-09-07T22:54:37+00:00",
     "keywords_matched": [
       "terremoto"
     ],
     "place": "antofagasta",
     "lat": -23.6509,
     "lon": -70.3975
+  },
+  {
+    "title": "Terremoto moderado mag. 4.3 - 32 km al sureste de Talca, Talca, Maule, Chile, Monday 7 Sep 2026 a las 19:25 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbmpIcnhvanNPWFh5dE90cXBJeGRJT0p3UTNfYm9mSDNhQmU1QlVPSGs4U1JGZ2t3VnNwUGJhSlIxOHhFNlBuTFdMTUVNQ2stYnZvcWVUZ1k0UzZkUXhrYkFQbk0xU0xoSUFuUTAwd0hNZ2w3TWZOQVA2aUp5dUctVzlXckNwQTZzSFBHREJ0N3ZUblN2UmQ5SW9Ldkdxa2J5Y3ctTzd3?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-09-07T22:35:42+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "santiago",
+    "lat": -33.4489,
+    "lon": -70.6693
   },
   {
     "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro - Radio Agricultura",
