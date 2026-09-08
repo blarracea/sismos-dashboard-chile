@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-co.pds.netasgard.com/post/3muzaqfc5tk2m",
+    "text": "San Antonio del Táchira — Tsunami y Jorge Beens visitaron un mural dedicado a un perro en San Antonio del Táchira. #Táchira #SanAntonioDelTáchira #News #Breaking",
+    "author_handle": "es-co.pds.netasgard.com",
+    "author_name": "Netasgard News Colombia",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afml3t7dkpxncetzmoak2gbu/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-08T14:37:30+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": "san antonio",
+    "lat": -33.5928,
+    "lon": -71.6128
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3muz7x7lsok2m",
     "text": "Chocó — Gobierno colombiano inicia programa para reconstruir zona afectada por sismo del 10 de agosto #DeLaEspriella #Chocó #News",
     "author_handle": "es-us.pds.netasgard.com",
