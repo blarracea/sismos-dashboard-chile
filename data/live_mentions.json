@@ -1354,21 +1354,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/javierbrooqs.bsky.social/post/3muvunqk3p22k",
-    "text": "Me desperté a las 6.20 con otro terremoto, ha sido pequeño, pero estoy ya un poco hasta los huevos de los movimientos porque me hace de nuevo estar alerta a la mínima.",
-    "author_handle": "javierbrooqs.bsky.social",
-    "author_name": "Javier",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sy3fvvexjaawkcfdqow4ndoe/bafkreicf7gly44bppbbppgcjid62tthfqgt2lhnlexveuwh6j2dwvaazhm",
-    "published": "2026-09-07T06:23:18.111000+00:00",
-    "like_count": 2,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
