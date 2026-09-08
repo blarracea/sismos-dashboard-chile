@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/telenord.bsky.social/post/3mv27ksfhu22j",
+    "text": "Comando Regional Noreste de la Policia realiza simulacro de terremoto\ntelenord.com/noticias/not...",
+    "author_handle": "telenord.bsky.social",
+    "author_name": "Telenord.com",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:drqfkggwrr5gpjcyylprvpjo/bafkreiaez4nnadc4lhazhjnbxfdg2skjl3wxyc76fvtnb2uxooultbc4bu",
+    "published": "2026-09-08T23:49:09.513000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/netasgardar.bsky.social/post/3mv27gigrxv2d",
     "text": "Venezuela — Autoridades venezolanas no han actualizado información sobre el terremoto después de dos semanas. #Venezuela #News #Breaking",
     "author_handle": "netasgardar.bsky.social",
@@ -23,7 +39,7 @@
     "author_name": "The Hacker XD",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:usbsoy7w6z5mgqfms6q2rl6w/bafkreihpzocjf5fxmkkykmethxcvqoncdpc2lphhjtjk7yuji6rftyxlg4",
     "published": "2026-09-08T23:34:22.355000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "tsunami"
     ],
@@ -1449,22 +1465,6 @@
     "like_count": 0,
     "keywords_matched": [
       "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/acentotv.bsky.social/post/3muxpb267322l",
-    "text": "#Simulacro de #terremoto convocado por el #COE pondrá a prueba la respuesta de República Dominicana\n#RepúblicaDominicana\nacentotv.acento.com.do/atv-directo/...",
-    "author_handle": "acentotv.bsky.social",
-    "author_name": "AcentoTv",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:najslb2vxk7bqrobk7ltpnyp/bafkreiddfivc6udcdh3ngblw3wramnstuqsvbeojeisgw3sutkrddirhfq",
-    "published": "2026-09-07T23:52:02.768000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
