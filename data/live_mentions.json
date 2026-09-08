@@ -1531,21 +1531,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/xenius71.bsky.social/post/3muwcukdpik2p",
-    "text": "El miedo es el umbral donde el ser cae ante el abismo. No es cobardía, sino lucidez ante lo incognoscible. \nEn su temblor, el alma fragmenta su finitud, y al aceptarla, trasciende. El reto no es vencerlo, sino habitar su vértigo como espacio de posibilidades.\n\nXeniuS -Miedos-",
-    "author_handle": "xenius71.bsky.social",
-    "author_name": "XeniuS",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:pimtavivl4amcp6pt2bcfitw/bafkreicajifjmskukzj2hh7makw2fv5kks3mdqhzbi44qej222rzoghaem",
-    "published": "2026-09-07T10:37:38.868000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
