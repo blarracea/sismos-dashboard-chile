@@ -1419,22 +1419,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/mirentxu255.bsky.social/post/3muw5q5tugc2o",
-    "text": "🔴 El maremoto político y social que ha supuesto la crisis con epicentro en Ceuta no se ha traducido por ahora en un tsunami electoral. El barómetro de 40dB. muestra un panorama sin cambios drásticos, aunque PP y Vox superan por primera vez el 50% del voto.\n\nelpais.com/espana/2026-...",
-    "author_handle": "mirentxu255.bsky.social",
-    "author_name": "Miren Gurutxe 🌹🌹🌹 🇵🇸",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xo2tzukckccpcvhdh5xkrh2o/bafkreibliptlnufhv24gpaa3v2ba4lrqp6vklpncogdironapz2gfeviyy",
-    "published": "2026-09-07T09:05:42.853000+00:00",
-    "like_count": 3,
-    "keywords_matched": [
-      "tsunami",
-      "maremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
