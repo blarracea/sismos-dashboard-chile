@@ -1,5 +1,21 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117232700103764531",
+    "text": "5 minutes 18 seconds ago - Vanuatu Islands MLv 5.1 19.83S 170.13E 92km 2026/09/08 00:52:05 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rqzgyo # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-08T00:57:22.119000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/acentotv.bsky.social/post/3muxpb267322l",
     "text": "#Simulacro de #terremoto convocado por el #COE pondrá a prueba la respuesta de República Dominicana\n#RepúblicaDominicana\nacentotv.acento.com.do/atv-directo/...",
@@ -1462,118 +1478,6 @@
     "author_name": "Joshua Claytor",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:em2h7rksmg5tqbszvmvdpzyi/bafkreif6v775zu5q4ejk4vjotidmgewshrnemgxjamhozt554yb3uzouqe",
     "published": "2026-09-07T01:00:22.889000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/harig.bsky.social/post/3muvcjpuewk2o",
-    "text": "Mild take: The Tsunami is a shitty finisher for swole Bronson Reed. #WWESundayNightMainEvent",
-    "author_handle": "harig.bsky.social",
-    "author_name": "~Harig~",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mrcidb55ybp4kxwrvnldw65z/bafkreiajyxavuzux7njktitrzvrl4jkaylbg2frwdzuibglxk2u6bx4w5y",
-    "published": "2026-09-07T00:58:55.835000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/crb1079.bsky.social/post/3muvcjpfyxs2h",
-    "text": "Can watch that dude tsunami chumps for days",
-    "author_handle": "crb1079.bsky.social",
-    "author_name": "crb1079",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:kgkarl5c2srnmxqsq6y3trnj/bafkreiea7zgwco72qwv4zhozsgipurv23526cmoactowzxwvlfgeyncjhy",
-    "published": "2026-09-07T00:58:55.364000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/daddyd5544.bsky.social/post/3muvci2memc2q",
-    "text": "Bronson Reed! #WWE #SNME #Tsunami #wrestlesky",
-    "author_handle": "daddyd5544.bsky.social",
-    "author_name": "Hal",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6ziacwyzsetrlrd64slcyd3b/bafkreickmuomxandgwftd2w3oobzwihzuhv5ak5jqc4ronbrzlouduutge",
-    "published": "2026-09-07T00:57:59.991000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/poppawhitelow.bsky.social/post/3muvchw327s2x",
-    "text": "Tsunami!!!!",
-    "author_handle": "poppawhitelow.bsky.social",
-    "author_name": "Nobody Important",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iyojyqzstdlslpdzpa7xkc7e/bafkreih7anguh2i7jjcjhp4zgj7pqkpbicwhqudhm3zwp7u3x7gnpsdssq",
-    "published": "2026-09-07T00:57:55.235000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/poppawhitelow.bsky.social/post/3muvchktehc2x",
-    "text": "Tsunami time????",
-    "author_handle": "poppawhitelow.bsky.social",
-    "author_name": "Nobody Important",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iyojyqzstdlslpdzpa7xkc7e/bafkreih7anguh2i7jjcjhp4zgj7pqkpbicwhqudhm3zwp7u3x7gnpsdssq",
-    "published": "2026-09-07T00:57:43.450000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/variannash.blacksky.app/post/3muvchkaluk24",
-    "text": "TSUNAMI!!!\n\n#SNME",
-    "author_handle": "variannash.blacksky.app",
-    "author_name": "Varian Nash",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zqvolbfw6g4ojz2gvxowwgu4/bafkreicmiklwaj3dybgbkpqsjpacqvzdjqwkauob6i23uh3npjaq7rpm7a",
-    "published": "2026-09-07T00:57:42.835000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/ihadwadahdhaw.bsky.social/post/3muvccw3xoc2i",
-    "text": "If she falls in there will be a Tsunami!!!",
-    "author_handle": "ihadwadahdhaw.bsky.social",
-    "author_name": "The Flogga",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:be4dnrhrdphhb3knmhpdyzgs/bafkreid43bnxftbphjif67pu5xaj3jqurtpnn4cr7aayhmakftpcufdrby",
-    "published": "2026-09-07T00:55:07.494000+00:00",
     "like_count": 1,
     "keywords_matched": [
       "tsunami"
