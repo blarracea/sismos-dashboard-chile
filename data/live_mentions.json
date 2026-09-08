@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/miguelcharisteas.com/post/3muyrmm77622e",
+    "text": "No habría podido meter lo del terremoto 🍻",
+    "author_handle": "miguelcharisteas.com",
+    "author_name": "Miguel Charisteas",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:aq7hpckvwzn52nfydurcdax4/bafkreifg4ufvdvzshm6l76qqbxg7notrilab43hth55l55xeorrnwc72qy",
+    "published": "2026-09-08T10:06:58.001000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/orfetv.bsky.social/post/3muyrf25ls22g",
     "text": "Colombia renace del terremoto     #SoyBoyacá\nwww.orfetv.com/2026/09/08/c...",
     "author_handle": "orfetv.bsky.social",
@@ -167,7 +183,7 @@
     "author_name": "Demetrioymedio",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d5mitcvf6g7ghwd6iauem45c/bafkreigbzyzaoq2332adnkplwy6xiazgwrt4acnfsayd4dqhvn6zic5ugu",
     "published": "2026-09-08T07:57:22.528000+00:00",
-    "like_count": 4,
+    "like_count": 5,
     "keywords_matched": [
       "terremoto"
     ],
