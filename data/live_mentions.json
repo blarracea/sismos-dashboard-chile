@@ -1597,21 +1597,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/terremotiinita.bsky.social/post/3muvavaktmk2b",
-    "text": "Lieve #terremoto alle 02:21\nEpicentro: Ussita (MC)\nMagnitudo: 1.4\nProfondità: 9.1 km\nDettagli: https://terremoti.ingv.it/event/47088952\nAiuta questo progetto 💚🤍❤️: https://patreon.com/TerremotiinItalia",
-    "author_handle": "terremotiinita.bsky.social",
-    "author_name": "Terremoti in Italia",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rwat243kuvk37vfwvp4cz7el/bafkreidjqylcgiese7uljits3b4rbogo4ljocjx52jaqpepjb6cpcujclm",
-    "published": "2026-09-07T00:29:34.915000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
