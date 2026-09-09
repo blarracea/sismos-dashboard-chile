@@ -53,11 +53,10 @@ body {
 
 .top-row {
   display: grid;
-  /* Sismos por dia y detalle del evento angostos a proposito (tenian
-     mucho espacio en blanco sobrando dentro del panel); el espacio que
-     sueltan se lo lleva "Próximamente", que por ahora es solo un cuadro
-     vacio y puede absorberlo sin perder nada. */
-  grid-template-columns: 0.6fr 0.7fr 1.7fr;
+  /* Sismos por dia un poco mas ancho (se sentia comprimido); detalle del
+     evento se mantiene angosto; "Próximamente" sigue absorbiendo el
+     espacio sobrante ya que por ahora es solo un cuadro vacio. */
+  grid-template-columns: 0.9fr 0.7fr 1.4fr;
   gap: 1rem;
   padding: 1rem;
   height: 50%;
