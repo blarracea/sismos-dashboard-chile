@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/blueberrybisex.eurosky.social/post/3mv2ahrgoxk2i",
+    "text": "Movido nivel: terremoto 🫨",
+    "author_handle": "blueberrybisex.eurosky.social",
+    "author_name": "@BlueberryBisex",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:x3rimgddatdlrbynouobz4qu/bafkreiedy3vkofccl6qkwmavxyeh5i5m43tnk3u5ur64lf5m2wogdasapi",
+    "published": "2026-09-09T00:05:21.582000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/telenord.bsky.social/post/3mv27ksfhu22j",
     "text": "Comando Regional Noreste de la Policia realiza simulacro de terremoto\ntelenord.com/noticias/not...",
     "author_handle": "telenord.bsky.social",
