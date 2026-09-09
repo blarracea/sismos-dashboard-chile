@@ -83,9 +83,11 @@ body {
   /* Angosto y de altura completa (ver .app-main) en vez de ancho y de
      media altura -- eso solo, al pasar de un aspecto horizontal a uno
      vertical, ya reduce mucho el oceano visible de entrada porque Chile
-     es una franja angosta y larga de norte a sur. */
-  flex: 0 0 380px;
-  min-width: 260px;
+     es una franja angosta y larga de norte a sur. 460px (subido desde
+     380px, que se sentia demasiado comprimido) sigue siendo bastante mas
+     angosto que el ancho completo de antes. */
+  flex: 0 0 460px;
+  min-width: 320px;
   height: 100%;
 }
 
