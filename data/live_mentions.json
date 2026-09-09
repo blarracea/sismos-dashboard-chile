@@ -1,6 +1,185 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/sapci-cdmx.bsky.social/post/3mv4a2c56rs2f",
+    "text": "Este sábado 19 de septiembre, a las 12:00 horas, participa en el Segundo Simulacro Nacional. Súmate a este ejercicio y practica qué hacer ante un sismo.\n\n#LaPrevenciónEsNuestraFuerza\n#CapitalDeLaTransformación",
+    "author_handle": "sapci-cdmx.bsky.social",
+    "author_name": "SAPCI",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:dm5zyxc7dzogorzpuntpdrl4/bafkreiebqkeauy7xoo5admudwwlj4jp3cz4twck7pmvjc3jhacac4dgtfe",
+    "published": "2026-09-09T19:03:08.804000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/es.nippon.com/post/3mv45niviop2n",
+    "text": "El dibujante de manga Chiba Tetsuya, autor de 'Ashita no Joe', impulsa un micromecenazgo para proporcionar viviendas provisionales tras el fuerte terremoto de Kumamoto. La meta fijada es de 1,5 millones de yenes.",
+    "author_handle": "es.nippon.com",
+    "author_name": "Nippon.com en español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cc3ymgcygljd4cfk7juy3lr5/bafkreifvdtdchl77ak7vhbououjjnw2lajbhmhu7ekltfq4fkjsfdjnoh4",
+    "published": "2026-09-09T18:20:00+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mv45dowd5k2v",
+    "text": "#Vetas barequeo.com/vetas/y-volv... \"Hablemos de cómo construimos edificios sobre esta gelatina y cómo estos, en cada temblor, se han ido cayendo: en el 95, en el 99 y ahora, siempre en el mismo tramo —entre las calles 16 y 22—\": Mheo.",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-09T18:14:42.982000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117242409055463846",
+    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.1 mww, 81 km ESE of Isangel, Vanuatu, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 11:18 AM UTC : Miercoles 9 de Septiembre del 2026 a las 5:18 PM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-09T18:06:28.962000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117242408706006366",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.3 m, VANUATU, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 11:18 AM UTC : Miercoles 9 de Septiembre del 2026 a las 5:18 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-09T18:06:23.685000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117242405685369142",
+    "text": "3 minutes 32 seconds ago - Afghanistan-Tajikistan Border Region mB 5.3 36.48N 71.28E 122km 2026/09/09 18:02:46 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026ruddyx # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-09T18:05:37.540000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/adrivillegas.bsky.social/post/3mv44dzw6qk2x",
+    "text": "Esta es la versión impresa de mi columna de esta semana en El Espectador. Pasar del aturdimiento a la acción colectiva es lo que nos está salvando del terremoto del 10 de agosto y es lo que nos puede salvar del terremoto que empezó el 7 de agosto. www.elespectador.com/opinion/atur...",
+    "author_handle": "adrivillegas.bsky.social",
+    "author_name": "Adriana Villegas Botero",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3fjcymfmt6appqwanrcidad6/bafkreih4ediro6zpkpnwmdefhxbwfidw7p4pbn7mgph53qdriukey75kem",
+    "published": "2026-09-09T17:57:00.769000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117242267238741830",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, VANUATU, a una profundidad de 44 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 11:01 AM UTC : Miercoles 9 de Septiembre del 2026 a las 5:01 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-09T17:30:25.011000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117242245558051114",
+    "text": "6 minutes 50 seconds ago - Vanuatu Islands mB 5.7 19.62S 169.88E 10km 2026/09/09 17:18:47 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rubsbi # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-09T17:24:54.203000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/teresabuza.bsky.social/post/3mv42kbqnh22a",
+    "text": "Principio de realidad: todos los muros acaban por caer, lo que se debería hacer es equilibrar presiones con el otro lado. Si no, será tsunami.",
+    "author_handle": "teresabuza.bsky.social",
+    "author_name": "T (se lee té)",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:phv7hge7ce6uk6bw3wo3vilp/bafkreid2poart6s4vzsjynccxixjuzcoymewy35g2meq7vccascvbnovoi",
+    "published": "2026-09-09T17:24:42.815000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/eliascueto.eurosky.social/post/3mv42drhyvc2w",
+    "text": "La American Mathematical Society atribuye gran parte del mérito a Luís Martínez Zoroa y varias voces lo proponen para la medalla Fields.\n\nVeréis el salto mortal de la universidad CUNEF en los rankings si esto se produce.\n\nSe viene terremoto en el sector.\n\nwww.eldiario.es/sociedad/res...",
+    "author_handle": "eliascueto.eurosky.social",
+    "author_name": "Elías Cueto",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6ubevsov5j5ue3lsnop2d64u/bafkreiflf5akuutt3bqf7h5bpy2iksarj4eqeaw7hnaaty5f6o6tpc4nf4",
+    "published": "2026-09-09T17:21:04.433000+00:00",
+    "like_count": 3,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv3xjo6ni32b",
     "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. España ⬆\n2. Marruecos 🆕\n3. Yendo 🆕\n4. Pecho 🆕\n5. #sismo 🆕\n6. Iquique 🆕\n7. Tarapacá 🆕\n8. Sep 🆕\n9. #weak 🆕\n10. #M2 🆕",
     "author_handle": "trending-es.bsky.social",
@@ -329,7 +508,7 @@
     "author_name": "Nora Bär",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:laoq3sf72xchtwprmnt7ths7/bafkreiat35f6vlg2xz4lxhnyb5jidl4tpwqh7aaycxig3mnnaph2pp66ke",
     "published": "2026-09-09T10:49:35.945000+00:00",
-    "like_count": 6,
+    "like_count": 8,
     "keywords_matched": [
       "maremoto"
     ],
@@ -863,7 +1042,7 @@
     "author_name": "The Hacker XD",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:usbsoy7w6z5mgqfms6q2rl6w/bafkreihpzocjf5fxmkkykmethxcvqoncdpc2lphhjtjk7yuji6rftyxlg4",
     "published": "2026-09-08T23:34:22.355000+00:00",
-    "like_count": 2,
+    "like_count": 3,
     "keywords_matched": [
       "tsunami"
     ],
@@ -1056,70 +1235,6 @@
     "author_name": "AcentoTv",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:najslb2vxk7bqrobk7ltpnyp/bafkreiddfivc6udcdh3ngblw3wramnstuqsvbeojeisgw3sutkrddirhfq",
     "published": "2026-09-08T19:23:05.510000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/analisisurbano.bsky.social/post/3muzoeys3cs2k",
-    "text": "#chocó #Reconstrucción #PlanMarshall |\nLa reconstrucción de las zonas afectadas por el terremoto de magnitud 7,4 del pasado 10 de agosto será el punto de partida de una estrategia con la que el Gobierno nacional, autoridades territoriales y empresarios buscan...\nanalisisurbano.org/plan-choco-r...",
-    "author_handle": "analisisurbano.bsky.social",
-    "author_name": "Análisis Urbano",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mki4shkacf77iurqdb5uvxvi/bafkreiadaw5ond5dyi2guweg7pvxletk42y7c467nh24rnxwe36evyijey",
-    "published": "2026-09-08T18:41:41.278000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/despertarmatinal.bsky.social/post/3muzmzbvuc22l",
-    "text": "Sistema 9-1-1 pone a prueba nuevas tecnologías de alerta y drones de respuesta durante Simulacro Nacional de Terremoto\n\nhttps://despertarmatinal.com/sistema-9-1-1-pone-a-prueba-nuevas-tecnologias-de-alerta-y-drones-de-respuesta-durante-simulacro-nacional-de-terremoto/\n\n#EnPortada #Nacionales\n\nNo te",
-    "author_handle": "despertarmatinal.bsky.social",
-    "author_name": "Despertar Matinal",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mu2xvgp2a3l3bpqza6kwl2ps/bafkreihcveahdaaf4vkc3i5ngnf3j4pcvcxjm7nwdeami5un2dne7dteqq",
-    "published": "2026-09-08T18:17:12+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/acidpoetry.bsky.social/post/3muzkysh3uc2t",
-    "text": "» hacérselo sangrar , mezclando su saliva y su furia , escupiéndolos sobre El Hierro del talismán  .\n\n     “  𝑇𝑎𝑛𝑑𝑒 𝑚, 𝑃𝑎𝑝𝑎 𝐿𝑒𝑔𝑏𝑎  .  𝑇𝑎𝑛𝑑𝑒 𝑚, 𝑀𝑎𝑚𝑎𝑛 𝑀𝑎𝑟𝑖𝑒  .  “\n\n    Suplicó al cielo nocturno de Texas , mientras los árboles se sacudían como si un terremoto azotara el claro  .  Un escalofrío »",
-    "author_handle": "acidpoetry.bsky.social",
-    "author_name": "𝓈𝒕𝒆𝒍𝒍𝒂 𝓁𝒂𝒗𝒆𝒂𝒖⠀⠀⠀⠀ ⠀⠀⠀⠀⠀❨ 𝑦𝒐𝒖𝒏𝒈 ❩",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:g7vrqckcwdn7g5gyiyku4nra/bafkreigd4qpwzf2z3hhqk6mizg672ao67yjyojbwygmfoqyv5t5zocqd6i",
-    "published": "2026-09-08T17:41:08.155000+00:00",
-    "like_count": 4,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/bochecas.bsky.social/post/3muzizs7kuc2m",
-    "text": "Esto también es un éxito de Marruecos: situar como hombre fuerte Del Real Madrid a un amigo íntimo de Mohamed VI.Esto provoca que el Real Madrid haga actos en apoyo a las víctimas del terremoto de Marruecos, a la guerra de Ucrania o hasta en apoyo a Palestina…",
-    "author_handle": "bochecas.bsky.social",
-    "author_name": "bochecas.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xtixyb4u3n6yw6nc7f6z7srx/bafkreiergrmrzavbz7w7obnqnaaellvzkwam5lrcxqip3rfvehixi3djgu",
-    "published": "2026-09-08T17:05:56.571000+00:00",
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
