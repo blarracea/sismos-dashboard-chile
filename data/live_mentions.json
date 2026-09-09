@@ -1,5 +1,21 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-ve.pds.netasgard.com/post/3mv3ktu7psc2m",
+    "text": "Marco Rubio — Rubio y De la Espriella firman dos acuerdos para mejorar la economía y reconstruir Colombia tras el terremoto #Venezuela #MarcoRubio #Rubio #News",
+    "author_handle": "es-ve.pds.netasgard.com",
+    "author_name": "Netasgard News Venezuela",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vsatymcybeepvajpjouz2anl/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-09T12:43:44+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.cl/@sismos/117240968378189027",
     "text": "🚨 Reporte de # sismo 📆 2026-09-09 08:46:01 (Hora local) 🎚️ Magnitud: 4.5 - 🕳️ Profundidad: 43 km 📍40 km al NO de Patache https://www. sismologia.cl/sismicidad/infor mes/2026/09/382334.html",
@@ -72,7 +88,7 @@
     "author_name": "Nora Bär",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:laoq3sf72xchtwprmnt7ths7/bafkreiat35f6vlg2xz4lxhnyb5jidl4tpwqh7aaycxig3mnnaph2pp66ke",
     "published": "2026-09-09T10:49:35.945000+00:00",
-    "like_count": 2,
+    "like_count": 4,
     "keywords_matched": [
       "maremoto"
     ],
@@ -1141,55 +1157,6 @@
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3muz35yu7ec2m",
-    "text": "Venezuela — Temblores registrados en Falcón y Yaracuy durante la madrugada #Venezuela #News",
-    "author_handle": "es-us.pds.netasgard.com",
-    "author_name": "Netasgard News Estados Unidos (es)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-08T12:57:45+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3muyzmwsqsc2a",
-    "text": "#SismoResistentes \"Yo en mi casa rascándome las pelotas, mientras muchos lo perdieron todo. Me enteré de un grupo de Whatsapp de jóvenes que tenía la intención de ayudar en medio de la emergencia. Me uní en contra de la voluntad de mi mamá\": Nicolás Eduardo Cárdenas C. barequeo.com/sismo-resist...",
-    "author_handle": "barequeo.bsky.social",
-    "author_name": "Barequeo",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
-    "published": "2026-09-08T12:30:19.061000+00:00",
-    "like_count": 2,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117235401247919291",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.2 mb, TONGA, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 5:51 AM UTC : Martes 8 de Septiembre del 2026 a las 11:51 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-08T12:24:18.324000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
     ],
     "place": null,
     "lat": null,
