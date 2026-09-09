@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor de Sismos — Chile y Sudamérica</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=21" />
+<link rel="stylesheet" href="css/style.css?v=22" />
 </head>
 <body>
   <header class="app-header">
@@ -30,46 +30,51 @@
         <p id="status" class="status">Cargando datos...</p>
       </section>
 
-      <section class="panel legend">
-        <h2>Capas</h2>
-        <label class="layer-toggle">
-          <input type="checkbox" id="toggle-heatmap" checked />
-          Intensidad percibida — CSN/SENAPRED (oficial)
-        </label>
-        <label class="layer-toggle" title="RSS de medios, no es intensidad Mercalli verificada">
-          <input type="checkbox" id="toggle-social" />
-          Menciones en redes (no verificado)
-        </label>
-        <div class="legend-scale">
-          <span style="background:#14328c"></span>
-          <span style="background:#1f6fe0"></span>
-          <span style="background:#1fb5e0"></span>
-          <span style="background:#22c7a0"></span>
-          <span style="background:#6fcf3e"></span>
-          <span style="background:#c6d823"></span>
-          <span style="background:#f7b500"></span>
-          <span style="background:#f2701f"></span>
-          <span style="background:#e8382a"></span>
-          <span style="background:#ff2fb0"></span>
-        </div>
-        <div class="legend-ticks">
-          <span>I</span><span>II</span><span>III</span><span>IV</span><span>V</span>
-          <span>VI</span><span>VII</span><span>VIII</span><span>IX</span><span>X</span>
-        </div>
-        <div class="legend-labels">
-          <span>Leve</span><span>Fuerte</span>
-        </div>
-      </section>
-
       <section id="event-detail" class="panel event-detail">
         <h2>Detalle del evento</h2>
         <p id="event-detail-placeholder" class="event-detail-placeholder">Hace click en un sismo (mapa o tabla) para ver el detalle.</p>
         <dl id="event-detail-body"></dl>
       </section>
+
+      <section class="panel placeholder-panel">
+        <p class="placeholder-text">Próximamente</p>
+      </section>
     </div>
 
     <div class="bottom-row">
-      <div id="map"></div>
+      <div class="map-wrap">
+        <div id="map"></div>
+
+        <div class="map-legend-overlay">
+          <label class="layer-toggle">
+            <input type="checkbox" id="toggle-heatmap" checked />
+            Intensidad percibida — CSN/SENAPRED (oficial)
+          </label>
+          <label class="layer-toggle" title="RSS de medios, no es intensidad Mercalli verificada">
+            <input type="checkbox" id="toggle-social" />
+            Menciones en redes (no verificado)
+          </label>
+          <div class="legend-scale">
+            <span style="background:#14328c"></span>
+            <span style="background:#1f6fe0"></span>
+            <span style="background:#1fb5e0"></span>
+            <span style="background:#22c7a0"></span>
+            <span style="background:#6fcf3e"></span>
+            <span style="background:#c6d823"></span>
+            <span style="background:#f7b500"></span>
+            <span style="background:#f2701f"></span>
+            <span style="background:#e8382a"></span>
+            <span style="background:#ff2fb0"></span>
+          </div>
+          <div class="legend-ticks">
+            <span>I</span><span>II</span><span>III</span><span>IV</span><span>V</span>
+            <span>VI</span><span>VII</span><span>VIII</span><span>IX</span><span>X</span>
+          </div>
+          <div class="legend-labels">
+            <span>Leve</span><span>Fuerte</span>
+          </div>
+        </div>
+      </div>
 
       <aside class="panel live-feed">
         <h2 class="live-feed-title">Redes en vivo</h2>
@@ -85,11 +90,11 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-  <script src="js/data-loader.js?v=21"></script>
-  <script src="js/map.js?v=21"></script>
-  <script src="js/heatmap.js?v=21"></script>
-  <script src="js/social-layer.js?v=21"></script>
-  <script src="js/live-feed.js?v=21"></script>
-  <script src="js/app.js?v=21"></script>
+  <script src="js/data-loader.js?v=22"></script>
+  <script src="js/map.js?v=22"></script>
+  <script src="js/heatmap.js?v=22"></script>
+  <script src="js/social-layer.js?v=22"></script>
+  <script src="js/live-feed.js?v=22"></script>
+  <script src="js/app.js?v=22"></script>
 </body>
 </html>
