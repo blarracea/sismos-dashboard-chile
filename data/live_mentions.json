@@ -1,5 +1,21 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv4nczo6hv2p",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Teléfono 🆕\n2. Crush ⬆\n3. Conmigo\n4. Exactamente 🆕\n5. #sismo 🆕\n6. Sep 🆕\n7. #M2 🆕\n8. Mirar 🆕\n9. ACTUALIZACIÓN 🆕\n10. #weak 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-09T23:00:40.398000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://bonito.cafe/@ecosdelpasado/117243162438137722",
     "text": "🧿 𝑬𝒍 𝒎𝒖𝒓𝒐 𝒄𝒐𝒏𝒕𝒓𝒂 𝒆𝒍 𝒎𝒂𝒓 🧿 El 11 de marzo de 2011, Japón vivió uno de esos golpes que cambian un país para siempre: el Terremoto y tsunami de Tōhoku de 2011. No fue solo el temblor, fue el agua arrasando ciudades enteras en la costa de Honshu. A partir de ahí, Japón hizo lo que mejor sabe hacer: reaccionar… pero a lo grande. El plan fue claro: que no vuelva a pasar. O al menos, que no vuelva a pasar igual. Así nació una de las obras de ingeniería más impactantes de nuestro tiempo: una muralla de hormigón que recorre unos 395 kilómetros de costa, con tramos que alcanzan hasta 12 metros de altura. Una barrera física pensada para frenar la fuerza del mar antes de que llegue a zonas habitadas. El coste ronda los 12.000 millones de dólares. Y sí, impresiona. Pero no todo el mundo lo ve igual. Para muchos habitantes, sobre todo pescadores, esa muralla es una protección… y al mismo tiempo una separación. Hay pueblos donde, desde el suelo, ya no se ve el horizonte. El mar, que siempre estuvo ahí, ahora queda oculto tras un bloque gris. En sitios como Kesennuma, esa sensación es especialmente fuerte. Seguridad frente a identidad. Esa es la tensión. Y Japón no se quedó solo en el hormigón. Recuperando ideas que ya se usaban en la época de Período Edo, se puso en marcha algo menos visible pero igual de ambicioso: un “muro verde”. Más de 9 millones de árboles plantados a lo largo de la costa. Aquí entra el trabajo del botánico Akira Miyawaki, que defendía reforestar con especies nativas, mezcladas, creciendo rápido y con raíces profundas. No es un bosque decorativo. Es una barrera viva. Estos bosques actúan como un freno natural: absorben parte de la energía del agua, retienen escombros, estabilizan el suelo y reducen la erosión. No sustituyen al muro, pero lo complementan. Tecnología moderna y conocimiento tradicional, trabajando juntos. Además, la muralla no es un bloque continuo sin más. Tiene compuertas para ríos y accesos portuarios, equipadas con sensores que pueden cerrarse automáticamente cuando se detecta un gran seísmo. Todo pensado para no dejar puntos débiles. Ahora bien, proteger tiene un precio. Los científicos hablan de un “paisaje fragmentado”. Y no es solo una forma de hablar. El flujo natural de nutrientes desde tierra hacia el mar —hierro, nitrógeno— se ve alterado. Eso afecta al fitoplancton, que es la base de toda la cadena marina. Algunas especies lo tienen peor: cangrejos, tortugas… animales que dependen de la transición entre arena y agua para reproducirse. Un muro vertical es, para ellos, una barrera total. Las playas también cambian. Las olas rebotan contra el hormigón y la arena se pierde más rápido. En algunos puntos, donde antes había costa natural, ahora solo queda cemento. Y luego están las marismas, esas zonas intermedias que funcionan como viveros naturales para peces. Muchas han desaparecido o han quedado aisladas. Japón es consciente de todo esto. Por eso está probando soluciones como el “hormigón ecológico”, con superficies porosas donde puedan crecer algas y moluscos, intentando que la estructura no sea completamente hostil para la vida marina. No es perfecto. Pero es un intento de equilibrio. Al final, este proyecto dice mucho del país que lo ha construido. Japón no espera a que la naturaleza sea amable. Asume que volverá a golpear… y se prepara. El muro no es solo una defensa. Es una decisión. La de vivir con el mar… aunque ahora haya algo entre ambos. ▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣ # historiareal # japon # tsunami # ingenieria # medioambiente # naturaleza # curiosidades # arquitectura # ecologia",
@@ -121,7 +137,7 @@
     "author_name": "Kumatora | Looking for work | Comms open",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qea5qxvsiioerc24nndpmml/bafkreigif55h65fd3f5cql3k3aptwvzmvveimcmf5n2qpketr4nwxb5e4m",
     "published": "2026-09-09T19:24:06.323000+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "terremoto"
     ],
@@ -638,7 +654,7 @@
     "author_name": "Nora Bär",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:laoq3sf72xchtwprmnt7ths7/bafkreiat35f6vlg2xz4lxhnyb5jidl4tpwqh7aaycxig3mnnaph2pp66ke",
     "published": "2026-09-09T10:49:35.945000+00:00",
-    "like_count": 9,
+    "like_count": 10,
     "keywords_matched": [
       "maremoto"
     ],
@@ -1175,119 +1191,6 @@
     "like_count": 4,
     "keywords_matched": [
       "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://bots.fedi.cr/@semanario_universidad/117237985581297483",
-    "text": "Expertos advierten que construcciones informales son el peligro oculto ante el próximo gran sismo en el país Expertos alertan que las ampliaciones sin supervisión y las edificaciones antiguas representan el principal reto de rescate y seguridad estructural en el país. La entrada Expertos advierten que construcciones informales son el peligro oculto ante el próximo gran sismo en el país aparece primero en Semanario Universidad. # CFIA # CNE # Construcciones # CódigoSísmico # País # Sismo # Terremoto https:// semanariouniversidad.com/pais/ expertos-advierten-que-construcciones-informales-son-el-peligro-oculto-ante-el-proximo-gran-sismo-en-el-pais/",
-    "author_handle": "semanario_universidad@bots.fedi.cr",
-    "author_name": "Semanario Universidad",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/111/185/834/653/815/630/original/3201dac650e87706.jpg",
-    "published": "2026-09-08T23:21:34+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/thelostsalvatore.bsky.social/post/3mv25yit3qu2h",
-    "text": "“  Ah , explica que siempre me levante con el pie torcido  .  Es por el terremoto , mi humor no tiene nada que ver  .  “",
-    "author_handle": "thelostsalvatore.bsky.social",
-    "author_name": "𝓁𝒊𝒍𝒚 𝓈𝒂𝒍𝒗𝒂𝒕𝒐𝒓𝒆",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:usnoxvg3sg2rmjc2dohn6kpc/bafkreihh6idlrzfkcrgoi5x2wq4ukwdomcqbumepfma5vbk6metknixmtq",
-    "published": "2026-09-08T23:21:01.751000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv24u4f5rt24",
-    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Película 🆕\n2. #sismo 🆕\n3. Calingasta 🆕\n4. Juan 🆕\n5. Sep 🆕\n6. #weak 🆕\n7. #M2 🆕\n8. #M3 🆕\n9. #San_Juan_Province 🆕\n10. Vuelvo 🆕",
-    "author_handle": "trending-es.bsky.social",
-    "author_name": "Trending - Español",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
-    "published": "2026-09-08T23:00:40.580000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/rockaxis.bot.altgr.xyz/post/3mv24ojlj6gg2",
-    "text": "🎸 @spiritboxband sorprendió con el lanzamiento sin previo aviso de 'Mourning', su primera canción nueva desde \"Tsunami Sea\", publicado en 2025.\n\nEl estreno llega antes de su nueva gira por Europa y el Reino Unido, y podría marcar el inicio de una nueva etapa para la […] \n\n[Original post on lile.cl]",
-    "author_handle": "rockaxis.bot.altgr.xyz",
-    "author_name": "Rockaxis",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:i7dvxtrvdn57h3gdzmp6eh7o/bafkreiczvemdxbazb7op5h6pqwoaw2c4a7wz5xdudfdjelktmtcf543ddm",
-    "published": "2026-09-08T22:57:22+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/alanislola.eurosky.social/post/3mv24eulyqs2o",
-    "text": "Y como el resto de monumentos nos se pueden visitar en este momento por los.dalos causados por el terremoto de hace unas semanas he subido al mirador de San Nicolás, allí había gente pa'burrir. Así que le he hecho un foto a la Alhambra y me he ido a tomar una caña.",
-    "author_handle": "alanislola.eurosky.social",
-    "author_name": "Alanis Lola",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sfkd6kg5xtawjdze27w4iazh/bafkreidvaxat54kcjftl4cv7c2vwys2qagchcz77ayqmi3vabbm6owgvja",
-    "published": "2026-09-08T22:51:02.458000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/alanislola.eurosky.social/post/3mv24d3rq6k2o",
-    "text": "También me recomendaron mucho la capilla real, junto a la catedral (que tampoco se puede ver por los daños sufridos por el terremoto). En la capilla en cuestión no se pueden hacer fotos y una es respetuosa con las normas (vamos a pensar que es porque el patrimonio hay que cuidarlo) peeero",
-    "author_handle": "alanislola.eurosky.social",
-    "author_name": "Alanis Lola",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:sfkd6kg5xtawjdze27w4iazh/bafkreidvaxat54kcjftl4cv7c2vwys2qagchcz77ayqmi3vabbm6owgvja",
-    "published": "2026-09-08T22:51:02.448000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/rincon-josete-1973.bsky.social/post/3mv22ll3l6c2r",
-    "text": "¡Te recomiendo que escuches este episodio de iVoox! El Rincón de Josete Andrea Herrera CONALIVI y cómo afrontan las personas ciegas un terremoto\n\ngo.ivoox.com/rf/180248789",
-    "author_handle": "rincon-josete-1973.bsky.social",
-    "author_name": "Rincón Josete , Podcast",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o7x6xstqjdsl33nlsvyrzgtc/bafkreiho5tfogk2ybk5uoa7dij5z7pp6bqyf37fag4t2ibvvggzpsmofne",
-    "published": "2026-09-08T22:20:06.692000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
