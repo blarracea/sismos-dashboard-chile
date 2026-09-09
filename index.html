@@ -17,36 +17,32 @@
       <div id="map"></div>
 
       <div class="map-legend-overlay">
-        <label class="layer-toggle">
+        <!-- Los toggles de capas siguen en el DOM (app.js los necesita, con
+             estos IDs) pero ya no se muestran: ocupaban demasiado espacio
+             y la idea ahora es que la caja sea solo la paleta de colores. -->
+        <label class="layer-toggle hidden">
           <input type="checkbox" id="toggle-heatmap" checked />
           Intensidad percibida — CSN/SENAPRED (oficial)
         </label>
-        <label class="layer-toggle" title="RSS de medios, no es intensidad Mercalli verificada">
+        <label class="layer-toggle hidden" title="RSS de medios, no es intensidad Mercalli verificada">
           <input type="checkbox" id="toggle-social" />
           Menciones en redes (no verificado)
         </label>
-        <div class="legend-vertical">
-          <span class="legend-label-strong">Fuerte</span>
-          <div class="legend-scale-row">
-            <div class="legend-scale">
-              <span style="background:#14328c"></span>
-              <span style="background:#1f6fe0"></span>
-              <span style="background:#1fb5e0"></span>
-              <span style="background:#22c7a0"></span>
-              <span style="background:#6fcf3e"></span>
-              <span style="background:#c6d823"></span>
-              <span style="background:#f7b500"></span>
-              <span style="background:#f2701f"></span>
-              <span style="background:#e8382a"></span>
-              <span style="background:#ff2fb0"></span>
-            </div>
-            <div class="legend-ticks">
-              <span>I</span><span>II</span><span>III</span><span>IV</span><span>V</span>
-              <span>VI</span><span>VII</span><span>VIII</span><span>IX</span><span>X</span>
-            </div>
-          </div>
-          <span class="legend-label-weak">Leve</span>
+
+        <span class="legend-label-strong">Fuerte</span>
+        <div class="legend-scale">
+          <span style="background:#14328c"></span>
+          <span style="background:#1f6fe0"></span>
+          <span style="background:#1fb5e0"></span>
+          <span style="background:#22c7a0"></span>
+          <span style="background:#6fcf3e"></span>
+          <span style="background:#c6d823"></span>
+          <span style="background:#f7b500"></span>
+          <span style="background:#f2701f"></span>
+          <span style="background:#e8382a"></span>
+          <span style="background:#ff2fb0"></span>
         </div>
+        <span class="legend-label-weak">Leve</span>
       </div>
     </div>
 

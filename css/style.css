@@ -95,35 +95,31 @@ body {
   height: 100%;
 }
 
-/* Controles de capas superpuestos en el mapa, debajo del zoom (+/-) que
-   Leaflet pone arriba a la izquierda -- es HTML/CSS comun, no un control
-   de Leaflet, asi que no interfiere con el arrastre del mapa: al ser un
-   hermano de #map (no un hijo), un click aca nunca llega a los manejadores
-   de eventos de Leaflet. */
+/* Caja de la paleta, pegada justo debajo del control de zoom (+/-) de
+   Leaflet y con su mismo ancho/borde/radio -- es HTML/CSS comun, no un
+   control de Leaflet, asi que no interfiere con el arrastre del mapa: al
+   ser un hermano de #map (no un hijo), un click aca nunca llega a los
+   manejadores de eventos de Leaflet. Los toggles de capas (heatmap/redes)
+   siguen en el DOM pero ocultos (ver .hidden en index.html) -- ya no hay
+   espacio ni necesidad de mostrarlos, la caja ahora es solo la paleta. */
 .map-legend-overlay {
   position: absolute;
-  top: 88px;
+  /* El control de zoom mide ~33px de ancho y ~63px de alto, con 10px de
+     margen desde el borde del mapa -- este cuadro repite ese mismo ancho
+     y ese mismo margen izquierdo, y arranca 10px debajo de donde termina
+     el zoom (63 + 10 + 10 = 83). */
+  top: 83px;
   left: 10px;
   z-index: 500;
-  /* Bajado de 190px: con la escala vertical (angosta) el cuadro quedaba
-     con mucho aire de sobra a los lados de la barra. */
-  width: 150px;
-  background: rgba(255, 255, 255, 0.95);
-  border: 1px solid var(--color-border);
-  border-radius: 6px;
-  padding: 0.6rem;
-  box-shadow: 0 1px 4px rgba(10, 46, 77, 0.25);
-  font-size: 0.78rem;
-}
-
-.map-legend-overlay .layer-toggle {
-  font-size: 0.78rem;
-  margin: 0 0 0.4rem;
-  align-items: flex-start;
-}
-
-.map-legend-overlay .legend-scale {
-  margin-top: 0.5rem;
+  width: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 0.4rem 0.2rem;
 }
 
 .live-feed.panel,
@@ -407,57 +403,33 @@ h2.live-feed-title {
   cursor: not-allowed;
 }
 
-/* Escala vertical: la intensidad crece hacia arriba (I/Leve abajo,
-   X/Fuerte arriba), como un termometro. column-reverse deja el HTML en
-   el mismo orden de siempre (I..X) y solo invierte el sentido visual. */
-.legend-vertical {
-  display: flex;
-  flex-direction: column;
-  /* flex-start (no center): centrado dejaba aire simetrico de sobra a
-     los dos lados de una barra angosta -- pegada a la izquierda se ve
-     mucho mas compacta. */
-  align-items: flex-start;
-  gap: 0.25rem;
-  margin-top: 0.75rem;
-}
-
+/* Escala vertical: la intensidad crece hacia arriba (Leve abajo, Fuerte
+   arriba), como un termometro. column-reverse deja el HTML en el mismo
+   orden de siempre (I..X, azul a rosado) y solo invierte el sentido
+   visual. Sin numeros romanos por color (no entraban junto al ancho fijo
+   de 33px que pidio el usuario, igual al del control de zoom) -- queda
+   solo la paleta, mas grande que antes, con los dos extremos rotulados. */
 .legend-label-strong,
 .legend-label-weak {
-  font-size: 0.75rem;
+  writing-mode: vertical-rl;
+  font-size: 0.62rem;
+  font-weight: 600;
   color: var(--color-text-muted);
+  letter-spacing: 0.02em;
 }
 
-.legend-scale-row {
-  display: flex;
-  align-items: stretch;
-  gap: 0.25rem;
-}
+.legend-label-strong { transform: rotate(180deg); }
 
 .legend-scale {
   display: flex;
   flex-direction: column-reverse;
-  width: 8px;
-  height: 110px;
-  border-radius: 4px;
+  width: 18px;
+  height: 170px;
+  border-radius: 3px;
   overflow: hidden;
 }
 
 .legend-scale span { flex: 1; }
-
-.legend-ticks {
-  display: flex;
-  flex-direction: column-reverse;
-  height: 110px;
-  font-size: 0.62rem;
-  font-weight: 600;
-  color: var(--color-text-muted);
-}
-
-.legend-ticks span {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
 
 .event-detail dl {
   margin: 0;
