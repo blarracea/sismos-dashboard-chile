@@ -405,21 +405,44 @@ h2.live-feed-title {
   cursor: not-allowed;
 }
 
+/* Escala vertical: la intensidad crece hacia arriba (I/Leve abajo,
+   X/Fuerte arriba), como un termometro. column-reverse deja el HTML en
+   el mismo orden de siempre (I..X) y solo invierte el sentido visual. */
+.legend-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.75rem;
+}
+
+.legend-label-strong,
+.legend-label-weak {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.legend-scale-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0.4rem;
+}
+
 .legend-scale {
   display: flex;
-  height: 10px;
+  flex-direction: column-reverse;
+  width: 12px;
+  height: 150px;
   border-radius: 4px;
   overflow: hidden;
-  margin-top: 0.75rem;
 }
 
 .legend-scale span { flex: 1; }
 
-/* Un numero romano por bloque de .legend-scale, mismo ancho para que cada
-   uno quede centrado justo debajo de su color correspondiente. */
 .legend-ticks {
   display: flex;
-  margin-top: 0.2rem;
+  flex-direction: column-reverse;
+  height: 150px;
   font-size: 0.7rem;
   font-weight: 600;
   color: var(--color-text-muted);
@@ -427,14 +450,8 @@ h2.live-feed-title {
 
 .legend-ticks span {
   flex: 1;
-  text-align: center;
-}
-
-.legend-labels {
   display: flex;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  color: var(--color-text-muted);
+  align-items: center;
 }
 
 .event-detail dl {
