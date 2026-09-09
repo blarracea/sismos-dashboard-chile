@@ -1,5 +1,39 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117239931197108837",
+    "text": "United States Geological Survey (USGS) Sismo de magnitud 5 mb, 154 km S of Sarangani, Philippines, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 1:07 AM UTC : Miercoles 9 de Septiembre del 2026 a las 7:07 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-09T07:36:19.851000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117239907868104274",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, KEPULAUAN SANGIHE, INDONESIA, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 1:07 AM UTC : Miercoles 9 de Septiembre del 2026 a las 7:07 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-09T07:30:23.877000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/noticnacinter.bsky.social/post/3mv2tdz54rk25",
     "text": "Hoy,8/sept/26, 🇲🇽 registró un sismo de magnitud 4.1 en Oaxaca durante la madrugada y el peso mexicano se mantiene estable frente al dólar en 16.89 pesos, mientras que a nivel internacional destacan tensiones entre 🇺🇸 e 🇮🇷 por el petróleo y un golpe financiero contra la llamada “Banca de Dubái” en 🇪🇸.",
@@ -1199,137 +1233,6 @@
     "author_name": "noticias_venezuela_news ✅",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
     "published": "2026-09-08T08:27:00.549331+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/demetrioymedio.bsky.social/post/3muykeuwlss2v",
-    "text": "Imágenes del fuerte terremoto en el barrio de Chamberí de Madrid, parece que Miguel Angel Rodríguez estaba allí... 😜😂😂☺️🙄",
-    "author_handle": "demetrioymedio.bsky.social",
-    "author_name": "Demetrioymedio",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:d5mitcvf6g7ghwd6iauem45c/bafkreigbzyzaoq2332adnkplwy6xiazgwrt4acnfsayd4dqhvn6zic5ugu",
-    "published": "2026-09-08T07:57:22.528000+00:00",
-    "like_count": 7,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/malagapress.bsky.social/post/3muykcj2wia2w",
-    "text": "Manilva ha enviado este jueves toda la ayuda recogida por los vecinos para los damnificados por el terremoto en Colombia del pasado 10 de agosto.",
-    "author_handle": "malagapress.bsky.social",
-    "author_name": "Málaga Press",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:szfmrgqjl77lqtthcynvcw6a/bafkreiavvxwjcuw7m7fqqp67sctlobhalzlpit77bzofvtkwg7uddqyftm",
-    "published": "2026-09-08T07:56:02.441000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117234199558310919",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.1 mb, SOUTH SANDWICH ISLANDS REGION, a una profundidad de 82.4 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 12:50 AM UTC : Martes 8 de Septiembre del 2026 a las 6:50 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-08T07:18:41.979000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/navyplatypus.bsky.social/post/3muyi7du3ds2c",
-    "text": "He buscado en Internet si mi temblor de rodilla es muscular o vascular y las primeras tres páginas eran de IA, terrible",
-    "author_handle": "navyplatypus.bsky.social",
-    "author_name": "No muy pelirrosa pero siempre peligrosa v2.0",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:rs2iet6a3lv3hqgle5k4apms/bafkreifcvvj3qgg3kxcwzc5wzfpu3zciv6p4wfx2yairh5xa2ic2ckcl4u",
-    "published": "2026-09-08T07:18:29.361000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117234198133805335",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, LARA, VENEZUELA, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 12:49 AM UTC : Martes 8 de Septiembre del 2026 a las 6:49 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-08T07:18:20.247000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117234174689268376",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.1 mb, South Sandwich Islands region, a una profundidad de 128.647 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Martes 8 de Septiembre del 2026 a las 12:50 AM UTC : Martes 8 de Septiembre del 2026 a las 6:50 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-08T07:12:22.508000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117234134831108534",
-    "text": "11 minutes 9 seconds ago - South Georgia Island Region mB 5.9 54.76S 31.71W 10km 2026/09/08 06:51:06 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rrleds # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-08T07:02:14.323000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3muyha3kmfm2g",
-    "text": "El canal *El Hormiguero* y *La revuelta* —ambos vinculados a la oposición venezolana— aprovechan su regreso para presionar por elecciones libres tras el terremoto del 24 de junio, mientras Delcy Rodríguez enfrenta crisis humanitaria y fragmentación interna. La ironía de Alsina (exd...",
-    "author_handle": "venezuelanewschepa.bsky.social",
-    "author_name": "noticias_venezuela_news ✅",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
-    "published": "2026-09-08T07:00:59.927230+00:00",
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
