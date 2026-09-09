@@ -13,78 +13,80 @@
   </header>
 
   <main class="app-main">
-    <div class="top-row">
-      <section class="panel day-table">
-        <h2>Sismos por día</h2>
-        <div class="day-table-controls">
-          <input type="date" id="day-picker" />
+    <div class="map-wrap">
+      <div id="map"></div>
+
+      <div class="map-legend-overlay">
+        <label class="layer-toggle">
+          <input type="checkbox" id="toggle-heatmap" checked />
+          Intensidad percibida — CSN/SENAPRED (oficial)
+        </label>
+        <label class="layer-toggle" title="RSS de medios, no es intensidad Mercalli verificada">
+          <input type="checkbox" id="toggle-social" />
+          Menciones en redes (no verificado)
+        </label>
+        <div class="legend-scale">
+          <span style="background:#14328c"></span>
+          <span style="background:#1f6fe0"></span>
+          <span style="background:#1fb5e0"></span>
+          <span style="background:#22c7a0"></span>
+          <span style="background:#6fcf3e"></span>
+          <span style="background:#c6d823"></span>
+          <span style="background:#f7b500"></span>
+          <span style="background:#f2701f"></span>
+          <span style="background:#e8382a"></span>
+          <span style="background:#ff2fb0"></span>
         </div>
-        <div class="day-table-wrap">
-          <table id="day-table">
-            <thead>
-              <tr><th>Hora</th><th>Lugar</th><th>Mag.</th></tr>
-            </thead>
-            <tbody id="day-table-body"></tbody>
-          </table>
+        <div class="legend-ticks">
+          <span>I</span><span>II</span><span>III</span><span>IV</span><span>V</span>
+          <span>VI</span><span>VII</span><span>VIII</span><span>IX</span><span>X</span>
         </div>
-        <p id="status" class="status">Cargando datos...</p>
-      </section>
-
-      <section id="event-detail" class="panel event-detail">
-        <h2>Detalle del evento</h2>
-        <p id="event-detail-placeholder" class="event-detail-placeholder">Hace click en un sismo (mapa o tabla) para ver el detalle.</p>
-        <dl id="event-detail-body"></dl>
-      </section>
-
-      <section class="panel placeholder-panel">
-        <p class="placeholder-text">Próximamente</p>
-      </section>
-    </div>
-
-    <div class="bottom-row">
-      <div class="map-wrap">
-        <div id="map"></div>
-
-        <div class="map-legend-overlay">
-          <label class="layer-toggle">
-            <input type="checkbox" id="toggle-heatmap" checked />
-            Intensidad percibida — CSN/SENAPRED (oficial)
-          </label>
-          <label class="layer-toggle" title="RSS de medios, no es intensidad Mercalli verificada">
-            <input type="checkbox" id="toggle-social" />
-            Menciones en redes (no verificado)
-          </label>
-          <div class="legend-scale">
-            <span style="background:#14328c"></span>
-            <span style="background:#1f6fe0"></span>
-            <span style="background:#1fb5e0"></span>
-            <span style="background:#22c7a0"></span>
-            <span style="background:#6fcf3e"></span>
-            <span style="background:#c6d823"></span>
-            <span style="background:#f7b500"></span>
-            <span style="background:#f2701f"></span>
-            <span style="background:#e8382a"></span>
-            <span style="background:#ff2fb0"></span>
-          </div>
-          <div class="legend-ticks">
-            <span>I</span><span>II</span><span>III</span><span>IV</span><span>V</span>
-            <span>VI</span><span>VII</span><span>VIII</span><span>IX</span><span>X</span>
-          </div>
-          <div class="legend-labels">
-            <span>Leve</span><span>Fuerte</span>
-          </div>
+        <div class="legend-labels">
+          <span>Leve</span><span>Fuerte</span>
         </div>
       </div>
+    </div>
 
-      <aside class="panel live-feed">
-        <h2 class="live-feed-title">Redes en vivo</h2>
-        <div id="live-feed-body">Cargando...</div>
-      </aside>
+    <div class="side-content">
+      <div class="top-row">
+        <section class="panel day-table">
+          <h2>Sismos por día</h2>
+          <div class="day-table-controls">
+            <input type="date" id="day-picker" />
+          </div>
+          <div class="day-table-wrap">
+            <table id="day-table">
+              <thead>
+                <tr><th>Hora</th><th>Lugar</th><th>Mag.</th></tr>
+              </thead>
+              <tbody id="day-table-body"></tbody>
+            </table>
+          </div>
+          <p id="status" class="status">Cargando datos...</p>
+        </section>
 
-      <aside class="panel social-feed">
-        <h2 class="social-feed-title">Menciones en medios</h2>
-        <div id="social-feed-body">Cargando...</div>
-      </aside>
+        <section id="event-detail" class="panel event-detail">
+          <h2>Detalle del evento</h2>
+          <p id="event-detail-placeholder" class="event-detail-placeholder">Hace click en un sismo (mapa o tabla) para ver el detalle.</p>
+          <dl id="event-detail-body"></dl>
+        </section>
+
+        <section class="panel placeholder-panel">
+          <p class="placeholder-text">Próximamente</p>
+        </section>
+      </div>
+
+      <div class="bottom-row">
+        <aside class="panel live-feed">
+          <h2 class="live-feed-title">Redes en vivo</h2>
+          <div id="live-feed-body">Cargando...</div>
+        </aside>
+
+        <aside class="panel social-feed">
+          <h2 class="social-feed-title">Menciones en medios</h2>
+          <div id="social-feed-body">Cargando...</div>
+        </aside>
+      </div>
     </div>
   </main>
 

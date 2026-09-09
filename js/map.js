@@ -5,8 +5,11 @@ SismosApp.initMap = function () {
   const map = L.map("map", {
     // Centrado y con zoom para que Chile se vea como una franja vertical
     // protagonica de entrada (en vez de todo Sudamerica) -- minZoom deja
-    // alejar para ver el resto de la region, Antartica incluida.
-    center: [-35.5, -71.5],
+    // alejar para ver el resto de la region, Antartica incluida. Centro
+    // corrido de -71.5 a -70.3 (mas cerca de la cordillera que de la
+    // costa) para que, con el mapa ya angosto, el encuadre muestre mas
+    // territorio (Chile + borde de Argentina) y menos Pacifico vacio.
+    center: [-35.5, -70.3],
     zoom: 5,
     minZoom: 3,
   });

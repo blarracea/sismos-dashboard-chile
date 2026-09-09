@@ -32,23 +32,32 @@ body {
 }
 
 /*
- * Layout en cuatro cuadrantes: mitad superior (todo el ancho) con sismos
- * por dia / detalle del evento / espacio reservado en fila; mitad inferior
- * con el mapa (las capas van superpuestas ahi, ver .map-legend-overlay) a
- * la izquierda y las menciones en medios a la derecha.
+ * Layout de dos columnas: el mapa queda como columna angosta de altura
+ * completa a la izquierda (asi se ve "hasta arriba", sin que la mitad de
+ * arriba de la pantalla quede sin mapa), y a la derecha ".side-content"
+ * apila sismos por dia / detalle del evento / espacio reservado arriba,
+ * y las menciones en medios abajo.
  */
 .app-main {
   display: flex;
-  flex-direction: column;
   height: calc(100vh - 68px);
+}
+
+.side-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
 }
 
 .top-row {
   display: grid;
-  /* Sismos por dia mas angosto que antes (el "Lugar" se veia demasiado
-     estirado); detalle del evento es ahora la columna principal, en el
-     lugar que dejo libre "Capas" al pasar a superponerse en el mapa. */
-  grid-template-columns: 0.9fr 1.2fr 0.9fr;
+  /* Sismos por dia y detalle del evento angostos a proposito (tenian
+     mucho espacio en blanco sobrando dentro del panel); el espacio que
+     sueltan se lo lleva "Próximamente", que por ahora es solo un cuadro
+     vacio y puede absorberlo sin perder nada. */
+  grid-template-columns: 0.6fr 0.7fr 1.7fr;
   gap: 1rem;
   padding: 1rem;
   height: 50%;
@@ -58,13 +67,10 @@ body {
 .bottom-row {
   /* Flexbox en vez de grid con "1fr" a proposito: con grid, si las dos
      columnas fijas de los feeds (300px cada una) no entraban en el ancho
-     disponible, la columna "1fr" del mapa se resolvia a 0px en vez de
-     respetar ningun minimo -- el mapa desaparecia por completo (se
-     verifico incluso con minmax(320px, 1fr), Chrome igual la colapsaba a
-     0 cuando la suma de los minimos no entraba). Flexbox con min-width en
-     el mapa y flex-shrink:0 en los paneles laterales no tiene ese problema:
-     el mapa nunca baja de su minimo, y si de verdad no entra todo, la fila
-     scrollea horizontal en vez de colapsar una columna a 0.
+     disponible, una columna "1fr" se resolvia a 0px en vez de respetar
+     ningun minimo. Flexbox con flex-shrink:0 en los paneles laterales no
+     tiene ese problema: si de verdad no entra todo, la fila scrollea
+     horizontal en vez de colapsar una columna a 0.
   */
   display: flex;
   height: 50%;
@@ -74,8 +80,12 @@ body {
 
 .map-wrap {
   position: relative;
-  flex: 1 1 320px;
-  min-width: 320px;
+  /* Angosto y de altura completa (ver .app-main) en vez de ancho y de
+     media altura -- eso solo, al pasar de un aspecto horizontal a uno
+     vertical, ya reduce mucho el oceano visible de entrada porque Chile
+     es una franja angosta y larga de norte a sur. */
+  flex: 0 0 380px;
+  min-width: 260px;
   height: 100%;
 }
 
@@ -212,6 +222,11 @@ body {
 
 #day-table {
   width: 100%;
+  /* table-layout:fixed para que el "Lugar" realmente pueda cortarse con
+     "..." (ver #day-table td) en vez de que la tabla se estire para
+     mostrarlo entero -- con "auto" (el default) el contenido manda y el
+     ellipsis nunca se activa. */
+  table-layout: fixed;
   border-collapse: collapse;
   font-size: 0.78rem;
 }
@@ -221,14 +236,20 @@ body {
   top: 0;
   background: var(--color-panel);
   text-align: left;
-  padding: 0.4rem 0.5rem;
+  padding: 0.4rem 0.3rem;
   border-bottom: 1px solid var(--color-border);
   color: var(--color-text-muted);
 }
 
 #day-table td {
-  padding: 0.35rem 0.5rem;
+  padding: 0.35rem 0.3rem;
   border-bottom: 1px solid var(--color-border);
+  /* La columna se angosto bastante; sin esto, un lugar largo forzaba
+     scroll horizontal en vez de simplemente cortarse con "...". */
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 #day-table tr[data-idx] {
@@ -474,6 +495,7 @@ h2.live-feed-title {
     padding: 1rem;
   }
 
+  .side-content,
   .top-row,
   .bottom-row {
     display: contents;
