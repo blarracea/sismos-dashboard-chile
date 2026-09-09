@@ -1,41 +1,45 @@
 name: Recolectar datos de sismos
 
-# El cron nativo de "schedule" es "best effort" -- en la practica corria
-# cada 1-3+ horas en vez de respetar el intervalo configurado, sin importar
-# que tan seguido se pidiera (se probo con */5). Un workflow_dispatch
-# (disparo explicito, no cron) SI corre casi al instante -- por eso la
-# cadencia real de 5 minutos la maneja el propio job: arranca, recolecta,
-# espera 5 min, recolecta de nuevo, y asi durante ~5h40 (el maximo que
-# permite un solo job); justo antes de terminar se re-dispara a si mismo
-# para arrancar el siguiente bloque, encadenado indefinidamente. No hace
-# falta ningun servicio externo ni token propio: usa el GITHUB_TOKEN
-# automatico que GitHub genera y destruye en cada corrida.
+# El self-encadenado (un job que se queda corriendo horas y se re-dispara
+# solo) quedo descartado: aunque funcionaba, factura como "en ejecucion"
+# TODO el tiempo que el job esta vivo, incluido el tiempo dormido entre
+# recolecciones -- eso es gratis en un repo publico (minutos ilimitados),
+# pero el usuario quiere mantenerse dentro de los 200 minutos gratuitos
+# mensuales de un plan mas ajustado, y para eso cada corrida tiene que
+# facturar solo su tiempo real de ejecucion (~1 minuto), no las horas de
+# espera intermedias.
 #
-# El "schedule" de aca abajo queda solo como red de respaldo de muy baja
-# frecuencia, por si la cadena se corta alguna vez (ej. el runner se cae a
-# mitad del ciclo y no llega a re-dispararse solo).
+# Por eso se vuelve a un job simple de una sola pasada (arranca, recolecta,
+# termina), disparado por horarios fijos en vez de un intervalo. 108
+# minutos (lo que el usuario calculo para ~13 corridas/dia dentro de su
+# presupuesto) no divide 24 horas de forma pareja, asi que en vez de tratar
+# de expresar "cada 108 min" en sintaxis de cron (no se puede directamente)
+# se listan 13 horarios fijos por dia espaciados exactamente 108 minutos
+# entre si -- el unico tramo mas largo es el nocturno, de 21:36 a 00:00
+# (144 min), inevitable porque 108 no divide 1440 (los minutos del dia) de
+# forma exacta.
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
-    inputs:
-      loop_minutes:
-        description: "Minutos totales del ciclo interno (dejar el default salvo para pruebas)"
-        required: false
-        default: "335"
-      cycle_seconds:
-        description: "Segundos de espera entre recolecciones dentro del ciclo (dejar el default salvo para pruebas)"
-        required: false
-        default: "300"
+    - cron: "0 0 * * *"
+    - cron: "48 1 * * *"
+    - cron: "36 3 * * *"
+    - cron: "24 5 * * *"
+    - cron: "12 7 * * *"
+    - cron: "0 9 * * *"
+    - cron: "48 10 * * *"
+    - cron: "36 12 * * *"
+    - cron: "24 14 * * *"
+    - cron: "12 16 * * *"
+    - cron: "0 18 * * *"
+    - cron: "48 19 * * *"
+    - cron: "36 21 * * *"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
-  # Necesario para que el propio job pueda re-dispararse via la API de
-  # Actions al final de su ciclo (ver el ultimo paso).
-  actions: write
 
-# Evita que dos corridas se pisen si el ciclo tarda mas de lo esperado --
-# la nueva espera a que termine la anterior en vez de correr en paralelo y
+# Evita que dos corridas se pisen si una tarda mas de lo esperado -- la
+# nueva espera a que termine la anterior en vez de correr en paralelo y
 # generar conflictos de git push.
 concurrency:
   group: collect-sismos
@@ -44,9 +48,6 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    # Un poco por debajo del limite real de 360 min de un job, para dejar
-    # margen a los pasos de setup (checkout, pip, Chromium) antes del loop.
-    timeout-minutes: 350
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -62,45 +63,21 @@ jobs:
       - name: Instalar Chromium (Playwright, para leer el reporte de SENAPRED)
         run: python -m playwright install --with-deps chromium
 
-      - name: Ciclo de recoleccion cada 5 minutos
+      - name: Recolectar sismos
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-          LOOP_MINUTES: ${{ github.event.inputs.loop_minutes || '335' }}
-          CYCLE_SECONDS: ${{ github.event.inputs.cycle_seconds || '300' }}
+        run: python backend/collect.py
+
+      - name: Commit y push si hay cambios
         run: |
           git config user.name "sismos-bot"
           git config user.email "actions@users.noreply.github.com"
-          END=$((SECONDS + LOOP_MINUTES * 60))
-          while [ $SECONDS -lt $END ]; do
-            # El checkout se hizo una sola vez al principio del job -- sin
-            # este pull, un cambio de codigo (ej. un ajuste a los filtros)
-            # no se aplicaria hasta que este bloque de ~5h40 termine solo y
-            # se re-dispare. Con esto, un commit nuevo se recoge en el
-            # siguiente ciclo (5 min), igual que los datos.
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios nuevos."
+          else
+            git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
             git pull --rebase origin master
-            python backend/collect.py
-            git add data/
-            if git diff --cached --quiet; then
-              echo "Sin cambios nuevos."
-            else
-              git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
-              git pull --rebase origin master
-              git push
-            fi
-            sleep "$CYCLE_SECONDS"
-          done
-
-      - name: Encadenar el siguiente ciclo
-        # if: always() -- si el ciclo de arriba fallo a mitad de camino (ej.
-        # un error de red puntual), igual se intenta encadenar el siguiente
-        # bloque en vez de dejar la cadena cortada silenciosamente.
-        if: always()
-        run: |
-          curl -sS -X POST \
-            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github+json" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            -w "\nHTTP %{http_code}\n" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/collect.yml/dispatches" \
-            -d '{"ref":"${{ github.ref_name }}"}'
+            git push
+          fi
