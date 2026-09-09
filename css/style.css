@@ -222,14 +222,22 @@ body {
 
 #day-table {
   width: 100%;
-  /* table-layout:fixed para que el "Lugar" realmente pueda cortarse con
-     "..." (ver #day-table td) en vez de que la tabla se estire para
-     mostrarlo entero -- con "auto" (el default) el contenido manda y el
-     ellipsis nunca se activa. */
+  /* table-layout:fixed para poder repartir el ancho a mano (ver los
+     nth-child de mas abajo): la referencia geografica necesita la mayor
+     parte para poder leerse, hora y magnitud son siempre cortas. */
   table-layout: fixed;
   border-collapse: collapse;
   font-size: 0.78rem;
 }
+
+#day-table th:nth-child(1),
+#day-table td:nth-child(1) { width: 22%; }
+
+#day-table th:nth-child(2),
+#day-table td:nth-child(2) { width: 58%; }
+
+#day-table th:nth-child(3),
+#day-table td:nth-child(3) { width: 20%; }
 
 #day-table th {
   position: sticky;
@@ -244,12 +252,11 @@ body {
 #day-table td {
   padding: 0.35rem 0.3rem;
   border-bottom: 1px solid var(--color-border);
-  /* La columna se angosto bastante; sin esto, un lugar largo forzaba
-     scroll horizontal en vez de simplemente cortarse con "...". */
-  max-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  /* Se permite que el texto haga wrap (en vez de cortarse con "...") para
+     poder leer la referencia geografica completa -- las filas simplemente
+     crecen en alto cuando el lugar es largo. */
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 #day-table tr[data-idx] {
