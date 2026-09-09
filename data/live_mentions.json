@@ -1501,37 +1501,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3muxt3pwbht2w",
-    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Leyendo 🆕\n2. Rica 🆕\n3. Uottawa 🆕\n4. Cinco ⬆\n5. Ocurrió 🆕\n6. Baja 🆕\n7. #sismo 🆕\n8. Puntarenas 🆕\n9. Costa 🆕\n10. #weak 🆕",
-    "author_handle": "trending-es.bsky.social",
-    "author_name": "Trending - Español",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
-    "published": "2026-09-08T01:00:38.914000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117232700103764531",
-    "text": "5 minutes 18 seconds ago - Vanuatu Islands MLv 5.1 19.83S 170.13E 92km 2026/09/08 00:52:05 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rqzgyo # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-08T00:57:22.119000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
