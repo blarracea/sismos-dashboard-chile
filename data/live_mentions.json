@@ -1,5 +1,103 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/jcgy.bsky.social/post/3mv6uu2ityc2t",
+    "text": "En la zona en la que vivo en Alemania hubo un temblor de 3.4 grados y fue la noticia del día y sentí mucha ternura. 🙈",
+    "author_handle": "jcgy.bsky.social",
+    "author_name": "Juan Carlos ☆",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jrtashnhfav5tsunp3rilukp/bafkreiccb42nbevtfi7shxfr5d4z75ke726uaym2mkoldhkschzta53vyy",
+    "published": "2026-09-10T20:20:47.534000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/diariodeleon.es/post/3mv6ud77gzu2h",
+    "text": "Registrado un terremoto de magnitud 3,4 en Prioro y otro de magnitud 2 en Boca de Huérgano leer.diariodeleon.es/…",
+    "author_handle": "diariodeleon.es",
+    "author_name": "Diario de León",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qeg5hf3gkddc3zh2776wnb5/bafkreidvmtx5wedoayfwpquwzkxx4w7dm5iakip73q44hyqp3wption4la",
+    "published": "2026-09-10T20:11:21+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/analisisurbano.bsky.social/post/3mv6tmdfkmc2q",
+    "text": "#colombia #terremoto #niñez #adolescencia |\nUn mes después del terremoto que golpeó a Colombia, más de 300.000 niños, niñas y adolescentes permanecen expuestos a riesgos que van más allá de los daños materiales, entre ellos separación familiar...\nanalisisurbano.org/la-otra-emer...",
+    "author_handle": "analisisurbano.bsky.social",
+    "author_name": "Análisis Urbano",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mki4shkacf77iurqdb5uvxvi/bafkreiadaw5ond5dyi2guweg7pvxletk42y7c467nh24rnxwe36evyijey",
+    "published": "2026-09-10T19:58:34.683000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv6s2gk4332b",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. España 🆕\n2. #sismo 🆕\n3. Angaco 🆕\n4. Juan 🆕\n5. Sep 🆕\n6. Aires 🆕\n7. #weak 🆕\n8. #M2 🆕\n9. #M3 🆕\n10. #San_Juan_Province 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-10T19:30:40.093000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117248342458563316",
+    "text": "Centro Sismologico Nacional, Universidad De Chile Sismo de magnitud 5.4 mw, 854 km al S de Isla de Pascua, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Local (UTC-3) : Jueves 10 de Septiembre del 2026 a las 3:21 PM Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:21 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:21 PM # SismoChile # Sismo # Chile # TemblorChile # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-10T19:15:25.581000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117248330198957278",
+    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.3 mb, 83 km E of Lospalos, Timor Leste, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:44 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:44 PM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-10T19:12:18.443000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117248284416210520",
     "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.3 mb, EAST TIMOR REGION, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:44 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:44 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
@@ -90,7 +188,7 @@
     "author_name": "Sir Laguna",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ox2y3xdhddb2bdczjrm3tm6e/bafkreibupmucyobck3x33xvnpiwprmmoblmumgfsprphfnrwshp3depyte",
     "published": "2026-09-10T18:47:13.054000+00:00",
-    "like_count": 2,
+    "like_count": 4,
     "keywords_matched": [
       "terremoto"
     ],
@@ -334,7 +432,7 @@
     "author_name": "Muñekita Syntétika (Taylor's Version)",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:j2m7idcbt73ze4zc4itkcn2v/bafkreihj4b6uhdjlkxeufkek5f5zyyj4syw5yrn3pyvxgpappdyj4sabcq",
     "published": "2026-09-10T15:03:12.571000+00:00",
-    "like_count": 5,
+    "like_count": 6,
     "keywords_matched": [
       "temblor"
     ],
@@ -1427,38 +1525,6 @@
     "like_count": 0,
     "keywords_matched": [
       "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/mazdigitaldiario.bsky.social/post/3mv4ccxzcy22m",
-    "text": "¿Se aproxima un fuerte sismo en México? USA comparte inquietante advertencia y desata teorías conspirativas en redes\nLa Embajada d USA en México publicó una serie d recomendaciones sobre q hacer durante un sismo; sin embargo generó inquietud entre usuarios\nheraldodemexico.com.mx/nacional/202...",
-    "author_handle": "mazdigitaldiario.bsky.social",
-    "author_name": "mazdigitaldiario.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2e4bpotb3wcniy643vo6xg57/bafkreifu4e545vkyym3l62dvbiickne6zeq76rhfo3qhik253rtie7vbpi",
-    "published": "2026-09-09T19:43:47.672000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/labratkuma.bsky.social/post/3mv4b7rfgt22n",
-    "text": "Un terremoto no caeria mal ahora \nprofile pic made by my friend @brusuky.bsky.social 🩵\n\n#art #fiestaspatrias #chile",
-    "author_handle": "labratkuma.bsky.social",
-    "author_name": "Kumatora | Looking for work | Comms open",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2qea5qxvsiioerc24nndpmml/bafkreigif55h65fd3f5cql3k3aptwvzmvveimcmf5n2qpketr4nwxb5e4m",
-    "published": "2026-09-09T19:24:06.323000+00:00",
-    "like_count": 2,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
