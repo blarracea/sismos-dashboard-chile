@@ -35,8 +35,8 @@ body {
  * Layout de columnas de alto completo: el mapa a la izquierda, despues
  * redes en vivo y menciones en medios (cada una de alto completo, de
  * arriba abajo), y por ultimo ".stack-column" -- una columna angosta con
- * Proximamente arriba a la derecha, y Sismos por dia / Detalle del evento
- * apilados abajo.
+ * Detalle del evento arriba a la derecha, Sismos por dia al medio y
+ * Proximamente al final.
  */
 .app-main {
   display: flex;
@@ -76,6 +76,10 @@ body {
 .stack-column .day-table {
   flex: 1.3 1 0;
   min-height: 0;
+  /* Mas angosto que el resto de la columna (a pedido) -- centrado en vez
+     de pegado a un lado para que no se vea descuadrado. */
+  width: 85%;
+  align-self: center;
 }
 
 .stack-column .event-detail {
