@@ -1,6 +1,249 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mv5zhsq4ds27",
+    "text": "#Chile #sismo M5.0 | Central Bolivia | hace 5m | 10 Sep 2026 08:05 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Bolivia #Departamento_de_Potosi",
+    "author_handle": "chile-sismos.bsky.social",
+    "author_name": "Chile Quake Alert - Chile Sismos",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-10T12:10:44+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mv5zhqrgkp2c",
+    "text": "#SouthAmerica #sismo M5.0 | Central Bolivia | hace 5m | 10 Sep 2026 12:05 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Bolivia #Departamento_de_Potosi",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-09-10T12:10:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://bots.fedi.cr/@semanario_universidad/117246667532603939",
+    "text": "Pacífico Sur es la zona con mayor amenaza sísmica para la construcción, según el Código Sísmico La zona 4, que abarca el sur de San José, Quepos y toda la zona de la Costanera Sur hasta partes de Golfito, es considerada de alta amenaza. La entrada Pacífico Sur es la zona con mayor amenaza sísmica para la construcción, según el Código Sísmico aparece primero en Semanario Universidad. # CFIA # CódigoSísmico # PacíficoSur # País # Sismos # Terremoto https:// semanariouniversidad.com/pais/ pacifico-sur-es-la-zona-con-mayor-amenaza-sismica-para-la-construccion-segun-el-codigo-sismico/",
+    "author_handle": "semanario_universidad@bots.fedi.cr",
+    "author_name": "Semanario Universidad",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/111/185/834/653/815/630/original/3201dac650e87706.jpg",
+    "published": "2026-09-10T12:09:30+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117246663371919158",
+    "text": "3 minutes 21 seconds ago - Central Bolivia mb 5.9 18.15S 66.08W 362km 2026/09/10 12:05:56 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rvnbhs # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-10T12:08:24.700000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mv5yeuhlxc2p",
+    "text": "#Galería Mheo, caricaturista de Pereira que trabaja con El Espectador, viene registrando en sus ilustraciones lo que ocurre en el Eje Cafetero luego del terremoto del 10 de agosto. Publicamos una muestra de sus trazos. barequeo.com/galeria/terr...",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-10T11:51:13.114000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/kartoffelmensch.com/post/3mv5ybrxwgs2s",
+    "text": "No lo haré solo. En LATAM tenemos a Diego del Valle (ex editor en jefe de Terremoto) y el diseño corre a cargo de Silvia Ferpal (autora de nuestro simpatiquísimo caballito lenticular).",
+    "author_handle": "kartoffelmensch.com",
+    "author_name": "Joaquín Jesús Sánchez",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:epc6gpzs7rkbai32o2p5sn26/bafkreiehuubsmh6rd2wfxp3hjtnch2l3rqemmjshini533mxv67nkfx3v4",
+    "published": "2026-09-10T11:49:29.838000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/primatepop.bsky.social/post/3mv5wofjkgc2e",
+    "text": "Dentro de poco más de una hora se cumplirá un mes del terremoto que afectó a varias regiones, departamentos, ciudades y pueblos del país. Muchos aún no pueden dormir, otros tuvieron que irse a otras ciudades, muchos no sobrevivieron. La vida cambió dos minutos.",
+    "author_handle": "primatepop.bsky.social",
+    "author_name": "César Sarmiento",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:c7kndmabtnjsnoeufb2omhxw/bafkreiac65q4paxmelcf6r4gkqvjcswhjoyb2cneeghu2thhnihlsd244e",
+    "published": "2026-09-10T11:20:45.510000+00:00",
+    "like_count": 3,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv5vkhgxxc22",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. España 🆕\n2. Rica ⬆\n3. Aznar 🌟\n4. Sánchez\n5. EEUU 🆕\n6. Servicio 🆕\n7. Compré 🆕\n8. #sismo 🆕\n9. Suroeste 🆕\n10. Dominical 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-10T11:00:39.269000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117246396351778650",
+    "text": "Centro Sismologico Nacional (CENSIS), Instituto Geofísico del Perú Sismo de magnitud 5 Mw, 94 km al NE de Santa María de Nieva, Condorcanqui - Amazonas, a una profundidad de 15 Kilometros *** Fecha Y Hora *** Local (UTC-5) : Jueves 10 de Septiembre del 2026 a las 5:39 AM Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 4:39 AM UTC : Jueves 10 de Septiembre del 2026 a las 10:39 AM # SismoPeru # Sismo # Peru # TemblorPeru # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-10T11:00:30.320000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117246372296232905",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.3 ml, PERU-ECUADOR BORDER REGION, a una profundidad de 101 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 4:39 AM UTC : Jueves 10 de Septiembre del 2026 a las 10:39 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-10T10:54:23.220000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/oscarmclick.eurosky.social/post/3mv5uvcz5s22v",
+    "text": "Un pequeño terremoto sorprende a vecinos de Torrevieja durante la madrugada\n\nwww.informacion.es/vega-baja/20...",
+    "author_handle": "oscarmclick.eurosky.social",
+    "author_name": "OscarMClick",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:h3ijke64slilcpf4yazyyssq/bafkreihjw47wvu6zzqsom4k7habzfwvgxtugnmdxenmhbpvha5yvfsvcxe",
+    "published": "2026-09-10T10:48:50.272000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/peru.sismos.live/post/3mv5uo4dw7t2z",
+    "text": "#Peru #Ecuador #sismo M5.4 | Peru-Ecuador Border Region | hace 5m | 10 Sep 2026 05:39 (Colombia Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Perú #Loreto",
+    "author_handle": "peru.sismos.live",
+    "author_name": "Peru/Ecuador Quake Alert - Sismos Peru/Ecuador",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xazmui2nbqalpyuc5en3ksiw/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-10T10:44:46+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/colombia.sismos.live/post/3mv5unzlx2w24",
+    "text": "#Colombia #sismo M5.4 | Peru-Ecuador Border Region | hace 5m | 10 Sep 2026 05:39 (Colombia Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Perú #Loreto",
+    "author_handle": "colombia.sismos.live",
+    "author_name": "Colombia Quake Alert - Sismos en Colombia",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mtoepwnxylcuk6ka3d4enu4d/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
+    "published": "2026-09-10T10:44:44+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mv5unx64t62v",
+    "text": "#SouthAmerica #sismo M5.4 | Peru-Ecuador Border Region | hace 5m | 10 Sep 2026 10:39 (Tiempo Universal)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Perú #Loreto",
+    "author_handle": "south-america.bsky.social",
+    "author_name": "South America Quake Alert - Earthquake Monitor",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
+    "published": "2026-09-10T10:44:42+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/irohaniho5o.bsky.social/post/3mv5unfd6fk2i",
+    "text": "サザンの\nTSUNAMIが\n頭から離れない\n\nそんなに好きなわけじゃない\nのに\n\n歌ったこともないのに\n歌詞までわかるくらい\n\nなんなんだ",
+    "author_handle": "irohaniho5o.bsky.social",
+    "author_name": "🌷🌷🌷",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cbeiv3orro4gas3zdckcm77v/bafkreicwhdrfqfrpf7oqd3hoey7nk55kmpblvc4iyfqssquxhyxfgghak4",
+    "published": "2026-09-10T10:44:24.262000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/thelostsalvatore.bsky.social/post/3mv5qqjghl22a",
     "text": "» en el hueco del cuello de Enzo .\n\n    Se permitió que su corazón se calmase , que el temblor desvaneciera poco a poco y que su debilidad aflorase durante aquel instante entre ambos .\n\n    Ojalá pudiera detener el tiempo .\n\n    “ Hasta pensé que te habían ahuyentado mis regalos , me bebí la »",
     "author_handle": "thelostsalvatore.bsky.social",
@@ -1014,233 +1257,6 @@
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vsatymcybeepvajpjouz2anl/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
     "published": "2026-09-09T12:43:44+00:00",
     "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.cl/@sismos/117240968378189027",
-    "text": "🚨 Reporte de # sismo 📆 2026-09-09 08:46:01 (Hora local) 🎚️ Magnitud: 4.5 - 🕳️ Profundidad: 43 km 📍40 km al NO de Patache https://www. sismologia.cl/sismicidad/infor mes/2026/09/382334.html",
-    "author_handle": "sismos@mastodon.cl",
-    "author_name": "Sismología  UdeChile 🌎🫨🇨🇱",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/112/226/693/681/380/362/original/6af77ee80bd33d9b.jpg",
-    "published": "2026-09-09T12:00:05+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv3gr65wxi2z",
-    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Podemos 🆕\n2. Ceuta 🆕\n3. Simplemente 🆕\n4. Fiestas 🆕\n5. Zelda\n6. #sismo 🆕\n7. Sep 🆕\n8. #weak 🆕\n9. #M2 🆕\n10. #M3 🆕",
-    "author_handle": "trending-es.bsky.social",
-    "author_name": "Trending - Español",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
-    "published": "2026-09-09T11:30:38.930000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117240792544979579",
-    "text": "Instituto Nacional De Prevención Sismica - Argentina Sismo de magnitud 5.1 Ml, 68 km al E de Antofagasta; 68 km al E de Antofagasta; 76 km al SE de Incahuasi., a una profundidad de 6 Kilometros *** Fecha Y Hora *** Local (UTC-3) : Miercoles 9 de Septiembre del 2026 a las 7:07 AM Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 4:07 AM UTC : Miercoles 9 de Septiembre del 2026 a las 10:07 AM # SismoArgentina # Sismo # Argentina # TemblorArgentina # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-09T11:15:22.975000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": "antofagasta",
-    "lat": -23.6509,
-    "lon": -70.3975
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-cl.pds.netasgard.com/post/3mv3eqqwzh22m",
-    "text": "Chile — Un enjambre sísmico afecta Cajón del Maipo, expertos analizan riesgo de terremoto mayor #Chile #News",
-    "author_handle": "es-cl.pds.netasgard.com",
-    "author_name": "Netasgard News Chile",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:k5c64fomtd4epji6ey23ak7a/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-09T10:54:37+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/norabar.bsky.social/post/3mv3ehr4adc2l",
-    "text": "¡Buen miércoles! Hoy ☀️🌤️🌤️ 19° de máx. \nMaremoto en la matemática: OpenAI dice haber resuelto uno de los siete Problemas del Milenio en siete días, pero dos investigadores de Harvard y NYU los acusan de haber usado sus avances (sin permiso)👇\nwww.eldestapeweb.com/sociedad/afi...",
-    "author_handle": "norabar.bsky.social",
-    "author_name": "Nora Bär",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:laoq3sf72xchtwprmnt7ths7/bafkreiat35f6vlg2xz4lxhnyb5jidl4tpwqh7aaycxig3mnnaph2pp66ke",
-    "published": "2026-09-09T10:49:35.945000+00:00",
-    "like_count": 10,
-    "keywords_matched": [
-      "maremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117240686477484557",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5 mb, 53 km W of Cafayate, Argentina, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 4:06 AM UTC : Miercoles 9 de Septiembre del 2026 a las 10:06 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-09T10:48:24.509000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117240568305937885",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mw, CATAMARCA, ARGENTINA, a una profundidad de 61 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 4:07 AM UTC : Miercoles 9 de Septiembre del 2026 a las 10:07 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-09T10:18:21.355000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://jpmstdn.com/@tkhunt/117240567394446781",
-    "text": "https://www. tkhunt.com/2539935/ コンクリートのビルが、津波で「浮いた」話 # buoyancy # JapanArchitecture # NEWS # StructuralEngineering # Tsunami # TsunamiEvacuationBuilding # おもしろハプニング # ツッコミどころ満載 # バカすぎる # ピロティ # 基礎 # 大爆笑 # 女川 # 建物のしくみ # 建築 # 建築基準法 # 建築解説 # 建築雑学 # 杭 # 東日本大震災 # 構造 # 津波 # 津波避難ビル # 浮力 # 海外の面白い # 爆笑 # 笑える # 腹筋崩壊 # 草生える # 避難 # 鉄筋コンクリート # 防災 # 面白すぎる",
-    "author_handle": "tkhunt@jpmstdn.com",
-    "author_name": "TKHUNT",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/110/691/582/645/664/141/original/046748f4e440d18b.png",
-    "published": "2026-09-09T10:18:07+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/grancanariatv.bsky.social/post/3mv3cks3css22",
-    "text": "Un terremoto de magnitud 2,8 registrado en Agaete eleva la serie sísmica de los últimos días en Gran Canaria www.grancanariatv.com/2026/09/un-t...",
-    "author_handle": "grancanariatv.bsky.social",
-    "author_name": "grancanariatv",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xw35kuiz7nzkcsxgxdpdvdjm/bafkreifmwfsofmtdnu4y3wzrev4iszjwe3cqafr3kxuomnbabhvz45b4ti",
-    "published": "2026-09-09T10:15:30.143000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117240554820940735",
-    "text": "7 minutes 52 seconds ago - Catamarca Province, Argentina MLv 5.3 26.09S 66.68W 10km 2026/09/09 10:07:00 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rtnjnj # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-09T10:14:55.591000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mv3cff2gvi27",
-    "text": "#Chile #sismo M5.1 | Departamento de Belen, Catamarca, Argentina | hace 5m | 9 Sep 2026 07:07 (Hora Buenos_Aires)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Argentina #Catamarca_Province",
-    "author_handle": "chile-sismos.bsky.social",
-    "author_name": "Chile Quake Alert - Chile Sismos",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:st7ccvzrtq3bffdp4dw5wfx5/bafkreiaw7yk4yi3ebhj2ywjk42xe25ekq3vwmcgvku6po3y4yvrto4wy64",
-    "published": "2026-09-09T10:12:27+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/argentina.sismos.online/post/3mv3cfcv7rv2n",
-    "text": "#Argentina #sismo M5.1 | Departamento de Belen, Catamarca, Argentina | hace 5m | 9 Sep 2026 07:07 (Hora Buenos_Aires)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Argentina #Catamarca_Province",
-    "author_handle": "argentina.sismos.online",
-    "author_name": "Argentina Quake Alert - Sismos en Argentina",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:5oewbqgf2rzanxcbfbkuqs3a/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-09T10:12:24+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/south-america.bsky.social/post/3mv3cfadhkm2f",
-    "text": "#SouthAmerica #sismo M5.1 | Departamento de Belen, Catamarca, Argentina | hace 5m | 9 Sep 2026 07:07 (Hora Buenos_Aires)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Argentina #Catamarca_Province",
-    "author_handle": "south-america.bsky.social",
-    "author_name": "South America Quake Alert - Earthquake Monitor",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zruqw4kym4nxvpamifeutp5c/bafkreigia7tfbg77vj5fozpkmcor6fioecccr4emuyrewww26oslclsbwi",
-    "published": "2026-09-09T10:12:22+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/cerebrodigital.net/post/3mv3c3owbs52k",
-    "text": "El 26 de agosto de 2026 un evento sacudió la región del Himalaya en Nepal con tanta fuerza que la alerta automática del Servicio Geológico de Estados Unidos (USGS) lo marcó al inicio como un terremoto de magnitud 5.2.",
-    "author_handle": "cerebrodigital.net",
-    "author_name": "Cerebro Digital",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:hah54l5bbz3jxtma7f24nzjw/bafkreie2zsiuuc4tyvxi4op2wbcwme27x6ourp4mvmb46xcdmcc7mbemsq",
-    "published": "2026-09-09T10:07:00+00:00",
-    "like_count": 1,
     "keywords_matched": [
       "terremoto"
     ],
