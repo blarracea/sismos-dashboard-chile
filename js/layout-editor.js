@@ -5,6 +5,15 @@
  * decidir el layout final. El orden y el tamano elegidos quedan en
  * localStorage (por navegador) para sobrevivir a un refresh mientras se
  * esta probando -- no se manda a ningun lado, es solo para experimentar.
+ *
+ * El arrastre es a mano (mousedown/mousemove/mouseup), no HTML5 drag and
+ * drop: la primera version usaba "draggable" sobre todo el panel y era
+ * dificil de controlar -- el click se lo comian los elementos de adentro
+ * (tabla, links, input de fecha) en vez de iniciar el arrastre. Ahora hay
+ * una agarradera fija (".layout-handle", una barra que aparece arriba de
+ * cada panel solo en modo edicion) que es el unico lugar desde donde se
+ * puede arrastrar, y mientras se arrastra se resalta bien marcado donde
+ * va a caer.
  */
 (function () {
   const PANEL_SELECTORS = [
@@ -18,6 +27,7 @@
 
   const topRow = document.querySelector(".top-row");
   const bottomRow = document.querySelector(".bottom-row");
+  const rows = [topRow, bottomRow];
   const appMain = document.querySelector(".app-main");
   const toggleBtn = document.getElementById("layout-edit-toggle");
   const resetBtn = document.getElementById("layout-reset-btn");
@@ -27,26 +37,38 @@
   if (panels.length === 0) return;
 
   let editing = false;
-  let dragged = null;
+  let dragState = null;
+
+  function makeHandle() {
+    const handle = document.createElement("div");
+    handle.className = "layout-handle";
+    handle.textContent = "⠿⠿ Mover";
+    return handle;
+  }
 
   function setEditing(on) {
     editing = on;
     appMain.classList.toggle("layout-editing", on);
-    panels.forEach((p) => {
-      p.draggable = on;
-      p.classList.toggle("layout-editable", on);
+    panels.forEach((panel) => {
+      panel.classList.toggle("layout-editable", on);
+      const existingHandle = panel.querySelector(":scope > .layout-handle");
+      if (on && !existingHandle) {
+        panel.insertBefore(makeHandle(), panel.firstChild);
+      } else if (!on && existingHandle) {
+        existingHandle.remove();
+      }
     });
     toggleBtn.textContent = on ? "Listo" : "Editar diseño";
     toggleBtn.classList.toggle("is-active", on);
     resetBtn.classList.toggle("hidden", !on);
   }
 
-  // El tamano manual (resize:both en CSS) no dispara un evento propio --
-  // se detecta comparando el tamano del panel antes/despues de soltar el
-  // mouse, y solo entonces se guarda (evita escribir en localStorage en
-  // cada pixel del arrastre).
+  // Guarda el tamano manual (resize:both en CSS) -- no dispara un evento
+  // propio, asi que se detecta comparando el tamano antes/despues de
+  // soltar el mouse en cualquier parte del panel.
   function watchResize(panel) {
-    panel.addEventListener("mousedown", () => {
+    panel.addEventListener("mousedown", (e) => {
+      if (!editing || e.target.closest(".layout-handle")) return;
       const before = `${panel.offsetWidth}x${panel.offsetHeight}`;
       const onUp = () => {
         window.removeEventListener("mouseup", onUp);
@@ -91,41 +113,77 @@
     });
   }
 
+  // Bajo el punto (x,y) del mouse: primero busca si hay OTRO panel debajo
+  // (para insertarse justo antes de ese), y si no, si hay una fila debajo
+  // (para agregarse al final de esa fila -- soltar en un hueco vacio).
+  function findDropTarget(x, y) {
+    for (const panel of panels) {
+      if (panel === dragState.panel) continue;
+      const rect = panel.getBoundingClientRect();
+      if (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom) {
+        return panel;
+      }
+    }
+    for (const row of rows) {
+      const rect = row.getBoundingClientRect();
+      if (x >= rect.left && x <= rect.right && y >= rect.top && y <= rect.bottom) {
+        return row;
+      }
+    }
+    return null;
+  }
+
+  function clearDropHighlight() {
+    document.querySelectorAll(".layout-drop-target").forEach((el) => el.classList.remove("layout-drop-target"));
+  }
+
+  function onMouseMove(e) {
+    if (!dragState) return;
+    const target = findDropTarget(e.clientX, e.clientY);
+    clearDropHighlight();
+    if (target) target.classList.add("layout-drop-target");
+    dragState.lastTarget = target;
+  }
+
+  function onMouseUp(e) {
+    if (!dragState) return;
+    const { panel } = dragState;
+    // No depende solo del ultimo "mousemove" (un drag rapido, con pocos
+    // eventos intermedios, podia soltar sin haber actualizado el target
+    // nunca) -- se recalcula el destino con la posicion final del mouse.
+    const target = findDropTarget(e.clientX, e.clientY);
+    clearDropHighlight();
+    panel.classList.remove("layout-dragging");
+    document.body.classList.remove("layout-dragging-active");
+    window.removeEventListener("mousemove", onMouseMove);
+    window.removeEventListener("mouseup", onMouseUp);
+    dragState = null;
+
+    if (!target) return;
+    if (panels.includes(target)) {
+      if (target === panel) return;
+      target.parentElement.insertBefore(panel, target);
+    } else {
+      target.appendChild(panel);
+    }
+    saveLayout();
+  }
+
+  function startDrag(panel, e) {
+    e.preventDefault();
+    dragState = { panel, lastTarget: null };
+    panel.classList.add("layout-dragging");
+    document.body.classList.add("layout-dragging-active");
+    window.addEventListener("mousemove", onMouseMove);
+    window.addEventListener("mouseup", onMouseUp);
+  }
+
   panels.forEach((panel) => {
     watchResize(panel);
-
-    panel.addEventListener("dragstart", () => {
-      dragged = panel;
-      panel.classList.add("layout-dragging");
-    });
-    panel.addEventListener("dragend", () => {
-      panel.classList.remove("layout-dragging");
-      dragged = null;
-    });
-    panel.addEventListener("dragover", (e) => {
-      if (!editing || !dragged || dragged === panel) return;
-      e.preventDefault();
-    });
-    panel.addEventListener("drop", (e) => {
-      if (!editing || !dragged || dragged === panel) return;
-      e.preventDefault();
-      const rect = panel.getBoundingClientRect();
-      const before = e.clientX - rect.left < rect.width / 2;
-      panel.parentElement.insertBefore(dragged, before ? panel : panel.nextSibling);
-      saveLayout();
-    });
-  });
-
-  [topRow, bottomRow].forEach((row) => {
-    row.addEventListener("dragover", (e) => {
-      if (!editing || !dragged) return;
-      e.preventDefault();
-    });
-    row.addEventListener("drop", (e) => {
-      if (!editing || !dragged || e.target !== row) return;
-      e.preventDefault();
-      row.appendChild(dragged);
-      saveLayout();
+    panel.addEventListener("mousedown", (e) => {
+      if (!editing) return;
+      if (!e.target.closest(".layout-handle")) return;
+      startDrag(panel, e);
     });
   });
 

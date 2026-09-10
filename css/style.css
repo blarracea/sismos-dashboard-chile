@@ -138,8 +138,13 @@ body {
   overflow-y: auto;
 }
 
+/* "Proximamente" centra su texto con flex row -- en modo edicion pasa a
+   column para que la agarradera quede arriba en vez de al lado del texto. */
+.app-main.layout-editing .placeholder-panel {
+  flex-direction: column;
+}
+
 .layout-editable {
-  cursor: grab;
   /* flex:none para que el ancho/alto que la persona fija a mano (resize
      o el drag) no se lo pise el propio flexbox en el siguiente layout. */
   flex: 0 0 auto;
@@ -150,8 +155,49 @@ body {
   min-height: 120px;
 }
 
+/* Agarradera explicita para mover: arrastrar clickeando "en cualquier
+   parte" del panel resultaba dificil de controlar (adentro hay tablas,
+   links, inputs -- el click se lo comian esos elementos en vez de iniciar
+   el arrastre). Con esta barra hay un solo lugar, siempre igual, para
+   agarrar y soltar. */
+.layout-handle {
+  display: none;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.5rem;
+  margin: -1rem -1rem 0.6rem -1rem;
+  background: var(--color-header-bg);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: grab;
+  user-select: none;
+}
+
+.layout-editable .layout-handle {
+  display: flex;
+}
+
 .layout-editable.layout-dragging {
   opacity: 0.4;
+}
+
+/* Resaltado bien visible (no solo el punteado tenue de siempre) del panel
+   o fila donde va a caer el que se esta arrastrando en ese instante. */
+.layout-drop-target {
+  outline: 3px solid var(--color-header-bg) !important;
+  outline-offset: -3px;
+  background: rgba(10, 46, 77, 0.08);
+}
+
+/* Mientras se arrastra: evita que el mouse seleccione texto de por medio
+   (pasaba seguido al mover rapido sobre la tabla o los feeds) y deja un
+   cursor "grabbing" consistente sin importar sobre que elemento este el
+   mouse en ese momento. */
+body.layout-dragging-active {
+  cursor: grabbing;
+  user-select: none;
 }
 
 .map-wrap {
