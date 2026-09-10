@@ -86,6 +86,22 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
   events.forEach((event) => {
     if (event.lat == null || event.lon == null) return;
     const radius = 1.5 + Math.max(event.magnitude || 0, 0) * 0.55;
+    const select = () => onSelect(event);
+
+    // El circulo visible es chico a proposito (para no competir con el
+    // heatmap), pero eso lo hacia dificil de pinchar -- el area de click
+    // de un circleMarker es su propio radio, no hay una opcion aparte
+    // para "radio de deteccion". Se agrega un circulo invisible mas
+    // grande, debajo del visible, solo para ampliar donde reacciona el
+    // click sin cambiar en nada el tamano que se ve.
+    L.circleMarker([event.lat, event.lon], {
+      radius: Math.max(radius + 10, 14),
+      stroke: false,
+      fillOpacity: 0,
+    })
+      .on("click", select)
+      .addTo(layer);
+
     const marker = L.circleMarker([event.lat, event.lon], {
       radius,
       color: "#ffffff",
@@ -94,7 +110,7 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
       weight: 0.75,
       className: event.relevant ? "quake-marker--relevant" : "",
     });
-    marker.on("click", () => onSelect(event));
+    marker.on("click", select);
     marker.addTo(layer);
   });
   layer.addTo(map);
