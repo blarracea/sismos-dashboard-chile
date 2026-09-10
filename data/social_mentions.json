@@ -1,5 +1,29 @@
 [
   {
+    "title": "Se percibe sismo de magnitud 4 en la ciudad de San Antonio este jueves 10 de septiembre - Infobae",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYWFlMWQ2ZXc5Ui15ZUZIMHdkLW11c1N5SG1rWTdETlNlWkZpYnZQamdFUFB2NmlPZ1Z2TFhlcVVEandnQlNGZTExQzh0UXRRZmYtSjhKNk9FckJJT0xTX0pwWkFEQUQyaGZTMFczZ19BODd0ckIzUGpCYU1tUWRVRS0xeFpkNVlzdGtYWkVQbUZiOFlEVGF5c2doMXBmOFBtdzV5S3dWSGZSNXBMNGxWSlZBbDVMNnk5VUtmRjZMU292NEZVY25Sck1Sby3SAecBQVVfeXFMTkpid3piTDJzRXN0X3Q3TWltUmhzXzZyaFNjV2lXZ0xvam5BcFNodm1mV2ZObzhQenFSTkpwemJBbzl6MnlwZWJQU25yRlRTdHBQeVAyM0s5OXllUGdpZ01lOWFxZUhuSlhsdUJaZWpfU1FTd0h6OGFacm1jTTNWQ1puTnlXd0VRSHFCbHpJTFkwLW1JQ2lqTkVKUS1QTnBLU1ZQYVpOWkNETGswRlc1VGgxTWlvVTc3eThKdkVhMjhqaEtPOW5fWU1BTUFFRENiOWJrZ1J1QnRRZzRnWU93THBXUWJYWldR?oc=5",
+    "source": "Infobae",
+    "published": "2026-09-10T05:01:00+00:00",
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "san antonio",
+    "lat": -33.5928,
+    "lon": -71.6128
+  },
+  {
+    "title": "Temblor en Chile del miércoles 9 de septiembre: ver epicentro y magnitud según CSN - El Comercio Perú",
+    "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQWFliM0R2WjBnWWtrZ3JwVy1NN2h4V3JQZ3dOSTR0aURSUDgzVlZFdW80NTVPeFZJc3FuYk1qUDhMQU1pLUZRbllvLXlEbTAwTS11YzR0MnhnYXhwT052eUZwaEtQT2dtaGV6M1FpUkJlTjcxdGw0SVJCM0RlMnhTUEpwRElJZGRnR0hTTFd3c2stNzlaTFA5Q1Z0VWM1VDAyeTZsa0pkQVlsNGN5akg3cXVubTBPeFFSSWNCaDdvcnp2MkctRWZEdjJRRnNHaGZJMGl3Qmk4U1VWZkVhblhEZjlGeGU5TG13Q0Y3MXBQYUoydVJQMk45UEZBOTIyRjBIN21qU1FiQ2hqWmQ4ZzR6UExNbTd0aW5QaE0zTHNJT1JReWNRYmQyanlvRG9VeEs2cDRWVEJwZnNiMXYzMld3SEtB?oc=5",
+    "source": "El Comercio Perú",
+    "published": "2026-09-10T04:25:20+00:00",
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Temblor hoy en Chile: se registra sismo de magnitud 4.2 en Mina Collahuasi este 9 de septiembre - Infobae",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTS1uU3FXMzdEaGZTZ2NUdjJVYmFtYTFoQm9pMkUxRV9jY2xHZ0dLZXgxdDdsa205cFlhU29pcm03YXFXdlR1dG1oOW9tbjhrb3ByT3E4bEhvTGhYYkZvSnBaQnF1Z2IxQmpkdTh2bDR2VVNhLXVwTko1MmhxancwWVJ6bTQwaXdndE9WWE1PV1FVZmc5S09JbUdOazJDMDF1MW1uZ1RJVGlZZmx1WWtUMUY5TF9xTDhjSkhhRHliejE1XzR6eWtpQjFsUTlmME96UUNIWNIB7wFBVV95cUxQeTdCWGNMS3liM01nSUZRN2NEMjRkWVVKc1BZWkgtNU1BcnFpWm94R3RUWTdCaTZydHE0M3p0U0txdEJQMXlfY1dvUlBaSnJ2ZWtMUTFhRnhNa2hrVkhSSzdwdTV0ZTdmYVBPRFhGMzJ1U29xZnZjWk5oMUY5OEF4T1hwaTgzWlQ0X25HZjFMWWdmQW1fVkZ5Q0ZhSnNNM3B3Tkd1V1VUVEFzODBCeFZuUk9XaVh2b1ZWZGVMLVVPdTlIZjRSblhDNkU2d1NLR1JSTmNJMlR2aUJoTVh6MnV2b1VyekU2ZzQ1b09hbWpQcw?oc=5",
     "source": "Infobae",
@@ -13,22 +37,9 @@
     "lon": null
   },
   {
-    "title": "Temblor en Chile hoy, miércoles 9 de septiembre: epicentro del último sismo según CSN - El Comercio Perú",
-    "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQWFliM0R2WjBnWWtrZ3JwVy1NN2h4V3JQZ3dOSTR0aURSUDgzVlZFdW80NTVPeFZJc3FuYk1qUDhMQU1pLUZRbllvLXlEbTAwTS11YzR0MnhnYXhwT052eUZwaEtQT2dtaGV6M1FpUkJlTjcxdGw0SVJCM0RlMnhTUEpwRElJZGRnR0hTTFd3c2stNzlaTFA5Q1Z0VWM1VDAyeTZsa0pkQVlsNGN5akg3cXVubTBPeFFSSWNCaDdvcnp2MkctRWZEdjJRRnNHaGZJMGl3Qmk4U1VWZkVhblhEZjlGeGU5TG13Q0Y3MXBQYUoydVJQMk45UEZBOTIyRjBIN21qU1FiQ2hqWmQ4ZzR6UExNbTd0aW5QaE0zTHNJT1JReWNRYmQyanlvRG9VeEs2cDRWVEJwZnNiMXYzMld3SEtB?oc=5",
-    "source": "El Comercio Perú",
-    "published": "2026-09-10T00:32:25+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor se registra en el norte del país: revisa la magnitud y epicentro del sismo - radioagricultura.cl",
+    "title": "Temblor se registra en el norte del país: revisa la magnitud y epicentro del sismo - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPb0JSSkY5WFlKdEJ1TGRaMXNMNlRyU0I5Uk9ZR2FnNDRJb3lOeEVTemJJczRGZEw1a2JaZnhiV3RzcHF2dkdyWW5WSldrd0RsZERTX2otMjlYY25FdkUzZnFNTzVjSGhZR0FOTHRFSVZzMnVTWWpTbGpDVFpWZldSR3Jkd01XaFI0U2gweGt2N0xUTXg0cmJ2QlRTX3BKaldRR3o4d0psRUJxVk5RMEFRdGVWZVpWQjU4M2kxZkVtZm1hZmpfUkhaT2ZrdDc3TVZQSktuejJjRVRCekU?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-09T22:00:57+00:00",
     "keywords_matched": [
       "sismo",
@@ -88,9 +99,9 @@
     "lon": null
   },
   {
-    "title": "Nuevo temblor se registra en el norte del país: revisa dónde ocurrió y su magnitud - radioagricultura.cl",
+    "title": "Nuevo temblor se registra en el norte del país: revisa dónde ocurrió y su magnitud - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUGxNU3lIdXFxTnhyTmI5d2tyTEM3V0JyNTNZN3VsVmVrMVZMSXpHMGhvQkV3RGI4ZUFvaFJ1YXR1YURfNUNfS3hXdmpkRWZUVzhJeGtMMnlPWjg0eVo2UmFuUVdvdEt5ay15enZtNWJXaVJjVHZwaFhpMTdwS3IwWjNPOWRCajhHclNrZEdzTjFLVnp1RmtSUWJyYUpYUXBDTUMwRy1Cd0M0Mk9rMDg3Tjh6OWsxZU1vSDhoempCMm0tS0xQYThjazU2SkJUUEg0Y0dpTGVPczg?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-09T15:41:30+00:00",
     "keywords_matched": [
       "temblor"
@@ -175,9 +186,9 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy, miércoles 9 de septiembre en Chile: consulta epicentro y magnitud - La Tercera",
+    "title": "Temblor hoy, miércoles 9 de septiembre en Chile: consulta epicentro y magnitud - latercera.com",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ1A1M2Myem1QMHc4UkF1R0Z1VG9tZlFJZ2V5WEpOVHEycS15VGJOUjBFaVlrLWZEUmcycWZidnpXek41Wnl4VmFrUGdlQkE2bzhMWjhaaTVkLWtHaWMyZlV5d2pxeEdpRTRybGZvWXF2cmtaU1ZFUmJublpuMG9OMnVISWpOMFFhVnJOSkd5bFl6eDF3X2Y5TzFPaEtRNV9DcXZUUFVlVEQyRUJXWEpEUzFRMWk5T0tra1lzdU530gHfAUFVX3lxTE1QeFhkZDQyUHlCSTVDLU9OVnl6ZXNvR2w1MnFtOERGVExoOE5EcFJYRUZuS3RjRzdKVXRjTW1TbHFGOWRPUWNPMVBJNDVEc3NNdFhISFoybHh1NUxSWEhTQ1FjZS1ES0x3WlBsS25lcTVhdTZ3TUozRjhhZ2NvS0lzbWFFbW5NTzAtcWFmbFNiMVF2TUNIN1plUFNxZjlrMk9LUS0waER5SXFfZTB2UDBEbnZUb0FLeFo5S0JYT2FKV1hxNWtLNnRnRHFIX2FRb0thdE9yZ19QRTFLTk9oX0U?oc=5",
-    "source": "La Tercera",
+    "source": "latercera.com",
     "published": "2026-09-09T12:08:10+00:00",
     "keywords_matched": [
       "temblor"
@@ -187,9 +198,9 @@
     "lon": null
   },
   {
-    "title": "Temblor se percibe en la zona norte del país: Revisa la magnitud y el epicentro del sismo - meganoticias.cl",
+    "title": "Temblor se percibe en la zona norte del país: Revisa la magnitud y el epicentro del sismo - Meganoticias",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNUhvY2hxdHQyV0hhTTBQSXRibnBMcks1a2xtMF9VdFkyRkxjaUZ6cXNoUENXakdZeUdsejRxTW9XR1ZPcWZlUFhSM1pRUmtUd21TX0xKcm5WWDdxNUwtUXpUWlJEUGJHY29FVlV1Q2lMWndteDF0TzN3OGo4eWJzNHg0VE5sUmZnZjFLd3hIVEs1Qmd0Y1JlcGZlTzZSb2o1aU9XdnJ6b1JYcGvSAbABQVVfeXFMTTEyWU5pRF9NeC0wb0kzcUR6UmJueEFXNG5NUG1kU1lZUnNYRUNJcFZpS0s5Nk5lNEItRE9ZSkRJVk9lX1JKLTV4VzJZQW9BUEQxeWhCZFlla3JSS19FSnRxZ1ZVOEpCRkJaR3hNa3JuSXIyV2RsM3hkUzRaRGpxZnFZOEtsV0U1LXFIQUUtRnVJMVE0RVpsTXpEckp4SXVvemR3TTBXYUtxUndUa09oLUo?oc=5",
-    "source": "meganoticias.cl",
+    "source": "Meganoticias",
     "published": "2026-09-09T11:58:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -224,9 +235,9 @@
     "lon": null
   },
   {
-    "title": "Temblor sorprende a la zona central durante la mañana: revisa dónde ocurrió el movimiento - radioagricultura.cl",
+    "title": "Temblor sorprende a la zona central durante la mañana: revisa dónde ocurrió el movimiento - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc21EdkJ1cTZ3Vk1hbU1CM0YzaE9fT0piMXBuTlVoNHJjMVJleV9hRFk4TUVJRkkyYnByaXlhdm90aDhNaDdlc3V3cTc4TlNodDQxbHg3VTY0OHE0WFBBdVp3aDBNcElPV3htQWhnVXVmOG1udGpRSGpvWmlkaVZTMnVobGFzTElNUVF2dF9LV1ptc2FmeTlNZGJzWmpLX21hblBEZFBIelVkNHhJUENoTy01d04wTVR4cEtxaXg4YWlXMHhjcjlyOGFOTjdGUUY5bVEyV1BEd3loWjRTeF8yUGtR?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-09T10:36:19+00:00",
     "keywords_matched": [
       "temblor"
@@ -249,9 +260,9 @@
     "lon": null
   },
   {
-    "title": "400 temblores en un solo día: qué significa el enjambre sísmico en Cajón del Maipo - La Tercera",
+    "title": "400 temblores en un solo día: qué significa el enjambre sísmico en Cajón del Maipo - latercera.com",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMi13Z3FOOWNMXzdFYUREaXd3emRQRTAyUmtIYUdhUUtkYXV4TERyZ2c0SDExRE16eHZ4QWhUdnhJbHc2MHVsTGhZMURaWXFaeWdibjM3YjlCUVB5VDBKUEJYcUppdXZqVFVyeFpUeXNhTGx3LVVfU3NJQlhoOVpla0Q1azRWdjNaZm0yd0ZVMjBxZjhGQzgxTE9URVZESTU1R0JaeWpyY0N1bXlKcnFSSWRxeXNIREQ4a20wN2dnUFo1bWtMZWfSAecBQVVfeXFMUGJXSlJSZWxMVUU1UmJxOWpZNmlYN2w0RHdJTmVrM1BqbXlxbjFIQkdqN1ZBcHhOaHl1VUtpRXdWNW9JMUVVbFp1X1k2UDZ3S25yWEw2OTBKZ0k1UFljODJMNWQtbUNDSThObnVMTEcwS2gtdy11YW12NTdLN25SX3dSRE1HR01vQU9JVFl4eVY1al85M2wxWUE0VnNCLUVuTDRrOXRCMmV5T09QM21pMGxNVVgxRHJoN2RzbENBZmNJZnZJbmxpTElFQjFCNUZwMndTZXM0WndSSXFNUU1VcW9ubURnYUhR?oc=5",
-    "source": "La Tercera",
+    "source": "latercera.com",
     "published": "2026-09-09T09:01:00+00:00",
     "keywords_matched": [
       "temblor"
@@ -274,9 +285,9 @@
     "lon": null
   },
   {
-    "title": "Temblor se registra en la zona central: conoce la magnitud y epicentro del sismo - radioagricultura.cl",
+    "title": "Temblor se registra en la zona central: conoce la magnitud y epicentro del sismo - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdFNkOExQRG5VOWVBNEFmNWxyRGs2Y3h4VlIzaFNoeEthb2o0YllhaXdJdGYyUldfOW5YT09wTW8xR0JEaEF3Mnk3T2Q4bzRyMUZkbDhiQTM5X0xFeU1taUN2YnN1VVZpcG5YUGZjUmhHQlhyQllmTkVaWEdrREt0RzBXTmoxeG1SRkp0WGpHMXltZXZkakdBLWpYY0pIVTV5TXZwbmJueXMzZjNOaThFVXplUTFjZV83NGhiXzM0TmkxTmRrSTlQTDJGYXNCRnAxemRpU2xR?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-08T21:25:22+00:00",
     "keywords_matched": [
       "sismo",
@@ -287,9 +298,9 @@
     "lon": null
   },
   {
-    "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro del sismo - radioagricultura.cl",
+    "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro del sismo - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX1ZubmQzcnh3Y0pnS0JwVlNHc296ajkzajA4N3lPN0s2WWY0LXFUUy1QazdxbmZNWTl4OUZaRWdhRnNLNEE1MlM4dkdUX0c0amdOX1E1UmI0bjNWd3BPc1pnSlg0VlltN3JPa3B4QktpaS12bk9MQUtuU2N6amJvVW5XMmZ3NThJZi1GNHltcEJwVTc3Tjg3VnVEMV9QeUtjdXZaOHBZYzhyd2FiZ0FEaTBKaVYwQlRVaGVOcVEzTXlqbUhaa1dVLXVVZmJzUQ?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-08T19:46:42+00:00",
     "keywords_matched": [
       "sismo",
@@ -351,9 +362,9 @@
     "lon": -70.3975
   },
   {
-    "title": "Temblor se percibe en la zona norte del país: Revisa la magnitud y el epicentro del sismo - meganoticias.cl",
+    "title": "Temblor se percibe en la zona norte del país: Revisa la magnitud y el epicentro del sismo - Meganoticias",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeEZYcXZ4RGJsWnc4Skc1aXRvWk9CcHRicnZKTkQtNGxSN1ZvTUxld2l4cENiODYwMzBldkx3LVVMdDZHdFFHamp6alR3MnlRUU1GT0o3RHNLY2dKZ3RpbnBYUE43cWVUY0lvTUNka2NHTllTVGpZVmZSRVd5ZkFfQjZ2aFZrMjNzblNqMVU5NzE5blk4ekxSWVVRUnhoUm0tNHV5dVZmSTdSNzgxNldFZFRuZ9IBuAFBVV95cUxOeDRGMnFCcnlOanozeWV1bG9wZXo1alRWM19tLU16dVFaR2dHbmR4c3hpZENySzJmUEYyYWRVYlhfVXpQRlZBUFk4R2t1YVhCOUI5Vkljc1RMVHNVMk42eU90T0hZQUd6NzI0d2RMcGxYRUg2WlJmTGNVT2h3TDB6ODljRnJTSk5rWnhUcmhMY1lNS3dwVVJrWWZ1RGZPc2w1b05EY09RZ1lCX3VWUmY1S0s2S29ucjlF?oc=5",
-    "source": "meganoticias.cl",
+    "source": "Meganoticias",
     "published": "2026-09-08T13:54:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -414,9 +425,9 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy, martes 8 de septiembre en Chile: consulta epicentro y magnitud - La Tercera",
+    "title": "Temblor hoy, martes 8 de septiembre en Chile: consulta epicentro y magnitud - latercera.com",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTDNhOXFjajkwSThENG8tbXBiVEVIdElWYWRnczJ2UHplREM0LTdrWkZqOEd3NF84LTNkY2tzZUJzNzB0TEV1MEdLRTZSQWN6c3QxN0lSSGdkMHNLQmxmWnF1ODlHTnh2X2lHeDMzQUY5MF9LZmo4OWY0c1pCYy1LNFB6RVZna0lOcDkzYVlEbTB3d3llZllIdTExTDJhdGNaU0RjTklYT1dJMWVjVVI0NlRDNGxzUy1jNEHSAdsBQVVfeXFMTUJfYWJMa09pd3dhY3RZWGFYZlNoTEhvbkdYYXNHM0RVN3RQTl9DWG1Wd0N5aEpFUFNyTmlFdWstXzNmMEN6SVVRY2lVZDJoV1VnTTNYMHh6OWVjajJMTFpNMk1WdUlUOV9zdXRiNldNaEo0SFo1RFdGd1czbHdCN0pOLW5kNDA2akpoYlVRcXB2a0cxdThtN0ZZSmtWOFBNbGRXdkxqejJVZmh5dUF6aTdwX2RhbDFBTUl6Z3F6clB6VGpvSFZTSVc0SWFvazFMZEdHRTdPZ0FPcEhR?oc=5",
-    "source": "La Tercera",
+    "source": "latercera.com",
     "published": "2026-09-08T12:10:41+00:00",
     "keywords_matched": [
       "temblor"
@@ -438,9 +449,9 @@
     "lon": null
   },
   {
-    "title": "Temblor remece la zona central del país: Revisa la magnitud y el epicentro - radioagricultura.cl",
+    "title": "Temblor remece la zona central del país: Revisa la magnitud y el epicentro - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDJleENSTTlvajVZQ0dJRXpWMzdzTXR2dHhPbWdxWFhHdUx6ZzdWeTFCRVBjUXRxMzNJMUNTRFdVWnQ4WmM1blJEQTlqazdObDNNUDFTZmF6Ri1tM0QwcjBOdE5icTc5SnVUR1h2Sllia0FQckMwMHVZdS1zbllDNmZGby1rdlE5Y256WDA4UWJiWWNabjlUWjZCRG5Mb2s4MG05QlU3TDZqUW1LaVV2TzlxZzloUlNZVWdkZkFLT1dCSzd2RVFaSi1RbHJRZw?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-08T10:36:30+00:00",
     "keywords_matched": [
       "temblor"
@@ -560,9 +571,9 @@
     "lon": null
   },
   {
-    "title": "A un mes del terremoto en Colombia, en Chile y Perú tembló muy duro este lunes - Minuto60",
+    "title": "A un mes del terremoto en Colombia, en Chile y Perú tembló muy duro este lunes - minuto60.com",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbmkwVUJqajh2UzR6SkJVWFpkVmNibi1YRlNCZWo3WFNhOVBpel93ZWh3TzdUOTBXcEVNdEhpa3VTVjhSTERGc1QzZUpGampKRHNMVFZYODVxNEdzZHNpRENjaGxwX0lENmRMc1V5RXpOS2tZRnpha21FUGRKN3g1MTBmOG0wOHpJaTd6dDBubw?oc=5",
-    "source": "Minuto60",
+    "source": "minuto60.com",
     "published": "2026-09-08T00:23:22+00:00",
     "keywords_matched": [
       "terremoto"
@@ -608,9 +619,9 @@
     "lon": -70.6693
   },
   {
-    "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro - radioagricultura.cl",
+    "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTdKNGtUOU1COFo1VGpBRnh0cGlveXh4aGxocEdYSnY4cVZSbEYyRHAxR1c0dFZMZ05WQ2RiY2tialNHT3BCRDdlNDJudlYtZnUyb2J6Tzh5REJQd2ZnUktoVEZuWHhiREdScFBOTGEyeEh0SllsSHVObDhPTGRibE9kbXdRVFNNSHZSV0M3d256ZUZQNVJmVTcwQUVHUzBWcm5CNHhoOS1QTlpGMHExQkh5YUFYcU94T3U2Q1N2MzRlTnM?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-07T22:32:04+00:00",
     "keywords_matched": [
       "temblor"
@@ -656,9 +667,9 @@
     "lon": null
   },
   {
-    "title": "Temblor en la zona norte: Revisa la magnitud del sismo - meganoticias.cl",
+    "title": "Temblor en la zona norte: Revisa la magnitud del sismo - Meganoticias",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPT0JtbkVrX2thYjV4UGpqZm5RS1FyS3JpNllrZXFhTWowUlhnZmdZMGRYMHBQb2g5NGRWUktDcE5HbHhWekM2aTlIdFZtR3lGRmdLNGdOLU93NHhUOG9PSHlkNjN6WGZ6RURkNXFtMW5LeFVqclUzVTNtYk5VSUVCM2o1S2xlTVNZb2RGWDVjVWdCalYzaGpRMnZWMVdoYWczUVFVQjNRMmdQdjk4aF9xX01LNzBwZktJUUhGTVNZM3VWaVZvR3JZejlIYWpKUm4tQWdBWUdR0gHbAUFVX3lxTE53LXR3cFRUbkhWbWg0ODV5dENzT1NETFptTDh4ZmZzMkhraExNOE9xVHB1aDg4dW12NGpPS0EyWWhvVzZzRXdSWkFueG4wbTRJQzFWby1Jcm1vdkZWVWNUeEJ6UkJWN1AtYlhZM00xOGJSWEJjclNHbFFmdnlFam53V3AwUi1zSTJ0ZFAwMGhxSm9rRWZIQ0d2b1FpU3NrRlZkc2dQUkF2SkdGSHFyTFBvSFNUNWdxRnV0elZGWTB2WExFcVZ2SDVvam1HMEgxdFdaekZOMlFvRjlBdw?oc=5",
-    "source": "meganoticias.cl",
+    "source": "Meganoticias",
     "published": "2026-09-07T22:03:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -706,9 +717,9 @@
     "lon": null
   },
   {
-    "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro - radioagricultura.cl",
+    "title": "Temblor sacude el norte del país: Revisa la magnitud y epicentro - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU2Fod1llTGd4MWJlSnF0b21vNV91LWh0cGRYdDBibW5mVVNQRHp6T2JnVW1QbC0yYnZHVk5iRUR5am9WSFdfeC1rSGJkOE9ZSExMMHdJNnZIQU5xMlpseUNGZ0J2NTh1bm44Wl9qUTdxQXEzYlVqQWZ4T1Z5dEVUZHA0M0VZWUNUd3pvVW9LQ1RDZElLRlB0U2p1Q1M3aEE5ZTVSWlBkakhNNnh4Qm0tejFhclZOalB2c3RKd3UyQ3YzS1E?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-07T18:25:38+00:00",
     "keywords_matched": [
       "temblor"
@@ -840,9 +851,9 @@
     "lon": null
   },
   {
-    "title": "Nuevo temblor se registra en la zona norte del país: conoce la magnitud y el epicentro - radioagricultura.cl",
+    "title": "Nuevo temblor se registra en la zona norte del país: conoce la magnitud y el epicentro - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRURLSUpSczVnYmc5TE9oNm5jRTd1Mk1ydTE4Z3F6NUVfM05ISWJEcF94V1JqeFhkb3UzZkcxNndzWF91ZVpuRTB0RlFCZnFsWEJ5dXgzVlNSMDQ5aHlVZHM1azkzUnd3clN0ZHlVNzdQSVN1QTNnSFY5VFhfVEVuSS13MnBtNVdPSmp5SFl0MTd1NVdRS1lEU1JsU2tReDFTT2pmZHkwUjhRMGdkUGVhZUtNNW93M1RxYXRySFFlYms5bGFybmZyY0pRM0k3b3hlcXJGS1VKc19NU3JhYUE?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-07T12:37:30+00:00",
     "keywords_matched": [
       "temblor"
@@ -852,9 +863,9 @@
     "lon": null
   },
   {
-    "title": "Temblor sacude la zona norte de Chile durante la madrugada - radioagricultura.cl",
+    "title": "Temblor sacude la zona norte de Chile durante la madrugada - Radio Agricultura",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTjk2Rm9XVHF5S2xVeW5KUXo3RDBUWjd0alZ4dEZ5RkI3bFd2T05NNXgzU0s5NGpQVXRkOW1hWjJjRWpjN21tb21CYVFEYzN2Q1dKMEk3WDhwcW1ULWhHbGtmalpoRk1TeVZtTUxiVG53eFk1cWEyM2NMczdmeW1QbHlJT3VMNFVCVng0NFR3VWtoLThwbWllLVJNM0pMZGtmaDJma0VwUzVvYTI1dDJBWTA0YXlFX2V0WEE?oc=5",
-    "source": "radioagricultura.cl",
+    "source": "Radio Agricultura",
     "published": "2026-09-07T10:37:20+00:00",
     "keywords_matched": [
       "temblor"
@@ -877,9 +888,9 @@
     "lon": null
   },
   {
-    "title": "Temblor hoy, lunes 7 de septiembre en Chile: consulta epicentro y magnitud - La Tercera",
+    "title": "Temblor hoy, lunes 7 de septiembre en Chile: consulta epicentro y magnitud - latercera.com",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUndkSVhIXzh1cTdPT2JrRXlzRDdMZWhuTHlkdnNrRFZjQXhtNlJxb2xlQk9NVzhWRlJOckx3SklGRWRWRFdRcTV0aXBDYTdaZkN3WHQwRWVOTWdIalRKVVdyckF0UnZLbFVwelJUZ2RkWGROYlROTVA4V04wMC15VllvZXRUMkVDS3pvSnlsR0Nic05sUjN6ZWt3ZHkzLTZVZlV5U0tNMnVxUWNpbHhzMUc2N1VLYTFm0gHaAUFVX3lxTE9TRVRBZWp2OURBTXhSWjA2V0tOdUZrSlc5U2VuOHBxVXF0TEdtYXg5TXUxODRDUFNkWkpJemxHSVpyOE1EdTYwTGpCWTZJNmh2aUYwUFVBT190aTEzUW5ST1hxMmM0ZWZ4VENmQVNUZWhreElCRXNOcTdBMUFyd2hENTB0SkRoRVZJY3kwMkc0bTR6UWtjQUpIU2g5eFNTU3dnOVczbFN4cWNzYkxuendneHNFTi1pNnE0NEtiYVNXT0MwOWRuUFVKSHJVSFNPSW1TRmdiYlUtcnNn?oc=5",
-    "source": "La Tercera",
+    "source": "latercera.com",
     "published": "2026-09-07T09:00:31+00:00",
     "keywords_matched": [
       "temblor"

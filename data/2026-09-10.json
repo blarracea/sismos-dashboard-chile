@@ -21,5 +21,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg7v",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tg8v",
+    "source": "usgs",
+    "time": "2026-09-10T06:42:40.393000+00:00",
+    "updated": "2026-09-10T06:58:40.040000+00:00",
+    "lat": -3.873,
+    "lon": -77.5027,
+    "depth_km": 10,
+    "magnitude": 5.3,
+    "mag_type": "mww",
+    "place": "126 km WSW of Alianza Cristiana, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg8v",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
