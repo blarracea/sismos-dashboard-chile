@@ -3,14 +3,6 @@ window.SismosApp = window.SismosApp || {};
 
 SismosApp.initMap = function () {
   const map = L.map("map", {
-    // Centrado y con zoom para que Chile se vea como una franja vertical
-    // protagonica de entrada (en vez de todo Sudamerica) -- minZoom deja
-    // alejar para ver el resto de la region, Antartica incluida. Centro
-    // corrido de -71.5 a -69.6 (mas cerca de la cordillera que de la
-    // costa) para que, con el mapa angosto (380px), el encuadre muestre
-    // mas territorio (Chile + borde de Argentina) y menos Pacifico vacio.
-    center: [-35.5, -69.6],
-    zoom: 5,
     minZoom: 3,
   });
 
@@ -18,6 +10,27 @@ SismosApp.initMap = function () {
     attribution: "&copy; OpenStreetMap contributors",
     maxZoom: 18,
   }).addTo(map);
+
+  // Encuadre inicial por bounds (no un centro+zoom fijo): asi Leaflet
+  // calcula el zoom que de verdad corresponde al tamano real del
+  // contenedor -- un numero de zoom fijo dejaba de calzar cada vez que el
+  // mapa cambiaba de ancho (justo lo que se estaba pidiendo ajustar).
+  // El rectangulo va desde el norte de Chile (Visviri, -17.5) hasta la
+  // peninsula antartica (-70), para que de entrada se vea todo Chile Y la
+  // Antartica sin tener que alejar el zoom a mano.
+  const initialBounds = L.latLngBounds([-17.5, -80], [-70, -66]);
+
+  // El contenedor #map recien termina su layout de CSS flex un instante
+  // despues de crear el mapa (mismo problema que el heatmap en app.js) --
+  // si fitBounds calcula el zoom antes de eso, lo hace contra un
+  // contenedor de tamano incorrecto y el encuadre sale mal. No se puede
+  // envolver esto en whenReady: el mapa nunca dispara "ready" hasta que
+  // tiene una vista (center/zoom) asignada, y todavia no le dimos
+  // ninguna -- fitBounds es justamente lo que se la da.
+  setTimeout(() => {
+    map.invalidateSize();
+    map.fitBounds(initialBounds);
+  }, 50);
 
   return map;
 };

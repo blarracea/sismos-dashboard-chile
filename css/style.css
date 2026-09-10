@@ -302,9 +302,13 @@ h2.social-feed-title {
   text-align: center;
   /* Queda afuera del area con scroll (ver #social-feed-body y el comentario
      en .live-feed.panel/.social-feed.panel) -- flex-shrink:0 para que no
-     se achique cuando el contenido de abajo necesite mas espacio. */
+     se achique cuando el contenido de abajo necesite mas espacio. Se pisa
+     el padding-bottom de ".panel h2" a 0 (antes 0.75rem heredado de ahi
+     sumado a mas) para que la linea naranja de abajo quede a la misma
+     altura que la de "Mapa de Calor" al lado -- si no, quedaba ~12px mas
+     abajo, descuadrada. */
   flex-shrink: 0;
-  padding-bottom: 0.75rem;
+  padding-bottom: 0;
 }
 
 .social-feed-empty {
@@ -350,7 +354,7 @@ h2.live-feed-title {
   text-align: center;
   /* Ver el comentario en h2.social-feed-title, mismo criterio. */
   flex-shrink: 0;
-  padding-bottom: 0.75rem;
+  padding-bottom: 0;
 }
 
 .live-feed-empty {
