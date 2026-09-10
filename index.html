@@ -53,24 +53,22 @@
     </div>
 
     <div class="side-content">
-      <!-- "bottom-row" ahora va primero en el DOM (queda visualmente
-           arriba, pegado al tope del mapa de calor) y "top-row" segundo
-           (queda abajo) -- se invirtieron de posicion a pedido del
-           usuario, se dejan los nombres de clase como estaban para no
-           tener que retocar el resto del CSS que depende de ellos. -->
-      <div class="bottom-row">
-        <aside class="panel live-feed">
-          <h2 class="live-feed-title">Redes en vivo</h2>
-          <div id="live-feed-body">Cargando...</div>
-        </aside>
+      <aside class="panel live-feed">
+        <h2 class="live-feed-title">Redes en vivo</h2>
+        <div id="live-feed-body">Cargando...</div>
+      </aside>
 
-        <aside class="panel social-feed">
-          <h2 class="social-feed-title">Menciones en medios</h2>
-          <div id="social-feed-body">Cargando...</div>
-        </aside>
-      </div>
+      <aside class="panel social-feed">
+        <h2 class="social-feed-title">Menciones en medios</h2>
+        <div id="social-feed-body">Cargando...</div>
+      </aside>
 
-      <div class="top-row">
+      <!-- Columna angosta apilada: Proximamente arriba a la derecha,
+           Sismos por dia y Detalle del evento abajo -- separado de
+           redes-en-vivo/menciones para que esas dos puedan ser columnas
+           de alto completo (ver .side-content en el CSS) sin quedar
+           encajonadas junto a estos tres. -->
+      <div class="stack-column">
         <section class="panel placeholder-panel">
           <p class="placeholder-text">Próximamente</p>
         </section>
