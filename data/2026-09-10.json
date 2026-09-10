@@ -56,7 +56,7 @@
     "id": "us7000tg98",
     "source": "usgs",
     "time": "2026-09-10T08:26:53.828000+00:00",
-    "updated": "2026-09-10T11:11:03.324000+00:00",
+    "updated": "2026-09-10T12:58:37.340000+00:00",
     "lat": 9.0275,
     "lon": -84.0624,
     "depth_km": 10,
@@ -65,7 +65,7 @@
     "place": "45 km SSE of Quepos, Costa Rica",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -75,9 +75,21 @@
         "responses": 1
       },
       {
+        "lat": 9.90213,
+        "lon": -84.6517675,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 8.537704999999999,
         "lon": -83.302895,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 9.167305,
+        "lon": -83.74332,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -121,6 +133,29 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg9q",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tga8",
+    "source": "usgs",
+    "time": "2026-09-10T12:05:53.736000+00:00",
+    "updated": "2026-09-10T12:22:14.040000+00:00",
+    "lat": -17.8933,
+    "lon": -65.8339,
+    "depth_km": 372.617,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "35 km SSE of Cliza, Bolivia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tga8",
     "relevant": false,
     "keywords_matched": []
   }

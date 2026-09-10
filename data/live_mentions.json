@@ -1,6 +1,120 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-cl.pds.netasgard.com/post/3mv64fh65xk2m",
+    "text": "Chile — Un sismo de 5,2 grados sacudió Chile el jueves 10 de septiembre, según el Centro Sismológico Nacional. #Chile #News",
+    "author_handle": "es-cl.pds.netasgard.com",
+    "author_name": "Netasgard News Chile",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:k5c64fomtd4epji6ey23ak7a/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-10T13:03:07+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mv64b33c5d2m",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Aznar 🆕\n2. Crush 🆕\n3. #sismo 🆕\n4. Potosi 🆕\n5. Bolivia 🆕\n6. Sep 🆕\n7. #weak 🆕\n8. #M2 🆕\n9. #M3 🆕\n10. #Departamento_de_Potosi 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-10T13:00:40.633000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mv62x2grnf2d",
+    "text": "Perú — Un sismo de 5.0 grados fue registrado en el norte de Perú según el IGP. #Perú #IGP #News",
+    "author_handle": "netasgardespana.bsky.social",
+    "author_name": "Netasgard España",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iioeaqu2zvac4ykuc2ncab2q/bafkreif2vtlwyzyr4sauqrlumb4barbhwlrhwni3pt2cszgvxy22dp2tz4",
+    "published": "2026-09-10T12:37:09+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.cl/@emol/117246766055767052",
+    "text": "📰 Terremoto en Paraguay por el futuro de Gustavo Alvaro con rumores de Chile y una propuesta que enreda todo El técnico terminó contrato en el Mundial. 🔗 https://www. emol.com/noticias/Deportes/202 6/09/10/1211088/alfaro-paraguay-contrato-millones-chile.html # terremoto # paraguay # gustavoalvaro # chile",
+    "author_handle": "emol@mastodon.cl",
+    "author_name": "Emol",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/113/695/585/273/122/412/original/71c96b92b0e532b0.jpg",
+    "published": "2026-09-10T12:34:31+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mv62air2ok2p",
+    "text": "#Galería barequeo.com/galeria/pere... Esta semana el fotógrafo Juan David Rivera recorrió las calles de Manizales y Pereira para ver cómo van estas ciudades un mes después del terremoto. Esto fue lo que vio.",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-10T12:24:34.101000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117246703664655287",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, POTOSI, BOLIVIA, a una profundidad de 342.9 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 6:05 AM UTC : Jueves 10 de Septiembre del 2026 a las 12:05 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-10T12:18:39.509000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117246690872679155",
+    "text": "Red Sismológica Nacional (RSN) - Costa Rica Sismo de magnitud 5.4 Mw, 45 km al Sur de Dominical, Osa, a una profundidad de 27.3 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 2:26 AM UTC : Jueves 10 de Septiembre del 2026 a las 8:26 AM # SismoCostaRica # Sismo # CostaRica # Costa # Rica # TemblorCostaRica # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-10T12:15:24.316000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/chile-sismos.bsky.social/post/3mv5zhsq4ds27",
     "text": "#Chile #sismo M5.0 | Central Bolivia | hace 5m | 10 Sep 2026 08:05 (Chile Standard Time)\n¿Lo sentiste? ¡Envía un informe!\n#strong #M2+ #M3+ #M4+ #M5+ #Bolivia #Departamento_de_Potosi",
     "author_handle": "chile-sismos.bsky.social",
@@ -72,7 +186,7 @@
     "author_name": "Barequeo",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
     "published": "2026-09-10T11:51:13.114000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "terremoto"
     ],
@@ -88,7 +202,7 @@
     "author_name": "Joaquín Jesús Sánchez",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:epc6gpzs7rkbai32o2p5sn26/bafkreiehuubsmh6rd2wfxp3hjtnch2l3rqemmjshini533mxv67nkfx3v4",
     "published": "2026-09-10T11:49:29.838000+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "terremoto"
     ],
@@ -104,7 +218,7 @@
     "author_name": "César Sarmiento",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:c7kndmabtnjsnoeufb2omhxw/bafkreiac65q4paxmelcf6r4gkqvjcswhjoyb2cneeghu2thhnihlsd244e",
     "published": "2026-09-10T11:20:45.510000+00:00",
-    "like_count": 3,
+    "like_count": 4,
     "keywords_matched": [
       "terremoto"
     ],
@@ -234,7 +348,7 @@
     "author_name": "🌷🌷🌷",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cbeiv3orro4gas3zdckcm77v/bafkreicwhdrfqfrpf7oqd3hoey7nk55kmpblvc4iyfqssquxhyxfgghak4",
     "published": "2026-09-10T10:44:24.262000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "tsunami"
     ],
@@ -868,7 +982,7 @@
     "author_name": "Barequeo",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
     "published": "2026-09-09T18:14:42.982000+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "temblor"
     ],
@@ -1241,22 +1355,6 @@
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:4q4tlpe2hfyzg4hples54qq7/bafkreigu3zknsbbro5fzdgv5grq7vwreezqoojij3oohathr7fxiuyp3xi",
     "published": "2026-09-09T13:30:26.226000+00:00",
     "like_count": 1,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-ve.pds.netasgard.com/post/3mv3ktu7psc2m",
-    "text": "Marco Rubio — Rubio y De la Espriella firman dos acuerdos para mejorar la economía y reconstruir Colombia tras el terremoto #Venezuela #MarcoRubio #Rubio #News",
-    "author_handle": "es-ve.pds.netasgard.com",
-    "author_name": "Netasgard News Venezuela",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vsatymcybeepvajpjouz2anl/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-09T12:43:44+00:00",
-    "like_count": 0,
     "keywords_matched": [
       "terremoto"
     ],
