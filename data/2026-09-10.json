@@ -56,7 +56,7 @@
     "id": "us7000tg98",
     "source": "usgs",
     "time": "2026-09-10T08:26:53.828000+00:00",
-    "updated": "2026-09-10T12:58:37.340000+00:00",
+    "updated": "2026-09-10T13:25:35.008000+00:00",
     "lat": 9.0275,
     "lon": -84.0624,
     "depth_km": 10,
@@ -65,7 +65,7 @@
     "place": "45 km SSE of Quepos, Costa Rica",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -84,6 +84,12 @@
         "lat": 8.537704999999999,
         "lon": -83.302895,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 9.898095,
+        "lon": -84.132375,
+        "intensity": 2,
         "responses": 1
       },
       {
