@@ -53,7 +53,28 @@
     </div>
 
     <div class="side-content">
+      <!-- "bottom-row" ahora va primero en el DOM (queda visualmente
+           arriba, pegado al tope del mapa de calor) y "top-row" segundo
+           (queda abajo) -- se invirtieron de posicion a pedido del
+           usuario, se dejan los nombres de clase como estaban para no
+           tener que retocar el resto del CSS que depende de ellos. -->
+      <div class="bottom-row">
+        <aside class="panel live-feed">
+          <h2 class="live-feed-title">Redes en vivo</h2>
+          <div id="live-feed-body">Cargando...</div>
+        </aside>
+
+        <aside class="panel social-feed">
+          <h2 class="social-feed-title">Menciones en medios</h2>
+          <div id="social-feed-body">Cargando...</div>
+        </aside>
+      </div>
+
       <div class="top-row">
+        <section class="panel placeholder-panel">
+          <p class="placeholder-text">Próximamente</p>
+        </section>
+
         <section class="panel day-table">
           <h2>Sismos por día</h2>
           <div class="day-table-controls">
@@ -75,22 +96,6 @@
           <p id="event-detail-placeholder" class="event-detail-placeholder">Hace click en un sismo (mapa o tabla) para ver el detalle.</p>
           <dl id="event-detail-body"></dl>
         </section>
-
-        <section class="panel placeholder-panel">
-          <p class="placeholder-text">Próximamente</p>
-        </section>
-      </div>
-
-      <div class="bottom-row">
-        <aside class="panel live-feed">
-          <h2 class="live-feed-title">Redes en vivo</h2>
-          <div id="live-feed-body">Cargando...</div>
-        </aside>
-
-        <aside class="panel social-feed">
-          <h2 class="social-feed-title">Menciones en medios</h2>
-          <div id="social-feed-body">Cargando...</div>
-        </aside>
       </div>
     </div>
   </main>

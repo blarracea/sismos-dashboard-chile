@@ -35,8 +35,9 @@ body {
  * Layout de dos columnas: el mapa queda como columna angosta de altura
  * completa a la izquierda (asi se ve "hasta arriba", sin que la mitad de
  * arriba de la pantalla quede sin mapa), y a la derecha ".side-content"
- * apila sismos por dia / detalle del evento / espacio reservado arriba,
- * y las menciones en medios abajo.
+ * apila redes en vivo / menciones en medios arriba (llegan hasta el tope
+ * del mapa), y sismos por dia / detalle del evento / espacio reservado
+ * abajo, estos dos ultimos corridos al lado derecho de esa fila.
  */
 .app-main {
   display: flex;
@@ -53,10 +54,11 @@ body {
 
 .top-row {
   display: grid;
-  /* Sismos por dia un poco mas ancho (se sentia comprimido); detalle del
-     evento se mantiene angosto; "Próximamente" sigue absorbiendo el
-     espacio sobrante ya que por ahora es solo un cuadro vacio. */
-  grid-template-columns: 0.9fr 0.7fr 1.4fr;
+  /* Orden de columnas cambio junto con el HTML: "Próximamente" (vacio)
+     paso a la izquierda y Sismos-por-dia / Detalle del evento se corrieron
+     a la derecha -- se mantienen los mismos 3 anchos de siempre (0.9fr
+     Sismos-por-dia, 0.7fr Detalle, 1.4fr Próximamente), solo reordenados. */
+  grid-template-columns: 1.4fr 0.9fr 0.7fr;
   gap: 1rem;
   padding: 1rem;
   height: 50%;
