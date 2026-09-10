@@ -78,7 +78,6 @@ body {
 }
 
 .map-wrap {
-  position: relative;
   /* Angosto y de altura completa (ver .app-main) en vez de ancho y de
      media altura -- eso solo, al pasar de un aspecto horizontal a uno
      vertical, ya reduce mucho el oceano visible de entrada porque Chile
@@ -88,6 +87,28 @@ body {
   flex: 0 0 460px;
   min-width: 320px;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-title {
+  margin: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: var(--color-header-bg);
+  background: var(--color-panel);
+  border-bottom: 2px solid var(--color-accent);
+  flex-shrink: 0;
+}
+
+/* El "position:relative" que antes tenia .map-wrap se mueve aca: el mapa
+   y la leyenda superpuesta (position:absolute) necesitan un contenedor
+   propio que no incluya el titulo, para que la leyenda siga midiendo su
+   "top" desde la esquina del mapa y no se corra hacia abajo. */
+.map-canvas {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
 }
 
 #map {

@@ -14,37 +14,41 @@
 
   <main class="app-main">
     <div class="map-wrap">
-      <div id="map"></div>
+      <h2 class="map-title">Mapa de Calor</h2>
 
-      <div class="map-legend-overlay">
-        <!-- Los toggles de capas siguen en el DOM (app.js los necesita, con
-             estos IDs) pero ya no se muestran: ocupaban demasiado espacio
-             y la idea ahora es que la caja sea solo la paleta de colores. -->
-        <label class="layer-toggle hidden">
-          <input type="checkbox" id="toggle-heatmap" checked />
-          Intensidad percibida — CSN/SENAPRED (oficial)
-        </label>
-        <label class="layer-toggle hidden" title="RSS de medios, no es intensidad Mercalli verificada">
-          <input type="checkbox" id="toggle-social" />
-          Menciones en redes (no verificado)
-        </label>
+      <div class="map-canvas">
+        <div id="map"></div>
 
-        <span class="legend-label-strong">Fuerte</span>
-        <div class="legend-scale">
-          <span style="background:#14328c">I</span>
-          <span style="background:#1f6fe0">II</span>
-          <span style="background:#1fb5e0">III</span>
-          <span style="background:#22c7a0">IV</span>
-          <span style="background:#6fcf3e">V</span>
-          <span style="background:#c6d823">VI</span>
-          <span style="background:#f7b500">VII</span>
-          <span style="background:#f2701f">VIII</span>
-          <span style="background:#e8382a">IX</span>
-          <span style="background:#ff2fb0">X</span>
-          <span style="background:#b0006e">XI</span>
-          <span style="background:#4d0030">XII</span>
+        <div class="map-legend-overlay">
+          <!-- Los toggles de capas siguen en el DOM (app.js los necesita, con
+               estos IDs) pero ya no se muestran: ocupaban demasiado espacio
+               y la idea ahora es que la caja sea solo la paleta de colores. -->
+          <label class="layer-toggle hidden">
+            <input type="checkbox" id="toggle-heatmap" checked />
+            Intensidad percibida — CSN/SENAPRED (oficial)
+          </label>
+          <label class="layer-toggle hidden" title="RSS de medios, no es intensidad Mercalli verificada">
+            <input type="checkbox" id="toggle-social" />
+            Menciones en redes (no verificado)
+          </label>
+
+          <span class="legend-label-strong">Fuerte</span>
+          <div class="legend-scale">
+            <span style="background:#14328c">I</span>
+            <span style="background:#1f6fe0">II</span>
+            <span style="background:#1fb5e0">III</span>
+            <span style="background:#22c7a0">IV</span>
+            <span style="background:#6fcf3e">V</span>
+            <span style="background:#c6d823">VI</span>
+            <span style="background:#f7b500">VII</span>
+            <span style="background:#f2701f">VIII</span>
+            <span style="background:#e8382a">IX</span>
+            <span style="background:#ff2fb0">X</span>
+            <span style="background:#b0006e">XI</span>
+            <span style="background:#4d0030">XII</span>
+          </div>
+          <span class="legend-label-weak">Leve</span>
         </div>
-        <span class="legend-label-weak">Leve</span>
       </div>
     </div>
 
