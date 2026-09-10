@@ -74,17 +74,25 @@ body {
 }
 
 .stack-column .day-table {
-  flex: 1.3 1 0;
+  /* Mismo ancho que el resto de la columna (no mas angosto -- eso fue un
+     malentendido de un pedido anterior). Se lleva el espacio que sobra
+     despues de que "Detalle del evento" toma lo que necesita para
+     mostrarse completo (ver .event-detail mas abajo). */
+  flex: 1 1 auto;
   min-height: 0;
-  /* Mas angosto que el resto de la columna (a pedido) -- centrado en vez
-     de pegado a un lado para que no se vea descuadrado. */
-  width: 85%;
-  align-self: center;
 }
 
 .stack-column .event-detail {
-  flex: 1 1 0;
-  min-height: 0;
+  /* flex:0 0 auto (no flex:1 1 0 como antes) para que nunca se achique
+     por debajo de lo que su contenido necesita -- con los 5 campos
+     (referencia, magnitud, hora UTC, hora Chile, fuente) completos, antes
+     quedaba mas bajo de lo que hacia falta y "Fuente" se veia recien
+     haciendo scroll adentro del cuadro. min-height calculado para que
+     entren los 5 sin scroll; si el contenido llegara a necesitar mas
+     (ej. la fuente ocupa dos lineas), el "auto" del flex-basis igual deja
+     crecer el cuadro en vez de cortarlo. */
+  flex: 0 0 auto;
+  min-height: 280px;
 }
 
 .map-wrap {
