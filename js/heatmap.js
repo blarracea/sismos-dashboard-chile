@@ -1,28 +1,32 @@
 /*
  * Capa de intensidad percibida (Mercalli / DYFI) y marcadores de eventos.
- * La escala de color sigue la escala de intensidad de USGS DYFI (I a X+),
- * no la magnitud Richter -- el heatmap usa la intensidad de cada punto
- * reportado por la ciudadania, no la energia liberada en el epicentro.
+ * La escala de color sigue la escala de Mercalli Modificada completa (I a
+ * XII, la misma que reporta SENAPRED -- ver ROMAN_VALUES / el limite <=12
+ * en backend/sources/csn.py), no la magnitud Richter -- el heatmap usa la
+ * intensidad de cada punto reportado por la ciudadania, no la energia
+ * liberada en el epicentro.
  */
 window.SismosApp = window.SismosApp || {};
 
-// Gradiente estilo "jet" (azul -> cian -> verde -> amarillo -> rojo -> magenta),
-// con una franja pareja por cada numero romano de la escala Mercalli (I a X,
-// paradas en intensidad/10 = 0.1, 0.2 ... 1.0). Antes las paradas no estaban
-// parejas y saltaban III y V, asi que un reporte real de V (ej. La Serena en
-// el sismo M4.7 del CSN, consistente con la tabla magnitud/intensidad de
-// USGS para M4.0-4.9 -> IV-V) se veia corrido visualmente hacia el VI.
+// Gradiente estilo "jet" (azul -> cian -> verde -> amarillo -> rojo -> magenta)
+// hasta X, y de ahi oscureciendo hacia granate/casi negro para XI y XII --
+// con una franja pareja por cada numero romano de la escala (paradas en
+// intensidad/12). Antes solo llegaba a X (paradas en intensidad/10): un
+// reporte real de XI o XII (SENAPRED si los contempla, ver csn.py) quedaba
+// recortado al mismo color que X en vez de distinguirse como mas extremo.
 const INTENSITY_GRADIENT = {
-  0.1: "#14328c",
-  0.2: "#1f6fe0",
-  0.3: "#1fb5e0",
-  0.4: "#22c7a0",
-  0.5: "#6fcf3e",
-  0.6: "#c6d823",
-  0.7: "#f7b500",
-  0.8: "#f2701f",
-  0.9: "#e8382a",
-  1.0: "#ff2fb0",
+  0.0833: "#14328c",
+  0.1667: "#1f6fe0",
+  0.25: "#1fb5e0",
+  0.3333: "#22c7a0",
+  0.4167: "#6fcf3e",
+  0.5: "#c6d823",
+  0.5833: "#f7b500",
+  0.6667: "#f2701f",
+  0.75: "#e8382a",
+  0.8333: "#ff2fb0",
+  0.9167: "#b0006e",
+  1.0: "#4d0030",
 };
 
 // DYFI reporta en una grilla densa (decenas de puntos muy juntos, a veces a
@@ -48,7 +52,7 @@ SismosApp.buildHeatLayer = function (events) {
     if (!bucket) return;
     (event.dyfi_points || []).forEach((p) => {
       if (p.intensity == null) return;
-      bucket.push([p.lat, p.lon, Math.min(p.intensity / 10, 1)]);
+      bucket.push([p.lat, p.lon, Math.min(p.intensity / 12, 1)]);
     });
   });
 

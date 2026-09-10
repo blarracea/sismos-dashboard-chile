@@ -425,7 +425,9 @@ h2.live-feed-title {
   display: flex;
   flex-direction: column-reverse;
   width: 22px;
-  height: 170px;
+  /* 200px / 12 grados (antes 170px / 10) mantiene mas o menos la misma
+     altura por franja al sumar XI y XII. */
+  height: 200px;
   border-radius: 3px;
   overflow: hidden;
 }
