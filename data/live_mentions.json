@@ -1,5 +1,69 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117248837114520197",
+    "text": "12 minutes 8 seconds ago - North Pacific Ocean mB 6.6 43.52N 153.32E 10km 2026/09/10 21:09:54 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rwfakg # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-10T21:21:13.433000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/lomitopercebe.bsky.social/post/3mv6xxxazjk2t",
+    "text": "Los chilenos tienen una vibra que me encantan o no se si me gusta solo el acento pero me re entusiasma todo lo que sea chileno quiero cueca y terremoto",
+    "author_handle": "lomitopercebe.bsky.social",
+    "author_name": "lomitopercebe.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:p3wfxafcxj36fb7kp5sgbb7f/bafkreichy6iky3kfmlkusjjz5d6v76puy3nsc7rrnpkhkd7vslizn6gh5u",
+    "published": "2026-09-10T21:16:39.575000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/hugoaquino.bsky.social/post/3mv6xrteaws2k",
+    "text": "El gran terremoto \nDe san Andrés.\nSe movera el mundo.\nEl terremoto terminará en la Antártida.\n🙈😱😱😱😱😱😱😱🙈",
+    "author_handle": "hugoaquino.bsky.social",
+    "author_name": "hugoaquino.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:577dlwgrhycxgclpthwyt2v4/bafkreias6mbxr7w4jqd3ildr76ykenw32bm2bgvavm2wz6ja6qp55qzsg4",
+    "published": "2026-09-10T21:13:14.160000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/meridiannews.bsky.social/post/3mv6wvqqwgu2c",
+    "text": "Tierra Sólida se Convierte en Líquida: El Misterio de la Liquefacción\n\nImagina que el suelo bajo tus pies se convierte repentinamente en lodo líquido cuando ocurre un terremoto. El fenómeno de la liquefacción del suelo no es solo una teoría geológica:",
+    "author_handle": "meridiannews.bsky.social",
+    "author_name": "KHATULISTIWA.ORG",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cpfw2nzhfepmerqjaligmpzz/bafkreieyii35awpsiqfouhenorgpygsy2bpv4rucu7i3hf3dwsozgmjtcq",
+    "published": "2026-09-10T20:57:31.774000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/jcgy.bsky.social/post/3mv6uu2ityc2t",
     "text": "En la zona en la que vivo en Alemania hubo un temblor de 3.4 grados y fue la noticia del día y sentí mucha ternura. 🙈",
@@ -7,7 +71,7 @@
     "author_name": "Juan Carlos ☆",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jrtashnhfav5tsunp3rilukp/bafkreiccb42nbevtfi7shxfr5d4z75ke726uaym2mkoldhkschzta53vyy",
     "published": "2026-09-10T20:20:47.534000+00:00",
-    "like_count": 0,
+    "like_count": 4,
     "keywords_matched": [
       "temblor"
     ],
@@ -39,7 +103,7 @@
     "author_name": "Análisis Urbano",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mki4shkacf77iurqdb5uvxvi/bafkreiadaw5ond5dyi2guweg7pvxletk42y7c467nh24rnxwe36evyijey",
     "published": "2026-09-10T19:58:34.683000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "terremoto"
     ],
@@ -432,7 +496,7 @@
     "author_name": "Muñekita Syntétika (Taylor's Version)",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:j2m7idcbt73ze4zc4itkcn2v/bafkreihj4b6uhdjlkxeufkek5f5zyyj4syw5yrn3pyvxgpappdyj4sabcq",
     "published": "2026-09-10T15:03:12.571000+00:00",
-    "like_count": 6,
+    "like_count": 7,
     "keywords_matched": [
       "temblor"
     ],
@@ -1424,104 +1488,6 @@
     "author_name": "Trending - Español",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
     "published": "2026-09-09T23:00:40.398000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://bonito.cafe/@ecosdelpasado/117243162438137722",
-    "text": "🧿 𝑬𝒍 𝒎𝒖𝒓𝒐 𝒄𝒐𝒏𝒕𝒓𝒂 𝒆𝒍 𝒎𝒂𝒓 🧿 El 11 de marzo de 2011, Japón vivió uno de esos golpes que cambian un país para siempre: el Terremoto y tsunami de Tōhoku de 2011. No fue solo el temblor, fue el agua arrasando ciudades enteras en la costa de Honshu. A partir de ahí, Japón hizo lo que mejor sabe hacer: reaccionar… pero a lo grande. El plan fue claro: que no vuelva a pasar. O al menos, que no vuelva a pasar igual. Así nació una de las obras de ingeniería más impactantes de nuestro tiempo: una muralla de hormigón que recorre unos 395 kilómetros de costa, con tramos que alcanzan hasta 12 metros de altura. Una barrera física pensada para frenar la fuerza del mar antes de que llegue a zonas habitadas. El coste ronda los 12.000 millones de dólares. Y sí, impresiona. Pero no todo el mundo lo ve igual. Para muchos habitantes, sobre todo pescadores, esa muralla es una protección… y al mismo tiempo una separación. Hay pueblos donde, desde el suelo, ya no se ve el horizonte. El mar, que siempre estuvo ahí, ahora queda oculto tras un bloque gris. En sitios como Kesennuma, esa sensación es especialmente fuerte. Seguridad frente a identidad. Esa es la tensión. Y Japón no se quedó solo en el hormigón. Recuperando ideas que ya se usaban en la época de Período Edo, se puso en marcha algo menos visible pero igual de ambicioso: un “muro verde”. Más de 9 millones de árboles plantados a lo largo de la costa. Aquí entra el trabajo del botánico Akira Miyawaki, que defendía reforestar con especies nativas, mezcladas, creciendo rápido y con raíces profundas. No es un bosque decorativo. Es una barrera viva. Estos bosques actúan como un freno natural: absorben parte de la energía del agua, retienen escombros, estabilizan el suelo y reducen la erosión. No sustituyen al muro, pero lo complementan. Tecnología moderna y conocimiento tradicional, trabajando juntos. Además, la muralla no es un bloque continuo sin más. Tiene compuertas para ríos y accesos portuarios, equipadas con sensores que pueden cerrarse automáticamente cuando se detecta un gran seísmo. Todo pensado para no dejar puntos débiles. Ahora bien, proteger tiene un precio. Los científicos hablan de un “paisaje fragmentado”. Y no es solo una forma de hablar. El flujo natural de nutrientes desde tierra hacia el mar —hierro, nitrógeno— se ve alterado. Eso afecta al fitoplancton, que es la base de toda la cadena marina. Algunas especies lo tienen peor: cangrejos, tortugas… animales que dependen de la transición entre arena y agua para reproducirse. Un muro vertical es, para ellos, una barrera total. Las playas también cambian. Las olas rebotan contra el hormigón y la arena se pierde más rápido. En algunos puntos, donde antes había costa natural, ahora solo queda cemento. Y luego están las marismas, esas zonas intermedias que funcionan como viveros naturales para peces. Muchas han desaparecido o han quedado aisladas. Japón es consciente de todo esto. Por eso está probando soluciones como el “hormigón ecológico”, con superficies porosas donde puedan crecer algas y moluscos, intentando que la estructura no sea completamente hostil para la vida marina. No es perfecto. Pero es un intento de equilibrio. Al final, este proyecto dice mucho del país que lo ha construido. Japón no espera a que la naturaleza sea amable. Asume que volverá a golpear… y se prepara. El muro no es solo una defensa. Es una decisión. La de vivir con el mar… aunque ahora haya algo entre ambos. ▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣ # historiareal # japon # tsunami # ingenieria # medioambiente # naturaleza # curiosidades # arquitectura # ecologia",
-    "author_handle": "ecosdelpasado@bonito.cafe",
-    "author_name": "A∂α Lσνєℓαcє :msn_eye_rolling:",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/117/166/896/176/862/588/original/480f87d47ba023ab.gif",
-    "published": "2026-09-09T21:18:04+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "terremoto",
-      "tsunami",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/euroefe.bsky.social/post/3mv4fyjrj2s2w",
-    "text": "La UE en Venezuela presentó este miércoles la cuarta edición del Festival Eurovenezolano de Jazz, que se desarrollará del 14 de septiembre al 4 de octubre en Caracas y por, primera vez, en La Guaira, el estado más devastado por el doble terremoto del pasado 24 de junio.",
-    "author_handle": "euroefe.bsky.social",
-    "author_name": "EuroEFE",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:blihcbiwh77ennndmyltknu6/bafkreiah277xgww676d5zjuz6hat4s3e5poc75lmzdpbw5fqjwslx3cmyq",
-    "published": "2026-09-09T20:49:32.160000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/laotraversion77.bsky.social/post/3mv4eu3mrd22f",
-    "text": "🛑➡️  Presidenta Delcy Rodríguez entregó 151 nuevas viviendas a familias afectadas por doble sismo\n\n➡️Conoce más, abriendo el enlace 🔗 de la noticia. ⬇️ \nlaotraversion.net/presidenta-d...",
-    "author_handle": "laotraversion77.bsky.social",
-    "author_name": "laotraversion77.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bmgkxtvwodhjlf4yavuzzrjf/bafkreib6ikuxvo27ov6cwnmyhbzfgqb76d7qlpc5g2dnjnvnoedx3jp4xu",
-    "published": "2026-09-09T20:29:09.365000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/laotraversion.bsky.social/post/3mv4eqf2dh22l",
-    "text": "🛑➡️  Presidenta Delcy Rodríguez entregó 151 nuevas viviendas a familias afectadas por doble sismo\n\n➡️Conoce más, abriendo el enlace 🔗 de la noticia. ⬇️ \nlaotraversion.net/presidenta-d...",
-    "author_handle": "laotraversion.bsky.social",
-    "author_name": "https://laotraversion.net/",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:75qxzxmmwa4qxqueq4zlcukq/bafkreib7eaxr3bxg4sn7sjerwpjychfrz6o7tnlqzm5pfmu74a4vq4qyzy",
-    "published": "2026-09-09T20:27:05.029000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/cardentrelliris.eurosky.social/post/3mv4eph2mj22h",
-    "text": "Había una vez dos tortugas que se querían mucho y que vivían en una isla, pero hubo un terremoto y la isla se partió en dos.",
-    "author_handle": "cardentrelliris.eurosky.social",
-    "author_name": "Card entre Lliris",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:lik6d2pxk6tiz5hj7iad3n7a/bafkreiflwaoe4wd7k5v2xywimftafhoieszpxb5q3cbsl5vemxhn4fssta",
-    "published": "2026-09-09T20:26:33.581000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/ccguerra.bsky.social/post/3mv4ennya6c2c",
-    "text": "🛑➡️  Presidenta Delcy Rodríguez entregó 151 nuevas viviendas a familias afectadas por doble sismo\n\n➡️Conoce más, abriendo el enlace 🔗 de la noticia. ⬇️ \nlaotraversion.net/presidenta-d...",
-    "author_handle": "ccguerra.bsky.social",
-    "author_name": "ccguerra.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:am35axmxu5pxzse4vyvvh4if/bafkreiflfukxndouiavv6ept3bsnq5zthhe4kmheu2rxo2xtl6migg2hn4",
-    "published": "2026-09-09T20:25:33.733000+00:00",
     "like_count": 0,
     "keywords_matched": [
       "sismo"
