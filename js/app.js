@@ -36,6 +36,9 @@
   // Anillo amarillo que marca cual es el sismo seleccionado (desde la tabla
   // o clickeando un marcador), para ubicarlo de un vistazo en el mapa.
   let selectionMarker = null;
+  // Capa de intensidad solo del sismo seleccionado -- ver el comentario
+  // en showEventDetail, mas abajo, para el problema que resuelve.
+  let selectedEventHeatLayer = null;
   const highlightEvent = (event) => {
     if (selectionMarker) {
       map.removeLayer(selectionMarker);
@@ -85,6 +88,22 @@
       <dt>Fuente</dt><dd>${fuenteLinks}</dd>
     `;
     detailPlaceholder.classList.add("hidden");
+
+    // El heatmap normal solo tiene los ultimos 7 dias (ver refreshEvents)
+    // -- un sismo elegido desde "Sismos por dia" puede ser de cualquier
+    // fecha del historial, bastante mas vieja que eso. Sin esto, el
+    // detalle se llenaba pero el mapa de calor de ESE sismo (sus
+    // intensidades por comuna) nunca aparecia porque sus puntos nunca
+    // habian sido cargados. Se arma una capa aparte solo con este evento,
+    // independiente de la ventana de 7 dias.
+    if (selectedEventHeatLayer) {
+      map.removeLayer(selectedEventHeatLayer);
+      selectedEventHeatLayer = null;
+    }
+    selectedEventHeatLayer = SismosApp.buildHeatLayer([event]);
+    if (selectedEventHeatLayer) {
+      selectedEventHeatLayer.addTo(map);
+    }
   };
 
   const focusEvent = (event) => {
