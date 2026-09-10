@@ -1,6 +1,71 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/eleconomista.es/post/3mv6l62eqoq2t",
+    "text": "Japón se prepara para un tsunami monetario que puede tumbar a la deuda de Estados Unidos dozz.es/4bn_n3",
+    "author_handle": "eleconomista.es",
+    "author_name": "elEconomista",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ywus3lvlqjyp7bxlkoku6h7c/bafkreigyz57yfmt4z56yv7eoosnflsvhcx5rocc47owkyr543abr5xljre",
+    "published": "2026-09-10T17:27:24+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "tsunami"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/elpaisamerica.bsky.social/post/3mv6kuuo36p2a",
+    "text": "Un mes del terremoto en Colombia: campañas de solidaridad, polémicas del Gobierno y la tarea titánica de la reconstrucción dozz.es/zlmnr5",
+    "author_handle": "elpaisamerica.bsky.social",
+    "author_name": "EL PAÍS América",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nue3a4qhd2wheedhsniw66vu/bafkreihxfks2rwyutg7u4w6i6aw4jtitoif4aquqiqfskahsrudb4bhqte",
+    "published": "2026-09-10T17:22:17+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/estebares.bsky.social/post/3mv6jpvrpts2b",
+    "text": "Pues no, mi ciela.\nEs creer que se puede calentar el mar con una pava de agua hirviendo.\nPero existe, y se destinan miles de millones para frenarlo (obviamente sin resultados) en vez de destinarlos  a la mitigación de los efectos.\nEs como querer parar un terremoto o taponar un volcán.",
+    "author_handle": "estebares.bsky.social",
+    "author_name": "Esteban Ares",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xfnjiiitygnxxabe6jwnaate/bafkreiaxdhlwuaj46vfswifm64yxzku637nr3woyvjf3y4fy4bicz4xk3a",
+    "published": "2026-09-10T17:01:37.194000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/elpaismexico.bsky.social/post/3mv6j37pze32c",
+    "text": "Las dos tragedias de Sipí, Chocó: “Lo que no dañó el terremoto, lo dañaron las balas”\r\n\r\nLos enfrentamientos entre el ELN y el Clan del Golfo forzaron el desplazamiento de 175 familias de Charco Largo, Charco Hondo y Barrancón a Istmina, una ciudad desbordada por el sismo tinyurl.com/mryvrz8e",
+    "author_handle": "elpaismexico.bsky.social",
+    "author_name": "EL PAÍS México",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7zlnvtvm2fqq4wj5m43im34y/bafkreihan3wto7pltwlg5cwpgftcu2zfmw3yrs6ycyzjoiips7a3dfkh7i",
+    "published": "2026-09-10T16:50:00+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/cmsmagnet.bsky.social/post/3mv6h5oqk7c2r",
     "text": "Terremoto en los #CMS y el #código libre...\n\nMatt Mullenweg ya no es el CEO de Automattic\n\nwww.mejorcms.com/wordpress/mu...",
     "author_handle": "cmsmagnet.bsky.social",
@@ -1276,71 +1341,6 @@
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3fjcymfmt6appqwanrcidad6/bafkreih4ediro6zpkpnwmdefhxbwfidw7p4pbn7mgph53qdriukey75kem",
     "published": "2026-09-09T17:57:00.769000+00:00",
     "like_count": 1,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117242267238741830",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, VANUATU, a una profundidad de 44 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Miercoles 9 de Septiembre del 2026 a las 11:01 AM UTC : Miercoles 9 de Septiembre del 2026 a las 5:01 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-09T17:30:25.011000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117242245558051114",
-    "text": "6 minutes 50 seconds ago - Vanuatu Islands mB 5.7 19.62S 169.88E 10km 2026/09/09 17:18:47 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rubsbi # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-09T17:24:54.203000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/teresabuza.bsky.social/post/3mv42kbqnh22a",
-    "text": "Principio de realidad: todos los muros acaban por caer, lo que se debería hacer es equilibrar presiones con el otro lado. Si no, será tsunami.",
-    "author_handle": "teresabuza.bsky.social",
-    "author_name": "T (se lee té)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:phv7hge7ce6uk6bw3wo3vilp/bafkreid2poart6s4vzsjynccxixjuzcoymewy35g2meq7vccascvbnovoi",
-    "published": "2026-09-09T17:24:42.815000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/eliascueto.eurosky.social/post/3mv42drhyvc2w",
-    "text": "La American Mathematical Society atribuye gran parte del mérito a Luís Martínez Zoroa y varias voces lo proponen para la medalla Fields.\n\nVeréis el salto mortal de la universidad CUNEF en los rankings si esto se produce.\n\nSe viene terremoto en el sector.\n\nwww.eldiario.es/sociedad/res...",
-    "author_handle": "eliascueto.eurosky.social",
-    "author_name": "Elías Cueto",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:6ubevsov5j5ue3lsnop2d64u/bafkreiflf5akuutt3bqf7h5bpy2iksarj4eqeaw7hnaaty5f6o6tpc4nf4",
-    "published": "2026-09-09T17:21:04.433000+00:00",
-    "like_count": 3,
     "keywords_matched": [
       "terremoto"
     ],
