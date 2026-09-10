@@ -44,5 +44,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg8v",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tg98",
+    "source": "usgs",
+    "time": "2026-09-10T08:26:53.828000+00:00",
+    "updated": "2026-09-10T08:42:43.040000+00:00",
+    "lat": 9.0275,
+    "lon": -84.0624,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mww",
+    "place": "45 km SSE of Quepos, Costa Rica",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg98",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
