@@ -1,5 +1,88 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/sheerdward.bsky.social/post/3mvbnztd7gc2k",
+    "text": "Brillan mucho xD\nY con la oscuridad se nota mucho lo irregular por mi temblor",
+    "author_handle": "sheerdward.bsky.social",
+    "author_name": "Shiro 🏳️‍⚧️ Miku 🐈‍⬛",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ch22tcsmpdkffnynp3xuqkut/bafkreigbfbv4bq6qs2s4hlxxg4avwelpe456q7vumzccgcrfigruc2ur7e",
+    "published": "2026-09-11T22:56:44.326000+00:00",
+    "like_count": 2,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117254815891916614",
+    "text": "9 minutes 38 seconds ago - Off Coast of Southern Chile mB 5.8 45.61S 75.86W 10km 2026/09/11 22:32:25 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rydobk # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-11T22:41:42.274000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mvbm3cfvce2y",
+    "text": "Dos sismos de magnitud 3,7 y 3,3 se sintieron en los estados Yaracuy y otro no especificado en Venezuela la tarde del 10 de septiembre. Estos movimientos sísmicos ocurren meses después del doble terremoto del 24 de junio, que causó graves daños y víctimas en el país.",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-09-11T22:21:45.744596+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/venezuelanewschepa.bsky.social/post/3mvblzt6lll2g",
+    "text": "El concierto de Camila en Caracas —prometido como espectáculo de rescate cultural tras los terremotos— ya tiene entradas disponibles desde el 11 de septiembre en *Mi Tickera*, sin revelar aún precios. La medida busca capitalizar el interés post-sismo, aunque la crisis económica ven...",
+    "author_handle": "venezuelanewschepa.bsky.social",
+    "author_name": "noticias_venezuela_news ✅",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:z2gdgxz2um3eq47a2ebsz3wz/bafkreiawgpthtrgvjxaxm3gzb6nlgay5b77ii3vfyhwb2pj5dpft6fidra",
+    "published": "2026-09-11T22:20:56.193387+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117254712391414486",
+    "text": "Servicio Geológico Colombiano - Colombia Sismo de magnitud 6.6 mww, Teluknaga, Indonesia, a una profundidad de 359 Kilometros *** Fecha Y Hora *** Local (UTC-5) : Viernes 11 de Septiembre del 2026 a las 4:23 PM Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 3:23 PM UTC : Viernes 11 de Septiembre del 2026 a las 9:23 PM # SismoColombia # Sismo # Colombia # TemblorColombia # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-11T22:15:22.969000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@monitorsismico/117254607887060136",
     "text": "United States Geological Survey (USGS) Sismo de magnitud 6.6 mww, 115 km NNE of Teluknaga, Indonesia, a una profundidad de 358.597 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 3:23 PM UTC : Viernes 11 de Septiembre del 2026 a las 9:23 PM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
@@ -1189,54 +1272,6 @@
     "like_count": 0,
     "keywords_matched": [
       "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/autodefensas.bsky.social/post/3mv76kgimup2g",
-    "text": "🧵 1/2 · ACTUALIZACIÓN: El Gobierno colombiano y la Administración Trump han establecido un plan de choque para la reconstrucción del país tras el sismo, denominado \"Acuerdos de Barranquilla\". Esta nueva agenda bilateral se definió durante un",
-    "author_handle": "autodefensas.bsky.social",
-    "author_name": "👁️‍🗨️SigWar_OpX📡Δ",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7kdox6yu327vutzjnhdq4akj/bafkreiew6zsn4vyx3hfemd5korahqt7fpshqy5fpgqhqyirzz2qsqxehda",
-    "published": "2026-09-10T23:14:21.896685+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/luisenriqueo.bsky.social/post/3mv75unvltk2e",
-    "text": "🔹 Los residentes del sur del Líbano sintieron un temblor tras la detonación de lo que el enemigo Sionista afirmó que eran túneles en las alturas de Ali Taher.",
-    "author_handle": "luisenriqueo.bsky.social",
-    "author_name": "luisenriqueo.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:frhnh7m6gkjdz2iec5j6zhm2/bafkreigklejcxjalw57ul6xjul62wabupx6cue6gbc4cajymppxfz526li",
-    "published": "2026-09-10T23:02:11.533000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://jpmstdn.com/@tkhunt/117249045208878508",
-    "text": "https://www. tkhunt.com/2542622/ 東日本大震災と巨大津波のメカニズム # shorts # 雑学 # 地震 # 津波 #311 # 3分でわかる # NEWS # Tsunami # にわかのガチ勢 # 地学 # 地震 # 意外と知らない # 教養 # 東日本大震災 # 津波 # 津波避難 # 海溝型地震 # 知的好奇心 # 科学雑学 # 話のネタ # 豆知識 # 防災 # 防災知識 # 雑学 # 飲み会ネタ",
-    "author_handle": "tkhunt@jpmstdn.com",
-    "author_name": "TKHUNT",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/110/691/582/645/664/141/original/046748f4e440d18b.png",
-    "published": "2026-09-10T22:14:08+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
     ],
     "place": null,
     "lat": null,
