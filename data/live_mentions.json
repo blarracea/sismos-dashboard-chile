@@ -1,5 +1,151 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117254607887060136",
+    "text": "United States Geological Survey (USGS) Sismo de magnitud 6.6 mww, 115 km NNE of Teluknaga, Indonesia, a una profundidad de 358.597 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 3:23 PM UTC : Viernes 11 de Septiembre del 2026 a las 9:23 PM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-11T21:48:48.361000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117254606194141828",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 6.2 m, JAVA, INDONESIA, a una profundidad de 362 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 3:23 PM UTC : Viernes 11 de Septiembre del 2026 a las 9:23 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-11T21:48:22.535000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117254602165107187",
+    "text": "7 minutes 18 seconds ago - Eastern Siberia, Russia mB 6.1 60.57N 146.27E 10km 2026/09/11 21:40:46 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rybvmy # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-11T21:47:21.054000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-cu.pds.netasgard.com/post/3mvbk2frei22m",
+    "text": "Colombia — Un sismo de magnitud 6,1 sacudió el noroeste del país, causando daños en zonas rurales #Post #Colombia #Chocó #News",
+    "author_handle": "es-cu.pds.netasgard.com",
+    "author_name": "Netasgard News Cuba",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mmkklssipw27d4i4ekbxeoib/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-11T21:45:28+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mvbj7vtd3a2k",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. PSOE 🆕\n2. Guste 🆕\n3. Rara 🆕\n4. Necesito\n5. #sismo 🆕\n6. Potosí 🆕\n7. Bolivia 🆕\n8. Sep 🆕\n9. #weak 🆕\n10. #M2 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-11T21:30:39.290000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117254531287939752",
+    "text": "6 minutes 14 seconds ago - Java, Indonesia mB 6.3 5.11S 106.82E 367km 2026/09/11 21:23:56 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rybhbw # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-11T21:29:19.557000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/neredkosrce.bsky.social/post/3mvbiag6ndk25",
+    "text": "nombre es Charles Clark, encargado de la correspondencia de la familia Langley. El señor Langley. . .\n\nEl médico pudo notar el pequeño temblor que el nerviosismo dejó en su voz al mencionar al hombre desconocido. También reparó en su apariencia desarreglada, como si hubiera tenido que correr +",
+    "author_handle": "neredkosrce.bsky.social",
+    "author_name": "𝐓𝐎𝐁𝐈𝐀𝐒 𝐌𝐄𝐍𝐃𝐎𝐙𝐀. sʜᴇᴏʟ",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uxrsyeetpwqqld3tcia4o4lw/bafkreib5abcrz5e3berqeoo37lzdyv2hcl24upg2lyssxuvfmky4cfhmcm",
+    "published": "2026-09-11T21:13:03.007000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3mvbhouuq3k2m",
+    "text": "Colombia — El gobierno colombiano apoya a productores de café tras el sismo que afectó regiones cafeteras #Post #Colombia #News #Breaking",
+    "author_handle": "es-us.pds.netasgard.com",
+    "author_name": "Netasgard News Estados Unidos (es)",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-11T21:03:13+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/neredkosrce.bsky.social/post/3mvbgqes6a225",
+    "text": "𝘴𝘪𝘵𝘶𝘢𝘤𝘪𝘰𝘯𝘦𝘴.»\n\nSí, solo él.\nY parecía que con la edad iba empeorando.\n\nPatrick pareció entrar en un ataque de risa, porque continuaba disfrutando de su momento, con un temblor característico recorriéndole los hombros.\n\nDejándolo allí, expectante ante lo que diría a continuación, mientras +",
+    "author_handle": "neredkosrce.bsky.social",
+    "author_name": "𝐓𝐎𝐁𝐈𝐀𝐒 𝐌𝐄𝐍𝐃𝐎𝐙𝐀. sʜᴇᴏʟ",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uxrsyeetpwqqld3tcia4o4lw/bafkreib5abcrz5e3berqeoo37lzdyv2hcl24upg2lyssxuvfmky4cfhmcm",
+    "published": "2026-09-11T20:46:10.937000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/shaoul44.bsky.social/post/3mvberv7lw22y",
     "text": "@dbt61.bsky.social ESTAN ERRADOS NO ES EL SISTEMA CAPITALISTA, EL ERROR ESTA EN  EL HOMBRE, SI PENSARA Q NO ES ETERNO DISFRUTARIA MAS LA VIDA Y NO VIVIRIA PENSANDO EN SOLO AMASAR DINERO, ERES DUEÑO DE UN EDIFICIO DE 4 PISOS, VIVES DE LOS ALQUILERES, LLEGO UN TERREMOTO Y AMANECES COMO UN DAMNIFICADO.",
@@ -7,7 +153,7 @@
     "author_name": "SHAOUL SASSON",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:g2zgfkzgtkj43cxusczlhuea/bafkreihzuxfevdbifjmvltcdp7nbjqwyz4iedvfysr4pom7indzwr5tk6a",
     "published": "2026-09-11T20:11:14.223000+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "terremoto"
     ],
@@ -39,7 +185,7 @@
     "author_name": "Milu Kitty 🎀✨",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gmqlrvejw5bqy25zjoq3v5sn/bafkreif7bxrtobn436q7lrg2xri7k634kzehiesphtaw5jfewvim7rhnra",
     "published": "2026-09-11T19:18:25.344000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "terremoto"
     ],
@@ -1091,70 +1237,6 @@
     "like_count": 0,
     "keywords_matched": [
       "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117248837114520197",
-    "text": "12 minutes 8 seconds ago - North Pacific Ocean mB 6.6 43.52N 153.32E 10km 2026/09/10 21:09:54 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rwfakg # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-10T21:21:13.433000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/lomitopercebe.bsky.social/post/3mv6xxxazjk2t",
-    "text": "Los chilenos tienen una vibra que me encantan o no se si me gusta solo el acento pero me re entusiasma todo lo que sea chileno quiero cueca y terremoto",
-    "author_handle": "lomitopercebe.bsky.social",
-    "author_name": "lomitopercebe.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:p3wfxafcxj36fb7kp5sgbb7f/bafkreichy6iky3kfmlkusjjz5d6v76puy3nsc7rrnpkhkd7vslizn6gh5u",
-    "published": "2026-09-10T21:16:39.575000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/hugoaquino.bsky.social/post/3mv6xrteaws2k",
-    "text": "El gran terremoto \nDe san Andrés.\nSe movera el mundo.\nEl terremoto terminará en la Antártida.\n🙈😱😱😱😱😱😱😱🙈",
-    "author_handle": "hugoaquino.bsky.social",
-    "author_name": "hugoaquino.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:577dlwgrhycxgclpthwyt2v4/bafkreias6mbxr7w4jqd3ildr76ykenw32bm2bgvavm2wz6ja6qp55qzsg4",
-    "published": "2026-09-10T21:13:14.160000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/meridiannews.bsky.social/post/3mv6wvqqwgu2c",
-    "text": "Tierra Sólida se Convierte en Líquida: El Misterio de la Liquefacción\n\nImagina que el suelo bajo tus pies se convierte repentinamente en lodo líquido cuando ocurre un terremoto. El fenómeno de la liquefacción del suelo no es solo una teoría geológica:",
-    "author_handle": "meridiannews.bsky.social",
-    "author_name": "KHATULISTIWA.ORG",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cpfw2nzhfepmerqjaligmpzz/bafkreieyii35awpsiqfouhenorgpygsy2bpv4rucu7i3hf3dwsozgmjtcq",
-    "published": "2026-09-10T20:57:31.774000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
