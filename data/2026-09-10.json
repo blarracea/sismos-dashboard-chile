@@ -176,5 +176,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tga8",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tgkb",
+    "source": "usgs",
+    "time": "2026-09-10T14:15:53.806000+00:00",
+    "updated": "2026-09-11T15:32:16.040000+00:00",
+    "lat": 1.7027,
+    "lon": -90.6073,
+    "depth_km": 10,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "272 km N of Puerto Ayora, Ecuador",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgkb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]

@@ -1,5 +1,150 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/rincon-josete-1973.bsky.social/post/3mvayvym5pc27",
+    "text": "El Rincón de Josete Andrea Herrera CONALIVI y cómo afrontan las personas ciegas un terremoto\nyoutu.be/1iFMYlldcnU",
+    "author_handle": "rincon-josete-1973.bsky.social",
+    "author_name": "Rincón Josete , Podcast",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:o7x6xstqjdsl33nlsvyrzgtc/bafkreiho5tfogk2ybk5uoa7dij5z7pp6bqyf37fag4t2ibvvggzpsmofne",
+    "published": "2026-09-11T16:38:47.096000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117253308229917639",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, SOUTH OF KERMADEC ISLANDS, a una profundidad de 32 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 9:44 AM UTC : Viernes 11 de Septiembre del 2026 a las 3:44 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-11T16:18:17.179000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mvawrtcb6w2m",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. Pasó 🆕\n2. Duda 🆕\n3. #sismo 🆕\n4. Sep 🆕\n5. #weak 🆕\n6. #M2 🆕\n7. #M3 🆕\n8. Mexicano 🆕\n9. Pone 🆕\n10. Iquique 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-11T16:00:39.698000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": "iquique",
+    "lat": -20.2133,
+    "lon": -70.1503
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mvawb3zjuo2i",
+    "text": "Perú — Dos sismos registrados hoy en Perú, con detalles de magnitud y ubicación según el IGP #11 #Perú #IGP #News",
+    "author_handle": "netasgardespana.bsky.social",
+    "author_name": "Netasgard España",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iioeaqu2zvac4ykuc2ncab2q/bafkreif2vtlwyzyr4sauqrlumb4barbhwlrhwni3pt2cszgvxy22dp2tz4",
+    "published": "2026-09-11T15:51:17+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mvav7o2nus25",
+    "text": "#SismoResistentes barequeo.com/sismo-resist... \"En Montenegro, la Librería La Bruja de la Montaña tuvo que cerrar debido al riesgo que representaba para sus visitantes. Según Yesenia Ortega, entre los daños tuvieron la caída del techo y de parte de las paredes\": Juan Camilo Perdomo Morales.",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-11T15:32:36.615000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://lile.cl/@cikey/117253119028579259",
+    "text": "# UnDiaComoHoy 11 de septiembre 1552 en # Chile , un # terremoto destruye la ciudad de # Santiago .",
+    "author_handle": "cikey@lile.cl",
+    "author_name": "Claudio C",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/110/340/706/661/675/995/original/b824ab9de7a97264.jpg",
+    "published": "2026-09-11T15:30:10+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "santiago",
+    "lat": -33.4489,
+    "lon": -70.6693
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://mas.to/@cktodon/117253118963085431",
+    "text": "# UnDiaComoHoy 11 de septiembre 1552 en # Chile , un # terremoto destruye la ciudad de # Santiago .",
+    "author_handle": "cktodon@mas.to",
+    "author_name": "Claudio C",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/109/311/070/830/165/177/original/8947b4b6621b34a6.jpg",
+    "published": "2026-09-11T15:30:09+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": "santiago",
+    "lat": -33.4489,
+    "lon": -70.6693
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mvatgl4m6o2o",
+    "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. #sismo 🆕\n2. #M2 🆕\n3. Sep 🆕\n4. #weak 🆕\n5. #M3 🆕\n6. Sabiendo 🆕\n7. Tardes 🆕\n8. Elecciones 🆕\n9. España 🌟\n10. Central 🆕",
+    "author_handle": "trending-es.bsky.social",
+    "author_name": "Trending - Español",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xlqhosorgpw3u5sd2o2cvgs6/bafkreihkjuixsylxrqzhglyihaw3qzcetzt6tgm6t3jthvpdxbzvmshgzy",
+    "published": "2026-09-11T15:00:40.621000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://fed.brid.gy/r/https://lapatilla.com/2026/09/11/un-susurro-salvo-a-un-padre-y-su-bebe-tras-el-terremoto-en-colombia/",
+    "text": "Un \"susurro\" salvó a un padre y su bebé tras el terremoto en Colombia https:// fed.brid.gy/r/https://lapatill a.com/2026/09/11/un-susurro-salvo-a-un-padre-y-su-bebe-tras-el-terremoto-en-colombia/",
+    "author_handle": "lapatilla.com@web.brid.gy",
+    "author_name": "Home [Unofficial]",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/115/447/718/010/790/787/original/4701ba3d490733c6.png",
+    "published": "2026-09-11T14:53:10+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://bots.fedi.cr/@crhoy/117252903847254284",
     "text": "Más de 160 réplicas por temblor en la Zona Sur El Ovsicori registró 160 réplicas debido al temblor que se reportó en la Zona Sur durante la madrugada de este jueves. La institución informó que, luego de 24 horas del sismo principal, el promedio de réplicas disminuyó a casi seis por hora. Además, indicó que estas comenzaron a disminuir durante la madrugada de este viernes. Asimismo, […] The post Más de 160 réplicas por temblor en la Zona Sur appeared first on CR Hoy. # Nacionales # Ovsicori # Temblor https:// crhoy.com/mas-de-160-replicas- por-temblor-en-la-zona-sur/",
@@ -40,7 +185,7 @@
     "author_name": "basquetplus",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tm7k52cskl64b5tplme5wy6l/bafkreicwdbwvvl4yh6qas7wdpefpx6h5w7jwz3r2njllqggb4oaz3ciqqy",
     "published": "2026-09-11T13:18:10.147000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "terremoto"
     ],
@@ -172,7 +317,7 @@
     "author_name": "Barequeo",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
     "published": "2026-09-11T11:39:11.934000+00:00",
-    "like_count": 2,
+    "like_count": 3,
     "keywords_matched": [
       "sismo"
     ],
@@ -1290,86 +1435,6 @@
     "like_count": 0,
     "keywords_matched": [
       "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/cmsmagnet.bsky.social/post/3mv6h5oqk7c2r",
-    "text": "Terremoto en los #CMS y el #código libre...\n\nMatt Mullenweg ya no es el CEO de Automattic\n\nwww.mejorcms.com/wordpress/mu...",
-    "author_handle": "cmsmagnet.bsky.social",
-    "author_name": "CMS MAG",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xgnwvv5lkvnodnxcq2qfzlre/bafkreibulazxfvxpksa4vrwks3c2jgxfsqduicsrlleu3xy7ubxtzju6d4",
-    "published": "2026-09-10T16:15:38.361000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://fed.brid.gy/r/https://www.telesurtv.net/colombia-buenaventura-abandono-estatal-sismo/",
-    "text": "Colombia: damnificados en Buenaventura denuncian abandono estatal a un mes del sismo https:// fed.brid.gy/r/https://www.tele surtv.net/colombia-buenaventura-abandono-estatal-sismo/",
-    "author_handle": "telesurtv.net@web.brid.gy",
-    "author_name": "Inicio - teleSUR [Unofficial]",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/113/218/609/265/030/322/original/32f3058ce7e92ecd.webp",
-    "published": "2026-09-10T16:09:00+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/infoleon.bsky.social/post/3mv6ebkawas2w",
-    "text": "Prioro (León) tiembla por un terremoto de magnitud 3,4 registrado en sus inmediaciones 🔴 Los vecinos aseguran “no saber describir la sensación\" 👁️‍🗨️🔎 Te lo contamos en la noticia infoleon.infobierzo.com/noticias-leo...",
-    "author_handle": "infoleon.bsky.social",
-    "author_name": "InfoLeón",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zgkwwedk37pq67su5qjpxh6b/bafkreifkbdefuruenn5ogczmckn7ruj6ojklivnwbesacfat42rkh6u5ii",
-    "published": "2026-09-10T15:24:06.646000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/munekitasintetik.bsky.social/post/3mv6d46bjok2c",
-    "text": "Voy a cumplir 41 años en unos días. Igual que el temblor. Mi papá me decía siempre que la tierra se había asustado porque nací. Nunca supe si era orgullo o acusación.",
-    "author_handle": "munekitasintetik.bsky.social",
-    "author_name": "Muñekita Syntétika (Taylor's Version)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:j2m7idcbt73ze4zc4itkcn2v/bafkreihj4b6uhdjlkxeufkek5f5zyyj4syw5yrn3pyvxgpappdyj4sabcq",
-    "published": "2026-09-10T15:03:12.571000+00:00",
-    "like_count": 7,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/ricardogutierrez.bsky.social/post/3mv6c2uxuk22z",
-    "text": "A un mes del terremoto... Manizales, de pie te canto salud 🇧🇬",
-    "author_handle": "ricardogutierrez.bsky.social",
-    "author_name": "Ricardo Gutiérrez Zapata",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:szrzxvpdk44vg7ivw7pu6nx5/bafkreie5vful2njjsf2xjo2vzizlxfzxx64vwosubanuu2s3fsxgholvae",
-    "published": "2026-09-10T14:44:35.514000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
       "terremoto"
     ],
     "place": null,
