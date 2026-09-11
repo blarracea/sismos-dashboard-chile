@@ -1,5 +1,70 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://bots.fedi.cr/@crhoy/117252903847254284",
+    "text": "Más de 160 réplicas por temblor en la Zona Sur El Ovsicori registró 160 réplicas debido al temblor que se reportó en la Zona Sur durante la madrugada de este jueves. La institución informó que, luego de 24 horas del sismo principal, el promedio de réplicas disminuyó a casi seis por hora. Además, indicó que estas comenzaron a disminuir durante la madrugada de este viernes. Asimismo, […] The post Más de 160 réplicas por temblor en la Zona Sur appeared first on CR Hoy. # Nacionales # Ovsicori # Temblor https:// crhoy.com/mas-de-160-replicas- por-temblor-en-la-zona-sur/",
+    "author_handle": "crhoy@bots.fedi.cr",
+    "author_name": "crhoy.com",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/111/185/818/641/423/987/original/0a060b624891e30f.jpg",
+    "published": "2026-09-11T14:35:29+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/cuatrotv.bsky.social/post/3mvaq257m3u2s",
+    "text": "Quino, el héroe canino del terremoto de Venezuela ha caído enfermo y necesita ayuda 💔\r\n ver.tw/vm4lb4",
+    "author_handle": "cuatrotv.bsky.social",
+    "author_name": "Cuatro",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uujh6fsrlyt2abnn7vkw346r/bafkreifb2lv4sdngc6l6gvznftc4wjoktyqenu2c4faspbgrizzjgg27hi",
+    "published": "2026-09-11T14:00:02+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/basquetplus.bsky.social/post/3mvanpbbmp22x",
+    "text": "Mindaugas Balciunas suspendió su cargo acorralado por los malos resultados del seleccionado masculino y la sanción de FIBA a un entrenador del femenino.\n\nTerremoto en Lituania: renuncia el presidente de la federación tras un escándalo de acoso y crisis deportiva\nbasquetplus.com/lituania-eur...",
+    "author_handle": "basquetplus.bsky.social",
+    "author_name": "basquetplus",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tm7k52cskl64b5tplme5wy6l/bafkreicwdbwvvl4yh6qas7wdpefpx6h5w7jwz3r2njllqggb4oaz3ciqqy",
+    "published": "2026-09-11T13:18:10.147000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3mvan73u5tc2m",
+    "text": "Venezuela — Padres venezolanos temen por seguridad de escuelas tras daños por sismos #Venezuela #News #Breaking",
+    "author_handle": "es-us.pds.netasgard.com",
+    "author_name": "Netasgard News Estados Unidos (es)",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
+    "published": "2026-09-11T13:09:06+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/thetimeslatino.com/post/3mvakrocdbk2k",
     "text": "Israel dinamita túneles de Hezbolá en Ali Taher y genera un sismo de 4,1 thetimeslatino.com/noticias/isr... @thetimeslatino \n\nLa detonación con más de mil toneladas de explosivos destruyó más de dos kilómetros de túneles y provocó un temblor de magnitud 4,1 registrado por el Servicio Geológico .",
@@ -107,7 +172,7 @@
     "author_name": "Barequeo",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
     "published": "2026-09-11T11:39:11.934000+00:00",
-    "like_count": 1,
+    "like_count": 2,
     "keywords_matched": [
       "sismo"
     ],
@@ -1059,7 +1124,7 @@
     "author_name": "Marcelu83  ",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3pdmfo6gir4kp7o4wetnq5my/bafkreiao7f6eqms5472qvl67dn2t7xazvkyiuv3gzu54x6iyyfhpdzedya",
     "published": "2026-09-10T18:35:55.890000+00:00",
-    "like_count": 3,
+    "like_count": 4,
     "keywords_matched": [
       "temblor"
     ],
@@ -1306,169 +1371,6 @@
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mv6bk3ovqc2p",
-    "text": "#SismoResistentes Más de 70 personas se han unido a \"SismoResistentes\", nuestro espacio para que cualquiera exprese lo que piensa y siente luego del terremoto. Entre todos podemos curarnos y construir memoria. barequeo.com/sismo-resist...",
-    "author_handle": "barequeo.bsky.social",
-    "author_name": "Barequeo",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
-    "published": "2026-09-10T14:35:12.141000+00:00",
-    "like_count": 2,
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-ve.pds.netasgard.com/post/3mv6abp5dgc2m",
-    "text": "Francisco Garcés — El ministro Garcés anuncia recuperación del puerto tras sismo y aumento del 10% en carga marítima #FranciscoGarcés #News",
-    "author_handle": "es-ve.pds.netasgard.com",
-    "author_name": "Netasgard News Venezuela",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vsatymcybeepvajpjouz2anl/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-10T14:12:36+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/stxrmverminherald.bsky.social/post/3mv67tncmks2d",
-    "text": "Aunque sorpresa se llevó ante las palabras de la misma.\n\n— ¿Qué-que?\n\nSe tambalea un poco,.por el temblor.\n\n— Neek! No hacer tratos con Cosihombres, tu decirme que hacer aqui y de que estar corriendo-huyen...\n\nPero las palabras del roedor serían cortadas por el eco de un chirrido desgarrador (+)",
-    "author_handle": "stxrmverminherald.bsky.social",
-    "author_name": "𝐂𝐡𝐞𝐬𝐭𝐩𝐢𝐞𝐫𝐜𝐞𝐫 𝐇𝐚𝐫𝐤𝐧𝐚𝐜𝐤",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:mdgqsh2lx4lqe53qxdu5sgdy/bafkreieagxy43oxzhtfln3qwqniwupaomicnery52ulh32vdhrqbfm2vd4",
-    "published": "2026-09-10T14:04:44.207000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/bourbonbite.bsky.social/post/3mv67gy3xx225",
-    "text": "pero se sentia la peor bestia del mundo.\nCuando la oyó mencionar a los gatos y sus siete vidas, una sonrisa amarga se dibujó en la comisura de sus labios. La miró a la cara, fijándose en el temblor de sus labios y dio un paso hacia ella, recortando el +",
-    "author_handle": "bourbonbite.bsky.social",
-    "author_name": "DAMON",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:a6zvzdtuzgtilijkg4dtfyle/bafkreibsaygikv4zksry44nbfm5mamyofx57efnt5mtuagczlvon5c7bum",
-    "published": "2026-09-10T13:57:40.005000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117247080078178469",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.1 mw, GUAM REGION, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 7:28 AM UTC : Jueves 10 de Septiembre del 2026 a las 1:28 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-10T13:54:23.112000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117247080007224460",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.1 mww, 162 km SSW of Merizo Village, Guam, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 7:28 AM UTC : Jueves 10 de Septiembre del 2026 a las 1:28 PM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-10T13:54:22.028000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3mv66rtorhk2m",
-    "text": "Gobierno — Gobierno colombiano adopta medidas urgentes para reconstruir zonas afectadas por terremoto #11 #Gobierno #Colombia #AbelardoDeLaEspriella #News #Breaking",
-    "author_handle": "es-us.pds.netasgard.com",
-    "author_name": "Netasgard News Estados Unidos (es)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-10T13:45:50+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117247023521512154",
-    "text": "11 minutes 57 seconds ago - South of Mariana Islands mB 5.9 11.68N 144.11E 10km 2026/09/10 13:28:14 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rvpuhr # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-10T13:40:00.236000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/lagaceta.bsky.social/post/3mv664sqhcb2w",
-    "text": "Tendencia #AppleEvent domina Mastodon; terremoto en Colombia y rumores de falsos pronósticos en WhatsApp\n\nEl #AppleEvent lidera las redes con altos scores en Mastodon, mientras el aniversario del terremoto en Colombia genera c\n\nhttps://lagaceta.net/tendencias/",
-    "author_handle": "lagaceta.bsky.social",
-    "author_name": "lagaceta.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fy27yfx272uqa2otwzji7o2v/bafkreif4k7yaub6xq5qjhsnor4lwi43msjg6qt6bxn262zjldar2dey7y4",
-    "published": "2026-09-10T13:34:04.821300+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-co.pds.netasgard.com/post/3mv65fdgpuk2m",
-    "text": "Abelardo de la Espriella — Gobierno anuncia medidas urgentes para educación, energía y reconstrucción tras sismo #AbelardoDeLaEspriella #News #Breaking",
-    "author_handle": "es-co.pds.netasgard.com",
-    "author_name": "Netasgard News Colombia",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afml3t7dkpxncetzmoak2gbu/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-10T13:20:57+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
     ],
     "place": null,
     "lat": null,
