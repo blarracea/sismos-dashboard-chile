@@ -1,6 +1,38 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/botnoticias.bsky.social/post/3mvbatym4zo2k",
+    "text": "Un mes después: la vulnerabilidad que el terremoto de Colombia dejó al descubierto\n\nvia @BioBioChile",
+    "author_handle": "botnoticias.bsky.social",
+    "author_name": "botnoticias.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdzu4r7psqgzyu6zx6t5egir/bafkreie73cjvceb7daxps7fd7r5hktoqmohyt3xxf3er57emlsnssdksgi",
+    "published": "2026-09-11T19:00:49.796000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "mastodon",
+    "link": "https://fed.brid.gy/r/https://lapatilla.com/2026/09/11/fuerte-sismo-sacudio-el-occidente-de-colombia/",
+    "text": "Fuerte sismo sacudió el occidente de Colombia https:// fed.brid.gy/r/https://lapatill a.com/2026/09/11/fuerte-sismo-sacudio-el-occidente-de-colombia/",
+    "author_handle": "lapatilla.com@web.brid.gy",
+    "author_name": "Home [Unofficial]",
+    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/115/447/718/010/790/787/original/4701ba3d490733c6.png",
+    "published": "2026-09-11T17:56:00+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/lagaceta.bsky.social/post/3mvazfsqp3u23",
     "text": "Alerta #warntag y debate sobre poder en Colombia: sismo, fuerzas de seguridad y redes en crisol\n\nSe intensifica el debate en redes sobre el manejo de la crisis post-sismo en Colombia, con señales de desinformación (#w\n\nhttps://lagaceta.net/tendencias/",
     "author_handle": "lagaceta.bsky.social",
@@ -1173,220 +1205,6 @@
     "keywords_matched": [
       "sismo",
       "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117248284416210520",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.3 mb, EAST TIMOR REGION, a una profundidad de 35 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:44 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:44 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-10T19:00:39.940000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117248283400155182",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.4 mww, southern East Pacific Rise, a una profundidad de 10 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:21 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:21 PM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-10T19:00:24.357000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117248242781306575",
-    "text": "6 minutes ago - Timor Region mB 5.5 8.89S 127.94E 139km 2026/09/10 18:44:48 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rwahdn # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-10T18:50:04.819000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117248237067804064",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.3 mb, SOUTHERN EAST PACIFIC RISE, a una profundidad de 15 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:21 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:21 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-10T18:48:37.384000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/loserb0yy.bsky.social/post/3mv6pp65tgc2w",
-    "text": "rostro del mayor para acunarlo, acariciarlo con sus nudillos, con el dorso de sus dedos. \n\nSus palabras, aquel apodo suyo que hacía apenas algunos meses que habían comenzado a usar, consigue acelerar su corazón de tal forma que un temblor vibra por sus piernas mientras suspira.",
-    "author_handle": "loserb0yy.bsky.social",
-    "author_name": "✶ 𝕮𝐀𝐄𝐋𝐀𝐍 ⋆.˚",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ddlnujqjldm7neow4h3wmvsq/bafkreidomcvazk37qxtmqpjy54mhl3ksfs53yonhearlsiqxgzzr2fqbny",
-    "published": "2026-09-10T18:48:34.127000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/sirlaguna.bsky.social/post/3mv6pmq4jec2y",
-    "text": "Ha pasado un mes desde que un terremoto nos derrumbó la ciudad.\n\nLa normalidad regresa poco a poco, pero todavía me duele ver el horror que quedó.\n\nFuerza, mi Pereira.",
-    "author_handle": "sirlaguna.bsky.social",
-    "author_name": "Sir Laguna",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ox2y3xdhddb2bdczjrm3tm6e/bafkreibupmucyobck3x33xvnpiwprmmoblmumgfsprphfnrwshp3depyte",
-    "published": "2026-09-10T18:47:13.054000+00:00",
-    "like_count": 4,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/marcelu83.bsky.social/post/3mv6oykd4fc2r",
-    "text": "Confirmado de nuevo que estoy muerta por dentro, porque no he sentido ningun temblor.",
-    "author_handle": "marcelu83.bsky.social",
-    "author_name": "Marcelu83  ",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:3pdmfo6gir4kp7o4wetnq5my/bafkreiao7f6eqms5472qvl67dn2t7xazvkyiuv3gzu54x6iyyfhpdzedya",
-    "published": "2026-09-10T18:35:55.890000+00:00",
-    "like_count": 4,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117248165493361960",
-    "text": "Red Sismológica Nacional (RSN) - Costa Rica Sismo de magnitud 5.1 Mw, 41 km al Sur de Dominical, Osa, a una profundidad de 27.9 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:03 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:03 PM # SismoCostaRica # Sismo # CostaRica # Costa # Rica # TemblorCostaRica # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-10T18:30:25.243000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117248165182122006",
-    "text": "Instituto Nicaragüense de Estudios Territoriales (INETER) Sismo de magnitud 5.1 Ml, 56 Km al suroeste de Dominical, Costa Rica, a una profundidad de 11 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Jueves 10 de Septiembre del 2026 a las 12:03 PM UTC : Jueves 10 de Septiembre del 2026 a las 6:03 PM # SismoNicaragua # Sismo # Nicaragua # TemblorNicaragua # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-10T18:30:20.517000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/elpaismexico.bsky.social/post/3mv6o46ickt25",
-    "text": "Un mes después del sismo, los gobernadores de las zonas más golpeadas cifran la reconstrucción en 36 billones de pesos y el vehículo para atender la emergencia, el Fondo Milagro, no se ha creado tinyurl.com/ymhfdnb9",
-    "author_handle": "elpaismexico.bsky.social",
-    "author_name": "EL PAÍS México",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7zlnvtvm2fqq4wj5m43im34y/bafkreihan3wto7pltwlg5cwpgftcu2zfmw3yrs6ycyzjoiips7a3dfkh7i",
-    "published": "2026-09-10T18:20:00+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://bots.fedi.cr/@crhoy/117248108227350061",
-    "text": "Fuerte sismo sacudió varias partes del país A las 12:03 p.m. de este jueves se percibió un temblor de magnitud 5.1 con epicentro en el Pacífico Central y que se sintió en diferentes partes del territorio nacional. Según el reporte de la Red Sismológica Nacional (RSN) de la Universidad de Costa Rica (UCR), su epicentro fue a 49 kilómetros al sur de […] The post Fuerte sismo sacudió varias partes del país appeared first on CR Hoy. # Nacionales # Sucesos # Temblor https:// crhoy.com/fuerte-sismo-sacudio -varias-partes-del-pais/",
-    "author_handle": "crhoy@bots.fedi.cr",
-    "author_name": "crhoy.com",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/111/185/818/641/423/987/original/0a060b624891e30f.jpg",
-    "published": "2026-09-10T18:15:54+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/diariodecastillayleon.es/post/3mv6nkbtnyq2c",
-    "text": "Terremoto en León: en Prioro de magnitud 3,4 y en Boca de Huérgano de magnitud 2 leer.diariodecastilla…",
-    "author_handle": "diariodecastillayleon.es",
-    "author_name": "Diario de Castilla y León",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ec43qr6b4iztcd76q7aidwrm/bafkreieptsebjh7klxdayeit4jdjrbu6embx37q7zh2gyl5qhefde2dth4",
-    "published": "2026-09-10T18:10:03+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/diariodevalladolid.es/post/3mv6n4njclx27",
-    "text": "Terremoto en León: en Prioro de magnitud 3,4 y en Boca de Huérgano de magnitud 2 leer.diariodevalladol…",
-    "author_handle": "diariodevalladolid.es",
-    "author_name": "Diario de Valladolid",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:cv2q2itfbhfgt675tzftrgvf/bafkreidj3s7a3ekpih43evsfe3vu4qcsjt7x7psdp6meld5ls3khas75ya",
-    "published": "2026-09-10T18:02:25+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
     ],
     "place": null,
     "lat": null,
