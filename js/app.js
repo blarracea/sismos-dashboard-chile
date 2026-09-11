@@ -3,7 +3,6 @@
   const statusEl = document.getElementById("status");
   const detailPlaceholder = document.getElementById("event-detail-placeholder");
   const detailBody = document.getElementById("event-detail-body");
-  const heatToggle = document.getElementById("toggle-heatmap");
   const socialToggle = document.getElementById("toggle-social");
   const socialFeedBody = document.getElementById("social-feed-body");
   const liveFeedBody = document.getElementById("live-feed-body");
@@ -39,6 +38,12 @@
   // Capa de intensidad solo del sismo seleccionado -- ver el comentario
   // en showEventDetail, mas abajo, para el problema que resuelve.
   let selectedEventHeatLayer = null;
+  // URLs de los sismos que ya estan en el heatmap general (ultimos 7
+  // dias) -- si el sismo elegido ya esta ahi, no hace falta (ni conviene)
+  // agregarle una segunda capa encima: sus mismos puntos se dibujarian
+  // dos veces y esa comuna se veria mas intensa de lo real mientras dure
+  // seleccionada.
+  let recentEventKeys = new Set();
   const highlightEvent = (event) => {
     if (selectionMarker) {
       map.removeLayer(selectionMarker);
@@ -95,14 +100,19 @@
     // detalle se llenaba pero el mapa de calor de ESE sismo (sus
     // intensidades por comuna) nunca aparecia porque sus puntos nunca
     // habian sido cargados. Se arma una capa aparte solo con este evento,
-    // independiente de la ventana de 7 dias.
+    // independiente de la ventana de 7 dias -- pero solo si hace falta:
+    // si el sismo ya esta en la ventana de 7 dias, el heatmap general ya
+    // tiene esos mismos puntos pintados, y agregar otra capa encima solo
+    // duplicaria la intensidad de esa comuna mientras siga seleccionado.
     if (selectedEventHeatLayer) {
       map.removeLayer(selectedEventHeatLayer);
       selectedEventHeatLayer = null;
     }
-    selectedEventHeatLayer = SismosApp.buildHeatLayer([event]);
-    if (selectedEventHeatLayer) {
-      selectedEventHeatLayer.addTo(map);
+    if (!recentEventKeys.has(event.url)) {
+      selectedEventHeatLayer = SismosApp.buildHeatLayer([event]);
+      if (selectedEventHeatLayer) {
+        selectedEventHeatLayer.addTo(map);
+      }
     }
   };
 
@@ -144,13 +154,15 @@
     heatLayer.eachLayer((layer) => map.removeLayer(layer));
   };
 
-  heatToggle.addEventListener("change", () => {
-    if (heatToggle.checked) {
-      addHeatLayer();
-    } else {
-      removeHeatLayer();
-    }
-  });
+  // El checkbox #toggle-heatmap sigue en el DOM pero esta oculto (ver
+  // index.html) y no hay forma de que la persona lo cambie -- por eso el
+  // heatmap general ya no depende de su estado "checked". Antes, si en
+  // algun refresco no habia ningun sismo con reporte SENAPRED, el codigo
+  // dejaba el checkbox desmarcado para "apagar" el heatmap, pero como
+  // nada lo volvia a marcar despues, el mapa de calor general se quedaba
+  // apagado para siempre aunque despues sí aparecieran sismos nuevos.
+  // Ahora simplemente se muestra cada vez que hay datos, sin ese estado
+  // intermedio que nadie puede tocar.
 
   // Trae los eventos, reconstruye heatmap y marcadores. Se llama al iniciar
   // y despues cada REFRESH_INTERVAL_MS -- no toca el zoom/centro del mapa
@@ -166,18 +178,12 @@
       return;
     }
 
+    recentEventKeys = new Set(events.map((event) => event.url));
+
     removeHeatLayer();
     heatLayer = SismosApp.buildHeatLayer(events);
     if (heatLayer) {
-      heatToggle.disabled = false;
-      heatToggle.closest("label").title = "";
-      if (heatToggle.checked) {
-        map.whenReady(addHeatLayer);
-      }
-    } else {
-      heatToggle.checked = false;
-      heatToggle.disabled = true;
-      heatToggle.closest("label").title = "Todavia no hay sismos con reporte de SENAPRED en la ventana cargada.";
+      map.whenReady(addHeatLayer);
     }
 
     if (markersLayer) map.removeLayer(markersLayer);

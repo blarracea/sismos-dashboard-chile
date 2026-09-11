@@ -25,11 +25,11 @@ SismosApp.renderLiveFeed = function (mentions, container) {
     .map((m) => {
       const when = m.published ? _timeAgoLive(new Date(m.published)) : "";
       const avatar = m.author_avatar
-        ? `<img class="live-card-avatar" src="${m.author_avatar}" alt="" />`
+        ? `<img class="live-card-avatar" src="${_escapeAttrLive(_safeUrlLive(m.author_avatar))}" alt="" />`
         : '<span class="live-card-avatar"></span>';
       const badge = PLATFORM_BADGE[m.platform] || PLATFORM_BADGE.bluesky;
       return `
-        <a class="live-card-link" href="${m.link}" target="_blank" rel="noopener">
+        <a class="live-card-link" href="${_escapeAttrLive(_safeUrlLive(m.link))}" target="_blank" rel="noopener">
           <div class="live-card">
             ${avatar}
             <div class="live-card-body">
@@ -63,4 +63,23 @@ function _escapeHtmlLive(text) {
   const div = document.createElement("div");
   div.textContent = text || "";
   return div.innerHTML;
+}
+
+// Estos posts vienen de Bluesky/Mastodon -- cualquiera puede publicar uno,
+// asi que link/avatar son datos externos no confiables. _escapeHtmlLive (via
+// textContent) no alcanza para usarlos dentro de un atributo href="..."/
+// src="..." (no escapa comillas), asi que hace falta un escape de atributo
+// aparte. _safeUrlLive ademas bloquea esquemas como "javascript:" -- un
+// link asi como texto de un post, puesto directo en href, se ejecutaria al
+// hacer click.
+function _escapeAttrLive(text) {
+  return String(text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function _safeUrlLive(url) {
+  return typeof url === "string" && /^https:\/\//i.test(url) ? url : "#";
 }

@@ -21,7 +21,7 @@ SismosApp.renderSocialFeed = function (mentions, container) {
         : "";
       const place = m.place ? `<span class="social-card-place">📍 ${_capitalize(m.place)}</span>` : "";
       return `
-        <a class="social-card" href="${m.link}" target="_blank" rel="noopener">
+        <a class="social-card" href="${_escapeAttr(_safeUrl(m.link))}" target="_blank" rel="noopener">
           <p class="social-card-title">${_escapeHtml(m.title)}</p>
           <p class="social-card-meta">${_escapeHtml(m.source || "")} · ${when} ${place}</p>
         </a>
@@ -44,7 +44,9 @@ SismosApp.buildSocialMapLayer = function (mentions) {
       fillOpacity: 0.15,
       dashArray: "3,3",
     });
-    marker.bindTooltip(`${m.title} — no verificado`, { direction: "top" });
+    // bindTooltip trata el string como HTML (no como texto plano) -- hay
+    // que escapar el titulo (viene de un RSS externo) antes de pasarlo.
+    marker.bindTooltip(`${_escapeHtml(m.title)} — no verificado`, { direction: "top" });
     marker.addTo(layer);
   });
   return layer;
@@ -58,4 +60,22 @@ function _escapeHtml(text) {
   const div = document.createElement("div");
   div.textContent = text;
   return div.innerHTML;
+}
+
+// Estas menciones vienen de un RSS externo (Google News) -- link es un dato
+// no confiable. _escapeHtml (via textContent) no alcanza para usarlo dentro
+// de un atributo href="..." (no escapa comillas), asi que hace falta un
+// escape de atributo aparte. _safeUrl ademas bloquea esquemas como
+// "javascript:" -- un link asi puesto directo en href se ejecutaria al
+// hacer click.
+function _escapeAttr(text) {
+  return String(text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function _safeUrl(url) {
+  return typeof url === "string" && /^https?:\/\//i.test(url) ? url : "#";
 }

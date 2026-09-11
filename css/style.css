@@ -537,19 +537,19 @@ h2.live-feed-title {
 }
 
 /*
- * Mobile: el layout de escritorio es un tablero fijo de dos filas (grid +
- * flex, sin scroll de pagina) pensado para una pantalla ancha -- en un
- * celular ese ancho minimo (mapa 320px + dos feeds de 300px, mas las tres
- * columnas de la fila de arriba) no entra ni cerca, y todo quedaba
- * amontonado o cortado. Abajo de 900px se apila todo en una sola columna
- * que scrollea normal como pagina.
+ * Mobile: el layout de escritorio es un tablero fijo pensado para una
+ * pantalla ancha (mapa de alto completo + redes-en-vivo/menciones de alto
+ * completo + la columna angosta apilada) -- en un celular ese ancho
+ * minimo no entra ni cerca, y todo quedaba amontonado o cortado. Abajo de
+ * 900px se apila todo en una sola columna que scrollea normal como pagina.
  *
  * .side-content y .stack-column pasan a "display:contents": la caja en
  * si desaparece (flex/gap/padding ya no aplican) pero sus hijos quedan
  * como hijos directos de .app-main, que es el que ahora ordena todo con
  * flexbox + la propiedad "order" -- asi no hace falta reordenar el HTML
- * para lograr el orden pedido (mapa, sismos por dia, detalle, capas,
- * redes en vivo, menciones en medios).
+ * para lograr el orden pedido (mapa, detalle del evento, sismos por dia,
+ * proximamente, redes en vivo, menciones en medios -- el mismo orden de
+ * arriba a abajo que en escritorio).
  */
 @media (max-width: 900px) {
   .app-main {
@@ -573,8 +573,8 @@ h2.live-feed-title {
     height: 320px;
   }
 
-  .day-table { order: 2; }
-  .event-detail { order: 3; }
+  .event-detail { order: 2; }
+  .day-table { order: 3; }
   .placeholder-panel { order: 4; }
   .live-feed.panel { order: 5; }
   .social-feed.panel { order: 6; }

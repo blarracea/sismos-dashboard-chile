@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor de Sismos — Chile y Sudamérica</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=31" />
+<link rel="stylesheet" href="css/style.css?v=32" />
 </head>
 <body>
   <header class="app-header">
@@ -20,13 +20,12 @@
         <div id="map"></div>
 
         <div class="map-legend-overlay">
-          <!-- Los toggles de capas siguen en el DOM (app.js los necesita, con
-               estos IDs) pero ya no se muestran: ocupaban demasiado espacio
-               y la idea ahora es que la caja sea solo la paleta de colores. -->
-          <label class="layer-toggle hidden">
-            <input type="checkbox" id="toggle-heatmap" checked />
-            Intensidad percibida — CSN/SENAPRED (oficial)
-          </label>
+          <!-- El toggle de menciones en redes sigue en el DOM (app.js lo
+               necesita, con este ID) pero oculto: ocupaba demasiado espacio
+               y la idea ahora es que la caja sea solo la paleta de colores.
+               El de intensidad (CSN/SENAPRED) se saco del todo: el heatmap
+               general ya no depende de un checkbox que nadie puede tocar
+               (ver el comentario en js/app.js sobre el bug que eso causaba). -->
           <label class="layer-toggle hidden" title="RSS de medios, no es intensidad Mercalli verificada">
             <input type="checkbox" id="toggle-social" />
             Menciones en redes (no verificado)
@@ -100,11 +99,11 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-  <script src="js/data-loader.js?v=31"></script>
-  <script src="js/map.js?v=31"></script>
-  <script src="js/heatmap.js?v=31"></script>
-  <script src="js/social-layer.js?v=31"></script>
-  <script src="js/live-feed.js?v=31"></script>
-  <script src="js/app.js?v=31"></script>
+  <script src="js/data-loader.js?v=32"></script>
+  <script src="js/map.js?v=32"></script>
+  <script src="js/heatmap.js?v=32"></script>
+  <script src="js/social-layer.js?v=32"></script>
+  <script src="js/live-feed.js?v=32"></script>
+  <script src="js/app.js?v=32"></script>
 </body>
 </html>
