@@ -1,6 +1,22 @@
 [
   {
     "platform": "bluesky",
+    "link": "https://bsky.app/profile/lagaceta.bsky.social/post/3mvazfsqp3u23",
+    "text": "Alerta #warntag y debate sobre poder en Colombia: sismo, fuerzas de seguridad y redes en crisol\n\nSe intensifica el debate en redes sobre el manejo de la crisis post-sismo en Colombia, con señales de desinformación (#w\n\nhttps://lagaceta.net/tendencias/",
+    "author_handle": "lagaceta.bsky.social",
+    "author_name": "lagaceta.bsky.social",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fy27yfx272uqa2otwzji7o2v/bafkreif4k7yaub6xq5qjhsnor4lwi43msjg6qt6bxn262zjldar2dey7y4",
+    "published": "2026-09-11T16:47:37.524993+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
     "link": "https://bsky.app/profile/rincon-josete-1973.bsky.social/post/3mvayvym5pc27",
     "text": "El Rincón de Josete Andrea Herrera CONALIVI y cómo afrontan las personas ciegas un terremoto\nyoutu.be/1iFMYlldcnU",
     "author_handle": "rincon-josete-1973.bsky.social",
@@ -1370,71 +1386,6 @@
     "published": "2026-09-10T18:02:25+00:00",
     "like_count": 0,
     "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/eleconomista.es/post/3mv6l62eqoq2t",
-    "text": "Japón se prepara para un tsunami monetario que puede tumbar a la deuda de Estados Unidos dozz.es/4bn_n3",
-    "author_handle": "eleconomista.es",
-    "author_name": "elEconomista",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:ywus3lvlqjyp7bxlkoku6h7c/bafkreigyz57yfmt4z56yv7eoosnflsvhcx5rocc47owkyr543abr5xljre",
-    "published": "2026-09-10T17:27:24+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/elpaisamerica.bsky.social/post/3mv6kuuo36p2a",
-    "text": "Un mes del terremoto en Colombia: campañas de solidaridad, polémicas del Gobierno y la tarea titánica de la reconstrucción dozz.es/zlmnr5",
-    "author_handle": "elpaisamerica.bsky.social",
-    "author_name": "EL PAÍS América",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:nue3a4qhd2wheedhsniw66vu/bafkreihxfks2rwyutg7u4w6i6aw4jtitoif4aquqiqfskahsrudb4bhqte",
-    "published": "2026-09-10T17:22:17+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/estebares.bsky.social/post/3mv6jpvrpts2b",
-    "text": "Pues no, mi ciela.\nEs creer que se puede calentar el mar con una pava de agua hirviendo.\nPero existe, y se destinan miles de millones para frenarlo (obviamente sin resultados) en vez de destinarlos  a la mitigación de los efectos.\nEs como querer parar un terremoto o taponar un volcán.",
-    "author_handle": "estebares.bsky.social",
-    "author_name": "Esteban Ares",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:xfnjiiitygnxxabe6jwnaate/bafkreiaxdhlwuaj46vfswifm64yxzku637nr3woyvjf3y4fy4bicz4xk3a",
-    "published": "2026-09-10T17:01:37.194000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/elpaismexico.bsky.social/post/3mv6j37pze32c",
-    "text": "Las dos tragedias de Sipí, Chocó: “Lo que no dañó el terremoto, lo dañaron las balas”\r\n\r\nLos enfrentamientos entre el ELN y el Clan del Golfo forzaron el desplazamiento de 175 familias de Charco Largo, Charco Hondo y Barrancón a Istmina, una ciudad desbordada por el sismo tinyurl.com/mryvrz8e",
-    "author_handle": "elpaismexico.bsky.social",
-    "author_name": "EL PAÍS México",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:7zlnvtvm2fqq4wj5m43im34y/bafkreihan3wto7pltwlg5cwpgftcu2zfmw3yrs6ycyzjoiips7a3dfkh7i",
-    "published": "2026-09-10T16:50:00+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
       "terremoto"
     ],
     "place": null,
