@@ -1,5 +1,37 @@
 [
   {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mvd2p3j5w22p",
+    "text": "#Tesoros Porfirio Barba Jacob publicó una serie de crónicas en Diario del Salvador sobre el terremoto de 1917, que luego fueron compiladas en un libro reeditado en 2001 por Villegas Editores. barequeo.com/tesoros/terr...",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-12T12:16:02.225000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mvczp7d34c2p",
+    "text": "#SismoResistentes \"La casa de la abuela en la que tantos crecimos parecía que no soportaría la historia de una bisnieta que aún faltaba por escribirse. Las paredes traqueaban, las tejas se sacudían; la casa, toda, bailaba la danza final\": Juan Pablo Ospina Cardona. barequeo.com/sismo-resist...",
+    "author_handle": "barequeo.bsky.social",
+    "author_name": "Barequeo",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
+    "published": "2026-09-12T11:58:12.478000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "mastodon",
     "link": "https://mastodon.social/@NCSeismicobserv/117257807978204453",
     "text": "6 minutes 35 seconds ago - Colombia mB 5.0 4.39N 76.55W 81km 2026/09/12 11:16:14 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rzcwhe # séisme # earthquake # sismo # 지진 # 地震",
@@ -23,7 +55,7 @@
     "author_name": "Aglaya Bore",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jeqtdcyz3z4cmduyunaammy2/bafkreiayq7a54k4se66v4ibapcksojxmmywqdcds6oim3h54zmd4vul7gm",
     "published": "2026-09-12T09:46:43.790000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "temblor"
     ],
@@ -966,122 +998,6 @@
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
     "published": "2026-09-11T13:09:06+00:00",
     "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/thetimeslatino.com/post/3mvakrocdbk2k",
-    "text": "Israel dinamita túneles de Hezbolá en Ali Taher y genera un sismo de 4,1 thetimeslatino.com/noticias/isr... @thetimeslatino \n\nLa detonación con más de mil toneladas de explosivos destruyó más de dos kilómetros de túneles y provocó un temblor de magnitud 4,1 registrado por el Servicio Geológico .",
-    "author_handle": "thetimeslatino.com",
-    "author_name": "The Times Latino",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:32ch5nremvuvplk5dkydvrmd/bafkreicejqmk63vurkqgdfishsmejtw5helkeizq7jxligjbajj6cmlsaa",
-    "published": "2026-09-11T12:25:49.685000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117252364814063132",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.9 mww, 253 km ENE of Lospalos, Timor Leste, a una profundidad de 111.763 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 5:56 AM UTC : Viernes 11 de Septiembre del 2026 a las 11:56 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-11T12:18:21.824000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117252317724478175",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 6.1 mb, KEPULAUAN BARAT DAYA, INDONESIA, a una profundidad de 131 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 5:56 AM UTC : Viernes 11 de Septiembre del 2026 a las 11:56 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-11T12:06:23.267000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-co.pds.netasgard.com/post/3mvajmjge2c2m",
-    "text": "Gobierno — Más de 20.000 personas afectadas por el sismo en zonas rurales del país #000 #Gobierno #News #Breaking",
-    "author_handle": "es-co.pds.netasgard.com",
-    "author_name": "Netasgard News Colombia",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:afml3t7dkpxncetzmoak2gbu/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-11T12:05:02+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117252299230464085",
-    "text": "5 minutes 37 seconds ago - Banda Sea mB 6.6 7.47S 129.00E 103km 2026/09/11 11:56:23 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rximar # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-11T12:01:41.062000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/ayuntamientocadiz.bsky.social/post/3mvaihi6ho22z",
-    "text": "🚨🚨 El próximo jueves 17 de septiembre, a las 19 horas, se harán las pruebas de sonido de las tres primeras sirenas acústicas que darán aviso a la población ante el riesgo de un tsunami \n\n✅ Se trata de una prueba de sonido y no de una alerta real ni de un simulacro\n\n#maremoto #tsunami #Cádiz",
-    "author_handle": "ayuntamientocadiz.bsky.social",
-    "author_name": "Ayuntamiento de Cádiz",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:meo4m3qifn7363vbnk3jmkh4/bafkreif7p65yzcpcuiz62qcfrcsi6mc3p44jds23jlrwafxwywx44duita",
-    "published": "2026-09-11T11:44:20.240000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami",
-      "maremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/barequeo.bsky.social/post/3mvai6c5plk25",
-    "text": "#SismoResistentes \"La Librería Nacional, Panamericana, Centro Cultural, Savia y Livraria debieron cerrar debido a los daños. Lo mismo ocurre con las bibliotecas. No solo la Ramón Correa quedó afectada, también la Biblioteca Comfamiliar\": Juan Camilo Perdomo Morales. barequeo.com/sismo-resist...",
-    "author_handle": "barequeo.bsky.social",
-    "author_name": "Barequeo",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
-    "published": "2026-09-11T11:39:11.934000+00:00",
-    "like_count": 3,
     "keywords_matched": [
       "sismo"
     ],
