@@ -26,7 +26,7 @@
     "id": "us7000tgw1",
     "source": "usgs",
     "time": "2026-09-12T01:59:50.373000+00:00",
-    "updated": "2026-09-12T03:48:44.403000+00:00",
+    "updated": "2026-09-12T05:18:56.709000+00:00",
     "lat": 8.3545,
     "lon": -82.7898,
     "depth_km": 10,
@@ -35,7 +35,7 @@
     "place": "2 km NE of Manaca Norte, Panama",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 26,
+    "felt_reports": 27,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -179,6 +179,12 @@
       {
         "lat": 9.65262,
         "lon": -82.75435999999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 9.933515,
+        "lon": -84.050065,
         "intensity": 2,
         "responses": 1
       }
