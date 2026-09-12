@@ -26,7 +26,7 @@
     "id": "us7000tgpu",
     "source": "usgs",
     "time": "2026-09-11T16:42:30.894000+00:00",
-    "updated": "2026-09-11T22:16:09.788000+00:00",
+    "updated": "2026-09-12T01:02:38.327000+00:00",
     "lat": 4.4193,
     "lon": -76.8325,
     "depth_km": 61.088,
@@ -35,13 +35,19 @@
     "place": "33 km SW of Sipí, Colombia",
     "cdi": 3,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 4.79004,
         "lon": -75.734945,
         "intensity": 3,
+        "responses": 1
+      },
+      {
+        "lat": 3.4322025,
+        "lon": -76.516785,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -55,6 +61,29 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgpu",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tguq",
+    "source": "usgs",
+    "time": "2026-09-11T22:32:23.645000+00:00",
+    "updated": "2026-09-12T01:39:57.040000+00:00",
+    "lat": -45.7183,
+    "lon": -75.8153,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "235 km W of Puerto Chacabuco, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tguq",
     "relevant": false,
     "keywords_matched": []
   }
