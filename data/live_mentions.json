@@ -1,5 +1,38 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@monitorsismico/117259395425788184",
+    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 mb, GREECE, a una profundidad de 14 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Sabado 12 de Septiembre del 2026 a las 11:51 AM UTC : Sabado 12 de Septiembre del 2026 a las 5:51 PM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
+    "author_handle": "monitorsismico@mastodon.social",
+    "author_name": "Monitor Sismico Mundial",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
+    "published": "2026-09-12T18:06:20.417000+00:00",
+    "like_count": 1,
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/noticnacinter.bsky.social/post/3mvdlth7pjk2m",
+    "text": "El 11\\sep\\26🇲🇽un sismo 4.1 en Chiapas,además de operativos contra el CO y declaraciones políticas de la presidenta🇲🇽.A nivel internacional, se conmemoró el 25º aniversario de los atentados del 11-S, mientras🇷🇺lanzó 160 drones contra🇺🇦y el precio del petróleo se disparó por tensiones en Medio Oriente.",
+    "author_handle": "noticnacinter.bsky.social",
+    "author_name": "Noticnacinter",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:zvyzgday3o2vf2xymn3wzvf7/bafkreigma2krefyqb7aoav7f4tazlooqmvllpmco5kmkzskuqigjnbhrfa",
+    "published": "2026-09-12T17:22:42.317000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/akerix-es.bsky.social/post/3mvdksldae622",
     "text": "Israel dice que destruyó la red de túneles de Hezbolá en el sur del Líbano, provocando un temblor de 4.1.\n\n#Akerix #IA #Hezbollah #FDI\nhttps://akerix.com/es/article/lebanon-hezbollah-tunnel-explosions?5w=1",
@@ -967,22 +1000,6 @@
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://fed.brid.gy/r/https://lapatilla.com/2026/09/11/fuerte-sismo-sacudio-el-occidente-de-colombia/",
-    "text": "Fuerte sismo sacudió el occidente de Colombia https:// fed.brid.gy/r/https://lapatill a.com/2026/09/11/fuerte-sismo-sacudio-el-occidente-de-colombia/",
-    "author_handle": "lapatilla.com@web.brid.gy",
-    "author_name": "Home [Unofficial]",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/115/447/718/010/790/787/original/4701ba3d490733c6.png",
-    "published": "2026-09-11T17:56:00+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
     ],
     "place": null,
     "lat": null,
