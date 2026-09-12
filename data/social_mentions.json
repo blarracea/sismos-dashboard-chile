@@ -1,5 +1,17 @@
 [
   {
+    "title": "Temblor se percibe en la zona norte del país: Revisa la magnitud - Meganoticias",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMkh1aGxKSkE3WElka3J6S19TSG1IcFY2TUtTSU1remMxeXNVNDh3TjBWWVB6Szl0VURZMEI2dy1YVE9xbUJ3OFU0b0J5R3lDa2hmSUpVdF9WaXQ1LWhRSFZab3pDVG5TMU1JYVgwSDVEdmNmVFFfN25Xd2ZhZFIzdWVZZmlXS0R0UHlpY2RLVzAxcmFsQVcyS3IyeW5uaWhnWjNfZ0VZRlY2cnROSFlj0gG0AUFVX3lxTE5oMzRmT015ZG1KaDJRRTIzcDR1eDBzZURvQWY2akw2OUpvVjdlbnV5MWJuTnJiMm81U3oxVHgzNUhWb1lHeWxkUWw2RTlidjVMOEswVjk1Vmt1eDBBN3I3cXZpMjh3X3A1bUJjdzRvX0xOX1Z0VWpQby1DOWV2UVRyYTFvdHVlQ0hDaWNFOTE3c2NMSEVLV0FyNkVnZ2kyMEtRSWIyUVhIQUtkUWJHMjl3bENCOQ?oc=5",
+    "source": "Meganoticias",
+    "published": "2026-09-12T19:02:00+00:00",
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Temblor en Chile hoy, sábado 12 de septiembre: reporte de magnitud y epicentro vía CSN - El Comercio Perú",
     "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPMURxOFFjelZ4dnVOZjR4WkloZkdyb0dyZm1MNGU0UlVPQkt3RjY1Zzg4RjV0cGlwU3MyTjIwX2pIamJiWE9oRi1PamZYSk0wTUsxQlR3SlhNbFVBLVEtUXlEVC1COHAtZ0twV3RrQnpqanM2eDVfQ0h5VTFCaTlfMTlwdVB6Y3RKOHNRLU0xNUZSZ2FxU0s0WG1hOHc2NVh6S0xjZHFZVWVtd3BIVFZwSFJkTFFCOGZfMzIwbWhrU2FELU0yVmVGY2oyOXZ1VzA3RkU0cVJOV3gwVzVoSU96SFlxZEdQTlNtX2FtU1RuSzJmTGg3dWJ5Um9nN24zOWpFbnktWnNQaVN3Q25nMlB2OG9kbWtaRVYwczVZbFVCblQxWk1tNXh1WlphWk1EbmNob0RQOG14YkxmRGU2QVE?oc=5",
     "source": "El Comercio Perú",
@@ -38,9 +50,9 @@
     "lon": null
   },
   {
-    "title": "Más de 500 sismos remecen sector cercano a Santiago: Revelan qué está pasando en San José de Maipo - Megatiempo",
+    "title": "Más de 500 sismos remecen sector cercano a Santiago: Revelan qué está pasando en San José de Maipo - megatiempo.cl",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQUZLRzR5ekNQa1lFUXVOMHJELXUyTkM1cnFZTEJMYjVBMGMzSk9iN240T21MOU1qQUNNNHQzRERUYUxtRHo2M0o1SENOMHpQak9TZlM4ZDJHWnVETHIxOXBIN29xNHFDZE91ZTJ0R3M2NTNTMnp5b0ppMTE0Szc2Vy16MmRfNE44Z2Zz?oc=5",
-    "source": "Megatiempo",
+    "source": "megatiempo.cl",
     "published": "2026-09-12T10:05:00+00:00",
     "keywords_matched": [
       "sismo"
@@ -322,9 +334,9 @@
     "lon": null
   },
   {
-    "title": "SHOA descarta tsunami para las costas de Chile tras sismo de magnitud 5,4 al sur de Rapa Nui - Puranoticia",
+    "title": "SHOA descarta tsunami para las costas de Chile tras sismo de magnitud 5,4 al sur de Rapa Nui - Puranoticia.cl",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3RJWkVieTNxQWNPbjI0Um1zdWN3Y2owTHVNZXZGMVRlSTJVMWw2RzdLNE9wOGhWejNIcFhxeVlKOFM3ckhBeTFtbEtFeFFwYm9HNDFncnFmOUZCSkZPTmo1aTY4ejFnZmhRdGtuaXZ5UjlpN3RYV21GLVpVUncxSWN6LXl5QTN1SVZGdXE1ZTNhRFJROV9IdGxCMnVUZE1FX1YxQ1Jmd1lscEU2QUZGdXRHZFM3eVYzaEE?oc=5",
-    "source": "Puranoticia",
+    "source": "Puranoticia.cl",
     "published": "2026-09-10T19:21:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -501,19 +513,6 @@
     "published": "2026-09-09T20:33:00+00:00",
     "keywords_matched": [
       "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en Chile hoy magnitud del sismo según CSN - RPP Noticias",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX0l2QXU4M25CNS0wMU4xR0psMklPOGMtay1SREdDeVlld0FEdm9rdkRWM0JFa0N1Yjcyazc2MWNxVFVvVFdRS0I2Zl85aWtLWmdJeW1WXzA2V3dnLXRwLTJ5SzFhbjRKWVZYeUV0TGRtaFV2c2dtN014ZWFzU3lGT1BTRlllWjlGYlNBeGFydU1Kd3p2RnhLQlo1bFV2MGNLUGNWVnhn?oc=5",
-    "source": "RPP Noticias",
-    "published": "2026-09-09T19:09:45+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
     ],
     "place": null,
     "lat": null,

@@ -956,53 +956,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@NCSeismicobserv/117254034845853829",
-    "text": "6 minutes 59 seconds ago - Gulf of Alaska mB 5.2 55.05N 144.83W 10km 2026/09/11 19:16:13 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rxxbvf # séisme # earthquake # sismo # 지진 # 地震",
-    "author_handle": "NCSeismicobserv@mastodon.social",
-    "author_name": "New Caledonia Seismic Observ.",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
-    "published": "2026-09-11T19:23:04.621000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/kittymilu.bsky.social/post/3mvbbth4zks2o",
-    "text": "Mi hermano me compró una estantería nueva porque la mia está súper torcida y rota desde el terremoto 🥹 soy tan afortunada de tener un hermano mayor",
-    "author_handle": "kittymilu.bsky.social",
-    "author_name": "Milu Kitty 🎀✨",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:gmqlrvejw5bqy25zjoq3v5sn/bafkreif7bxrtobn436q7lrg2xri7k634kzehiesphtaw5jfewvim7rhnra",
-    "published": "2026-09-11T19:18:25.344000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/botnoticias.bsky.social/post/3mvbatym4zo2k",
-    "text": "Un mes después: la vulnerabilidad que el terremoto de Colombia dejó al descubierto\n\nvia @BioBioChile",
-    "author_handle": "botnoticias.bsky.social",
-    "author_name": "botnoticias.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fdzu4r7psqgzyu6zx6t5egir/bafkreie73cjvceb7daxps7fd7r5hktoqmohyt3xxf3er57emlsnssdksgi",
-    "published": "2026-09-11T19:00:49.796000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
