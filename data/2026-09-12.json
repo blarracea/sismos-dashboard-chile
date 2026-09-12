@@ -26,7 +26,7 @@
     "id": "us7000tgw1",
     "source": "usgs",
     "time": "2026-09-12T01:59:50.373000+00:00",
-    "updated": "2026-09-12T05:18:56.709000+00:00",
+    "updated": "2026-09-12T08:11:57.520000+00:00",
     "lat": 8.3545,
     "lon": -82.7898,
     "depth_km": 10,
@@ -35,7 +35,7 @@
     "place": "2 km NE of Manaca Norte, Panama",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 27,
+    "felt_reports": 28,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -165,6 +165,12 @@
         "responses": 1
       },
       {
+        "lat": 8.3972575,
+        "lon": -82.42142,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 9.02444,
         "lon": -83.505905,
         "intensity": 2.2,
@@ -193,6 +199,29 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgw1",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tgy2",
+    "source": "usgs",
+    "time": "2026-09-12T08:46:38.186000+00:00",
+    "updated": "2026-09-12T09:09:05.040000+00:00",
+    "lat": -14.4855,
+    "lon": -76.2161,
+    "depth_km": 24.123,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "63 km WSW of Santiago, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgy2",
     "relevant": false,
     "keywords_matched": []
   }
