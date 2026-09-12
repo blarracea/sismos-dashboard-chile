@@ -26,7 +26,7 @@
     "id": "us7000tgw1",
     "source": "usgs",
     "time": "2026-09-12T01:59:50.373000+00:00",
-    "updated": "2026-09-12T15:03:49.596000+00:00",
+    "updated": "2026-09-12T22:08:10.684000+00:00",
     "lat": 8.3545,
     "lon": -82.7898,
     "depth_km": 10,
@@ -35,7 +35,7 @@
     "place": "2 km NE of Manaca Norte, Panama",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 33,
+    "felt_reports": 35,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -81,8 +81,20 @@
         "responses": 1
       },
       {
+        "lat": 8.702415,
+        "lon": -82.9405075,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
         "lat": 8.857767500000001,
         "lon": -82.5867925,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 9.21947,
+        "lon": -82.57927000000001,
         "intensity": 3.8,
         "responses": 1
       },
@@ -91,6 +103,12 @@
         "lon": -82.41364,
         "intensity": 3.7,
         "responses": 3
+      },
+      {
+        "lat": 8.75875,
+        "lon": -82.4773,
+        "intensity": 3.4,
+        "responses": 1
       },
       {
         "lat": 8.81236,
@@ -107,12 +125,6 @@
       {
         "lat": 8.731797499999999,
         "lon": -82.43175,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 8.75875,
-        "lon": -82.4773,
         "intensity": 3.4,
         "responses": 1
       },
@@ -135,26 +147,8 @@
         "responses": 1
       },
       {
-        "lat": 8.740875,
-        "lon": -82.4226975,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 8.30618,
         "lon": -82.59358,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 8.4514475,
-        "lon": -82.4397825,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 9.2138175,
-        "lon": -83.5617975,
         "intensity": 3.1,
         "responses": 1
       },
@@ -165,14 +159,32 @@
         "responses": 1
       },
       {
-        "lat": 9.0239975,
-        "lon": -83.56953,
+        "lat": 8.7498825,
+        "lon": -82.43182,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 8.7498825,
-        "lon": -82.43182,
+        "lat": 8.740875,
+        "lon": -82.4226975,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.2138175,
+        "lon": -83.5617975,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 8.4514475,
+        "lon": -82.4397825,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.0239975,
+        "lon": -83.56953,
         "intensity": 3.1,
         "responses": 1
       },
@@ -201,14 +213,14 @@
         "responses": 1
       },
       {
-        "lat": 8.650242500000001,
-        "lon": -82.476875,
+        "lat": 9.1137025,
+        "lon": -83.66109,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 9.1137025,
-        "lon": -83.66109,
+        "lat": 8.650242500000001,
+        "lon": -82.476875,
         "intensity": 2,
         "responses": 1
       },
