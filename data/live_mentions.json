@@ -1,5 +1,37 @@
 [
   {
+    "platform": "mastodon",
+    "link": "https://mastodon.social/@NCSeismicobserv/117257807978204453",
+    "text": "6 minutes 35 seconds ago - Colombia mB 5.0 4.39N 76.55W 81km 2026/09/12 11:16:14 - Event has not yet been reviewed by a seismologist. For subsequent updates and details, please see http:// seisme.nc/fr/component/alertes /?ids=ird2026rzcwhe # séisme # earthquake # sismo # 지진 # 地震",
+    "author_handle": "NCSeismicobserv@mastodon.social",
+    "author_name": "New Caledonia Seismic Observ.",
+    "author_avatar": "https://files.mastodon.social/accounts/avatars/113/860/232/642/210/775/original/d3e3c5fc30ca5f9b.png",
+    "published": "2026-09-12T11:22:37.875000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "sismo"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "platform": "bluesky",
+    "link": "https://bsky.app/profile/livingletliving.bsky.social/post/3mvcse57y5s2n",
+    "text": "que en su orgullo estaba su victoria y que le desviviesen a quien le desviviesen, nunca les derrotatian. Su voz era alta y fuerte, ante el cadaver de su hijo, ningun temblor, solo fuerza y seguridad.",
+    "author_handle": "livingletliving.bsky.social",
+    "author_name": "Aglaya Bore",
+    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:jeqtdcyz3z4cmduyunaammy2/bafkreiayq7a54k4se66v4ibapcksojxmmywqdcds6oim3h54zmd4vul7gm",
+    "published": "2026-09-12T09:46:43.790000+00:00",
+    "like_count": 0,
+    "keywords_matched": [
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "platform": "bluesky",
     "link": "https://bsky.app/profile/trending-es.bsky.social/post/3mvcprpuhca2e",
     "text": "Ítems de los últimos 30 minutos 🧭:\n\n1. #sismo 🆕\n2. #M2 🆕\n3. Septiembre ⬆\n4. Sep 🆕\n5. Estuvo 🆕\n6. España\n7. Obstáculo 🆕\n8. Hija 🆕\n9. Podemos 🆕\n10. Fachas 🆕",
@@ -1052,217 +1084,6 @@
     "like_count": 3,
     "keywords_matched": [
       "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117252081697551554",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5.3 mb, ANDREANOF ISLANDS, ALEUTIAN IS., a una profundidad de 40.9 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 4:47 AM UTC : Viernes 11 de Septiembre del 2026 a las 10:47 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-11T11:06:21.781000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117252081661897862",
-    "text": "United States Geological Survey (USGS) Sismo de magnitud 5.3 mb, 151 km WSW of Adak, Alaska, a una profundidad de 40.892 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 4:47 AM UTC : Viernes 11 de Septiembre del 2026 a las 10:47 AM # SismoUSGS # Sismo # USGS # TemblorUSGS # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-11T11:06:21.265000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/orfetv.bsky.social/post/3mvag5rvyf22i",
-    "text": "Gobierno firmó 11 nuevos decretos para acelerar la reconstrucción tras el terremoto    #SoyBoyacá\nwww.orfetv.com/2026/09/11/g...",
-    "author_handle": "orfetv.bsky.social",
-    "author_name": "\"Muy Buenas Tardes\"",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:m3ku3axmko7w7rwoeadh7hdd/bafkreig47jl5dyxfqxocycjtzhdnipjspji5yrjcec2bxqlgwrxv7gpaaq",
-    "published": "2026-09-11T11:03:07.420000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/netasgardespana.bsky.social/post/3mvag2hzfvg22",
-    "text": "Perú — Dos sismos afectaron regiones del norte de Perú en el día de hoy #11 #Perú #IGP #News",
-    "author_handle": "netasgardespana.bsky.social",
-    "author_name": "Netasgard España",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:iioeaqu2zvac4ykuc2ncab2q/bafkreif2vtlwyzyr4sauqrlumb4barbhwlrhwni3pt2cszgvxy22dp2tz4",
-    "published": "2026-09-11T11:01:15+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/orfetv.bsky.social/post/3mvafs6xtns2i",
-    "text": "Tras un mes del terremoto, MinHacienda decreta el Fondo Milagro para la reconstrucción: ¿cómo funcionará?     #SoyBoyacá\nwww.orfetv.com/2026/09/11/t...",
-    "author_handle": "orfetv.bsky.social",
-    "author_name": "\"Muy Buenas Tardes\"",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:m3ku3axmko7w7rwoeadh7hdd/bafkreig47jl5dyxfqxocycjtzhdnipjspji5yrjcec2bxqlgwrxv7gpaaq",
-    "published": "2026-09-11T10:56:38.458000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/laotraversion.bsky.social/post/3mvaesgjey22c",
-    "text": "🛑➡️  Alcalde Di Martino: El sismo con epicentro en Maicao no produjo afectaciones en Maracaibo\n\n➡️Conoce más, abriendo el enlace 🔗 de la noticia. ⬇️ \nlaotraversion.net/alcalde-di-m...",
-    "author_handle": "laotraversion.bsky.social",
-    "author_name": "https://laotraversion.net/",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:75qxzxmmwa4qxqueq4zlcukq/bafkreib7eaxr3bxg4sn7sjerwpjychfrz6o7tnlqzm5pfmu74a4vq4qyzy",
-    "published": "2026-09-11T10:38:52.632000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/laotraversion77.bsky.social/post/3mvaerex5y22c",
-    "text": "🛑➡️  Alcalde Di Martino: El sismo con epicentro en Maicao no produjo afectaciones en Maracaibo\n\n➡️Conoce más, abriendo el enlace 🔗 de la noticia. ⬇️ \nlaotraversion.net/alcalde-di-m...",
-    "author_handle": "laotraversion77.bsky.social",
-    "author_name": "laotraversion77.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:bmgkxtvwodhjlf4yavuzzrjf/bafkreib6ikuxvo27ov6cwnmyhbzfgqb76d7qlpc5g2dnjnvnoedx3jp4xu",
-    "published": "2026-09-11T10:38:17.432000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/ccguerra.bsky.social/post/3mvaeqbvs6s2c",
-    "text": "🛑➡️  Alcalde Di Martino: El sismo con epicentro en Maicao no produjo afectaciones en Maracaibo\n\n➡️Conoce más, abriendo el enlace 🔗 de la noticia. ⬇️ \nlaotraversion.net/alcalde-di-m...",
-    "author_handle": "ccguerra.bsky.social",
-    "author_name": "ccguerra.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:am35axmxu5pxzse4vyvvh4if/bafkreiflfukxndouiavv6ept3bsnq5zthhe4kmheu2rxo2xtl6migg2hn4",
-    "published": "2026-09-11T10:37:40.688000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3mvadzobzss2m",
-    "text": "Colombia — La Cruz Roja continúa su labor en Colombia un mes después del terremoto #Colombia #News #Breaking",
-    "author_handle": "es-us.pds.netasgard.com",
-    "author_name": "Netasgard News Estados Unidos (es)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-11T10:25:01+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/cuatrotv.bsky.social/post/3mvadhsjr5p2u",
-    "text": "Quino, el labrador que trabajó en el terremoto de Venezuela, sobrevive a un fallo multiorgánico: \"Creía que habría que eutanasiarlo y sigue vivo\" ver.tw/rlkokc",
-    "author_handle": "cuatrotv.bsky.social",
-    "author_name": "Cuatro",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:uujh6fsrlyt2abnn7vkw346r/bafkreifb2lv4sdngc6l6gvznftc4wjoktyqenu2c4faspbgrizzjgg27hi",
-    "published": "2026-09-11T10:15:02+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/lagaceta.bsky.social/post/3mvacuwljla2w",
-    "text": "Tragedia por terremoto en Colombia y debate por robot humanoide en redes\n\nLa conversación digital está dominada por el impacto humano tras un mes del terremoto en Colombia, con relatos de sobrev\n\nhttps://lagaceta.net/tendencias/",
-    "author_handle": "lagaceta.bsky.social",
-    "author_name": "lagaceta.bsky.social",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:fy27yfx272uqa2otwzji7o2v/bafkreif4k7yaub6xq5qjhsnor4lwi43msjg6qt6bxn262zjldar2dey7y4",
-    "published": "2026-09-11T10:04:28.673760+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/alicianexusart.bsky.social/post/3mvaccpgpfs2c",
-    "text": "Ahhh… sí…Siento tu lengua cálida y húmeda deslizándose entre mis muslos, tan despacio que me obliga a abrir más las piernas. Cada lamida me arranca un temblor que sube por todo el cuerpo hasta hacerme arquear la espalda. \n\nMe mojo más, siento cómo mis jugos te empapan los labios mientras me comes",
-    "author_handle": "alicianexusart.bsky.social",
-    "author_name": "Alicia Nexus Waifu",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2fab3v2vbz3k72z7ohvouaya/bafkreia32wao5u2donzfh6ilcjtnzxd4uiuf5s6nntnompylslg5cig24q",
-    "published": "2026-09-11T09:54:17.628000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://mastodon.social/@monitorsismico/117251704376544083",
-    "text": "The European Mediterranean Seismological Centre - CSEM/EMSC Sismo de magnitud 5 m, TONGA, a una profundidad de 218 Kilometros *** Fecha Y Hora *** Mexico (UTC-6) : Viernes 11 de Septiembre del 2026 a las 2:58 AM UTC : Viernes 11 de Septiembre del 2026 a las 8:58 AM # Europa # Sismo # European # Mediterranean # Temblor # Sismologico # MonitorSismico",
-    "author_handle": "monitorsismico@mastodon.social",
-    "author_name": "Monitor Sismico Mundial",
-    "author_avatar": "https://files.mastodon.social/accounts/avatars/115/178/011/583/328/245/original/e0ab2ed938e45efc.png",
-    "published": "2026-09-11T09:30:24.307000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo",
-      "temblor"
     ],
     "place": null,
     "lat": null,
