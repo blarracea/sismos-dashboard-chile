@@ -1,8 +1,21 @@
 [
   {
-    "title": "Temblor en Chile hoy, sábado 12 de septiembre: reporte de magnitud y epicentro vía CSN - elcomercio.pe",
+    "title": "Temblor hoy, sábado 12 de septiembre en Chile: consulta epicentro y magnitud - La Tercera",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUEFlVkpaVXhtV292eFBDeEhXeWp3RDF2VXV6QTlsS3hrbFhlR1FuRXpkcUZOR1FkQTFSVFg4T21DckFORjd6V1JFNnZOdnc4SmtieVUwbXhRVnVZUjh3V3d0T2hvay1YVFRaTU1wdG1NVHpNN3U2cWRfWXVrVVNsNXBjV19iMmpTSGtlc204WlN3UnBVMjVfR2Z1a0NpekxJQnZzQ2ZTblVIMEhTbHRwdnd2RVdhX2hEdUxR0gHcAUFVX3lxTE9oQnNBckR4NEFwVUNqVVR3T3lkcF9BTDhzXzd6WEpkMW9WYWhtWFZlNUR1VURvV1Zvd3N5WmMzajdDSy1pLVBia0gxTEJrMk84R2ZRRzRzQ1lPelFvc2djSHNuMWhFYi1yN2VRcVNHcE00OG1oX0h5V2xLX3BLelBrZ3lQQUF6NkJjd29PdzBXM3JsbWdGTjNkV3o2OTlGcVZGQW8yNW9XR2R0T1paMEFfVlhmazFORk9wZUxQdzh3bF8ySXdKVFpZSHFxc0QyOGVubzRLUHR5QjVBNUM?oc=5",
+    "source": "La Tercera",
+    "published": "2026-09-12T13:10:08+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor"
+    ],
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
+    "title": "Temblor en Chile hoy, sábado 12 de septiembre: reporte de magnitud y epicentro vía CSN - El Comercio Perú",
     "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPMURxOFFjelZ4dnVOZjR4WkloZkdyb0dyZm1MNGU0UlVPQkt3RjY1Zzg4RjV0cGlwU3MyTjIwX2pIamJiWE9oRi1PamZYSk0wTUsxQlR3SlhNbFVBLVEtUXlEVC1COHAtZ0twV3RrQnpqanM2eDVfQ0h5VTFCaTlfMTlwdVB6Y3RKOHNRLU0xNUZSZ2FxU0s0WG1hOHc2NVh6S0xjZHFZVWVtd3BIVFZwSFJkTFFCOGZfMzIwbWhrU2FELU0yVmVGY2oyOXZ1VzA3RkU0cVJOV3gwVzVoSU96SFlxZEdQTlNtX2FtU1RuSzJmTGg3dWJ5Um9nN24zOWpFbnktWnNQaVN3Q25nMlB2OG9kbWtaRVYwczVZbFVCblQxWk1tNXh1WlphWk1EbmNob0RQOG14YkxmRGU2QVE?oc=5",
-    "source": "elcomercio.pe",
+    "source": "El Comercio Perú",
     "published": "2026-09-12T11:00:00+00:00",
     "keywords_matched": [
       "temblor"
@@ -35,19 +48,6 @@
     "place": "santiago",
     "lat": -33.4489,
     "lon": -70.6693
-  },
-  {
-    "title": "Temblor hoy, sábado 12 de septiembre en Chile: consulta epicentro y magnitud - La Tercera",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUEFlVkpaVXhtV292eFBDeEhXeWp3RDF2VXV6QTlsS3hrbFhlR1FuRXpkcUZOR1FkQTFSVFg4T21DckFORjd6V1JFNnZOdnc4SmtieVUwbXhRVnVZUjh3V3d0T2hvay1YVFRaTU1wdG1NVHpNN3U2cWRfWXVrVVNsNXBjV19iMmpTSGtlc204WlN3UnBVMjVfR2Z1a0NpekxJQnZzQ2ZTblVIMEhTbHRwdnd2RVdhX2hEdUxR0gHcAUFVX3lxTE9oQnNBckR4NEFwVUNqVVR3T3lkcF9BTDhzXzd6WEpkMW9WYWhtWFZlNUR1VURvV1Zvd3N5WmMzajdDSy1pLVBia0gxTEJrMk84R2ZRRzRzQ1lPelFvc2djSHNuMWhFYi1yN2VRcVNHcE00OG1oX0h5V2xLX3BLelBrZ3lQQUF6NkJjd29PdzBXM3JsbWdGTjNkV3o2OTlGcVZGQW8yNW9XR2R0T1paMEFfVlhmazFORk9wZUxQdzh3bF8ySXdKVFpZSHFxc0QyOGVubzRLUHR5QjVBNUM?oc=5",
-    "source": "La Tercera",
-    "published": "2026-09-12T10:03:00+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   },
   {
     "title": "Temblor en Chile del viernes 11 de septiembre: epicentro según el último reporte CSN - El Comercio Perú",
@@ -201,7 +201,6 @@
     "source": "La Tercera",
     "published": "2026-09-11T12:15:08+00:00",
     "keywords_matched": [
-      "sismo",
       "temblor"
     ],
     "place": null,
@@ -248,9 +247,9 @@
     "lon": null
   },
   {
-    "title": "Sismo de magnitud 4.1 sacude Chile: epicentro en Quintero - kchcomunicacion.com",
+    "title": "Sismo de magnitud 4.1 sacude Chile: epicentro en Quintero - KCH FM",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbFlSMHlDRUpES2xaQ014dzJoZmJZclpWWDA4UXA3YkNNSWJISk9SaWxmWUlHd0N6OWhFMXdidTlEclBoaUtuUDI5LXg4a1NFcjJxSEFJWTQtbmlJTUpkaHlEV0l5T0NYUmlWV2tFdktWZW5yRWVPWmVPNi1mSi1uU0JuUlQzVEFNU3ZBa00zRXpBYVFlY1JhRE5YeXI?oc=5",
-    "source": "kchcomunicacion.com",
+    "source": "KCH FM",
     "published": "2026-09-11T07:28:03+00:00",
     "keywords_matched": [
       "sismo"
@@ -260,9 +259,9 @@
     "lon": null
   },
   {
-    "title": "Temblor en Chile: se registra sismo de magnitud 4.1 con epicentro en Quintero - Infobae",
+    "title": "Temblor en Chile: se registra sismo de magnitud 4.1 con epicentro en Quintero - infobae.com",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOFlkNlNQVGNhVEdqbFU5VEVWUmc1QjhfX291UjVOd3l6aTItZGVqeUFtX0RpdGU2YThZOTZ1S2o2MThpSFBXeWJwQ3JIVlh1dXVjdkRXa1owalFUT1hUSGNsYTlzSzZJcEV4VV9uY3h4T3N5enNqLWFjM2pSWXM4aS05X2hWUEdQSjJERS1EbTdSMHZWMlhqUTBUa21GbWxEZFFhYkMwV1E4U0hvXzduLTYtdHFpWWU5ekU3NtIB1wFBVV95cUxOck9VanlwcmZhNTVvVHMxNzZDVHdGUy1ZMkFKYVVldENyMkNtNDZtRzlzckFFeV9KdmYwX0R5enBjQ0pDdzRoU0RWRVdyejV0MXUxUWhUMTdpVExRV1Zhb090ay1xOVVDVFlOcF8tSU9qd0JJX0Z3NWZpOW42dTVMcVdkdy1DWWo1NFJJNV96czZqNkVUd3VUdHpKMlp3YTFYZW1NRkdXV2FvQTRPMWZmV1NFZkU3cXREV0JIVnN5QUk2VHR1QldiR0lxODVTNm9RQzRfZ19MZw?oc=5",
-    "source": "Infobae",
+    "source": "infobae.com",
     "published": "2026-09-11T06:16:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -298,9 +297,9 @@
     "lon": null
   },
   {
-    "title": "Sismo de magnitud 5.4 sacude en Isla este jueves 10 de septiembre - Infobae",
+    "title": "Sismo de magnitud 5.4 sacude en Isla este jueves 10 de septiembre - infobae.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORFVJNXlMTEluQWRSanZJMWJlMzNYdThyMWpmSXhRYXBxbEl0YllzRk1fYkkzNE52NTdUanlFYkJ0QlZiTW5POW9LNldXTDV3WlJBUDhwMWliOVB6QVNscG1qYTFfUjVBY3RybFpaUjNwbWxzdGw4Q285LVpaM3VGY2FHUnlhbVM1S2twUE5RVDFKaThxMGktSzFrNzJaMjJKVDBxTy1MZ05jT2lDcEHSAcgBQVVfeXFMTUhOYjN3ZGlqXzZGT0VPOXhpemFTei1MT1pJaFZVbDJ4TFpnSU5FenQ2a0J0elBwRXdJMHg3NFd0V181RHk5T29wMmZBbWNrc2Q1WUhkaXZ2cmZ5UE92Y0Nrc0gyTHZUeGVuekNJWHp2VWNKUUhULUw0V3k0c1ZLcE1Pa2cyWnA4ZTB6TXV2TWJMQ21Ec09vQllkYVBwbk9XX3M3bl9MZWE0N25UZDhNcHpoYVVKWDdxZnM0bVoxQ2lYQjJWS3g0akk?oc=5",
-    "source": "Infobae",
+    "source": "infobae.com",
     "published": "2026-09-11T03:33:50+00:00",
     "keywords_matched": [
       "sismo"
@@ -323,9 +322,9 @@
     "lon": null
   },
   {
-    "title": "SHOA descarta tsunami para las costas de Chile tras sismo de magnitud 5,4 al sur de Rapa Nui - Puranoticia",
+    "title": "SHOA descarta tsunami para las costas de Chile tras sismo de magnitud 5,4 al sur de Rapa Nui - puranoticia.pnt.cl",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV3RJWkVieTNxQWNPbjI0Um1zdWN3Y2owTHVNZXZGMVRlSTJVMWw2RzdLNE9wOGhWejNIcFhxeVlKOFM3ckhBeTFtbEtFeFFwYm9HNDFncnFmOUZCSkZPTmo1aTY4ejFnZmhRdGtuaXZ5UjlpN3RYV21GLVpVUncxSWN6LXl5QTN1SVZGdXE1ZTNhRFJROV9IdGxCMnVUZE1FX1YxQ1Jmd1lscEU2QUZGdXRHZFM3eVYzaEE?oc=5",
-    "source": "Puranoticia",
+    "source": "puranoticia.pnt.cl",
     "published": "2026-09-10T19:21:00+00:00",
     "keywords_matched": [
       "sismo",
@@ -446,9 +445,9 @@
     "lon": null
   },
   {
-    "title": "Se percibe sismo de magnitud 4 en la ciudad de San Antonio este jueves 10 de septiembre - Infobae",
+    "title": "Se percibe sismo de magnitud 4 en la ciudad de San Antonio este jueves 10 de septiembre - infobae.com",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYWFlMWQ2ZXc5Ui15ZUZIMHdkLW11c1N5SG1rWTdETlNlWkZpYnZQamdFUFB2NmlPZ1Z2TFhlcVVEandnQlNGZTExQzh0UXRRZmYtSjhKNk9FckJJT0xTX0pwWkFEQUQyaGZTMFczZ19BODd0ckIzUGpCYU1tUWRVRS0xeFpkNVlzdGtYWkVQbUZiOFlEVGF5c2doMXBmOFBtdzV5S3dWSGZSNXBMNGxWSlZBbDVMNnk5VUtmRjZMU292NEZVY25Sck1Sby3SAecBQVVfeXFMTkpid3piTDJzRXN0X3Q3TWltUmhzXzZyaFNjV2lXZ0xvam5BcFNodm1mV2ZObzhQenFSTkpwemJBbzl6MnlwZWJQU25yRlRTdHBQeVAyM0s5OXllUGdpZ01lOWFxZUhuSlhsdUJaZWpfU1FTd0h6OGFacm1jTTNWQ1puTnlXd0VRSHFCbHpJTFkwLW1JQ2lqTkVKUS1QTnBLU1ZQYVpOWkNETGswRlc1VGgxTWlvVTc3eThKdkVhMjhqaEtPOW5fWU1BTUFFRENiOWJrZ1J1QnRRZzRnWU93THBXUWJYWldR?oc=5",
-    "source": "Infobae",
+    "source": "infobae.com",
     "published": "2026-09-10T05:01:00+00:00",
     "keywords_matched": [
       "sismo"
@@ -527,132 +526,6 @@
     "published": "2026-09-09T17:00:28+00:00",
     "keywords_matched": [
       "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Nuevo temblor se registra en el norte del país: revisa dónde ocurrió y su magnitud - Radio Agricultura",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUGxNU3lIdXFxTnhyTmI5d2tyTEM3V0JyNTNZN3VsVmVrMVZMSXpHMGhvQkV3RGI4ZUFvaFJ1YXR1YURfNUNfS3hXdmpkRWZUVzhJeGtMMnlPWjg0eVo2UmFuUVdvdEt5ay15enZtNWJXaVJjVHZwaFhpMTdwS3IwWjNPOWRCajhHclNrZEdzTjFLVnp1RmtSUWJyYUpYUXBDTUMwRy1Cd0M0Mk9rMDg3Tjh6OWsxZU1vSDhoempCMm0tS0xQYThjazU2SkJUUEg0Y0dpTGVPczg?oc=5",
-    "source": "Radio Agricultura",
-    "published": "2026-09-09T15:41:30+00:00",
-    "keywords_matched": [
-      "temblor"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "400 sismos en solo un día: ¿Podría el enjambre en Cajón del Maipo anunciar un gran terremoto en Chile? - elquehaydecierto.cl",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQblZQazJBenZ1dmJQWWhxMUFQVE9UcUwwUEQxMVJwZ0pGR25DeDFuZFdfMUcxbzgtY1ZUdjlBMmZtdF9MZXRsYnk2WExGVlB5aFRNVFByLUxFX1Vpd3RFcEZ2RXBISjBNbnVxVnAzSldyTmpSbk5sZ3FQOGVPUjJXVnZHMkJ0X3htNWppdExMT2Z5RlM2RFg5amo4d29idGtNUlpkajBCR3Fmb3JpSnR1VHFLWk5GMmd4WU5VMEVqSjc5eFJPd2tfZUFkdm8?oc=5",
-    "source": "elquehaydecierto.cl",
-    "published": "2026-09-09T14:54:36+00:00",
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "400 sismos en solo un día: ¿Podría el enjambre en Cajón del Maipo anunciar un gran terremoto en Chile? - elobservatodo.cl",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbmRWX1l6cURuUzlOT19FTi1ZOUozcDNLY2F3bExZaERYUmlpeVdVT1BGLWV1MzRBVmNHaDg0Si1vR2ZMS08zZndFcVVXbTNNWENfNHE0STRVUzcxZlN0UGdVU1FZOVdnc2VzaTh1R3cxa1VlWTRnOUtMRTRfeE9mSnlKVW9xVklmZ0p1cGM4OXg2RGp3SjlJS0tyMVdyZDFuZ3hvb1JBX0VMVGh4ZnNxbEt1bUVLbDFQV1ZIbHlYd0xUd1BVM2liUg?oc=5",
-    "source": "elobservatodo.cl",
-    "published": "2026-09-09T14:52:45+00:00",
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "400 sismos en solo un día: ¿Podría el enjambre en Cajón del Maipo anunciar un gran terremoto en Chile? - elnaveghable.cl",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRFVteTNqaEdiYm9DVEZZNGlpQkYxR1VGb0FxVDV6NmZKUVVLUmdZa0g2TVo3ZlRiMW9na2FIMXluSHVpSVNIZWNqY19Oa2NlOGRmRDB5d2txeTd1ZjZ4eERPNUVJOWpuaEpDNGN6dUIxclVtakR4YWRMZE95NXVjNk44QzdNV2pqRkJIbGNhcnVaZzJXOUd3UDA0cndhYjdXY1VSdTNQaWZzT2NZQkJ2TThwTFhub1dPcGo1dzNua0VXV2lzbi1z?oc=5",
-    "source": "elnaveghable.cl",
-    "published": "2026-09-09T14:45:38+00:00",
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Galería de Terremoto en Chile (en actualización) - 3 - ArchDaily",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02OE05M0xFMjZLa1k4cmNid0s5ckdsY1N4eTBwa203R2Qzc3dRRW5NNU00b3Nkbm1FbzdwSUY5cWUtUjdybnF3dE9BU3daXzBVWVlkRk5IWVlHSzZ3ajJnaXFYWUZTODQ4cjZJM29tZVcyMGFTVEk4TQ?oc=5",
-    "source": "ArchDaily",
-    "published": "2026-09-09T14:44:32+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "400 sismos en solo un día: ¿Podría el enjambre en Cajón del Maipo anunciar un gran terremoto en Chile? - elmartutino.cl",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ08weEdZMmo0NGpNWmEtLVRLR2dEbmtwaW13VXNoSUhBZW5YLXpGZVQwdVEyZXNZeFdfS2s5d2YwZTRBcG5QMkZJVWM3RkRPUGRlNGU2NGNqZXJNdmJxbFhPX1Y3Wmg4eko0VERoT2wzbUc1S1BsUUtaUU8wU1l1azVEUmFOalRNQkN1UW1CempBWTQyNjk3dHFiQXAycDdmVkt6UDV1ODN3bmFqVVdjcjdaQk8ySlFhbjZiWmlUb2tMcnp3QWc?oc=5",
-    "source": "elmartutino.cl",
-    "published": "2026-09-09T14:44:16+00:00",
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "400 sismos en solo un día: ¿Podría el enjambre en Cajón del Maipo anunciar un gran terremoto en Chile? - elconcecuente.cl",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMEd5NjM2R3M5WXQzUTdDVDNrNXF1ZV9LSDFDZG9rQk1CTnhwcC1HU3NrNzI0LXBTMm9ncTlZZ3doRnVWbE5fcWhyZVRXd2JmYk9JY3B0TTNCMFRNd3FHbzFrV01rdHVOZWdUdkRWYTBvdnNLOWw3MTVIT0NmWEJFV29iaXg5MlBYZ2dJQUs4T1FQaDRBNUpLQjAyNkZ3bHcwa0lnWENZSEVCZXpnOHNhT2FqT1plVEJfUTRFUzFmbWJlSDh4OFo2Zw?oc=5",
-    "source": "elconcecuente.cl",
-    "published": "2026-09-09T14:26:45+00:00",
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "400 sismos en solo un día: ¿Podría el enjambre en Cajón del Maipo anunciar un gran terremoto en Chile? - elmorrocotudo.cl",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORl9QSExzZC1MWU5ZcG5TVFZscm1tVGUta1JtSEVxOEc4SE85UUtMQ3hkaEtIWFVKRVRLWmRLOXRDbDhaUm5xQmNwTkl0dmlMcnBlSDMwQmlwUU9Hb2g0Z0NyYThoVDk5NUtUT3JzeEdEektwSUk4RVd1UGNyQktmX2Z3elE3UGRZd1NZV2JTZnhvcnVRYXUyeElrQ3RvMTY5ZXdVMlVkWTZXU1pQVk9PV3I2c0lXZGQ5c3hTM2RQNGNOclZYbU5wYQ?oc=5",
-    "source": "elmorrocotudo.cl",
-    "published": "2026-09-09T14:21:55+00:00",
-    "keywords_matched": [
-      "sismo",
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Galería de Terremoto en Chile (en actualización) - 16 - ArchDaily",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Kdk1aT1NYcTluQVRPakdJelBUR2lJSmFvc05OM3hFRGE0NXhaN25tTUFhUHZqbXA3SnozTzNPY1E2Y1V5U0pqVVEzZ0lqQlMxZmxpYllYQlktYUkxeWExMFVld19hTzJCQWxOd19LSWFPNVdQSHFGZQ?oc=5",
-    "source": "ArchDaily",
-    "published": "2026-09-09T14:16:06+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Sismo se percibió esta mañana en la Región de Tarapacá - SoyChile.cl",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVHRyaTRUeTBJMjQxUk1DOVJHdTRNOGh5bGRiakRUQWRUOVJaa3N4bVQ3azdRdWhlTkY1UkFHRlJSclhLQnJVUlgydHRBb2JMbFZvREZDZ012UUpqTC1YLVdib1VPUmxHdUhhT0NEMzJLaEZSck5tLWxxVEtPUE5QclNjRWpGYWh5MHVhUmc1aW9acFhzc2pXeUJrand3Zw?oc=5",
-    "source": "SoyChile.cl",
-    "published": "2026-09-09T13:48:45+00:00",
-    "keywords_matched": [
-      "sismo"
     ],
     "place": null,
     "lat": null,
