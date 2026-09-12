@@ -7,7 +7,7 @@
     "author_name": "Barequeo",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
     "published": "2026-09-12T12:16:02.225000+00:00",
-    "like_count": 0,
+    "like_count": 2,
     "keywords_matched": [
       "terremoto"
     ],
@@ -23,7 +23,7 @@
     "author_name": "Barequeo",
     "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:vj74uv4pfnw5u26a4wsmbu5z/bafkreibwvuakc5yaqthpnkoplhxhwzfnsuqvryv3wcucor26ojegc2wsai",
     "published": "2026-09-12T11:58:12.478000+00:00",
-    "like_count": 0,
+    "like_count": 1,
     "keywords_matched": [
       "sismo"
     ],
@@ -968,38 +968,6 @@
     "like_count": 0,
     "keywords_matched": [
       "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/basquetplus.bsky.social/post/3mvanpbbmp22x",
-    "text": "Mindaugas Balciunas suspendió su cargo acorralado por los malos resultados del seleccionado masculino y la sanción de FIBA a un entrenador del femenino.\n\nTerremoto en Lituania: renuncia el presidente de la federación tras un escándalo de acoso y crisis deportiva\nbasquetplus.com/lituania-eur...",
-    "author_handle": "basquetplus.bsky.social",
-    "author_name": "basquetplus",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:tm7k52cskl64b5tplme5wy6l/bafkreicwdbwvvl4yh6qas7wdpefpx6h5w7jwz3r2njllqggb4oaz3ciqqy",
-    "published": "2026-09-11T13:18:10.147000+00:00",
-    "like_count": 1,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/es-us.pds.netasgard.com/post/3mvan73u5tc2m",
-    "text": "Venezuela — Padres venezolanos temen por seguridad de escuelas tras daños por sismos #Venezuela #News #Breaking",
-    "author_handle": "es-us.pds.netasgard.com",
-    "author_name": "Netasgard News Estados Unidos (es)",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:2b367v3y4nrowuyshzfutmoc/bafkreihuwe2si7iscyptj2isgc3zumr5utc6jq4hnoxnnmtkwxgn7wf6je",
-    "published": "2026-09-11T13:09:06+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "sismo"
     ],
     "place": null,
     "lat": null,
