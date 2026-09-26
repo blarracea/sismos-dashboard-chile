@@ -2112,37 +2112,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "platform": "bluesky",
-    "link": "https://bsky.app/profile/112andalucia.bsky.social/post/3mwemhh3a6k2z",
-    "text": "#Consejos112 ¿Y si me sorprende de noche un terremoto🌙?\n\n🎯CALMA. Cuando todo se mueva, ten claro qué hacer: agáchate, cúbrete, agárrate.\n\n☎️En caso de emergencia, 1⃣1⃣2⃣\n\n#AndalucíaPreviene #BuenasNoches",
-    "author_handle": "112andalucia.bsky.social",
-    "author_name": "EMA 112 Andalucía",
-    "author_avatar": "https://cdn.bsky.app/img/avatar/plain/did:plc:otczrmncrd7fwcl5uc3dgra4/bafkreicp5frou4gyhnsoyj4p5t5sssxef23f5kcyvfam5ldmwyzmskkr4a",
-    "published": "2026-09-25T20:31:44.635000+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "platform": "mastodon",
-    "link": "https://flipboard.com/@gizmodo/earther-ensdu4a6z/-/a-9ut00asPSRmWDv3UjO9AYg%3Aa%3A1876139665-%2F0",
-    "text": "Tonga's 2022 ‘Ultra’ Eruption Rewrote the Rules for Tsunamis. Now We Know Why https:// gizmodo.com/tongas-2022-ultra- eruption-rewrote-the-rules-for-tsunamis-now-we-know-why-2000817632?utm_source=flipboard&utm_medium=activitypub Posted into Earther @ earther-Gizmodo",
-    "author_handle": "Gizmodo@flipboard.com",
-    "author_name": "Gizmodo",
-    "author_avatar": "https://files.mastodon.social/cache/accounts/avatars/113/198/583/290/021/057/original/169ed636f709e255.png",
-    "published": "2026-09-25T20:30:26+00:00",
-    "like_count": 0,
-    "keywords_matched": [
-      "tsunami"
-    ],
-    "place": null,
-    "lat": null,
-    "lon": null
   }
 ]
